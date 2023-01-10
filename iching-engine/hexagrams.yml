@@ -1,0 +1,83 @@
+- name: 'The Creative'
+  secondary_names:
+  wilhelm_index: 1
+  trigrams:
+    - position: top
+      element: heaven
+      value: 1
+    - position: botton
+      element: heaven
+      value: 1
+  yarrow_value: '777777'
+  short_description: ''
+  long_description: 
+    - 
+  judgement: ''
+  image: ''
+  changing_lines:
+    - line: 1
+      changing_value: 9
+      description: ''
+    - line: 2
+      changing_value: 9
+      description: ''
+    - line: 3
+      changing_value: 9
+      description: ''
+    - line: 4
+      changing_value: 9
+      description: ''
+    - line: 5
+      changing_value: 9
+      description: ''
+    - line: 6
+      changing_value: 9
+      description: ''
+- name: 'Coming to Meet'
+  secondary_names:
+  wilhelm_index: 44
+  trigrams:
+    - position: top
+      element: heaven
+      value: 1
+    - position: botton
+      element: wood
+      value: 4
+  yarrow_value: '777778'
+  short_description: ''
+  long_description: ''
+  judgement: ''
+  image: ''
+  changing_lines:
+    - line: 1
+      changing_value: 9
+      description: ''
+    - line: 2
+      changing_value: 9
+      description: ''
+    - line: 3
+      changing_value: 9
+      description: ''
+    - line: 4
+      changing_value: 9
+      description: ''
+    - line: 5
+      changing_value: 9
+      description: ''
+    - line: 6
+      changing_value: 6
+      description: ''
+- name: 'Fellowship with Men'
+  secondary_names:
+  wilhelm_index: 13
+  trigrams:
+    - position: top
+      element: heaven
+      value: 1
+    - position: botton
+      element: mountain
+      value: 7
+  yarrow_value: '777788'
+  short_description: ''
+  long_description: ''
+  changing_lines:
