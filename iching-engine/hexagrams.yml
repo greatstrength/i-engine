@@ -2,6 +2,7 @@ hexagrams:
   creative:
     name: 'The Creative'
     secondary_names:
+      - 'Heaven'
     wilhelm_index: 1
     yarrow_value: '777777'
   coming_to_meet:
@@ -302,42 +303,44 @@ hexagrams:
     wilhelm_index: 16
     yarrow_value: '887888'
   peace:
-    name:
+    name: 'Peace'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 11
+    yarrow_value: '888777'
   pushing_upward:
-    name:
+    name: 'Pushing Upward'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 46
+    yarrow_value: '888778'
   darkening_of_the_light:
-    name:
+    name: 'Darkening of the Light'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 36
+    yarrow_value: '888787'
   modesty:
-    name:
+    name: 'Modesty'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 15
+    yarrow_value: '888788'
   approach_of_spring:
-    name:
+    name: 'Approach of Spring'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 19
+    yarrow_value: '888877'
   army:
-    name:
+    name: 'The Army'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 7
+    yarrow_value: '888878'
   return:
-    name:
+    name: 'Return'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'The Turning Point'
+    wilhelm_index: 24
+    yarrow_value: '888887'
   receptive:
-    name:
+    name: 'The Receptive'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'Earth'
+    wilhelm_index: 2
+    yarrow_value: '888888'
