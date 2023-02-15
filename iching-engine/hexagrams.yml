@@ -1,83 +1,100 @@
-- name: 'The Creative'
-  secondary_names:
-  wilhelm_index: 1
-  trigrams:
-    - position: top
-      element: heaven
-      value: 1
-    - position: botton
-      element: heaven
-      value: 1
-  yarrow_value: '777777'
-  short_description: ''
-  long_description: 
-    - 
-  judgement: ''
-  image: ''
-  changing_lines:
-    - line: 1
-      changing_value: 9
-      description: ''
-    - line: 2
-      changing_value: 9
-      description: ''
-    - line: 3
-      changing_value: 9
-      description: ''
-    - line: 4
-      changing_value: 9
-      description: ''
-    - line: 5
-      changing_value: 9
-      description: ''
-    - line: 6
-      changing_value: 9
-      description: ''
-- name: 'Coming to Meet'
-  secondary_names:
-  wilhelm_index: 44
-  trigrams:
-    - position: top
-      element: heaven
-      value: 1
-    - position: botton
-      element: wood
-      value: 4
-  yarrow_value: '777778'
-  short_description: ''
-  long_description: ''
-  judgement: ''
-  image: ''
-  changing_lines:
-    - line: 1
-      changing_value: 9
-      description: ''
-    - line: 2
-      changing_value: 9
-      description: ''
-    - line: 3
-      changing_value: 9
-      description: ''
-    - line: 4
-      changing_value: 9
-      description: ''
-    - line: 5
-      changing_value: 9
-      description: ''
-    - line: 6
-      changing_value: 6
-      description: ''
-- name: 'Fellowship with Men'
-  secondary_names:
-  wilhelm_index: 13
-  trigrams:
-    - position: top
-      element: heaven
-      value: 1
-    - position: botton
-      element: mountain
-      value: 7
-  yarrow_value: '777788'
-  short_description: ''
-  long_description: ''
-  changing_lines:
+hexagrams:
+  creative:
+    name: 'The Creative'
+    secondary_names:
+    wilhelm_index: 1
+    yarrow_value: '777777'
+  coming_to_meet:
+    name: 'Coming to Meet'
+    secondary_names:
+    wilhelm_index: 44
+    yarrow_value: '777778'
+  fellowship_with_men:
+    name: 'Fellowship with Men'
+    secondary_names:
+    wilhelm_index: 13
+    yarrow_value: '777787'
+  retreat:
+    name: 'Retreat'
+    secondary_names:
+    wilhelm_index: 33
+    yarrow_value: '777788'
+  treading:
+    name: 'Treading'
+    secondary_names:
+      - 'Conduct'
+    wilhelm_index: 10
+    yarrow_value: '777877'
+  conflict:
+    name: 'Conflict'
+    secondary_names:
+    wilhelm_index: 6
+    yarrow_value: '777878'
+  innocence:
+    name: 'Innocence'
+    secondary_names:
+    wilhelm_index: 25
+    yarrow_value: '777887'
+  standstill:
+    name: 'Standstill'
+    secondary_names: 
+      - 'Stagnation'
+    wilhelm_index: 12
+    yarrow_value: '777888'
+  taming_power_of_the_small:
+  gentle:
+  family:
+  gradual_progress:
+  inner_truth:
+  dispersion:
+  increase:
+  contemplation:
+  possession_in_great_measure:
+  cauldron:
+  clinging:
+  wanderer:
+  opposition:
+  before_completion:
+  biting_through:
+  progress:
+  taming_power_of_the_great:
+  decay:
+  grace:
+  keeping_still:
+  decrease:
+  youthful_folly:
+  providing_nourishment:
+  splitting_apart:
+  breakthrough:
+  preponderance_of_the_great:
+  revolution:
+  influence:
+  joyous:
+  oppression:
+  following:
+  gathering_together:
+  waiting:
+  well:
+  after_copletion:
+  obstruction:
+  limitation:
+  abysmal:
+  diffculty_in_the_beginning:
+  holding_together:
+  power_of_the_great:
+  duration:
+  abundance:
+  preponderance_of_the_small:
+  marrying_maiden:
+  deliverance:
+  arousing:
+  enthusiasm:
+  peace:
+  pushing_upward:
+  darkening_of_the_light:
+  modesy:
+  approach_of_spring:
+  army:
+  return:
+  receptive:
+  
