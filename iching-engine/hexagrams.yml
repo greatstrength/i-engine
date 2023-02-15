@@ -42,90 +42,96 @@ hexagrams:
     wilhelm_index: 12
     yarrow_value: '777888'
   taming_power_of_the_small:
-    name:
+    name: 'Taming Power of the Small'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 9
+    yarrow_value: '778777'
   gentle:
-    name:
+    name: 'The Gentle'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'The Penetrating'
+      - 'Wind'
+    wilhelm_index: 57
+    yarrow_value: '778778'
   family:
-    name:
+    name: 'The Family'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'The Clan'
+    wilhelm_index: 37
+    yarrow_value: '778787'
   gradual_progress:
-    name:
+    name: 'Gradual Progress'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'Development'
+    wilhelm_index: 53
+    yarrow_value: '778788'
   inner_truth:
-    name:
+    name: 'Inner Truth'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 61
+    yarrow_value: '778877'
   dispersion:
-    name:
+    name: 'Dispersion'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'Dissolution'
+    wilhelm_index: 59
+    yarrow_value: '778878'
   increase:
-    name:
+    name: 'Increase'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 42
+    yarrow_value: '778887'
   contemplation:
-    name:
+    name: 'Contemplation'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 20
+    yarrow_value: '778888'
   possession_in_great_measure:
-    name:
+    name: 'Possession in Great Measure'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 14
+    yarrow_value: '787777'
   cauldron:
-    name:
+    name: 'The Cauldron'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 50
+    yarrow_value: '787778'
   clinging:
-    name:
+    name: 'The Clinging'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'Fire'
+    wilhelm_index: 30
+    yarrow_value: '787787'
   wanderer:
-    name:
+    name: 'The Wanderer'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 56
+    yarrow_value: '787788'
   opposition:
-    name:
+    name: 'Opposition'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 38
+    yarrow_value: '787877'
   before_completion:
-    name:
+    name: 'Before Completion'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
-  biting_through:
-    name:
+    wilhelm_index: 64
+    yarrow_value: '787878'
+  biting_through: 
+    name: 'Biting Through'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 21
+    yarrow_value: '787887'
   progress:
-    name:
+    name: 'Progress'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 35
+    yarrow_value: '787888'
   taming_power_of_the_great:
-    name:
+    name: 'Taming Power of the Great'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 26
+    yarrow_value: '788777'
   decay:
     name:
     secondary_names:
