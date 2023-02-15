@@ -260,45 +260,47 @@ hexagrams:
     wilhelm_index: 8
     yarrow_value: '878888'
   power_of_the_great:
-    name:
+    name: 'The Power of the Great'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 34
+    yarrow_value: '887777'
   duration:
-    name:
+    name: 'Duration'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 32
+    yarrow_value: '887778'
   abundance:
-    name:
+    name: 'Abundance'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'Fullness'
+    wilhelm_index: 55
+    yarrow_value: '887787'
   preponderance_of_the_small:
-    name:
+    name: 'Preponderance of the Small'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 52
+    yarrow_value: '887788'
   marrying_maiden:
-    name:
+    name: 'The Marrying Maiden'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 54
+    yarrow_value: '887877'
   deliverance:
-    name:
+    name: 'Deliverance'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 40
+    yarrow_value: '887878'
   arousing:
-    name:
+    name: 'The Arousing'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'Thunder'
+    wilhelm_index: 51
+    yarrow_value: '887887'
   enthusiasm:
-    name:
+    name: 'Enthusiasm'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 16
+    yarrow_value: '887888'
   peace:
     name:
     secondary_names:
