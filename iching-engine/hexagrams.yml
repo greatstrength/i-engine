@@ -217,45 +217,48 @@ hexagrams:
     wilhelm_index: 45
     yarrow_value: '877888'
   waiting:
-    name:
+    name: 'Waiting'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'Nourishment'
+    wilhelm_index: 5
+    yarrow_value: '878777'
   well:
-    name:
+    name: 'The Well'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 48
+    yarrow_value: '878778'
   after_copletion:
-    name:
+    name: 'After Completion'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 63
+    yarrow_value: '878787'
   obstruction:
-    name:
+    name: 'Obstruction'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 39
+    yarrow_value: '878788'
   limitation:
-    name:
+    name: 'Limitation'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 60
+    yarrow_value: '878877'
   abysmal:
-    name:
+    name: 'The Abysmal'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
-  diffculty_in_the_beginning:
-    name:
+      - 'Water'
+    wilhelm_index: 29
+    yarrow_value: '878878'
+  diffculty_at_the_beginning:
+    name: 'Difficulty at the Beginning'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 3
+    yarrow_value: '878887'
   holding_together:
-    name:
+    name: 'Holding Together'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'Union'
+    wilhelm_index: 8
+    yarrow_value: '878888'
   power_of_the_great:
     name:
     secondary_names:
