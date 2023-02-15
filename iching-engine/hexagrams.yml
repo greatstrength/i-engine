@@ -194,25 +194,28 @@ hexagrams:
     wilhelm_index: 31
     yarrow_value: '877788'
   joyous:
-    name:
+    name: 'The Joyous'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'Lake'
+    wilhelm_index: 58
+    yarrow_value: '877877'
   oppression:
-    name:
+    name: 'Oppression'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'Exhaustion'
+    wilhelm_index: 47
+    yarrow_value: '877878'
   following:
-    name:
+    name: 'Following'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 17
+    yarrow_value: '877887'
   gathering_together:
-    name:
+    name: 'Gathering Together'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'Massing'
+    wilhelm_index: 45
+    yarrow_value: '877888'
   waiting:
     name:
     secondary_names:
