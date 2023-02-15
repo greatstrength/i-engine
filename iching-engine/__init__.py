@@ -7,6 +7,13 @@ class Trigram(Model):
     yarrow_value = t.StringType()
     position = t.IntType()
 
+class Hexagram(Model):
+    name = t.StringType(required=True)
+    secondary_names = t.ListType(t.StringType())
+    wilhelm_index = t.IntType(required=True)
+    yarrow_value = t.StringType(required=True)
+
+
 HEAVEN = Trigram({
     'id': 'heaven',
     'name': 'The Creative',
@@ -139,7 +146,7 @@ def print_lines(y_composite: list):
 
 def read_test_data(test_data_name: str):
     import yaml
-    with open('input_data.yml', 'r') as file:
+    with open('test/input_data.yml', 'r') as file:
         data = yaml.safe_load(file)
         try:
             return [data.split(', ') for data in data[test_data_name]]
