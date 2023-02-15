@@ -133,60 +133,66 @@ hexagrams:
     wilhelm_index: 26
     yarrow_value: '788777'
   decay:
-    name:
+    name: 'Decay'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'Work on What Has Been Spoiled'
+    wilhelm_index: 18
+    yarrow_value: '788778'
   grace:
-    name:
+    name: 'Grace'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 22
+    yarrow_value: '788787'
   keeping_still:
-    name:
+    name: 'Keeping Still'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'Mountain'
+    wilhelm_index: 52
+    yarrow_value: '788788'
   decrease:
-    name:
+    name: 'Decrease'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 41
+    yarrow_value: '788877'
   youthful_folly:
-    name:
+    name: 'Youthful Folly'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 4
+    yarrow_value: '788878'
   providing_nourishment:
-    name:
+    name: 'Providing Nourishment'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'Corners of the Mouth'
+    wilhelm_index: 27
+    yarrow_value: '788887'
   splitting_apart:
-    name:
+    name: 'Splitting Apart'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 23
+    yarrow_value: '788888'
   breakthrough:
-    name:
+    name: 'Breakthrough'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'Resoluteness'
+    wilhelm_index: 43
+    yarrow_value: '877777'
   preponderance_of_the_great:
-    name:
+    name: 'Preponderance of the Great'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+    wilhelm_index: 28
+    yarrow_value: '877778'
   revolution:
-    name:
+    name: 'Revolution'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'Molting'
+    wilhelm_index: 49
+    yarrow_value: '877787'
   influence:
-    name:
+    name: 'Influence'
     secondary_names:
-    wilhelm_index:
-    yarrow_value:
+      - 'Wooing'
+    wilhelm_index: 31
+    yarrow_value: '877788'
   joyous:
     name:
     secondary_names:
