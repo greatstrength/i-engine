@@ -631,31 +631,63 @@ deliverance:
 diffculty_at_the_beginning:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Hesitation and hinderance.
+      - It furthers one to remain perservering.
+      - It furthers one to appoint helpers.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - Difficulties pile up.
+      - Horse and wagon part.
+      - He isnot a robber;
+      - He wants to woo when the time comes.
+      - Maiden is chaste.
+      - She does not pledge herself.
+      - Ten years - then she pledges herself.
+      type: warning
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - Whoever hunts deer without the forester
+      - Only loses his way in the forest.
+      - The superior man understands the signs of the time
+      - And prefers to desist.
+      - To go on brings humiliation.
+      type: warning
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - Horse and wagon part.
+      - Strive for union.
+      - To go brings good fortune.
+      - Everything acts to further.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - Difficulties in blessing.
+      - A little perserverance brings good fortune.
+      - Great perserverance brings misfortune.
+      type: warning
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - Horse and wagon part.
+      - Bloody tears flow.
+      type: warning
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Clouds and thunder:'
+  - The image of Difficulty at the Beginning.
+  - Thus the superior man
+  - Brings order out of confusion
+  judgement: 
+  - Difficlty at the Beginning works supreme success,
+  - Furthering through perserverance.
+  - Nothing should be undertaken.
+  - It furthers one to appoint helpers.
   name: Difficulty at the Beginning
   secondary_names: null
   wilhelm_index: 3
