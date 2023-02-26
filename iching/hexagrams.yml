@@ -2278,31 +2278,48 @@ receptive:
 retreat:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - At the tail in retreat. This is dangerous.
+      - One must not wish to undertake anything.
+      type: warning
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - He holds him fast with yellow oxhide.
+      - No one an tear him loose.
+      type: warning
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - A halted retreat
+      - Is nerve-wracking and dangerous.
+      - To retain people as men- and maidservants
+      - Brings good fortune.
+      type: reminder
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - Voluntary retreat brings good fortune to the superior man
+      - And downfall to the inferior man.
+      type: renminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - Friendly retreat. Perserverance brings good fortune.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - Cheerful retreat. Everything servers to further.
+      type: reminder
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'Mountain under heaven: the image of Retreat.'
+  - Thus the superior man keeps the inferior man at a distance,
+  - Not angrily but with reserve.
+  judgement: 
+  - Retreat. Success.
+  - In what is small, perserverance furthers.
   name: Retreat
   secondary_names: null
   wilhelm_index: 33
