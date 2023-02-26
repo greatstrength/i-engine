@@ -958,31 +958,56 @@ fellowship_with_men:
 following:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - The standard is changing.
+      - Perserverance brings good fortune.
+      - To go out of the door in company
+      - Produces deeds.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - If one clings to the little boy,
+      - One loses the strong man.
+      type: warning
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - If one clings to the strong man,
+      - One loses the little boy.
+      - Through following one finds what one seeks.
+      - It furthers one to remain perservering.
+      type: reminder
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - Following creates success.
+      - Perserverance brings misfortune.
+      - To go one's way with sincerity brings clarity.
+      - How could there be blame in this?
+      type: reminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - Sincere in the good. Good fortune.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - He meets witgh furm allegiance.
+      - And is still further bound.
+      - The king introduces him
+      - To the Western Mountain.
+      type: reminder
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Thunder in the middle of the lake:'
+  - The image of Following.
+  - Thus the superior man at nightfall
+  - Goes indoors for rest and recuperation.
+  judgement: 
+  - Following has supreme success.
+  - Perserverence furthers. No blame.
   name: Following
   secondary_names: null
   wilhelm_index: 17
