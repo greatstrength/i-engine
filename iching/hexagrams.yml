@@ -2138,31 +2138,60 @@ well:
 youthful_folly:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - To make a fool develop
+      - It furthers one to apply discipline.
+      - The fetters should be removed.
+      - To go on in this way brings humiliation.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - To bear with fools in kindliness brings good fortune.
+      - To know how to take women
+      - Brings good fortune.
+      - The son is capable of taking charge of the household.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - Take not a maiden who, when she sees a man of bronze,
+      - Loses possession of herself.
+      - Nothing furthers.
+      type: warning
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - Entangled folly bings humiliation.
+      type: warning
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - Childlike folly briings good fortune.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
+      text: 
+      - In punishing folly
+      - It does notfurther one
+      - To commit transgressions.
+      - The only thing that furthers
+      - Is to prevent transgressions.
       type: null
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'A spring wells up at the foot of the mountain:'
+  - The image of Youthful Folly.
+  - Thus the superior man fosters his character
+  - By thoroughness in all that he does.
+  judgement: 
+  - Youthful Folly has success.
+  - It is not I who seek the young fool;
+  - The young fool seeks me.
+  - At the first oracle I inform him.
+  - If he asks two or three times, it is importunity.
+  - If he importunes, I hive him no information.
+  - Perserverance furthers.
   name: Youthful Folly
   secondary_names: null
   wilhelm_index: 4
