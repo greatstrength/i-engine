@@ -504,31 +504,53 @@ conflict:
 contemplation:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Boylike conteplation.
+      - For an inferior man, no blame.
+      - For a superior man, humiliation.
+      type: warning
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - Contemplation through the crack of the door.
+      - Furthering for the preserverance of a woman.
+      type: warning
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - Contemplation of my lie
+      - Decides the choice
+      - Between advance and retreat.
+      type: reminder
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - Contemplation of the light of the kingdom.
+      - It furthers one to exert influence as tghe guest of a king.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - Contemplation of my life.
+      - The superior man is without blame.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - Contemplation of his life.
+      - The superior man is without blame.
+      type: reminder
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'The wind blows over the earth:'
+  - The image of Contemplation.
+  - Thus the kings of old visitied the regions of the world,
+  - Conteplated the people,
+  - And gave them instruction.
+  judgement: 
+  - Contemplation. The abulation has been made,
+  - But not yet the offering.
+  - Full of trust they look up to him.
   name: Contemplation
   secondary_names: null
   wilhelm_index: 20
