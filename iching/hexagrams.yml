@@ -1408,31 +1408,55 @@ increase:
 influence:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - The influence shows itself in the big toe.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - The influence shows itself in the calves of the legs.
+      - Misfortune.
+      - Tarrying brings good fortune.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - The influence shows itself in the thights.
+      - Holds to that which follows it.
+      - To continue is humiliating.
+      type: warning
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - Perserverance brings good fortune.
+      - Remorse disappears.
+      - If a man is agitated in mind,
+      - And his thoughts go hither and thither,
+      - Only those friends
+      - On whome he fixes his concious thoughts
+      - Will follow.
+      type: reminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - The influence shows itself in the back of the neck.
+      - No remorse.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - The influence shows itself in the jaws, cheek, and tongue.
+      type: warning
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'A lake on the mountain:'
+  - The image of Influence.
+  - Thus the superior man encourages people to approach him
+  - By his readiness to receive them.
+  judgement: 
+  - Influence. Success.
+  - Perserverance furthers.
+  - To take a maiden to wife brings good fortune.
   name: Influence
   secondary_names:
   - Wooing
