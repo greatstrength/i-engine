@@ -2118,31 +2118,54 @@ taming_power_of_small:
 treading:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Simple conduct. Progress without blame.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - Treading is smooth, level course.
+      - The perserverance of a dark man
+      - Brings good fortune.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - A one-eyed man is able to see,
+      - A lame man is able to tread.
+      - He treads on the tail of the tiger.
+      - The tiger bites the man.
+      - Misfortune.
+      - Thusdoes a warrior act on behalf of his great prince.
+      type: reminder
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - He treads on the tail of the tiger.
+      - Caution and circumspection
+      - Lead ultimately to good fortune.
+      type: reminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - Resolute conduct.
+      - Perserverance with awareness of danger.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - Look to your conduct and weigh the favorable signs.
+      - When everything is fulfilled, supreme good fortune comes.
+      type: reminder
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - Heaven above, the lake below:
+  - The image of Treading.
+  - Thus the superior mand discriminates between high and low,
+  - And thereby fortifies the thinking of the people.
+  judgement: 
+  - Treading. Treading upon the tail ofthe tiger.
+  - It does not bite the man.
   name: Treading
   secondary_names:
   - Conduct
