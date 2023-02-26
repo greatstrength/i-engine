@@ -2041,31 +2041,54 @@ treading:
 waiting:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Waiting in the meadow.
+      - It furthers one to abide in what endures.
+      - No blame.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - Waiting on the sand.
+      - There is some gossip.
+      - The end brings good fortune.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - Waiting in the mud
+      - Brings about the arrival of the enemy.
+      type: warning
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - Waiting in blood.
+      - Get out of the pit.
+      type: warning
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - Waiting at meat and drink.
+      - Perserverance brings good fortune.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - One falls into the pit.
+      - Three uninvited guests arrive.
+      - Honor them, and in the end there will be good forture.
+      type: reminder
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Clouds rise up to heaven:'
+  - The image of Waiting
+  - Thus the superior man eats and drinks,
+  - Is joyous and of good cheer.
+  judgement: 
+  - Waiting. If you are sincere,
+  - You have light and sccess.
+  - Perserverance brings good fortune.
+  - It furthers one to cross the great water.
   name: Waiting
   secondary_names:
   - Nourishment
