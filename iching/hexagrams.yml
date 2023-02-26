@@ -429,31 +429,52 @@ cauldron:
 clinging:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - The footprints run crisscros.
+      - If one is seriously intent, no blame.
+      type: warning
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - Yellow light. Supreme good fortune.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - In the light of the settings un,
+      - Men either beat the pot and sing 
+      - Or loudly bewail the approach of old age.
+      - Misfortune.
+      type: warning
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - Its coming is sudden;
+      - It flames up, dies down, is thrown away.
+      type: warning
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - Tears in floods, sighing and lamenting.
+      - Good fortune.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - The king uses hit to march forth and chastise.
+      - Then its best to kill the leaders
+      - And take captive the followers. No blame.
+      type: reminder
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'That which is bright rises twice:'
+  - The image of Fire.
+  - Thus the great man, by perpetuating this brightness,
+  Illiuminates the four quarters of the world.
+  judgement: 
+  - The Clinging. Perserverance furthers.
+  - It brings success.
+  - Care of the cow brings good fortune.
   name: The Clinging
   secondary_names:
   - Fire
