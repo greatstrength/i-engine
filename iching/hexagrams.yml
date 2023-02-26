@@ -930,31 +930,47 @@ dispersion:
 duration:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Seeking duration to hastily brings misfortune persistently.
+      - Nothing that would further.
+      type: warning
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - Remorse disappears.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - He who does not give duration to his character
+      - Meets with disgrace.
+      - Persistent humiliation.
+      type: warning
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - No game in the field.
+      type: warning
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - Giving duration to one's character through perserverance.
+      - This is good fortune for a woman, misfortunate for a man.
+      type: warning
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - Restlessness as an eduring condition brings misfortune.
+      type: warning
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Thunder and wind: the image of Duration'
+  - Thus the superior man stands firm
+  - And does not change his direction.
+  judgement: 
+  - Duration. Success. No blame.
+  - Perserverance futhers.
+  - It furthers one to have somewhere to go.
   name: Duration
   secondary_names: null
   wilhelm_index: 32
