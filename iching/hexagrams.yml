@@ -1077,31 +1077,61 @@ gradual_progress:
 holding_together:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Hold to him in truth and loyalty;
+      - This is without blame.
+      - 'Truth, like a full earthen bowl:'
+      - Thus in the end
+      - Good fortune comes from without.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - Hold to him inwardly.
+      - Perserverance brings good fortune.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - You hold together with the wrong people.
+      type: warning
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - Hold to him outwardly also.
+      - Perserverance brings good fortune.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - Manifestation of holding together.
+      - In the hund the king uses beaters on three sides only
+      - And foregoes the game that runs off.
+      - The citizens need no warning.
+      - Good fortune.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - He finds no head for holding together.
+      - Misfortune.
+      type: warning
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'On the earth is water:'
+  - The image of Holding Together.
+  - Thus the kings of antiquity
+  - Bestowed the different states as fiefs
+  - And cultivated friendly relationships
+  - With the feudal lords.
+  judgement: 
+  - Holding Together brings good fortune.
+  - Inquire of the oracle once again
+  - Whether you possess sublmity, constancy, and perserverance;
+  - Then there is no blame.
+  - Those who are uncertain gradually join.
+  - Whoever comes too late
+  - Meets with misfortune.
   name: Holding Together
   secondary_names:
   - Union
