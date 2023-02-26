@@ -1913,34 +1913,58 @@ power_of_the_great:
   secondary_names: null
   wilhelm_index: 34
   yarrow_value: '887777'
-preponderance_of_the_great:
+preponderance_of_great:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - To spread withe rushes underneath.
+      - No blame.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - A dry poplar sprouts at the root.
+      - An olderman takes a young wife.
+      - Everything furthers.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - The ridgepole sags to the breaking point.
+      - Misfortune.
+      type: warning
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - The ridgepole is braced. Good fortune.
+      - If there are ulterior motives, it is humiliating.
+      type: reminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - A withered poplar puts forth flowers.
+      - An olderwoman takes a husband.
+      - No blame. No praise.
+      type: warning
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - One must go through the water.
+      - It goes over one's head.
+      - Misfortune. No blame.
+      type: warning
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'The lake rises above the trees:'
+  - The image of Preponderance of the Great.
+  - Thus the superior man, when he stands alone,
+  - Is unconcerned,
+  - And if he has to renouce the world,
+  - He is undaunted.
+  judgement: 
+  - The ridgepole sags to the breaking point.
+  - It furthers to have somewhere to go.
+  - Success.
   name: Preponderance of the Great
   secondary_names: null
   wilhelm_index: 28
