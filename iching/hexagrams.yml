@@ -390,31 +390,63 @@ coming_to_meet:
 conflict:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Ifone does not perpetuate the affair,
+      - There is a little gossip.
+      - In the end good fortune comes.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - One cannot engage in conflict;
+      - One returns home, gives way.
+      - The people in his town,
+      - Three hundred households,
+      - Remain free of guilt.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - To nourish oneself on ancient virtue induces perserverance.
+      - Danger. In the end, good fortune comes.
+      - If by chance you seek service of a king,
+      - Seek not works.
+      type: reminder
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - One cannot engage in conflict.
+      - One turns back and submits to fate.
+      - Changes one's attitude,
+      - And finds peace in perserverance.
+      - Good fortune.
+      type: reminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - To contend before him
+      - Brings supreme good fortune.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - Even if by chance a leather belt is bestowed on one,
+      - By the end of a morning
+      - It will have been snatched away three times.
+      type: warning
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'Heaven and water go their opposite ways:'
+  - The image of Conflict.
+  - Thus in all his transactions the superior man
+  - Carefully considers the beginning.
+  judgement: 
+  - Conflict. You are sincere
+  - And are being obstructed.
+  - A cautious halt halfway brings good forture.
+  - Going through to the end brings misfortune.
+  - It furthers one to see the great man.
+  - It furthers one to cross the great water.
   name: Conflict
   secondary_names: null
   wilhelm_index: 6
