@@ -1553,31 +1553,64 @@ oppression:
 peace:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - When ribbbon grass is pulled up, the sod comes with it.
+      - Each according to his kind.
+      - Undertakings bring good fortune.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - Bearing with the uncultured in gentleness,
+      - Gording the river with resolution,
+      - Not neglecting what is distant,
+      - 'Not regarding one's companions:'
+      - Thus one may manage to walk in the middle.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - No plain not followed by a slope.
+      - No going not followed by a return.
+      - He who remains perservering in danger
+      - Is without blame.
+      - Do not complain about this truth;
+      - Enjoy the good fortune you still possess.
+      type: reminder
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - He flutters down, not boasting of his wealth,
+      - Together with his neighbor,
+      - Guileless and sincere.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - The sovereign I
+      - Gives his daughter in marriage.
+      - This brings blessing
+      - And supreme good fortune.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - The wal falls back into the moat.
+      - Use no army now.
+      - Make your commandments known within you own town.
+      - Perserverance brings humiliation.
+      type: warning
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Heaven and earth unite: the image of Peace.'
+  - Thus the ruler
+  - Divides and completes the course of heaven and earth;
+  - He furthers and regulates the gifts of heaven and earth,
+  - And so aids the people.
+  judgement: 
+  - Peace. The small departs,
+  - The great approaches.
+  - Good fortune. Success.
   name: Peace
   secondary_names: null
   wilhelm_index: 11
