@@ -2232,31 +2232,51 @@ revolution:
 splitting_apart:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - The leg of the bed is split.
+      - Those who perservere are destroyed.
+      - Misfortune.
+      type: warning
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - The bed is split at the edge.
+      - Those who perservere are destroyed.
+      - Misfortune.
+      type: warning
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - He splits with them. No blame.
+      type: reminder
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - The bed is split up to the skin.
+      - Misfortune.
+      type: warning
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - A shoal of fishes. Favor comes through the court ladies.
+      - Everything acts to further.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - There is a large fruit still uneaten.
+      - The superior man receives a carriage.
+      - The house of the inferior man is split apart.
+      type: reminder
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'The mountain rests on the earth:'
+  - The image of Splitting Apart.
+  - Thus those above can ensure their position
+  - Only by giving generously to those below.
+  judgement: 
+  - Splitting Apart. It does not further
+  - To go anywhere.
   name: Splitting Apart
   secondary_names: null
   wilhelm_index: 23
