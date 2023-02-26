@@ -51,25 +51,37 @@ hexagrams:
       - 'Fostered and nourished all beings.'
     changing_lines:
       1: 
-        - Innocent behavior brings good fortune
+        text:
+          - Innocent behavior brings good fortune.
+        type: reminder
       2:
-        - If one does not count the harvest while plowing,
-        - Nor on the use of the ground while clearing it,
-        - It furthers one to undertake something.
+        text:
+          - If one does not count the harvest while plowing,
+          - Nor on the use of the ground while clearing it,
+          - It furthers one to undertake something.
+        type: reminder
       3:
-        - Undeserved misfortune.
-        - The cow that was tethered by someone
-        - Is the wanderer's gain, the citizen's loss.
+        text:
+          - Undeserved misfortune.
+          - The cow that was tethered by someone
+          - Is the wanderer's gain, the citizen's loss.
+        type: warning
       4:
-        - He who can be perservering
-        - Remains without blame.
+        text:
+          - He who can be perservering
+          - Remains without blame.
+        type: reminder
       5: 
-        - Use no medicine in an illness
-        - Incurred through no fault of your own.
-        - It will pass of itself.
+        text:
+          - Use no medicine in an illness
+          - Incurred through no fault of your own.
+          - It will pass of itself.
+        type: reminder
       6:
-        - Innocent action brings misforture.
-        - Nothing furthers.
+        text:
+          - Innocent action brings misforture.
+          - Nothing furthers.
+        type: warning
   standstill:
     name: 'Standstill'
     secondary_names: 
