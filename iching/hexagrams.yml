@@ -2116,31 +2116,57 @@ preponderance_of_the_small:
 progress:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Progressing, but turned back.
+      - Perserverance brings good fortune.
+      - If one meets with no confidence, one should remain calm.
+      - No mistake.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - Progressing, but in sorrow.
+      - Perserverance brings good fortune.
+      - Then one obtains great hapiness from one's ancestress.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - All are in accord. Remorse disappears.
+      type: reminder
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - Progress like a hamster.
+      - Perserverance brings danger.
+      type: warning
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - Remorse disappears.
+      - Take not gain and loss to heart.
+      - Undertakings bring good fortune.
+      - Everything serves to further.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - Making progress with the horns is permissible
+      - Only for the purpose of punishing one's own city.
+      - To be concious of fanger brings good fortune.
+      - No blame.
+      - Perserverance brings humiliation.
+      type: warning
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'The sun rises over the earth:'
+  - The image of Progress.
+  - Thus the superior man himself
+  - Brigthens his bright virtue.
+  judgement: 
+  - Progress. The powerful prince
+  - Is honored with horses in large numbers.
+  - In a single day he is granted an audience three times.
   name: Progress
   secondary_names: null
   wilhelm_index: 35
