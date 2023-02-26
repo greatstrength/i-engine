@@ -131,31 +131,55 @@ approach_of_spring:
 army:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - The army must set forth in proper order.
+      - If the order is not good, misfortune threatens.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - In the mids of the army.
+      - Good fortune. No blame.
+      - The king bestows a triple decoration.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - Perchance the army carries corpses in the wagon.
+      - Misfortune
+      type: warning
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - The army retreats. No blame.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - There is game in the field.
+      - It furthers one to catch it.
+      - Without blame.
+      - Let the eldest lead the army.
+      - The younger transports corpses;
+      - Then perserverance brings misfortune.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
+      text: 
+      - The great prince issues commands,
+      - Founds states, vests families with fiefs.
+      - Inferior people should not be employed.
       type: null
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'In the middle of the earth is water:'
+  - Theimage of The Army.
+  - Thus the superior man increases his masses
+  - By generosity towards the people.
+  judgement: 
+  - The Army. The army needs perserverance.
+  - And a strong man.
+  - Good fortune without blame.
   name: The Army
   secondary_names: null
   wilhelm_index: 7
