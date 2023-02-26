@@ -1,433 +1,2113 @@
-creative:
-  name: 'The Creative'
-  secondary_names:
-    - 'Heaven'
-  wilhelm_index: 1
-  yarrow_value: '777777'
-  judgement:
-    - The Creative works sublime success,
-    - Furthering through perserverence.
-  image:
-    - The movement of heaven is full of power.
-    - Tus the superior man makes himself strong and untiring.
+abundance:
   changing_lines:
     1:
-      text:
-        - Hidden dragon. Do not act.
-      type: warning
+      text: null
+      type: null
       yarrow_value: 9
     2:
-      text:
-        - Dragon appearingin the field.
-        - It furthers one to see the great man.
-      type: reminder
-      yarrow_value: 9
+      text: null
+      type: null
+      yarrow_value: 6
     3:
-      text:
-        - All day long the superior man is creatively active.
-        - At nightfall is mind is beset with cares.
-        - Danger. No blame.
-      type: reminder
+      text: null
+      type: null
       yarrow_value: 9
     4:
-      text: 
-        - Wavering flight over depths.
-        - No blame.
-      type: reminder
+      text: null
+      type: null
       yarrow_value: 9
     5:
-      text: 
-        - Flying dragon in the heavens.
-        - It furthers one to see the great man.
-      type: reminder
-      yarrow_value: 9
+      text: null
+      type: null
+      yarrow_value: 6
     6:
-      text:
-        - Arrogant dragin will have cause to repent.
-      type: warning
-      yarrow_value: 9
-coming_to_meet:
-  name: 'Coming to Meet'
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Abundance
   secondary_names:
-  wilhelm_index: 44
-  yarrow_value: '777778'
-fellowship_with_men:
-  name: 'Fellowship with Men'
-  secondary_names:
-  wilhelm_index: 13
-  yarrow_value: '777787'
-retreat:
-  name: 'Retreat'
-  secondary_names:
-  wilhelm_index: 33
-  yarrow_value: '777788'
-treading:
-  name: 'Treading'
-  secondary_names:
-    - 'Conduct'
-  wilhelm_index: 10
-  yarrow_value: '777877'
-conflict:
-  name: 'Conflict'
-  secondary_names:
-  wilhelm_index: 6
-  yarrow_value: '777878'
-innocence:
-  name: 'Innocence'
-  secondary_names:
-  wilhelm_index: 25
-  yarrow_value: '777887'
-  judgement:
-    - 'Innocence, supreme success.'
-    - 'Perserverance futhers.'
-    - 'If someone is not as they should be,'
-    - 'He has misforture,'
-    - 'And it does not further him'
-    - 'To undertake anything.'
-  image:
-    - 'Under heaven tunder rolls:'
-    - 'All things attain the natural state of innocence.'
-    - 'Thus the kings of old,'
-    - 'Rich in virtue, and in harmony with the time,'
-    - 'Fostered and nourished all beings.'
-  changing_lines:
-    1: 
-      text:
-        - Innocent behavior brings good fortune.
-      type: reminder
-    2:
-      text:
-        - If one does not count the harvest while plowing,
-        - Nor on the use of the ground while clearing it,
-        - It furthers one to undertake something.
-      type: reminder
-    3:
-      text:
-        - Undeserved misfortune.
-        - The cow that was tethered by someone
-        - Is the wanderer's gain, the citizen's loss.
-      type: warning
-    4:
-      text:
-        - He who can be perservering
-        - Remains without blame.
-      type: reminder
-    5: 
-      text:
-        - Use no medicine in an illness
-        - Incurred through no fault of your own.
-        - It will pass of itself.
-      type: reminder
-    6:
-      text:
-        - Innocent action brings misforture.
-        - Nothing furthers.
-      type: warning
-standstill:
-  name: 'Standstill'
-  secondary_names: 
-    - 'Stagnation'
-  wilhelm_index: 12
-  yarrow_value: '777888'
-taming_power_of_the_small:
-  name: 'Taming Power of the Small'
-  secondary_names:
-  wilhelm_index: 9
-  yarrow_value: '778777'
-gentle:
-  name: 'The Gentle'
-  secondary_names:
-    - 'The Penetrating'
-    - 'Wind'
-  wilhelm_index: 57
-  yarrow_value: '778778'
-family:
-  name: 'The Family'
-  secondary_names:
-    - 'The Clan'
-  wilhelm_index: 37
-  yarrow_value: '778787'
-gradual_progress:
-  name: 'Gradual Progress'
-  secondary_names:
-    - 'Development'
-  wilhelm_index: 53
-  yarrow_value: '778788'
-inner_truth:
-  name: 'Inner Truth'
-  secondary_names:
-  wilhelm_index: 61
-  yarrow_value: '778877'
-dispersion:
-  name: 'Dispersion'
-  secondary_names:
-    - 'Dissolution'
-  wilhelm_index: 59
-  yarrow_value: '778878'
-increase:
-  name: 'Increase'
-  secondary_names:
-  wilhelm_index: 42
-  yarrow_value: '778887'
-contemplation:
-  name: 'Contemplation'
-  secondary_names:
-  wilhelm_index: 20
-  yarrow_value: '778888'
-possession_in_great_measure:
-  name: 'Possession in Great Measure'
-  secondary_names:
-  wilhelm_index: 14
-  yarrow_value: '787777'
-cauldron:
-  name: 'The Cauldron'
-  secondary_names:
-  wilhelm_index: 50
-  yarrow_value: '787778'
-clinging:
-  name: 'The Clinging'
-  secondary_names:
-    - 'Fire'
-  wilhelm_index: 30
-  yarrow_value: '787787'
-wanderer:
-  name: 'The Wanderer'
-  secondary_names:
-  wilhelm_index: 56
-  yarrow_value: '787788'
-opposition:
-  name: 'Opposition'
-  secondary_names:
-  wilhelm_index: 38
-  yarrow_value: '787877'
-before_completion:
-  name: 'Before Completion'
-  secondary_names:
-  wilhelm_index: 64
-  yarrow_value: '787878'
-biting_through: 
-  name: 'Biting Through'
-  secondary_names:
-  wilhelm_index: 21
-  yarrow_value: '787887'
-progress:
-  name: 'Progress'
-  secondary_names:
-  wilhelm_index: 35
-  yarrow_value: '787888'
-taming_power_of_the_great:
-  name: 'Taming Power of the Great'
-  secondary_names:
-  wilhelm_index: 26
-  yarrow_value: '788777'
-decay:
-  name: 'Decay'
-  secondary_names:
-    - 'Work on What Has Been Spoiled'
-  wilhelm_index: 18
-  yarrow_value: '788778'
-grace:
-  name: 'Grace'
-  secondary_names:
-  wilhelm_index: 22
-  yarrow_value: '788787'
-keeping_still:
-  name: 'Keeping Still'
-  secondary_names:
-    - 'Mountain'
-  wilhelm_index: 52
-  yarrow_value: '788788'
-decrease:
-  name: 'Decrease'
-  secondary_names:
-  wilhelm_index: 41
-  yarrow_value: '788877'
-youthful_folly:
-  name: 'Youthful Folly'
-  secondary_names:
-  wilhelm_index: 4
-  yarrow_value: '788878'
-providing_nourishment:
-  name: 'Providing Nourishment'
-  secondary_names:
-    - 'Corners of the Mouth'
-  wilhelm_index: 27
-  yarrow_value: '788887'
-splitting_apart:
-  name: 'Splitting Apart'
-  secondary_names:
-  wilhelm_index: 23
-  yarrow_value: '788888'
-breakthrough:
-  name: 'Breakthrough'
-  secondary_names:
-    - 'Resoluteness'
-  wilhelm_index: 43
-  yarrow_value: '877777'
-preponderance_of_the_great:
-  name: 'Preponderance of the Great'
-  secondary_names:
-  wilhelm_index: 28
-  yarrow_value: '877778'
-revolution:
-  name: 'Revolution'
-  secondary_names:
-    - 'Molting'
-  wilhelm_index: 49
-  yarrow_value: '877787'
-influence:
-  name: 'Influence'
-  secondary_names:
-    - 'Wooing'
-  wilhelm_index: 31
-  yarrow_value: '877788'
-joyous:
-  name: 'The Joyous'
-  secondary_names:
-    - 'Lake'
-  wilhelm_index: 58
-  yarrow_value: '877877'
-oppression:
-  name: 'Oppression'
-  secondary_names:
-    - 'Exhaustion'
-  wilhelm_index: 47
-  yarrow_value: '877878'
-following:
-  name: 'Following'
-  secondary_names:
-  wilhelm_index: 17
-  yarrow_value: '877887'
-gathering_together:
-  name: 'Gathering Together'
-  secondary_names:
-    - 'Massing'
-  wilhelm_index: 45
-  yarrow_value: '877888'
-waiting:
-  name: 'Waiting'
-  secondary_names:
-    - 'Nourishment'
-  wilhelm_index: 5
-  yarrow_value: '878777'
-well:
-  name: 'The Well'
-  secondary_names:
-  wilhelm_index: 48
-  yarrow_value: '878778'
-after_copletion:
-  name: 'After Completion'
-  secondary_names:
-  wilhelm_index: 63
-  yarrow_value: '878787'
-obstruction:
-  name: 'Obstruction'
-  secondary_names:
-  wilhelm_index: 39
-  yarrow_value: '878788'
-limitation:
-  name: 'Limitation'
-  secondary_names:
-  wilhelm_index: 60
-  yarrow_value: '878877'
-abysmal:
-  name: 'The Abysmal'
-  secondary_names:
-    - 'Water'
-  wilhelm_index: 29
-  yarrow_value: '878878'
-diffculty_at_the_beginning:
-  name: 'Difficulty at the Beginning'
-  secondary_names:
-  wilhelm_index: 3
-  yarrow_value: '878887'
-holding_together:
-  name: 'Holding Together'
-  secondary_names:
-    - 'Union'
-  wilhelm_index: 8
-  yarrow_value: '878888'
-power_of_the_great:
-  name: 'The Power of the Great'
-  secondary_names:
-  wilhelm_index: 34
-  yarrow_value: '887777'
-duration:
-  name: 'Duration'
-  secondary_names:
-  wilhelm_index: 32
-  yarrow_value: '887778'
-abundance:
-  name: 'Abundance'
-  secondary_names:
-    - 'Fullness'
+  - Fullness
   wilhelm_index: 55
   yarrow_value: '887787'
-preponderance_of_the_small:
-  name: 'Preponderance of the Small'
+abysmal:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: The Abysmal
   secondary_names:
-  wilhelm_index: 52
-  yarrow_value: '887788'
-marrying_maiden:
-  name: 'The Marrying Maiden'
-  secondary_names:
-  wilhelm_index: 54
-  yarrow_value: '887877'
-deliverance:
-  name: 'Deliverance'
-  secondary_names:
-  wilhelm_index: 40
-  yarrow_value: '887878'
-arousing:
-  name: 'The Arousing'
-  secondary_names:
-    - 'Thunder'
-  wilhelm_index: 51
-  yarrow_value: '887887'
-enthusiasm:
-  name: 'Enthusiasm'
-  secondary_names:
-  wilhelm_index: 16
-  yarrow_value: '887888'
-peace:
-  name: 'Peace'
-  secondary_names:
-  wilhelm_index: 11
-  yarrow_value: '888777'
-pushing_upward:
-  name: 'Pushing Upward'
-  secondary_names:
-  wilhelm_index: 46
-  yarrow_value: '888778'
-darkening_of_the_light:
-  name: 'Darkening of the Light'
-  secondary_names:
-  wilhelm_index: 36
-  yarrow_value: '888787'
-modesty:
-  name: 'Modesty'
-  secondary_names:
-  wilhelm_index: 15
-  yarrow_value: '888788'
+  - Water
+  wilhelm_index: 29
+  yarrow_value: '878878'
+after_copletion:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: After Completion
+  secondary_names: null
+  wilhelm_index: 63
+  yarrow_value: '878787'
 approach_of_spring:
-  name: 'Approach of Spring'
-  secondary_names:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Approach of Spring
+  secondary_names: null
   wilhelm_index: 19
   yarrow_value: '888877'
 army:
-  name: 'The Army'
-  secondary_names:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: The Army
+  secondary_names: null
   wilhelm_index: 7
   yarrow_value: '888878'
-return:
-  name: 'Return'
+arousing:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: The Arousing
   secondary_names:
-    - 'The Turning Point'
-  wilhelm_index: 24
-  yarrow_value: '888887'
+  - Thunder
+  wilhelm_index: 51
+  yarrow_value: '887887'
+before_completion:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Before Completion
+  secondary_names: null
+  wilhelm_index: 64
+  yarrow_value: '787878'
+biting_through:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Biting Through
+  secondary_names: null
+  wilhelm_index: 21
+  yarrow_value: '787887'
+breakthrough:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Breakthrough
+  secondary_names:
+  - Resoluteness
+  wilhelm_index: 43
+  yarrow_value: '877777'
+cauldron:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: The Cauldron
+  secondary_names: null
+  wilhelm_index: 50
+  yarrow_value: '787778'
+clinging:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: The Clinging
+  secondary_names:
+  - Fire
+  wilhelm_index: 30
+  yarrow_value: '787787'
+coming_to_meet:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Coming to Meet
+  secondary_names: null
+  wilhelm_index: 44
+  yarrow_value: '777778'
+conflict:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Conflict
+  secondary_names: null
+  wilhelm_index: 6
+  yarrow_value: '777878'
+contemplation:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Contemplation
+  secondary_names: null
+  wilhelm_index: 20
+  yarrow_value: '778888'
+creative:
+  changing_lines:
+    1:
+      text:
+      - Hidden dragon. Do not act.
+      type: warning
+      yarrow_value: 9
+    2:
+      text:
+      - Dragon appearingin the field.
+      - It furthers one to see the great man.
+      type: reminder
+      yarrow_value: 9
+    3:
+      text:
+      - All day long the superior man is creatively active.
+      - At nightfall is mind is beset with cares.
+      - Danger. No blame.
+      type: reminder
+      yarrow_value: 9
+    4:
+      text:
+      - Wavering flight over depths.
+      - No blame.
+      type: reminder
+      yarrow_value: 9
+    5:
+      text:
+      - Flying dragon in the heavens.
+      - It furthers one to see the great man.
+      type: reminder
+      yarrow_value: 9
+    6:
+      text:
+      - Arrogant dragin will have cause to repent.
+      type: warning
+      yarrow_value: 9
+  image:
+  - The movement of heaven is full of power.
+  - Tus the superior man makes himself strong and untiring.
+  judgement:
+  - The Creative works sublime success,
+  - Furthering through perserverence.
+  name: The Creative
+  secondary_names:
+  - Heaven
+  wilhelm_index: 1
+  yarrow_value: '777777'
+darkening_of_the_light:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Darkening of the Light
+  secondary_names: null
+  wilhelm_index: 36
+  yarrow_value: '888787'
+decay:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Decay
+  secondary_names:
+  - Work on What Has Been Spoiled
+  wilhelm_index: 18
+  yarrow_value: '788778'
+decrease:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Decrease
+  secondary_names: null
+  wilhelm_index: 41
+  yarrow_value: '788877'
+deliverance:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Deliverance
+  secondary_names: null
+  wilhelm_index: 40
+  yarrow_value: '887878'
+diffculty_at_the_beginning:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Difficulty at the Beginning
+  secondary_names: null
+  wilhelm_index: 3
+  yarrow_value: '878887'
+dispersion:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Dispersion
+  secondary_names:
+  - Dissolution
+  wilhelm_index: 59
+  yarrow_value: '778878'
+duration:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Duration
+  secondary_names: null
+  wilhelm_index: 32
+  yarrow_value: '887778'
+enthusiasm:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Enthusiasm
+  secondary_names: null
+  wilhelm_index: 16
+  yarrow_value: '887888'
+family:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: The Family
+  secondary_names:
+  - The Clan
+  wilhelm_index: 37
+  yarrow_value: '778787'
+fellowship_with_men:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Fellowship with Men
+  secondary_names: null
+  wilhelm_index: 13
+  yarrow_value: '777787'
+following:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Following
+  secondary_names: null
+  wilhelm_index: 17
+  yarrow_value: '877887'
+gathering_together:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Gathering Together
+  secondary_names:
+  - Massing
+  wilhelm_index: 45
+  yarrow_value: '877888'
+gentle:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: The Gentle
+  secondary_names:
+  - The Penetrating
+  - Wind
+  wilhelm_index: 57
+  yarrow_value: '778778'
+grace:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Grace
+  secondary_names: null
+  wilhelm_index: 22
+  yarrow_value: '788787'
+gradual_progress:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Gradual Progress
+  secondary_names:
+  - Development
+  wilhelm_index: 53
+  yarrow_value: '778788'
+holding_together:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Holding Together
+  secondary_names:
+  - Union
+  wilhelm_index: 8
+  yarrow_value: '878888'
+increase:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Increase
+  secondary_names: null
+  wilhelm_index: 42
+  yarrow_value: '778887'
+influence:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Influence
+  secondary_names:
+  - Wooing
+  wilhelm_index: 31
+  yarrow_value: '877788'
+inner_truth:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Inner Truth
+  secondary_names: null
+  wilhelm_index: 61
+  yarrow_value: '778877'
+innocence:
+  changing_lines:
+    1:
+      text:
+      - Innocent behavior brings good fortune.
+      type: reminder
+      yarrow_value: 9
+    2:
+      text:
+      - If one does not count the harvest while plowing,
+      - Nor on the use of the ground while clearing it,
+      - It furthers one to undertake something.
+      type: reminder
+      yarrow_value: 6
+    3:
+      text:
+      - Undeserved misfortune.
+      - The cow that was tethered by someone
+      - Is the wanderer's gain, the citizen's loss.
+      type: warning
+      yarrow_value: 6
+    4:
+      text:
+      - He who can be perservering
+      - Remains without blame.
+      type: reminder
+      yarrow_value: 9
+    5:
+      text:
+      - Use no medicine in an illness
+      - Incurred through no fault of your own.
+      - It will pass of itself.
+      type: reminder
+      yarrow_value: 9
+    6:
+      text:
+      - Innocent action brings misforture.
+      - Nothing furthers.
+      type: warning
+      yarrow_value: 9
+  image:
+  - 'Under heaven tunder rolls:'
+  - All things attain the natural state of innocence.
+  - Thus the kings of old,
+  - Rich in virtue, and in harmony with the time,
+  - Fostered and nourished all beings.
+  judgement:
+  - Innocence, supreme success.
+  - Perserverance futhers.
+  - If someone is not as they should be,
+  - He has misforture,
+  - And it does not further him
+  - To undertake anything.
+  name: Innocence
+  secondary_names: null
+  wilhelm_index: 25
+  yarrow_value: '777887'
+joyous:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: The Joyous
+  secondary_names:
+  - Lake
+  wilhelm_index: 58
+  yarrow_value: '877877'
+keeping_still:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Keeping Still
+  secondary_names:
+  - Mountain
+  wilhelm_index: 52
+  yarrow_value: '788788'
+limitation:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Limitation
+  secondary_names: null
+  wilhelm_index: 60
+  yarrow_value: '878877'
+marrying_maiden:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: The Marrying Maiden
+  secondary_names: null
+  wilhelm_index: 54
+  yarrow_value: '887877'
+modesty:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Modesty
+  secondary_names: null
+  wilhelm_index: 15
+  yarrow_value: '888788'
+obstruction:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Obstruction
+  secondary_names: null
+  wilhelm_index: 39
+  yarrow_value: '878788'
+opposition:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Opposition
+  secondary_names: null
+  wilhelm_index: 38
+  yarrow_value: '787877'
+oppression:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Oppression
+  secondary_names:
+  - Exhaustion
+  wilhelm_index: 47
+  yarrow_value: '877878'
+peace:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Peace
+  secondary_names: null
+  wilhelm_index: 11
+  yarrow_value: '888777'
+possession_in_great_measure:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Possession in Great Measure
+  secondary_names: null
+  wilhelm_index: 14
+  yarrow_value: '787777'
+power_of_the_great:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: The Power of the Great
+  secondary_names: null
+  wilhelm_index: 34
+  yarrow_value: '887777'
+preponderance_of_the_great:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Preponderance of the Great
+  secondary_names: null
+  wilhelm_index: 28
+  yarrow_value: '877778'
+preponderance_of_the_small:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Preponderance of the Small
+  secondary_names: null
+  wilhelm_index: 52
+  yarrow_value: '887788'
+progress:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Progress
+  secondary_names: null
+  wilhelm_index: 35
+  yarrow_value: '787888'
+providing_nourishment:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Providing Nourishment
+  secondary_names:
+  - Corners of the Mouth
+  wilhelm_index: 27
+  yarrow_value: '788887'
+pushing_upward:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Pushing Upward
+  secondary_names: null
+  wilhelm_index: 46
+  yarrow_value: '888778'
 receptive:
-  name: 'The Receptive'
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: The Receptive
   secondary_names:
-    - 'Earth'
+  - Earth
   wilhelm_index: 2
   yarrow_value: '888888'
+retreat:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Retreat
+  secondary_names: null
+  wilhelm_index: 33
+  yarrow_value: '777788'
+return:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Return
+  secondary_names:
+  - The Turning Point
+  wilhelm_index: 24
+  yarrow_value: '888887'
+revolution:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Revolution
+  secondary_names:
+  - Molting
+  wilhelm_index: 49
+  yarrow_value: '877787'
+splitting_apart:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Splitting Apart
+  secondary_names: null
+  wilhelm_index: 23
+  yarrow_value: '788888'
+standstill:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Standstill
+  secondary_names:
+  - Stagnation
+  wilhelm_index: 12
+  yarrow_value: '777888'
+taming_power_of_the_great:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Taming Power of the Great
+  secondary_names: null
+  wilhelm_index: 26
+  yarrow_value: '788777'
+taming_power_of_the_small:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Taming Power of the Small
+  secondary_names: null
+  wilhelm_index: 9
+  yarrow_value: '778777'
+treading:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Treading
+  secondary_names:
+  - Conduct
+  wilhelm_index: 10
+  yarrow_value: '777877'
+waiting:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 9
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: Waiting
+  secondary_names:
+  - Nourishment
+  wilhelm_index: 5
+  yarrow_value: '878777'
+wanderer:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 6
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 9
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: The Wanderer
+  secondary_names: null
+  wilhelm_index: 56
+  yarrow_value: '787788'
+well:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 9
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 9
+    6:
+      text: null
+      type: null
+      yarrow_value: 6
+  image: null
+  judgement: null
+  name: The Well
+  secondary_names: null
+  wilhelm_index: 48
+  yarrow_value: '878778'
+youthful_folly:
+  changing_lines:
+    1:
+      text: null
+      type: null
+      yarrow_value: 6
+    2:
+      text: null
+      type: null
+      yarrow_value: 9
+    3:
+      text: null
+      type: null
+      yarrow_value: 6
+    4:
+      text: null
+      type: null
+      yarrow_value: 6
+    5:
+      text: null
+      type: null
+      yarrow_value: 6
+    6:
+      text: null
+      type: null
+      yarrow_value: 9
+  image: null
+  judgement: null
+  name: Youthful Folly
+  secondary_names: null
+  wilhelm_index: 4
+  yarrow_value: '788878'
