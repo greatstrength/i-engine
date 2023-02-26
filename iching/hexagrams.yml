@@ -1180,31 +1180,51 @@ gentle:
 grace:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - He lends grae to his toes, leaves the carriage, and walks.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - Lends grace to the beard on his chin.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - Graceful and moist.
+      - Constant perserverance brings good fortune.
+      type: reminder
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - Grace or simplicity?
+      - A white horse comes as if on wings.
+      - He is not a robber,
+      - He will woo at the right time.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - Grae in hills and gardens.
+      - The roll of silk is meager and small.
+      - Humiliation, but in the end good fortune.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - Simple grace. No blame.
+      type: reminder.
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'Fire at the foot of the mountain:'
+  - The image of Grace.
+  - Thus does the superior man proceed
+  - When clearing up current affairs.
+  - But he dare not decide controversial issues in this way.
+  judgement: 
+  - Grace has success
+  - In small matters.
+  - It is favorable to undertake something.
   name: Grace
   secondary_names: null
   wilhelm_index: 22
