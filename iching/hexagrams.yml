@@ -2059,34 +2059,58 @@ taming_power_of_the_great:
   secondary_names: null
   wilhelm_index: 26
   yarrow_value: '788777'
-taming_power_of_the_small:
+taming_power_of_small:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Return to the way.
+      - How could there be blame in this?
+      - Good fortune.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - He allows himself to be drawn into returning.
+      - Good fortune.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - The spokes burst out of the wagon wheels.
+      - Man and wife roll their eyes.
+      type: warning
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - If you are sincere, blood vanishes and fear gives way.
+      - No blame.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - If you are sincere and loyally attached,
+      - You are rich in your neighbor.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - The rain comes, there is reast.
+      - This is due to the lasting effect of character.
+      - Perserverance brings the woman into danger.
+      - The moon is nearly full.
+      - If the superior man persists,
+      - Misfortune comes.
+      type: reminder
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'The wind drives across heaven:'
+  - The image of The Taming Power of the Small.
+  - Thus the superior man
+  - Refines the outward aspect of his nature.
+  judgement: 
+  - The Taming Power of the Small
+  - Has success,
+  - Dense clouds, no rain from our western region.
   name: Taming Power of the Small
   secondary_names: null
   wilhelm_index: 9
