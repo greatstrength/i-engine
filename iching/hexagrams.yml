@@ -816,31 +816,54 @@ duration:
 enthusiasm:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Enthusiasm that expresses itself
+      - Brings misfortune.
+      type: warning
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - Firm as a rock. Not a whole day.
+      - Perserverance brings good fortune.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - Enthusiasm thatlooks upward creates remorse.
+      - Hesitation brings remorse.
+      type: warning
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - The source of enthusiasm.
+      - Doubt not.
+      - You gather friends around you
+      - As a gair clasp gathers the hair.
+      type: reminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - Persistently ill, and still does not die.
+      type: warning
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - Deluded enthusiasm.
+      - But after completion one changes,
+      - There is no blame.
+      type: reminder
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Thunder comes resounding out of the earth:'
+  - The image of Enthusiasm.
+  - Thus ancient kings made music
+  - In order to honor merit,
+  -And offered it with splendor
+  - To the Supreme Deity,
+  - Inviting their ancestors to be present.
+  judgement: 
+  - Enthusiasm. It furthers one to install helpers
+  - And to set armies marching.
   name: Enthusiasm
   secondary_names: null
   wilhelm_index: 16
