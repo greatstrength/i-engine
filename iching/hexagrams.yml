@@ -99,31 +99,57 @@ after_copletion:
 approach_of_spring:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Joint approach.
+      - Perserverance brings good fortune.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - Joint approach.
+      - Good fortune.
+      - Everything futhers.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - Comfortable approach.
+      - Nothing that would further.
+      - If one is induced to grieve over it,
+      - One becomes free of blame.
+      type: reminder
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - Complete approach.
+      - No blame.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - Wise approach.
+      - This is right for a great prince.
+      - Good fortune.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - Greathearted approach.
+      - Good fortune. No blame.
+      type: reminder
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'The earth above the lake:'
+  - The image of Approach.
+  - Thus the superior man is inexhaustible
+  - In his will to teach,
+  - And is without limits
+  - In his tolerance and protection of the people.
+  judgement: 
+  - Approach has supreme success.
+  - Perserverance furthers.
+  - When the eighth of the month comes,
+  - There will be misfortune.
   name: Approach of Spring
   secondary_names: null
   wilhelm_index: 19
