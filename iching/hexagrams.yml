@@ -1446,31 +1446,54 @@ marrying_maiden:
 modesty:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - A superior man modest about his modesty
+      - May cross the great water.
+      - Good fortune.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - Modesty that comes into expression.
+      - Perserverance brings good fortune.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - A superior man of modesty and merit
+      - Carries things to conclusion.
+      - Good fortune.
+      type: reminder
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - Nothing that would not futher modesty
+      - In movement.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - No boasting of wealth before one's neighbor.
+      - It is favorable to attack with force.
+      - Nothing that would not further.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - Modesty that comes into expression.
+      - It is favorable to set armies marching
+      - To chastise one's own city and one's country.
+      type: reminder
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Within the earth, a mountain:'
+  - The image of Modesty.
+  - Thus the superior man reduces that which is too much,
+  - And augments that which is too little.
+  - He weighs things and makes them equal.
+  judgement: 
+  - Modesty creates success.
+  - The superior man carries things through.
   name: Modesty
   secondary_names: null
   wilhelm_index: 15
