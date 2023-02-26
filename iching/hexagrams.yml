@@ -15,37 +15,37 @@ creative:
       text:
         - Hidden dragon. Do not act.
       type: warning
-      value: 9
+      yarrow_value: 9
     2:
       text:
         - Dragon appearingin the field.
         - It furthers one to see the great man.
       type: reminder
-      value: 9
+      yarrow_value: 9
     3:
       text:
         - All day long the superior man is creatively active.
         - At nightfall is mind is beset with cares.
         - Danger. No blame.
       type: reminder
-      value: 9
+      yarrow_value: 9
     4:
       text: 
         - Wavering flight over depths.
         - No blame.
       type: reminder
-      value: 9
+      yarrow_value: 9
     5:
       text: 
         - Flying dragon in the heavens.
         - It furthers one to see the great man.
       type: reminder
-      value: 9
+      yarrow_value: 9
     6:
       text:
         - Arrogant dragin will have cause to repent.
       type: warning
-      value: 9
+      yarrow_value: 9
 coming_to_meet:
   name: 'Coming to Meet'
   secondary_names:
