@@ -1692,31 +1692,55 @@ pushing_upward:
 receptive:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Where there is hoarfrost underfoot,
+      - Solid ice is not far off.
+      type: warning
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - Straight, square, great.
+      - Without purpose,
+      - Yet nothing remains unfurthered.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - Hidden lines.
+      - One is able to remain perservering.
+      - If by chance you are in the sevice of a king,
+      - Seek not works, but bring to completion.
+      type: reminder
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - A tied-up sack. No blame, no praise.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - A yellow lower garment brings supreme good forture.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
+      text: 
+      - Dragons fight in the meadow.
+      - Their blood is black and yellow.
       type: null
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - The earth's condition is receptive devotion.
+  - Thus the superior man who has breadth of character
+  - Carries the outer world.
+  judgement:
+  - The Receptive brings about sublime success,
+  - Furthering through the perserverance of a mare.
+  - If the superior man undertakes something and tries to lead,
+  - He goes astray;
+  - But if he follows, he finds guidance.
+  - It is favorable to find friends in the west and south,
+  - To forego friends in the east and north.
+  - Quite perserverance brings good fortune.
   name: The Receptive
   secondary_names:
   - Earth
