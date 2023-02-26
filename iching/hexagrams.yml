@@ -278,31 +278,58 @@ before_completion:
 biting_through:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - His feet are fastened in the stocks,
+      - So that his toes disappear.
+      - No blame.
+      type: warning
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - Bites through tender meat,
+      - So that his nose disappearsl
+      - No blame.
+      type: warning
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - Bites on old dried meat
+      - And strikes on something poisonous.
+      - Slight humiliation. No blame.
+      type: warning
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - Bites on dried grisly meat..
+      - Receives metal arrows.
+      - It fuirthers one to be mindful of difficulties
+      - And to perservering.
+      - Good fortune.
+      type: reminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - Bites on dried lean meat.
+      - Receives yellow gold.
+      - Perserveringly aware of danger.
+      - No blame
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - His neck is fastened in the wooden cangue,
+      - So that his ears disappear.
+      - Misfortune. 
+      type: warning
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'Thunder and lightning:'
+  - The image of Biting Through.
+  - Thus the kings of former times made firm the laws
+  - Through clearly defined penalties.
+  judgement: 
+  - Biting Through has success.
+  - It is favorable to let justice be administered.
   name: Biting Through
   secondary_names: null
   wilhelm_index: 21
