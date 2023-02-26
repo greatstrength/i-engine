@@ -12,6 +12,7 @@ class Hexagram(Model):
     class Line(Model):
         text = t.ListType(t.StringType())
         type = t.StringType(choices=['reminder', 'warning'])
+        yarrow_value = t.IntType(choices=[6, 9])
 
     name = t.StringType(required=True)
     secondary_names = t.ListType(t.StringType())
