@@ -2030,31 +2030,55 @@ splitting_apart:
 standstill:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - When ribbon grass is pulled up, the sod comes with it.
+      - Each accordingto his kind.
+      - Perserverance brings good fortune and success.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - They bear and endure;
+      - This means good fortune for inferior people.
+      - The standstill serves to help the great man to attain success.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - They bear shame.
+      type: warning
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - He who acts at the command of the highest
+      - Remains without blame.
+      - Those of like mind partake of the blessing.
+      type: reminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - Standstill is giving way.
+      - Good fortune for the great man.
+      - "What if it should fail, what if it should fail?"
+      - In this way he ties it to a cluster of mulberrys hoots. 
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - The standstill comes to an end.
+      - First standstill, then good fortune.
+      type: reminder
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'Heaven and earth do not unite:'
+  - Thge image of Standstill.
+  - Thus the superior man falls back upon his inner worth
+  - In order to escape the difficulties.
+  - He does not permit himself to be honored with revenue.
+  judgement: 
+  - Standstill. Evil people do not further
+  - The perserverance of the superior man.
+  - Thge great departs; the small approaches.
   name: Standstill
   secondary_names:
   - Stagnation
