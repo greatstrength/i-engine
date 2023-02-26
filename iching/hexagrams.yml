@@ -1969,34 +1969,58 @@ possession_in_great_measure:
   secondary_names: null
   wilhelm_index: 14
   yarrow_value: '787777'
-power_of_the_great:
+power_of_great:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Power in the toes.
+      - Continuing brings misfortune.
+      - This is certainly true.
+      type: warning
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - Perserverance brings good fortune.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - The inferior man works through power.
+      - The superior man does not act thus.
+      - To continue is dangerous.
+      - A goat butts against a hedge
+      - And gets its horns entangled.
+      type: warning
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - Perserverance brings good fortune.
+      - Remorse disappears.
+      - The hedge opens; there is no entanglement.
+      - Power depends upon the axel of a big cart.
+      type: reminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - Loses the goat with ease.
+      - No remorse.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - A goat butts against a hedge.
+      - It cannot go backward, it cannot go forward.
+      - Nothing serves to further.
+      - If one notes the difficulty, this brings good fortune.
+      type: reminder
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Thunder in heaven above:'
+  - The image of The Power of the Great.
+  - Thus the superior man does not tread upon paths
+  - That do not accord with established order.
+  judgement: 
+  - The Power of the Great. Perserverance furthers.
   name: The Power of the Great
   secondary_names: null
   wilhelm_index: 34
