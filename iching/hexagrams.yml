@@ -678,34 +678,60 @@ creative:
   - Heaven
   wilhelm_index: 1
   yarrow_value: '777777'
-darkening_of_the_light:
+darkening_of_light:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Darkening of the light during flight.
+      - He lowers his wings.
+      - The superior man does not eat for three days
+      - On his wanderings.
+      - But he has somewhere to go.
+      - The host has occasion to gossip about him.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - Darkening of the light injures him in the left thigh.
+      - He gives aid with the strength of a horse.
+      - Good fortune.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - Darkening of the light during the hunt in the south.
+      - Their great leader is captured.
+      - One must not expect perserverance too soon.
+      type: reminder
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - He penetrates the left side of the belly.
+      - One gets at the very heart of the darkening of the light,
+      - And leaves the gate and courtyard.
+      type: warning
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - Darkening of the light as with Prince Chi.
+      - Perserverance furthers.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - Not light but darkness. 
+      - First he climbed up to heaven,
+      - Then he plunged into the depths of the earth.
+      type: warning
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'The light has sunk into the earth:'
+  - The image of Darkening of the Light.
+  - 'The does the superior man live with a great mass:'
+  - He veils his light, yet still shines.
+  judgement: 
+  - Darkening of the Light. In adversity
+  - It furthers one to be perservering.
   name: Darkening of the Light
   secondary_names: null
   wilhelm_index: 36
