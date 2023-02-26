@@ -2166,31 +2166,59 @@ retreat:
 return:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Return from a short distance.
+      - No need for remorse.
+      - Great good fortune.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - Quiet return. Good fortune.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - Repeated return. Danger. No blame.
+      type: reminder
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - Walking in the midst of othgers,
+      - One returns alone.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - Noblehearted return. No remorse.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - Missing the return. Misfortune.
+      - Misfortune from within and without.
+      - If armies are set marching in this way,
+      - One will in the end suffer a great defeat,
+      - Disastrous for the ruler of the country.
+      - For ten years
+      - It will not be possible to attack again.
+      type: warning
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Thunder within the earth:'
+  - The image of the Turning Point.
+  - Thus the kings of antiquity close the passes
+  - At the time of solsice.
+  - Merchants and strangers did not go about,
+  - And the ruler
+  - Did not travel through the provinces.
+  judgement: 
+  - Return. Success.
+  - Going out and coming in without error.
+  - Friends come without blame.
+  - To and fro goes the way.
+  - On the seventh day comes return.
+  - It furthers to have somewhere to go.
   name: Return
   secondary_names:
   - The Turning Point
