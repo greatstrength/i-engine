@@ -18,6 +18,7 @@ class Hexagram(Model):
     wilhelm_index = t.IntType(required=True)
     yarrow_value = t.StringType(required=True)
     judgement = t.ListType(t.StringType())
+    image = t.ListType(t.StringType())
     changing_lines = t.DictType(t.ModelType(Line))
 
 
