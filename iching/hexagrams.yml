@@ -590,31 +590,54 @@ darkening_of_the_light:
 decay:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Setting right what has been spoiled by the father.
+      - If there is a son,
+      - No blame rests upon the departed father.
+      - Danger. In the end good fortune.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - Setting right what has been spoiled by the mother.
+      - One must not be too perservering.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - Setting right what has been spoiled by the father.
+      - There will be a little remorse. No great blame.
+      type: reminder
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - Tolerating what has been spoiled by the father.
+      - In continuing one sees humiliation.
+      type: warning
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - Setting right what has been spoiled by the father.
+      - One meets with praise.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - He does not serve kings and rinces,
+      - Sets himself higher goals.
+      type: reminder
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'The wind blows low on the mountain:'
+  - The image of Decay.
+  - Thus the superior man stirs up the people
+  - And strentgthens their spirit.
+  judgement: 
+  - Work on What Has Been Spoiled
+  - Has supreme success.
+  - It furthers one to cross the great water.
+  - Before the starting point, three days.
+  - After the starting point, three days.
   name: Decay
   secondary_names:
   - Work on What Has Been Spoiled
