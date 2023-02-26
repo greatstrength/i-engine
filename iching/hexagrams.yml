@@ -1640,31 +1640,54 @@ peace:
 possession_in_great_measure:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - No relationship with what is harmful;
+      - There is no blame in this.
+      - If one remains conscious of difficulty,
+      - One remains without blame.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - A big wagon for loading.
+      - One may undertake something.
+      - No blame.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - A prince offers it to the Son of Heaven.
+      - A petty man cannot do this.
+      type: reminder
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - He makes a difference
+      - Between himself and his neighbor.
+      - No blame.
+      type: reminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - He whose truth is accessible, yet dignified,
+      - Has good fortune.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - He is blessed by heaven.
+      - Good fortune.
+      - Nothing that does not further.
+      type: reminder
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'Fire in heaven above:'
+  - The image of Possession in Great Measure.
+  - Thus the superior man curbs evil and furthers good.
+  - And thereby obeys the benevolent will of heaven.
+  judgement: 
+  - Possession in Great Measure.
+  - Supreme success.
   name: Possession in Great Measure
   secondary_names: null
   wilhelm_index: 14
