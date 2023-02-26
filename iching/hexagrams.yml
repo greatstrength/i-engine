@@ -2366,34 +2366,56 @@ standstill:
   - Stagnation
   wilhelm_index: 12
   yarrow_value: '777888'
-taming_power_of_the_great:
+taming_power_of_great:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Danger is at hand. It furthers one to desist.
+      type: warning
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - The aceltrees are taken from the wagon.
+      type: warning
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - A goofd horse that follows others.
+      - Awareness of danger,
+      - With perserverance, furhers.
+      - Practice chariot driving and armed defense daily.
+      - Ot fuerthers one to have somewhere to go.
+      type: reminder
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - The headboard of a young bull.
+      - Great good fortune.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - The tusk of a gelded boar.
+      - Good fortune.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - One attains the way of heaven.
+      - Success.
+      type: reminder
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'Heaven within the mountain:'
+  - The image of the Taming Power of the Great.
+  - Thus the superior man acquaints himself with many sayings of antiquity
+  - And many deeds of the past,
+  - In order to strengthen his character thereby.
+  judgement: 
+  - The Taming Power of the Great.
+  - Perserverance furthers.
+  - Not eating at home brings good fortune.
+  - It furthers one to cross the great water.
   name: Taming Power of the Great
   secondary_names: null
   wilhelm_index: 26
