@@ -2097,31 +2097,62 @@ opposition:
 oppression:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - One sits oppressed under a bare tree
+      - And strays into a gloomy valley.
+      - For three years one sees nothing.
+      type: warning
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - One is oppressed while at meat and drink.
+      - The man with the scarlet knee hands is jst coming.
+      - It furthers one to offer sacrifice.
+      - To set forth brings misfortune.
+      - No blame.
+      type: warning
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - A man permits himself to be oppressed by stone,
+      - And leans on thorns and thistles.
+      - He enters his house and does not see his wife.
+      - Misfortune.
+      type: warning
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - He comes very quietly, oppressed in a golden carriage.
+      - Humiliation, but the end is reached.
+      type: warning
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - His nose and feet are cut off.
+      - Oppression at the hands of the man with the purple knee bands.
+      - Joy comes softly.
+      - It furthers one to make offerings and libations.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - He is oppressed by creeping vines.
+      - He moves uncertainly and says, "Movement brings remorse."
+      - If one feels remorse over this and makes a start,
+      - Good fortune comes.
+      type: reminder
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'There is no water in the lake:'
+  - The image of Exhaustion.
+  - Thus the superior man stakes his life
+  - On following his will.
+  judgement: 
+  - Oppression. Success. Perserverance.
+  - The great man brings about good fortune.
+  - No blame.
+  - When one has something to say,
+  - It is not believed.
   name: Oppression
   secondary_names:
   - Exhaustion
