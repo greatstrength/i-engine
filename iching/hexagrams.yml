@@ -795,31 +795,65 @@ decay:
 decrease:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Going quickly when one's tasks are finished
+      - Is without blame.
+      - But one must reflect on how much one may decrease others.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - Perserverance furthers.
+      - To undertake something brings misfortune.
+      - Without decreasing oneself,
+      - One is able to bring increase to others.
+      type: warning
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - When three people journey together,m
+      - Their number decreases by one.
+      - When one man journeys alone,
+      - He finds a companion.
+      type: reminder
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - If a man decreases his faults,
+      - It makes the other hasten to come and rejoice.
+      - No blame.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - Someone doesindeed increase him.
+      - Tem pairs of tortoise cannot oppose it.
+      - Supreme good fortune.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - If one is increased without depriving others,
+      - There is no blame.
+      - Perserverance brings good fortune.
+      - It furthers one to undertake something
+      - One obtains servants
+      - But no longer has a separate home.
+      type: reminder
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'At the foot of the mountain, the lake:'
+  - The image of Decrease.
+  - Thus the superior man controls his anger
+  - And restrains his instincts.
+  judgement: 
+  - Decrease combined with sincerity
+  - Brings about supreme good fortune
+  - Without blame.
+  - One may be perservering in this.
+  - It furthers one to undertake something.
+  - How is this to be carried out?
+  - One may use two small bowls for the sacrifice.
   name: Decrease
   secondary_names: null
   wilhelm_index: 41
