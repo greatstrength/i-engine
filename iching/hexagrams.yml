@@ -518,31 +518,54 @@ clinging:
 coming_to_meet:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - It must be checked with a brake of bronze.
+      - Perserverance brings good fortune.
+      - If one lets it take its course, one experiences misfortune.
+      - Even a lean pig has it in him to rage around.
+      type: warning
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - There is a fish in the tank. No blame.
+      - Does not further guests.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - There is no skin on his thighs,
+      - And walking comes hard.
+      - If one is mindful of the danger,
+      - No great mistake is made.
+      type: reminder
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - No fish in the tank.
+      - This leads to misfortune.
+      type: warning
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - A melon covered with willow leaves.
+      - Hidden lines.
+      - Then it drops down to one from heaven.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - He comes tomeet with his horns.
+      - Humiliation. No blame.
+      type: warning
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'Under heaven, wind:'
+  - The image of Coming to Meet.
+  - Thus does the prince act when disseminating his commands
+  - And proclaiming them to the four quarters of heaven.
+  judgement: 
+  - Coming to Meet. The maiden is powerful.
+  - One should not marry such a maiden.
   name: Coming to Meet
   secondary_names: null
   wilhelm_index: 44
