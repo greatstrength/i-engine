@@ -1,123 +1,16 @@
-from schematics import Model, types as t
+from .constants import *
+from .print_reading import *
 
-class Trigram(Model):
-    id = t.StringType()
-    name = t.StringType()
-    element = t.StringType()
-    yarrow_value = t.StringType()
-    position = t.IntType()
+def load_hexagrams():
+    import yaml
+    with open('iching/hexagrams.yml') as hex_file:
+        hex_data = yaml.safe_load(hex_file)
+        hex_list = [Hexagram(hex) for _, hex in hex_data.items()]
+        return { hex.yarrow_value: hex for hex in hex_list}
 
-class Hexagram(Model):
-
-    class Line(Model):
-        text = t.ListType(t.StringType())
-        type = t.StringType(choices=['reminder', 'warning'])
-        yarrow_value = t.IntType(choices=[6, 9])
-
-    name = t.StringType(required=True)
-    secondary_names = t.ListType(t.StringType())
-    wilhelm_index = t.IntType(required=True)
-    yarrow_value = t.StringType(required=True)
-    judgement = t.ListType(t.StringType())
-    image = t.ListType(t.StringType())
-    changing_lines = t.DictType(t.ModelType(Line))
-
-
-HEAVEN = Trigram({
-    'id': 'heaven',
-    'name': 'The Creative',
-    'element': 'heaven',
-    'yarrow_value': '777',
-    'position': 1
-})
-HEAVEN = Trigram({
-    'id': 'heaven',
-    'name': 'The Creative',
-    'element': 'heaven',
-    'yarrow_value': '777',
-    'position': 1
-})
-HEAVEN = Trigram({
-    'id': 'heaven',
-    'name': 'The Creative',
-    'element': 'heaven',
-    'yarrow_value': '777',
-    'position': 1
-})
-HEAVEN = Trigram({
-    'id': 'heaven',
-    'name': 'The Creative',
-    'element': 'heaven',
-    'yarrow_value': '777',
-    'position': 1
-})
-HEAVEN = Trigram({
-    'id': 'heaven',
-    'name': 'The Creative',
-    'element': 'heaven',
-    'yarrow_value': '777',
-    'position': 1
-})
-HEAVEN = Trigram({
-    'id': 'heaven',
-    'name': 'The Creative',
-    'element': 'heaven',
-    'yarrow_value': '777',
-    'position': 1
-})
-HEAVEN = Trigram({
-    'id': 'heaven',
-    'name': 'The Creative',
-    'element': 'heaven',
-    'yarrow_value': '777',
-    'position': 1
-})
-HEAVEN = Trigram({
-    'id': 'heaven',
-    'name': 'The Creative',
-    'element': 'heaven',
-    'yarrow_value': '777',
-    'position': 1
-})
-
-TWO_D_YARROW_TRANSFORM = {
-    False: 2,
-    True: 3
-}
-
-SIX_D_YARROW_TRANSFORM = {
-    '1': 3,
-    '2': 2,
-    '3': 3,
-    '4': 2,
-    '5': 3,
-    '6': 2
-}
-
-EIGHT_D_YARROW_TRANSFORM = {
-    '1': 3,
-    '2': 2,
-    '3': 3,
-    '4': 2,
-    '5': 3,
-    '6': 2,
-    '7': 3,
-    '8': 2
-} 
-
-YARROW_SUM_TO_LINES = {
-    6: '--- X ---',
-    7: '---------',
-    8: '---   ---',
-    9: '---( )---'
-}
+hex_lookup = load_hexagrams()
 
 def get_yarrow_transform(transform_name: str):
-    TRANSFORM = {
-        '2d': TWO_D_YARROW_TRANSFORM,
-        '6d': SIX_D_YARROW_TRANSFORM,
-        '8d': EIGHT_D_YARROW_TRANSFORM
-    }
     return TRANSFORM[transform_name]
 
 def input_to_yarrow(input_data: list, transform: dict = TWO_D_YARROW_TRANSFORM):
@@ -148,28 +41,33 @@ def composite_to_composite_2d(composite):
     else:
         return (True, previous, next)
 
+def print_single_hexagram(composite):
+    yarrow_value = ''.join([str(i) for i in composite])
+    hex = hex_lookup[yarrow_value]
 
-def print_lines(y_composite: list):
-    for sum in y_composite:
-        print(YARROW_SUM_TO_LINES[sum])
-
-def read_test_data(test_data_name: str):
-    import yaml
-    with open('test/input_data.yml', 'r') as file:
-        data = yaml.safe_load(file)
-        try:
-            return [data.split(', ') for data in data[test_data_name]]
-        except:
-            raise Exception('No test data!, {}'.format(test_data_name))
-
-def read_data(test_data_name: str, transform_type: str = '2d'): 
-    data = read_test_data(test_data_name)
-    y_transform = get_yarrow_transform(transform_type)
-    yarrow = input_to_yarrow(data, y_transform)
-    composite = yarrow_to_composite(yarrow)
-    composite_2d = composite_to_composite_2d(composite)
-    print(composite)
+    print(hex.name)
+    print('')
     print_lines(composite)
-    print(composite_2d)
+    print_judgement(hex)
+    print_image(hex)
 
-read_data('mad_bladder_2022_09_03', '8d')
+def print_changing_hexagran(composite: list, previous: list, next: list):
+    previous_value = ''.join([str(i) for i in previous])
+    previous_hex = hex_lookup[previous_value]
+
+    next_value = ''.join([str(i) for i in next])
+    next_hex = hex_lookup[next_value]
+
+    print('{} -> {}'.format(previous_hex.name, next_hex.name))
+    print('')
+
+    print_lines(composite, True, next)
+
+    print('Previous:\n')
+    print_judgement(previous_hex, True)
+    print_image(previous_hex, True)
+    print_changing_lines(composite, previous_hex)
+
+    print('Next:\n')
+    print_judgement(next_hex, True)
+    print_image(next_hex, True)
