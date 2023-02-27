@@ -3166,31 +3166,57 @@ wanderer:
 well:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - One does not drink the mud of the well.
+      - No animals come to an old well.
+      type: warning
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - At the wllhole one shoots fishes.
+      - The jug is broken and leaks.
+      type: warning
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - The well is cleaned, but no one drinks from it.
+      - This is my heart's sorrow,
+      - For one might draw from it.
+      - If the king were clear-minded,
+      - Good fortune might be enjoyed in common.
+      type: reminder
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - The well is being lined. No blame.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - In the well there is a clear, cold spring.
+      - From which one can drink.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - One draws from the well
+      - Without hindrance.
+      - It is dependable.
+      - Supreme good fortune.
+      type: reminder
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Water over wood: the image of The Well.'
+  - Thus the superior man ecourages the people at their work,
+  - And exhorts them to help one another.
+  judgement: 
+  - The Well. The town may have changed,
+  - But the well cannot be changed.
+  - It neither decreases nor increases.
+  - They come and go and draw from the well.
+  - If one gets down almost to the water
+  - And the rope does not go all the way,
+  - Or the jug breaks, it brings misfortune.
   name: The Well
   secondary_names: null
   wilhelm_index: 48
