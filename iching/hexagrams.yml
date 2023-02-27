@@ -2517,31 +2517,54 @@ providing_nourishment:
 pushing_upward:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Pushing upward the meets with confidence
+      - Brings great good fortune.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - If one is sincere,
+      - It furthers one to bring even a small offering.
+      - No blame.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - One pushes upward into an empty city.
+      type: reminder
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - The king offers him Mount Ch'i.
+      - Good fortune. No blame.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - Perserverance brings good fortune.
+      - One pushes upward by steps.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - Pushing upward in darkness.
+      - It furthers one
+      - To be unremittingly perservering.
+      type: reminder
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Within the earth, wood grows:'
+  - The image of Pushing Upward.
+  - Thus the superior man of devoted character
+  - HEaps up small things
+  - In order to achieve something high and great.
+  judgement: 
+  - Pushing Upward has supreme success.
+  - One must see the great man.
+  - Fear not.
+  - Departure towards the south
+  - Brings good fortune.
   name: Pushing Upward
   secondary_names: null
   wilhelm_index: 46
