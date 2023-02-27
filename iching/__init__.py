@@ -194,5 +194,6 @@ def read_data(test_data_name: str, transform_type: str = '2d'):
     print('')
     for line in hex.image:
         print(line)
+    print('')
 
 read_data('mad_bladder_2022_09_03', '8d')
