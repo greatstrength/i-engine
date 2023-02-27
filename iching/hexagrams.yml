@@ -1342,31 +1342,62 @@ following:
 gathering_together:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - If youare sincere, but not to theend,
+      - There will sometimes be confusion, sometimes gathering together.
+      - If you call out,
+      - Then after one grasp of the hand you can laugh again.
+      - Regret not. Going is without blame.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - Letting oneself be drawn
+      - Brings good fortune and remains blameless.
+      - If one is sincere,
+      - It furthers one to bring even a small offering.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - Gathering together amid sighs.
+      - Nothing that would further.
+      - Going is without blame.
+      - Slight humiliation.
+      type: warning
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - Great good fortune. No blame.
+      type: reminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - If in gathering together one has position,
+      - This brings no blame.
+      - If there are some who are not yet sincerely in the work,
+      - Sublime and enduring perserverance is needed.
+      - Then remorse disappears.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - Lamenting and sighing, floods of tears.
+      - No blame.
+      type: reminder
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Over the earth, the lake:'
+  - The image of Gathering Together.
+  - Thus the superior man renews his weapons
+  - In order to meet the unforseen.
+  judgement: 
+  - Gethering Together. Success.
+  - The king approaches his temple.
+  - It furthers one to see the great man.
+  - This brings success. Perserverance furthers.
+  - To bring great offerings creates good fortune.
+  - It furthers one to undertake something.
   name: Gathering Together
   secondary_names:
   - Massing
