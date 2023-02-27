@@ -41,9 +41,6 @@ def composite_to_composite_2d(composite):
         return (False, previous, next)
     else:
         return (True, previous, next)
-
-
-
           
 def read_test_data(test_data_name: str):
     import yaml
