@@ -1878,31 +1878,54 @@ influence:
 inner_truth:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Being prepared brings good fortune.
+      - If there are secret designs, it is disquieting.
+      type: warning
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - A crane calling in the shade.
+      - Its young answers it.
+      - I have a good goblet.
+      - I will share it with you.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - He finds a comrade.
+      - Now he beats the drum, now he stops.
+      - Now he sobs, now he sings.
+      type: reminder
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - The moon nearly at the full.
+      - The team horse goes astray.
+      - No blame.
+      type: warning
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - He possesses truth, which links together.
+      - No blame.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - Cockcrow penetrating to heaven.
+      - Perserverance brings misfortune.
+      type: warning
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'Wind over the lake: the image of Inner Truth'
+  - Thus the superior man discusses criminal cases
+  - In order to delay executions.
+  judgement: 
+  - Inner Truth. Pigs and fishes.
+  - Good fortune.
+  - It furthers one to cross the great water.
+  - Perserverance futhers.
   name: Inner Truth
   secondary_names: null
   wilhelm_index: 61
