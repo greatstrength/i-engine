@@ -45,7 +45,7 @@ def print_single_hexagram(composite):
     yarrow_value = ''.join([str(i) for i in composite])
     hex = hex_lookup[yarrow_value]
 
-    print(hex.name)
+    print('{}. {}'.format(hex.wilhelm_index, hex.name))
     print('')
     print_lines(composite)
     print_judgement(hex)
@@ -58,7 +58,7 @@ def print_changing_hexagran(composite: list, previous: list, next: list):
     next_value = ''.join([str(i) for i in next])
     next_hex = hex_lookup[next_value]
 
-    print('{} -> {}'.format(previous_hex.name, next_hex.name))
+    print('{}. {} -> {}. {}'.format(previous_hex.wilhelm_index, previous_hex.name, next_hex.wilhelm_index, next_hex.name))
     print('')
 
     print_lines(composite, True, next)
