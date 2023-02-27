@@ -1499,31 +1499,58 @@ gathering_together:
 gentle:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - In advancing and in retreating,
+      - The perserverance of the warrior furthers.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - Penetration under the bed.
+      - Priests and magicians are used in great number.
+      - Good fortune. No blame.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - Repeated penetration. Humiliation.
+      type: warning
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - Remorse vanishes.
+      - Diring the hunt.
+      - Three kinds of game are caught.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - Perserverance brings good fortune.
+      - Remorse vanishes.
+      - Nothing that does not further.
+      - No beginning, but an end.
+      - Before change, three days.
+      - After change, three days.
+      - Good fortune.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - Penetration under the bed.
+      - He loses his property and his ax.
+      - Perserverance brings misfortune.
+      type: warning
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'Winds following one upon the other:'
+  - The image of The Gentle Penetrating.
+  - Thus the superior man
+  - Spreads his commands abroad
+  - And carries out his undertakings.
+  judgement: 
+  - The Gentle. Success through what is small.
+  - It furthers one to have somewhere to go.
+  - It furthers one to see the great man.
   name: The Gentle
   secondary_names:
   - The Penetrating
