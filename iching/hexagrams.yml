@@ -240,31 +240,63 @@ army:
 arousing:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Shock comes - oh, oh!
+      - Then follow lauging words - ha, ha!
+      - Good fortune.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - Shock comes bringing danger.
+      - A hundred thousand times
+      - You lose yourtreashure
+      - And must climb the nine hills.
+      - Do not go in pursuit of them.
+      - In seven days you will get them back again.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - Shock comes and makes one distraught.
+      - If shock spurs to action
+      - One remains free of misfortune.
+      type: reminder
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - Shock is mired.
+      type: warning
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - Shock goes hither and thither,
+      - Danger.
+      - However, nothing at all is lost.
+      - Yet there are things to be done.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
+      text: 
+      - Shock brings ruin and terrified gazing around.
+      - Going ahead brings misfortune.
+      - If it has not yet touched one's own body
+      - But has reached one's neighbor first,
+      - There is no blame.
+      - One's comrades have something to talk about.
       type: null
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Thunder repeated: the image of Shock.'
+  - Thus in fear and trembling
+  - The superior man sets his life in order
+  - And examines himself.
+  judgement: 
+  - Shock brings success.
+  - Shock comes - oh, oh!
+  - Lauging words - ha, ha!
+  - The shock terrifies for a hundred miles,
+  - And he does not let fall the sacrificial spoon and chalice.
   name: The Arousing
   secondary_names:
   - Thunder
