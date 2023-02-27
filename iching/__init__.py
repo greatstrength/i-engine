@@ -202,7 +202,21 @@ def print_image(hex: Hexagram, is_changing: bool = False):
         print(line)
     print('\n')
 
-
+def print_changing_lines(composite: list, hex: Hexagram):
+    print('Changing Lines:\n')
+    for i in reversed(range(6)):
+        value = composite[i]
+        if value not in [6, 9]:
+            continue
+        line = str(6 - i)
+        changing_line: Hexagram.Line = hex.changing_lines[line]
+        
+        print('\t{} in {} is a {}:'.format(value, line, changing_line.type))
+        
+        for line in changing_line.text:
+            print('\t' + line)
+        print('')
+    print('')
 
 def print_single_hexagram(composite):
     yarrow_value = ''.join([str(i) for i in composite])
@@ -229,13 +243,12 @@ def print_changing_hexagran(composite: list, previous: list, next: list):
     print('Previous:\n')
     print_judgement(previous_hex, True)
     print_image(previous_hex, True)
+    print_changing_lines(composite, previous_hex)
 
     print('Next:\n')
     print_judgement(next_hex, True)
     print_image(next_hex, True)
           
-
-
 def read_test_data(test_data_name: str):
     import yaml
     with open('test/input_data.yml', 'r') as file:
@@ -252,12 +265,11 @@ def read_data(test_data_name: str, transform_type: str = '2d'):
     yarrow = input_to_yarrow(data, y_transform)
     composite = yarrow_to_composite(yarrow)
     is_changing, previous, next = composite_to_composite_2d(composite)
-    
-    print_lines(composite, is_changing, next)
+
     if is_changing:
         print_changing_hexagran(composite, previous, next)
     else:
         print_single_hexagram(previous)
 
 
-read_data('eight_d_data', '8d')
+read_data('mad_bladder_2022_09_03', '8d')
