@@ -1133,31 +1133,54 @@ diffculty_at_the_beginning:
 dispersion:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - He brings help with the strength of a horse.
+      - Good fortune.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - At the dissolution
+      - He urries to that which supports him.
+      - Remorse disappears.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - He dissolves his self. No remorse.
+      type: reminder
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - He dissoves his bond with his group.
+      - Supreme good fortune.
+      - Dispersion leads in turn to accumulation.
+      - This is something that ordinary men do not think of.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - His loud cries are dissolving as sweat.
+      - Dissolution! A king abides without blame.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - He dissolves his blood.
+      - Departing, keeping at a distance, going out,
+      - Is without blame.
+      type: reminder.
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'The wnd drives over the water:'
+  - The image of Dispersion.
+  - Thus the kings of old sacrificed to the Lord
+  - And built temples.
+  judgement: 
+  - Dispersion. Success.
+  - The king approaches his temple.
+  - It furthers one to cross the great water.
+  - Perserverance furthers.
   name: Dispersion
   secondary_names:
   - Dissolution
