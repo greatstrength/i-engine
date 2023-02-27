@@ -127,31 +127,57 @@ abysmal:
 after_copletion:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - He brakes his wheels.
+      - He gets his tail in the water.
+      - No blame.
+      type: warning
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - The woman loses the cutain of her carriage.
+      - Do not run after it;
+      - On the seventh day you will get it.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - The Illustrious Ancestor
+      - Disciplines the Devil's Country.
+      - After three years he conquers it.
+      - Inferior people must not be employed.
+      type: reminder
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - The finest clothes turn to rags.
+      - Be careful all day long.
+      type: warning
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - The neghbor in the east who slaughters an ox
+      - Does not attain as much real happiness
+      - As the neighbor in the west
+      - With his mall offering.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - He gets his head in the water. Danger.
+      type: warning
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Water over fire: the mage of the condition'
+  - In After Completion.
+  - Thus the superior man
+  - Takes thought of misfortune
+  - And arms himself against it in advance.
+  judgement: 
+  - After completion. Success in small matters.
+  - Perserverance furthers.
+  - At the beginning good fortune,
+  - At the end disorder.
   name: After Completion
   secondary_names: null
   wilhelm_index: 63
@@ -338,31 +364,58 @@ arousing:
 before_completion:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - He gets his tail in the water.
+      - Humiliating.
+      type: warning
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - He brakes his wheels.
+      - Perserverance brings good fortune.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - Before completion, attack brings misfortune.
+      - It furthers one to cross the great water.
+      type: warning
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - Perserverance brings good fortune.
+      - Remorse disappears.
+      - Shock, thus to discipline the Devil's Country.
+      - For three years, great realms are awarded.
+      type: reminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - Perserverance brings good fortune.
+      - No remorse.
+      - The light of the superior man is true.
+      - Good fortune.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - There is drinking of wine
+      - In genuine confidence. No blame.
+      - But if one wets his head,
+      - He loses it, in truth.
+      type: warning
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'Fire over water:'
+  - The image of the condition before transition.
+  - Thus the superior man is careful
+  - In the differentiation of things,
+  - so that each finds its place.
+  judgement: 
+  - Before Completion. Success.
+  - But if the little fox, after nearly completing the crossing,
+  - Gets his tail in the water,
+  - There is nothing that would further.
   name: Before Completion
   secondary_names: null
   wilhelm_index: 64
