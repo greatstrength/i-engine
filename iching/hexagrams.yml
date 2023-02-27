@@ -1552,31 +1552,59 @@ grace:
 gradual_progress:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - The wild goose gradually draws to the shore.
+      - The young son is in danger.
+      - There is talk. No blame.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - The wild goose gradually draws near the cliff.
+      - Eating and drinking in peace and concord.
+      - Good fortune.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - The wild goose gradually draws near the plateau.
+      - The man goes forth and does not return.
+      - The womman carries a child but does not bring it forth.
+      - Misfortune.
+      - It furthers one to fight robbers.
+      type: warning
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - The wild goose gradually draws near the tree.
+      - Perhaps it will find a flat branch. No blame.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - The wild goose gradually draws near the summit.
+      - For three years the woman has no child.
+      - In the end nothing can hinder her.
+      - Good fortune.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - The wild goose gradually draws near the cloud heights.
+      - Its feathers can be used for the sacred dance.
+      - Good fortune.
+      type: reminder
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'On the mountain, a tree:'
+  - The image of Development.
+  - Thus the superior man abides in dignity and virtue,
+  - In order to improve the mores.
+  judgement: 
+  - Development. The maiden
+  - Is given in marriage.
+  - Good fortune.
+  - Perserverance furthers.
   name: Gradual Progress
   secondary_names:
   - Development
