@@ -1,5 +1,5 @@
-from constants import *
-from print import *
+from .constants import *
+from .print_reading import *
 
 def load_hexagrams():
     import yaml
@@ -40,16 +40,7 @@ def composite_to_composite_2d(composite):
         return (False, previous, next)
     else:
         return (True, previous, next)
-          
-def read_test_data(test_data_name: str):
-    import yaml
-    with open('test/input_data.yml', 'r') as file:
-        data = yaml.safe_load(file)
-        try:
-            return [data.split(', ') for data in data[test_data_name]]
-        except:
-            raise Exception('No test data!, {}'.format(test_data_name))
-        
+
 def print_single_hexagram(composite):
     yarrow_value = ''.join([str(i) for i in composite])
     hex = hex_lookup[yarrow_value]
@@ -80,19 +71,3 @@ def print_changing_hexagran(composite: list, previous: list, next: list):
     print('Next:\n')
     print_judgement(next_hex, True)
     print_image(next_hex, True)
-
-def read_data(test_data_name: str, transform_type: str = '2d'): 
-    
-    data = read_test_data(test_data_name)
-    y_transform = get_yarrow_transform(transform_type)
-    yarrow = input_to_yarrow(data, y_transform)
-    composite = yarrow_to_composite(yarrow)
-    is_changing, previous, next = composite_to_composite_2d(composite)
-
-    if is_changing:
-        print_changing_hexagran(composite, previous, next)
-    else:
-        print_single_hexagram(previous)
-
-
-read_data('mad_bladder_2022_09_03', '8d')
