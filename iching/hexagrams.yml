@@ -2073,31 +2073,50 @@ keeping_still:
 limitation:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Not going out of the door and the courtyard\
+      - Is without blame.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - Not going out of the gate and the courtryard
+      - Brings misfortune.
+      type: warning
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - He who knows no limitation
+      - Will have cause to lament.
+      - No blame.
+      type: warning
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - Contended limitation. Success.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - Sweet limitation brings good fortune.
+      - Going brings success.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - Galling limitation.
+      - Perserverance brings misfortune.
+      - Remorse disappears.
+      type: warning
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Water over the lake: the image of Limitation'
+  - Thus the superiorman
+  - Creates numbers and measures,
+  - And examines the nature of virtue and correct conduct.
+  judgement: 
+  - Limitation. Success.
+  - Galling limitation must not be perserved in.
   name: Limitation
   secondary_names: null
   wilhelm_index: 60
