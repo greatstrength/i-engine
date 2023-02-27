@@ -827,31 +827,56 @@ decrease:
 deliverance:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Without blame.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - One kills three foxes in the field
+      - And receives a yellow arrow.
+      - Perserverance brings good fortune.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - If a man carries a burden on his back
+      - And nonetheless rides in a carriage,
+      - He thereby encourages robbers to draw near.
+      - Perserverance leads to humiliation.
+      type: reminder
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - Deliver yourself from your great toe.
+      - Then the companion comes,
+      - And him you can trust.
+      type: reminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - If only the superior man can deliver himself,
+      - It brings good fortune.
+      - Thus he proves to inferior men that he is in earnest.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - The prince shoots at a hawk on a high wall.
+      - He kills it. Everything serves to further.
+      type: reminder
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Thunder and rain set in:'
+  - The image of Deliverance.
+  - Thus the superior man pardons mistakes
+  - And forgives misdeeds.
+  judgement: 
+  - Deliverance. The southwest furthers.
+  - If there is no longer anything where one has to go,
+  - Return brings good fortune.
+  - If there s still something where someone has to go,
+  - Hastening brings good fortune.
   name: Deliverance
   secondary_names: null
   wilhelm_index: 40
