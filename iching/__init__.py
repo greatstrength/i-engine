@@ -1,7 +1,6 @@
 from constants import *
 from print import *
 
-
 def load_hexagrams():
     import yaml
     with open('iching/hexagrams.yml') as hex_file:
