@@ -163,7 +163,8 @@ def print_lines(composite: list, is_changing: bool = False, next: list = None):
     if not is_changing:
         for sum in composite:
             print(YARROW_SUM_TO_LINES[sum])
-            return
+        print('')
+        return
     line_format = '{}{}{}'
     for i in range(6):
         previous_line = YARROW_SUM_TO_LINES[composite[i]]
@@ -177,24 +178,63 @@ def print_lines(composite: list, is_changing: bool = False, next: list = None):
         print(line_format.format(previous_line, middle, next_line))
     print('')
 
-def print_hexagram(composite):
+def print_judgement(hex: Hexagram, is_changing: bool = False):
+    title = 'Judgement:'
+    if is_changing:
+        title = '\t' + title
+    print(title)
+    print('')
+    for line in hex.judgement:
+        if is_changing:
+            line = '\t' + line
+        print(line)   
+    print('\n')
+
+def print_image(hex: Hexagram, is_changing: bool = False):
+    title = 'Image:'
+    if is_changing:
+        title = '\t' + title
+    print(title)
+    print('')
+    for line in hex.image:
+        if is_changing:
+            line = '\t' + line
+        print(line)
+    print('\n')
+
+
+
+def print_single_hexagram(composite):
     yarrow_value = ''.join([str(i) for i in composite])
     hex = hex_lookup[yarrow_value]
 
     print(hex.name)
     print('')
-    
-    print('\tJudgement:')
-    print('')
-    for line in hex.judgement:
-        print('\t' + line)    
-    print('\n')
+    print_lines(composite)
+    print_judgement(hex)
+    print_image(hex)
 
-    print('\tImage:')
+def print_changing_hexagran(composite: list, previous: list, next: list):
+    previous_value = ''.join([str(i) for i in previous])
+    previous_hex = hex_lookup[previous_value]
+
+    next_value = ''.join([str(i) for i in next])
+    next_hex = hex_lookup[next_value]
+
+    print('{} -> {}'.format(previous_hex.name, next_hex.name))
     print('')
-    for line in hex.image:
-        print('\t' + line)
-    print('\n')
+
+    print_lines(composite, True, next)
+
+    print('Previous:\n')
+    print_judgement(previous_hex, True)
+    print_image(previous_hex, True)
+
+    print('Next:\n')
+    print_judgement(next_hex, True)
+    print_image(next_hex, True)
+          
+
 
 def read_test_data(test_data_name: str):
     import yaml
@@ -214,9 +254,10 @@ def read_data(test_data_name: str, transform_type: str = '2d'):
     is_changing, previous, next = composite_to_composite_2d(composite)
     
     print_lines(composite, is_changing, next)
-    print_hexagram(previous)
     if is_changing:
-        print_hexagram(next)
+        print_changing_hexagran(composite, previous, next)
+    else:
+        print_single_hexagram(previous)
 
 
-read_data('mad_bladder_2022_09_03', '8d')
+read_data('eight_d_data', '8d')
