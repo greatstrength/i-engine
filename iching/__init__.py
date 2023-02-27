@@ -1,85 +1,4 @@
-from schematics import Model, types as t
-import argparse
-
-class Trigram(Model):
-    id = t.StringType()
-    name = t.StringType()
-    element = t.StringType()
-    yarrow_value = t.StringType()
-    position = t.IntType()
-
-class Hexagram(Model):
-
-    class Line(Model):
-        text = t.ListType(t.StringType())
-        type = t.StringType(choices=['reminder', 'warning'])
-        yarrow_value = t.IntType(choices=[6, 9])
-
-    name = t.StringType(required=True)
-    secondary_names = t.ListType(t.StringType())
-    wilhelm_index = t.IntType(required=True)
-    yarrow_value = t.StringType(required=True)
-    judgement = t.ListType(t.StringType())
-    image = t.ListType(t.StringType())
-    changing_lines = t.DictType(t.ModelType(Line))
-
-
-HEAVEN = Trigram({
-    'id': 'heaven',
-    'name': 'The Creative',
-    'element': 'heaven',
-    'yarrow_value': '777',
-    'position': 1
-})
-HEAVEN = Trigram({
-    'id': 'heaven',
-    'name': 'The Creative',
-    'element': 'heaven',
-    'yarrow_value': '777',
-    'position': 1
-})
-HEAVEN = Trigram({
-    'id': 'heaven',
-    'name': 'The Creative',
-    'element': 'heaven',
-    'yarrow_value': '777',
-    'position': 1
-})
-HEAVEN = Trigram({
-    'id': 'heaven',
-    'name': 'The Creative',
-    'element': 'heaven',
-    'yarrow_value': '777',
-    'position': 1
-})
-HEAVEN = Trigram({
-    'id': 'heaven',
-    'name': 'The Creative',
-    'element': 'heaven',
-    'yarrow_value': '777',
-    'position': 1
-})
-HEAVEN = Trigram({
-    'id': 'heaven',
-    'name': 'The Creative',
-    'element': 'heaven',
-    'yarrow_value': '777',
-    'position': 1
-})
-HEAVEN = Trigram({
-    'id': 'heaven',
-    'name': 'The Creative',
-    'element': 'heaven',
-    'yarrow_value': '777',
-    'position': 1
-})
-HEAVEN = Trigram({
-    'id': 'heaven',
-    'name': 'The Creative',
-    'element': 'heaven',
-    'yarrow_value': '777',
-    'position': 1
-})
+from models import *
 
 TWO_D_YARROW_TRANSFORM = {
     False: 2,
@@ -208,10 +127,14 @@ def print_changing_lines(composite: list, hex: Hexagram):
         value = composite[i]
         if value not in [6, 9]:
             continue
+        elif value == 6:
+            value = 'Six'
+        else:
+            value = 'Nine'
         line = str(6 - i)
         changing_line: Hexagram.Line = hex.changing_lines[line]
         
-        print('\t{} in {} is a {}:'.format(value, line, changing_line.type))
+        print('\t{} in {} is a {}:\n'.format(value, line, changing_line.type))
         
         for line in changing_line.text:
             print('\t' + line)
