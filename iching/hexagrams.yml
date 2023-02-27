@@ -1499,31 +1499,61 @@ holding_together:
 increase:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - It furthers one to accomplish great deeds.
+      - Supreme good fortune. No blame.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - Someone does indeed increase him;
+      - Ten pairs of tortoise cannot oppose it.
+      - Constant perserverance brings good fortune.
+      - The king presents him before God.
+      - Good fortune.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - One is enriched through unfortunate events.
+      - No blame, if youare sincere
+      - And walk in themiddle,
+      - And report with a seal to the prince.
+      type: reminder
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - If youwalk in the middle
+      - And report to the prince,
+      - He will follow.
+      - It furthers one to be used
+      - In the removal of the capital.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - If in truth you have a kind heart, ask not.
+      - Supreme good fortune.
+      - Truly, kindess will be recognized as your virtue.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - He brings increase to no one.
+      - Indeed, someone even strikes him.
+      - He does not keep his heart constantly steady.
+      - Misfortune.
+      type: warning
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'Wind and thunder: the image of Increase'
+  - 'Thus the superior man:'
+  - If he sees good, he imitates it;
+  - If he has faults, he rids himself of them.
+  judgement: 
+  - Increase. It furthers one
+  - To undertake something.
+  - It furthers one to cross the great water.
   name: Increase
   secondary_names: null
   wilhelm_index: 42
