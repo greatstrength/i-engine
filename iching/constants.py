@@ -29,3 +29,9 @@ YARROW_SUM_TO_LINES = {
     8: '---   ---',
     9: '---( )---'
 }
+
+TRANSFORM = {
+    '2d': TWO_D_YARROW_TRANSFORM,
+    '6d': SIX_D_YARROW_TRANSFORM,
+    '8d': EIGHT_D_YARROW_TRANSFORM
+}

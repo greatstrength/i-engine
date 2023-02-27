@@ -12,11 +12,6 @@ def load_hexagrams():
 hex_lookup = load_hexagrams()
 
 def get_yarrow_transform(transform_name: str):
-    TRANSFORM = {
-        '2d': TWO_D_YARROW_TRANSFORM,
-        '6d': SIX_D_YARROW_TRANSFORM,
-        '8d': EIGHT_D_YARROW_TRANSFORM
-    }
     return TRANSFORM[transform_name]
 
 def input_to_yarrow(input_data: list, transform: dict = TWO_D_YARROW_TRANSFORM):
