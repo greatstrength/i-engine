@@ -1944,31 +1944,45 @@ innocence:
 joyous:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Contended joyousness. Good fortune.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - Sincere joyousness. Good fortune.
+      - Remorse disappears.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - Coming joyousness. Misfortune.
+      type: warning
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - Joyousness that is weight is not at peace.
+      - After ridding himself of mistakes a man has joy.
+      type: reminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - Sincerity toward disintegrating influences is dangerous.
+      type: warning
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - Seductive joyousness.
+      type: warning
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Lakes resting on the other:'
+  - The image of The Joyous.
+  - Thus the superior man joins with his friends
+  - For discussion and practice.
+  judgement: 
+  - The Joyous. Success.
+  - Perserverance is favorable.
   name: The Joyous
   secondary_names:
   - Lake
