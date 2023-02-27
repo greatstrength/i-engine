@@ -3333,31 +3333,59 @@ waiting:
 wanderer:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - If the wanderer busies himself with trivial things,
+      - He draws down misfortune upon himself.
+      type: warning
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - The wanderer comes to an inn.
+      - He has his property with him.
+      - He wins the steadfastness of a young servant.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - The wanderer's inn burns down.
+      - He loses the steadfastness of his young servant.
+      - Danger.
+      type: warning
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - The wanderer rests in a shelter.
+      - He obtains his property and an ax.
+      - My heart is not glad.
+      type: warning
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - He shoots a pheasant.
+      - It drops with the first arrow.
+      - In the end this brings both praise and office.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - The bird's nest burns up.
+      - The wanderer laughs at first,
+      - Then must needs lament and weep.
+      - Through carelessness he loses his cow.
+      - Misfortune.
+      type: warning
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'Fire on the mountain:'
+  - The image of The Wanderer.
+  - Thus the superior man
+  - Is clear-minded and cautions
+  - In imposing penalties,
+  - And protracts no lawsuits.
+  judgement: 
+  - The Wanderer. Success through smallness.
+  - Perserverance brings good fortune
+  - To the wanderer.
   name: The Wanderer
   secondary_names: null
   wilhelm_index: 56
