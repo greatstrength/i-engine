@@ -1835,31 +1835,62 @@ obstruction:
 opposition:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Remorse disapears.
+      - If you lose your horse, do not run after it;
+      - It will come back of its own accord.
+      - When you see evil people,
+      - Guard yourself against mistakes.
+      type: warning
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - One meets his lord in a narrow street.
+      - No blame.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - One sees the wagon dragged back,
+      - The oxen halted,
+      - A man's hair andnose cut off.
+      - Not a good beginning, but a good end.
+      type: reminder
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - Isolated through opposition,
+      - One meets a like-minded man
+      - With whom he can associate in good faith.
+      - Despite the danger, no blame.
+      type: reminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - Remorse disappears.
+      - The companion bites his way through the wrappings.
+      - If one goes to him,
+      - How could it be a mistake?
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - Isolated through opposition,
+      - One sees one's companion as a pig covered with dirt,
+      - As a wagon full of devils.
+      - First one draws a bow against him,
+      - Then one lays the bow aside.
+      - He is not a robber; he will woo at the right time.
+      - As one goes, rain falls; then good fortune comes.
+      type: reminder
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'Above, fire; below, the lake:'
+  - The image of Opposition.
+  - Thus amid all fellowship
+  - The superior man retains his individuality.
+  judgement: 
+  - Opposition. In small matters, good fortune.
   name: Opposition
   secondary_names: null
   wilhelm_index: 38
