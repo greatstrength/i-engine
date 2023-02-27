@@ -2770,31 +2770,57 @@ return:
 revolution:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Wrapped in the hide of a yellow cow.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - When one's own day comes, one may create revolution.
+      - Starting brings good fortune.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - Starting brings misfortune.
+      - Perserverance brings danger.
+      - When talk of revolution has gone rounds three times,
+      - One may commit himself,
+      - And men will believe him.
+      type: reminder
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - Remorse disappears. Men believe him.
+      - Changingthe form of government brings good fortune.
+      type: reminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - The great man changes like a tiger.
+      - Even before he questions the oracle
+      - He is believed.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - The superior man changes like a panther.
+      - The inferior man molts in the face.
+      - Starting brings misfortune.
+      - To remain perservering brings good fortune.
+      type: reminder
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Fire in the lake: the image of Revolution'
+  - Thus the superior man
+  - Sets the calendar in order
+  - And makes the seasons clear.
+  judgement: 
+  - Revolution. On your own day
+  - You are believed.
+  - Supreme success,
+  - Furthering through perserverance,
+  - Remorse disappears.
   name: Revolution
   secondary_names:
   - Molting
