@@ -1803,31 +1803,52 @@ modesty:
 obstruction:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - Going leads to obstructions,
+      - Coming meets with praise.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - The king's servant is beset by obstruction upon obstruction,
+      - But it is not his own fault.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - Going leads to obstructions;
+      - Hence he comes back.
+      type: reminder
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - Going leads to obstructions,
+      - Coming leads to union.
+      type: reminder
       yarrow_value: 6
     5:
-      text: null
-      type: null
+      text: 
+      - In the midst of the greatest obstructions,
+      - Friends come.
+      type: reminder
       yarrow_value: 9
     6:
-      text: null
-      type: null
+      text: 
+      - Going leads to obstructions,
+      - Coming leads to great good fortune.
+      - It furthers one to see the great man.
+      type: reminder
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Water on the mountain:'
+  - The image of Obstruction.
+  - Thus the superior man turns his attention to himself
+  - And molds his character.
+  judgement: 
+  - Obstruction. The southwest furthers.
+  - The northeast does not further.
+  - It furthers one to see the great man.
+  - Perserverance brings good fortune.
   name: Obstruction
   secondary_names: null
   wilhelm_index: 39
