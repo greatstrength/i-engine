@@ -120,6 +120,8 @@ def load_hexagrams():
         hex_list = [Hexagram(hex) for _, hex in hex_data.items()]
         return { hex.yarrow_value: hex for hex in hex_list}
 
+hex_lookup = load_hexagrams()
+
 def get_yarrow_transform(transform_name: str):
     TRANSFORM = {
         '2d': TWO_D_YARROW_TRANSFORM,
@@ -157,9 +159,42 @@ def composite_to_composite_2d(composite):
         return (True, previous, next)
 
 
-def print_lines(y_composite: list):
-    for sum in y_composite:
-        print(YARROW_SUM_TO_LINES[sum])
+def print_lines(composite: list, is_changing: bool = False, next: list = None):
+    if not is_changing:
+        for sum in composite:
+            print(YARROW_SUM_TO_LINES[sum])
+            return
+    line_format = '{}{}{}'
+    for i in range(6):
+        previous_line = YARROW_SUM_TO_LINES[composite[i]]
+        next_line = YARROW_SUM_TO_LINES[next[i]]
+        if i == 2:
+            middle = '     ---------\\     '
+        elif i == 3:
+            middle = '     ---------/     '
+        else:
+            middle = ' ' * 20
+        print(line_format.format(previous_line, middle, next_line))
+    print('')
+
+def print_hexagram(composite):
+    yarrow_value = ''.join([str(i) for i in composite])
+    hex = hex_lookup[yarrow_value]
+
+    print(hex.name)
+    print('')
+    
+    print('\tJudgement:')
+    print('')
+    for line in hex.judgement:
+        print('\t' + line)    
+    print('\n')
+
+    print('\tImage:')
+    print('')
+    for line in hex.image:
+        print('\t' + line)
+    print('\n')
 
 def read_test_data(test_data_name: str):
     import yaml
@@ -171,29 +206,17 @@ def read_test_data(test_data_name: str):
             raise Exception('No test data!, {}'.format(test_data_name))
 
 def read_data(test_data_name: str, transform_type: str = '2d'): 
-    hex_lookup = load_hexagrams()
+    
     data = read_test_data(test_data_name)
     y_transform = get_yarrow_transform(transform_type)
     yarrow = input_to_yarrow(data, y_transform)
     composite = yarrow_to_composite(yarrow)
     is_changing, previous, next = composite_to_composite_2d(composite)
+    
+    print_lines(composite, is_changing, next)
+    print_hexagram(previous)
+    if is_changing:
+        print_hexagram(next)
 
-    yarrow_value = ''.join([str(i) for i in previous])
-
-    print_lines(composite)
-    print('')
-    hex = hex_lookup[yarrow_value]
-    print(hex.name)
-    print('\n')
-    print('Judgement:')
-    print('')
-    for line in hex.judgement:
-        print(line)
-    print('\n')
-    print('Image:')
-    print('')
-    for line in hex.image:
-        print(line)
-    print('')
 
 read_data('mad_bladder_2022_09_03', '8d')
