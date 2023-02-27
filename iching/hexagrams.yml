@@ -2008,31 +2008,57 @@ limitation:
 marrying_maiden:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - The marrying maiden as a concubine.
+      - A lame man who is able to tread.
+      - Undertakings bring good fortune.
+      type: reminder
       yarrow_value: 9
     2:
-      text: null
-      type: null
+      text: 
+      - A one-eyed man who is able to see.
+      - The perserverance of a solitary man furthers.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - The marrying maiden as a slave.
+      - She marries as a concubine.
+      type: reminder
       yarrow_value: 6
     4:
-      text: null
-      type: null
+      text: 
+      - The marying maiden draws out the allotted time.
+      - A late marriage comes in due course.
+      type: reminder
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - The sovereign I gave his daughter in marriage.
+      - The embroidered garments of the princess
+      - Were not as gorgeous
+      - As those of the servingmaid.
+      - The moon that is nearly full
+      - Brings good fortune.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - The woman holds the basket, but there are no fruits in it.
+      - The man stabs the sheep, but no blood flows.
+      - Nothing that acts to further.
+      type: warning
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Thunder over the lake:'
+  - The image of the Marrying Maiden.
+  - Thus the superior man
+  - Understands the transitory
+  - In the light of the eternity of the end.
+  judgement: 
+  - The Marrying Maiden.
+  - Undertakings bring misfortune.
+  - Nothing that would further.
   name: The Marrying Maiden
   secondary_names: null
   wilhelm_index: 54
