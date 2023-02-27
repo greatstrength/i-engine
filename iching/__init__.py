@@ -1,4 +1,5 @@
 from schematics import Model, types as t
+import argparse
 
 class Trigram(Model):
     id = t.StringType()
@@ -112,6 +113,13 @@ YARROW_SUM_TO_LINES = {
     9: '---( )---'
 }
 
+def load_hexagrams():
+    import yaml
+    with open('iching/hexagrams.yml') as hex_file:
+        hex_data = yaml.safe_load(hex_file)
+        hex_list = [Hexagram(hex) for _, hex in hex_data.items()]
+        return { hex.yarrow_value: hex for hex in hex_list}
+
 def get_yarrow_transform(transform_name: str):
     TRANSFORM = {
         '2d': TWO_D_YARROW_TRANSFORM,
@@ -163,13 +171,28 @@ def read_test_data(test_data_name: str):
             raise Exception('No test data!, {}'.format(test_data_name))
 
 def read_data(test_data_name: str, transform_type: str = '2d'): 
+    hex_lookup = load_hexagrams()
     data = read_test_data(test_data_name)
     y_transform = get_yarrow_transform(transform_type)
     yarrow = input_to_yarrow(data, y_transform)
     composite = yarrow_to_composite(yarrow)
-    composite_2d = composite_to_composite_2d(composite)
-    print(composite)
+    is_changing, previous, next = composite_to_composite_2d(composite)
+
+    yarrow_value = ''.join([str(i) for i in previous])
+
     print_lines(composite)
-    print(composite_2d)
+    print('')
+    hex = hex_lookup[yarrow_value]
+    print(hex.name)
+    print('\n')
+    print('Judgement:')
+    print('')
+    for line in hex.judgement:
+        print(line)
+    print('\n')
+    print('Image:')
+    print('')
+    for line in hex.image:
+        print(line)
 
 read_data('mad_bladder_2022_09_03', '8d')
