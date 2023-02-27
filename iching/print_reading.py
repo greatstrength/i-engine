@@ -1,5 +1,5 @@
-from models import *
-from constants import *
+from .models import *
+from .constants import *
 
 def print_lines(composite: list, is_changing: bool = False, next: list = None):
     if not is_changing:
@@ -43,24 +43,3 @@ def print_image(hex: Hexagram, is_changing: bool = False):
             line = '\t' + line
         print(line)
     print('\n')
-
-def print_changing_lines(composite: list, hex: Hexagram):
-    print('Changing Lines:\n')
-    for i in reversed(range(6)):
-        value = composite[i]
-        if value not in [6, 9]:
-            continue
-        elif value == 6:
-            value = 'Six'
-        else:
-            value = 'Nine'
-        line = str(6 - i)
-        changing_line: Hexagram.Line = hex.changing_lines[line]
-        
-        print('\t{} in {} is a {}:\n'.format(value, line, changing_line.type))
-        
-        for line in changing_line.text:
-            print('\t' + line)
-        print('')
-    print('')
-
