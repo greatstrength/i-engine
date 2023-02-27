@@ -2672,31 +2672,62 @@ preponderance_of_great:
 preponderance_of_the_small:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - The bird meets with misfortune through flying.
+      type: warning
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - She passes by her ancestor
+      - And meets her ancestress.
+      - He does not reach his prince
+      - And meets the official.
+      - No blame.
+      type: reminder
       yarrow_value: 6
     3:
-      text: null
-      type: null
+      text: 
+      - If one is not extremely careful, 
+      - Somebody may come up ferom behind and strike him.
+      - Misfortune.
+      type: warning
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - No blame. He meets him without passing by.
+      - Going brings danger. One must be on guard.
+      - Do not act. Be constantly perservering.
+      type: warning
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - Dense clouds,
+      - No rain from our western territory.
+      - The prince shoots and hits him who is in the cave.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - He passes him by, not meeting him.
+      - The flying bird leaves him.
+      - Misfortune.
+      - This means bad luck and injury.
+      type: warning
       yarrow_value: 6
-  image: null
-  judgement: null
+  image: 
+  - 'Thunder on the mountain:'
+  - The image of Preponderance of the Small.
+  - Thus in his conduct the superior man gives preponderance to reverance.
+  - In bereavement he gives preponderance to grief.
+  - In his expenditures he gives preponderance to thrift.
+  judgement: 
+  - Preponderance of the Small. Success.
+  - Perserverance furthers.
+  - Small things may be done; great things should not be done.
+  - 'The flying bird brings the message:
+  - It is not well to strive upward,'
+  - It is well to remain below.
+  - Great good fortune.
   name: Preponderance of the Small
   secondary_names: null
   wilhelm_index: 52
