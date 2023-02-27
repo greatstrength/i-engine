@@ -432,31 +432,59 @@ breakthrough:
 cauldron:
   changing_lines:
     1:
-      text: null
-      type: null
+      text: 
+      - A cauldron with legs upturned.
+      - Furthers removal of stagnating stuff.
+      - One takes a concubine for the sake of her son.
+      - No blame.
+      type: reminder
       yarrow_value: 6
     2:
-      text: null
-      type: null
+      text: 
+      - There is food in the cauldron.
+      - My comrades are envious,
+      - But they cannot harm me.
+      - Good fortune.
+      type: reminder
       yarrow_value: 9
     3:
-      text: null
-      type: null
+      text: 
+      - The handle of the cauldron is altered.
+      - One is impeded in his way of life.
+      - The fat of the pheasant is not eaten.
+      - One rain falls, remorse is spent.
+      - Good fortune comes in the end.
+      type: reminder
       yarrow_value: 9
     4:
-      text: null
-      type: null
+      text: 
+      - The legs of the cauldron are broken.
+      - The prince's meal is spilled.
+      - And his person is soiled.
+      - Misfortune.
+      type: warning
       yarrow_value: 9
     5:
-      text: null
-      type: null
+      text: 
+      - The cauldron has yellow handles, golden carrying rings.
+      - Perserverance furthers.
+      type: reminder
       yarrow_value: 6
     6:
-      text: null
-      type: null
+      text: 
+      - The cauldron has rings of jade.
+      - Great good fortune.
+      - Nothing that would not act to further.
+      type: reminder.
       yarrow_value: 9
-  image: null
-  judgement: null
+  image: 
+  - 'Fire over wood:'
+  - The image of The Cauldron.
+  - Thus the superior man consolidates his fate
+  - By making his position correct.
+  judgement: 
+  - The Cauldron. Supreme good fortune.
+  - Success
   name: The Cauldron
   secondary_names: null
   wilhelm_index: 50
