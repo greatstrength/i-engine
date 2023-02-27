@@ -1,5 +1,5 @@
-from models import *
 from constants import *
+from print import *
 
 
 def load_hexagrams():
@@ -43,69 +43,17 @@ def composite_to_composite_2d(composite):
         return (True, previous, next)
 
 
-def print_lines(composite: list, is_changing: bool = False, next: list = None):
-    if not is_changing:
-        for sum in composite:
-            print(YARROW_SUM_TO_LINES[sum])
-        print('')
-        return
-    line_format = '{}{}{}'
-    for i in range(6):
-        previous_line = YARROW_SUM_TO_LINES[composite[i]]
-        next_line = YARROW_SUM_TO_LINES[next[i]]
-        if i == 2:
-            middle = '     ---------\\     '
-        elif i == 3:
-            middle = '     ---------/     '
-        else:
-            middle = ' ' * 20
-        print(line_format.format(previous_line, middle, next_line))
-    print('')
 
-def print_judgement(hex: Hexagram, is_changing: bool = False):
-    title = 'Judgement:'
-    if is_changing:
-        title = '\t' + title
-    print(title)
-    print('')
-    for line in hex.judgement:
-        if is_changing:
-            line = '\t' + line
-        print(line)   
-    print('\n')
-
-def print_image(hex: Hexagram, is_changing: bool = False):
-    title = 'Image:'
-    if is_changing:
-        title = '\t' + title
-    print(title)
-    print('')
-    for line in hex.image:
-        if is_changing:
-            line = '\t' + line
-        print(line)
-    print('\n')
-
-def print_changing_lines(composite: list, hex: Hexagram):
-    print('Changing Lines:\n')
-    for i in reversed(range(6)):
-        value = composite[i]
-        if value not in [6, 9]:
-            continue
-        elif value == 6:
-            value = 'Six'
-        else:
-            value = 'Nine'
-        line = str(6 - i)
-        changing_line: Hexagram.Line = hex.changing_lines[line]
+          
+def read_test_data(test_data_name: str):
+    import yaml
+    with open('test/input_data.yml', 'r') as file:
+        data = yaml.safe_load(file)
+        try:
+            return [data.split(', ') for data in data[test_data_name]]
+        except:
+            raise Exception('No test data!, {}'.format(test_data_name))
         
-        print('\t{} in {} is a {}:\n'.format(value, line, changing_line.type))
-        
-        for line in changing_line.text:
-            print('\t' + line)
-        print('')
-    print('')
-
 def print_single_hexagram(composite):
     yarrow_value = ''.join([str(i) for i in composite])
     hex = hex_lookup[yarrow_value]
@@ -136,15 +84,6 @@ def print_changing_hexagran(composite: list, previous: list, next: list):
     print('Next:\n')
     print_judgement(next_hex, True)
     print_image(next_hex, True)
-          
-def read_test_data(test_data_name: str):
-    import yaml
-    with open('test/input_data.yml', 'r') as file:
-        data = yaml.safe_load(file)
-        try:
-            return [data.split(', ') for data in data[test_data_name]]
-        except:
-            raise Exception('No test data!, {}'.format(test_data_name))
 
 def read_data(test_data_name: str, transform_type: str = '2d'): 
     
