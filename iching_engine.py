@@ -15,7 +15,10 @@ for i in range(0, 18, 3):
     row = [input[i], input[i + 1], input[i + 2]]
     data.append(row)
 
-yarrow = input_to_yarrow(data, transform)
+if args.dimension == '49':
+    yarrow = input_to_yarrow_traditional(data, transform)
+else:
+    yarrow = input_to_yarrow(data, transform)
 composite = yarrow_to_composite(yarrow)
 is_changing, previous, next = composite_to_composite_2d(composite)
 

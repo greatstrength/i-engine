@@ -19,6 +19,35 @@ def input_to_yarrow(input_data: list, transform: dict = TWO_D_YARROW_TRANSFORM):
         y_transform.append((transform[H], transform[M], transform[E]))
     return y_transform
 
+def input_to_yarrow_traditional(input_data: list, transform: dict):
+    import math
+
+    def get_value(pile: int):
+        value = pile % 4
+        if value == 0:
+            value = 4
+        return value
+
+    y_transform = []
+    for row in input_data:
+        counter = 49
+        new_row = [1, 1, 1]
+        for i in range(len(row)):
+            split = int(row[i])
+            left = abs(counter - split)
+            if counter > split:
+                right = split - 1
+            else:
+                right = counter - left - 1
+            new_row[i] += get_value(left) + get_value(right)
+            counter -= new_row[i]
+        H, M, E = new_row
+        y_transform.append((transform[str(H)], transform[str(M)], transform[str(E)]))
+    return y_transform
+
+            
+
+
 def yarrow_to_composite(y_transform: list):
     composite = [sum(row) for row in y_transform]
     return composite
