@@ -1637,7 +1637,7 @@ grace:
   changing_lines:
     1:
       text: 
-      - He lends grae to his toes, leaves the carriage, and walks.
+      - He lends grace to his toes, leaves the carriage, and walks.
       type: reminder
       yarrow_value: 9
     2:
@@ -1661,7 +1661,7 @@ grace:
       yarrow_value: 6
     5:
       text: 
-      - Grae in hills and gardens.
+      - Grace in hills and gardens.
       - The roll of silk is meager and small.
       - Humiliation, but in the end good fortune.
       type: reminder
