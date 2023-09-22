@@ -1,0 +1,11 @@
+commands: {}
+domain:
+  entities: {}
+  factories: {}
+  modules: {}
+  repos: {}
+  value_objects: {}
+errors: {}
+features:
+  groups: {}
+interfaces: {}
