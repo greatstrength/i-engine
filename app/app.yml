@@ -8,4 +8,7 @@ domain:
 errors: {}
 features:
   groups: {}
-interfaces: {}
+interfaces:
+- cli_commands: null
+  mappers: null
+  type: cli
