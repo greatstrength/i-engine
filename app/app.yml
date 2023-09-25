@@ -9,4 +9,6 @@ errors: {}
 features:
   groups: {}
 interfaces:
-  types: {}
+  types:
+    cli:
+      name: null
