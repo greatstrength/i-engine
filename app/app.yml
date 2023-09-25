@@ -9,6 +9,4 @@ errors: {}
 features:
   groups: {}
 interfaces:
-- cli_commands: null
-  mappers: null
-  type: cli
+  types: {}
