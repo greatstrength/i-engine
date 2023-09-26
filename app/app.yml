@@ -11,4 +11,26 @@ features:
 interfaces:
   types:
     cli:
-      name: null
+      commands:
+        readings:
+          subcommands:
+            new:
+              arguments:
+              - choices:
+                - '2'
+                - '6'
+                - '8'
+                - '49'
+                help: reading dimensions
+                name_or_flags:
+                - --dimensions
+                - -d
+                required: true
+              - help: reading input
+                name_or_flags:
+                - --input
+                - -i
+                nargs: '18'
+                required: true
+              help: add new reading
+              name: Add New I-Ching Reading
