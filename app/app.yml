@@ -15,7 +15,13 @@ domain:
       properties: []
 errors: {}
 features:
-  groups: {}
+  groups: 
+    readings:
+      features:
+        new:
+          functions:
+          - data_mapping: add_new_reading
+            function_path: readings.add_new_reading
 interfaces:
   types:
     cli:
@@ -29,9 +35,9 @@ interfaces:
                 - '6'
                 - '8'
                 - '49'
-                help: reading dimensions
+                help: reading dimension
                 name_or_flags:
-                - --dimensions
+                - --dimension
                 - -d
                 required: true
               - help: reading input
