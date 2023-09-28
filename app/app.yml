@@ -4,7 +4,15 @@ domain:
   factories: {}
   modules: {}
   repos: {}
-  value_objects: {}
+  value_objects:
+    hexagram:
+      class_name: Hexagram
+      name: Hexagram
+      properties: []
+    result_line:
+      class_name: ResultLine
+      name: Result Line
+      properties: []
 errors: {}
 features:
   groups: {}
