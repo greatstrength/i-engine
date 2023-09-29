@@ -1,0 +1,51 @@
+commands: {}
+domain:
+  entities: {}
+  factories: {}
+  modules: {}
+  repos: {}
+  value_objects:
+    hexagram:
+      class_name: Hexagram
+      name: Hexagram
+      properties: []
+    result_line:
+      class_name: ResultLine
+      name: Result Line
+      properties: []
+errors: {}
+features:
+  groups: 
+    readings:
+      features:
+        new:
+          functions:
+          - data_mapping: add_new_reading
+            function_path: readings.add_new_reading
+interfaces:
+  types:
+    cli:
+      commands:
+        readings:
+          subcommands:
+            new:
+              arguments:
+              - choices:
+                - '2'
+                - '6'
+                - '8'
+                - '49'
+                help: reading dimension
+                name_or_flags:
+                - --dimension
+                - -d
+                required: true
+              - help: reading input
+                name_or_flags:
+                - --input
+                - -i
+                nargs: +
+                required: true
+              help: add new reading
+              name: Add New I-Ching Reading
+      parent_arguments: []

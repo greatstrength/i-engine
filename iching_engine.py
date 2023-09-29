@@ -1,29 +1,34 @@
-import argparse
+import os
+from app import interfaces as i
+from app import constants, ContainerConfiguration, __kabbalapp_version__
 
-from iching import *
+# Get args
+args = i.args
 
-parser = argparse.ArgumentParser('I-Ching Engine')
-parser.add_argument('-d', '--dimension', default='8')
-parser.add_argument('-i', '--input', nargs='+', required=True)
+# Pop env from args using default app env if not provided
+env = args.args.pop('env', constants.DEFAULT_APP_ENV)
 
-args = parser.parse_args()
-transform = get_yarrow_transform(args.dimension)
+# Pop verbose from args using false if not provided
+debug = args.args.pop('verbose', False)
 
-data = []
-input = args.input
-for i in range(0, 18, 3):
-    row = [input[i], input[i + 1], input[i + 2]]
-    data.append(row)
+# Preprocess
+os.environ[constants.APP_ENV] = env
 
-if args.dimension == '49':
-    yarrow = input_to_yarrow_traditional(data, transform)
-else:
-    yarrow = input_to_yarrow(data, transform)
-composite = yarrow_to_composite(yarrow)
-is_changing, previous, next = composite_to_composite_2d(composite)
+# Create builder
+builder = i.CliAppBuilder().create_new_app('kabbalapp')
 
-print('\n')
-if is_changing:
-    print_changing_hexagran(composite, previous, next)
-else:
-    print_single_hexagram(previous)
+# Set container configuration to builder
+container_config = ContainerConfiguration()
+builder.set_container_config(container_config)
+
+# Build app context.
+app_context: i.CliAppContext = builder.build()
+
+# Run app context.
+app_context.run(
+    command = args.command,
+    function = args.subcommand,
+    args=args.args, 
+    env=env,
+    debug=debug,
+    version=__kabbalapp_version__)

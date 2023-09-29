@@ -1,4 +1,4 @@
-from schematics import types as t, Model
+from .value_objects import *
 
 class Trigram(Model):
     id = t.StringType()
