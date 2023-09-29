@@ -72,3 +72,4 @@ interfaces:
                 - name
               help: add new reading
               name: Add New I-Ching Reading
+      parent_arguments: []
