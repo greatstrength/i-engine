@@ -5,6 +5,7 @@ def handle(context: MessageContext):
     from ...constants import TWO_D_YARROW_TRANSFORM, TRANSFORM, YARROW_SUM_TO_LINES
 
     # Unpack request
+    name = context.data.name
     dimension = context.data.dimension
     input = context.data.input
 
@@ -181,6 +182,8 @@ def handle(context: MessageContext):
         yarrow = input_to_yarrow(data, transform)
     composite = yarrow_to_composite(yarrow)
     is_changing, previous, next = composite_to_composite_2d(composite)
+
+    def save_reading_result()
 
     print('\n')
     if is_changing:
