@@ -44,7 +44,7 @@ interfaces:
                 name_or_flags:
                 - --input
                 - -i
-                nargs: 18
+                nargs: +
                 required: true
               help: add new reading
               name: Add New I-Ching Reading

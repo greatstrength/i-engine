@@ -41,8 +41,6 @@ for command_name, command in cli_interface.commands.items():
         for argument in cli_interface.parent_arguments:
             subcommand_subparser.add_argument(*argument.name_or_flags, **argument.to_primitive('add_argument'))
 
-print(sys.argv)
-
 # Parse arguments.
 args = parser.parse_args()
 command = sys.argv[1].replace('-', '_')
