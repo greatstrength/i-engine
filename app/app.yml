@@ -12,10 +12,31 @@ domain:
     result_line:
       class_name: ResultLine
       name: Result Line
-      properties: []
+      properties:
+      - description: the hexagram line position for the reading result
+        name: position
+        required: true
+        type: int
+      - name: heaven_line
+        required: true
+        type: int
+      - name: man_line
+        required: true
+        type: int
+      - name: earth_line
+        required: true
+        type: int
+      - choices:
+        - '6'
+        - '7'
+        - '8'
+        - '9'
+        name: line_value
+        required: true
+        type: int
 errors: {}
 features:
-  groups: 
+  groups:
     readings:
       features:
         new:
