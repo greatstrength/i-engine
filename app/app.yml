@@ -67,6 +67,9 @@ interfaces:
                 - -i
                 nargs: +
                 required: true
+              - help: name of the reading
+                name_or_flags:
+                - name
               help: add new reading
               name: Add New I-Ching Reading
       parent_arguments: []

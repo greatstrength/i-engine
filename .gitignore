@@ -134,3 +134,6 @@ dmypy.json
 
 # ngrok
 ngrok
+
+# Local readings files
+readings.yml

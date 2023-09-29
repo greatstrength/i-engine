@@ -5,6 +5,7 @@ def handle(context: MessageContext):
     from ...constants import TWO_D_YARROW_TRANSFORM, TRANSFORM, YARROW_SUM_TO_LINES
 
     # Unpack request
+    name = context.data.name
     dimension = context.data.dimension
     input = context.data.input
 
@@ -74,9 +75,12 @@ def handle(context: MessageContext):
         
     hex_lookup = load_hexagrams()
 
+    def get_hexagram_value(composite: list):
+        value = ''.join([str(i) for i in composite])
+        return hex_lookup[value]
+
     def print_single_hexagram(composite):
-        yarrow_value = ''.join([str(i) for i in composite])
-        hex = hex_lookup[yarrow_value]
+        hex = get_hexagram_value(composite)
 
         print('{}. {}'.format(hex.wilhelm_index, hex.name))
         print('')
@@ -85,11 +89,8 @@ def handle(context: MessageContext):
         print_image(hex)
 
     def print_changing_hexagran(composite: list, previous: list, next: list):
-        previous_value = ''.join([str(i) for i in previous])
-        previous_hex = hex_lookup[previous_value]
-
-        next_value = ''.join([str(i) for i in next])
-        next_hex = hex_lookup[next_value]
+        previous_hex = get_hexagram_value(previous)
+        next_hex = get_hexagram_value(next)
 
         print('{}. {} -> {}. {}'.format(previous_hex.wilhelm_index, previous_hex.name, next_hex.wilhelm_index, next_hex.name))
         print('')
@@ -181,6 +182,53 @@ def handle(context: MessageContext):
         yarrow = input_to_yarrow(data, transform)
     composite = yarrow_to_composite(yarrow)
     is_changing, previous, next = composite_to_composite_2d(composite)
+
+    def save_reading_result():
+        import yaml
+        with open('readings.yml', 'r') as f:
+            readings = yaml.safe_load(f)
+            if readings is None:
+                readings = {}
+
+        # Format data
+        position = 6
+        input_data = []
+        for i in range(0, 18, 3):
+            print(i)
+            input_data.append(dict(
+                position=position,
+                heaven=input[i],
+                man=input[i + 1],
+                earth=input[i + 2],
+                result=composite[0 if i == 0 else int(i/3)]
+            ))
+            position -= 1
+            
+        previous_hex = get_hexagram_value(previous)
+        previous_hex_data = dict(
+            name=previous_hex.name,
+            wilhelm_index=previous_hex.wilhelm_index,
+        )
+        if next:
+            next_hex = get_hexagram_value(next)
+            next_hex_data = dict(
+                name=next_hex.name,
+                wilhelm_index=next_hex.wilhelm_index,
+            )
+        else:
+            next_hex_data = None
+
+        readings[name] = dict(
+            dimension=dimension,
+            input=input_data,
+            previous=previous_hex_data,
+            next=next_hex_data
+        )
+
+        with open('readings.yml', 'w') as f:
+            yaml.dump(readings, f)
+
+    save_reading_result()
 
     print('\n')
     if is_changing:
