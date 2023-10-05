@@ -3,7 +3,9 @@ from .constants import *
 
 
 class HexagramLine(ValueObject):
-	pass
+	text = t.ListType(t.StringType())
+	type = t.StringType(choices=['reminder', 'warning'])
+	yarrow_value = t.IntType(choices=[6, 9])
 
 
 class Hexagram(ValueObject):

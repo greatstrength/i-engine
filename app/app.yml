@@ -11,7 +11,7 @@ domain:
         module: null
       name: Hexagram
       properties:
-      - description: "the name of the hexagram"
+      - description: the name of the hexagram
         name: name
         required: true
         type: str
@@ -48,8 +48,26 @@ domain:
       class_name: HexagramLine
       dependencies: []
       name: Hexagram Line
-      properties: []
-      test: null
+      properties:
+      - description: the translated changing line text
+        inner_type: str
+        name: text
+        required: false
+        type: list
+      - choices:
+        - reminder
+        - warning
+        description: the changing line type
+        name: type
+        required: false
+        type: str
+      - choices:
+        - '6'
+        - '9'
+        description: the yarrow value of the changing line
+        name: yarrow_value
+        required: false
+        type: int
       type: value_object
     result_line:
       class_name: ResultLine
