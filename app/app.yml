@@ -5,7 +5,7 @@ domain:
   models:
     hexagram:
       class_name: Hexagram
-      dependencies: null
+      dependencies: []
       name: Hexagram
       properties:
       - description: "the name of the hexagram\xDF"
@@ -37,12 +37,14 @@ domain:
       type: value_object
     hexagram_line:
       class_name: HexagramLine
+      dependencies: []
       name: Hexagram Line
       properties: []
       test: null
       type: value_object
     result_line:
       class_name: ResultLine
+      dependencies: []
       name: Result Line
       properties:
       - description: the hexagram line position for the reading result
