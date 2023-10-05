@@ -1,14 +1,16 @@
-from typing import List
-from schematics import types as t, Model
-from schematics.transforms import blacklist, whitelist
-from schematics.types.serializable import serializable
+from ..core.domain import *
+from .constants import *
 
 
-class Hexagram(Model):
+class Hexagram(ValueObject):
 	pass
 
 
-class ResultLine(Model):
+class HexagramLine(ValueObject):
+	pass
+
+
+class ResultLine(ValueObject):
 	position = t.IntType(required=True)
 	heaven_line = t.IntType(required=True)
 	man_line = t.IntType(required=True)

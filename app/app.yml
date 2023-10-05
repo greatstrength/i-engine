@@ -2,13 +2,18 @@ commands: {}
 domain:
   entities: {}
   factories: {}
-  modules: {}
-  repos: {}
-  value_objects:
+  models:
     hexagram:
       class_name: Hexagram
       name: Hexagram
       properties: []
+      type: value_object
+    hexagram_line:
+      class_name: HexagramLine
+      name: Hexagram Line
+      properties: []
+      test: null
+      type: value_object
     result_line:
       class_name: ResultLine
       name: Result Line
@@ -34,6 +39,9 @@ domain:
         name: line_value
         required: true
         type: int
+      type: value_object
+  modules: {}
+  repos: {}
 errors: {}
 features:
   groups:
