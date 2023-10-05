@@ -1,4 +1,4 @@
-from .value_objects import *
+from .models import *
 
 class Trigram(Model):
     id = t.StringType()
