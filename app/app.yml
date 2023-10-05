@@ -7,10 +7,14 @@ domain:
       class_name: Hexagram
       name: Hexagram
       properties:
-      - name: name
-        description: the name of the hexagramß
+      - description: "the name of the hexagram\xDF"
+        name: name
         required: true
         type: str
+      - inner_type: str
+        name: secondary_names
+        required: false
+        type: list
       type: value_object
     hexagram_line:
       class_name: HexagramLine

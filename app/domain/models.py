@@ -4,6 +4,7 @@ from .constants import *
 
 class Hexagram(ValueObject):
 	name = t.StringType(required=True)
+	secondary_names = t.ListType(t.StringType())
 
 
 class HexagramLine(ValueObject):
