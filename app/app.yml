@@ -20,6 +20,10 @@ domain:
         name: wilhelm_index
         required: true
         type: int
+      - description: the yarrow-based unique identifier of the hexagram
+        name: yarrow_value
+        required: true
+        type: str
       type: value_object
     hexagram_line:
       class_name: HexagramLine
