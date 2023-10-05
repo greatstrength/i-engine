@@ -6,6 +6,7 @@ class HexagramLine(ValueObject):
 	text = t.ListType(t.StringType())
 	type = t.StringType(choices=['reminder', 'warning'])
 	yarrow_value = t.IntType(choices=[6, 9])
+	line_number = t.IntType(choices=[1, 2, 3, 4, 5, 6])
 
 
 class Hexagram(ValueObject):
