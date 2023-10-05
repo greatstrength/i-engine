@@ -135,8 +135,8 @@ def handle(context: MessageContext):
                 value = 'Six'
             else:
                 value = 'Nine'
-            line = str(6 - i)
-            changing_line: Hexagram.Line = hex.changing_lines[line]
+            line = 6 - i
+            changing_line: HexagramLine = hex.changing_lines[line - 1]
             
             print('\t{} in {} is a {}:\n'.format(value, line, changing_line.type))
             
