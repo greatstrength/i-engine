@@ -2,15 +2,87 @@ commands: {}
 domain:
   entities: {}
   factories: {}
-  modules: {}
-  repos: {}
-  value_objects:
+  models:
     hexagram:
       class_name: Hexagram
+      dependencies:
+      - class_name: HexagramLine
+        model_id: hexagram_line
+        module: null
       name: Hexagram
-      properties: []
+      properties:
+      - description: the name of the hexagram
+        name: name
+        required: true
+        type: str
+      - inner_type: str
+        name: secondary_names
+        required: false
+        type: list
+      - description: traditional order numbering of the hexagram
+        name: wilhelm_index
+        required: true
+        type: int
+      - description: the yarrow-based unique identifier of the hexagram
+        name: yarrow_value
+        required: true
+        type: str
+      - description: the translated judgement of the hexagram
+        inner_type: str
+        name: judgement
+        required: false
+        type: list
+      - description: the translated image of the hexagram
+        inner_type: str
+        name: image
+        required: false
+        type: list
+      - description: the changing lines in the hexagram
+        inner_type: value_object
+        inner_type_model_id: hexagram_line
+        name: changing_lines
+        required: false
+        type: list
+      type: value_object
+    hexagram_line:
+      class_name: HexagramLine
+      dependencies: []
+      name: Hexagram Line
+      properties:
+      - description: the translated changing line text
+        inner_type: str
+        name: text
+        required: false
+        type: list
+      - choices:
+        - reminder
+        - warning
+        description: the changing line type
+        name: type
+        required: false
+        type: str
+      - choices:
+        - '6'
+        - '9'
+        description: the yarrow value of the changing line
+        name: yarrow_value
+        required: false
+        type: int
+      - choices:
+        - '1'
+        - '2'
+        - '3'
+        - '4'
+        - '5'
+        - '6'
+        description: the number order the changing line
+        name: line_number
+        required: false
+        type: int
+      type: value_object
     result_line:
       class_name: ResultLine
+      dependencies: []
       name: Result Line
       properties:
       - description: the hexagram line position for the reading result
@@ -34,20 +106,23 @@ domain:
         name: line_value
         required: true
         type: int
+      type: value_object
+  modules: {}
+  repos: {}
 errors: {}
 features:
   groups:
-    readings:
+    reading:
       features:
         new:
           functions:
           - data_mapping: add_new_reading
-            function_path: readings.add_new_reading
+            function_path: reading.add_new_reading
 interfaces:
   types:
     cli:
       commands:
-        readings:
+        reading:
           subcommands:
             new:
               arguments:

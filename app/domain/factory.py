@@ -1,3 +1,2 @@
-from .value_objects import *
-from .entities import *
+from .models import *
 from .modules import *
