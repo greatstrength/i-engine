@@ -843,7 +843,7 @@ creative:
       yarrow_value: 9
     2:
       text:
-      - Dragon appearingin the field.
+      - Dragon appearing in the field.
       - It furthers one to see the great man.
       type: reminder
       yarrow_value: 9
@@ -868,7 +868,7 @@ creative:
       yarrow_value: 9
     6:
       text:
-      - Arrogant dragin will have cause to repent.
+      - Arrogant dragon will have cause to repent.
       type: warning
       yarrow_value: 9
   image:
