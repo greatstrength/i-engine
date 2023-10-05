@@ -6,7 +6,11 @@ domain:
     hexagram:
       class_name: Hexagram
       name: Hexagram
-      properties: []
+      properties:
+      - name: name
+        description: the name of the hexagramß
+        required: true
+        type: str
       type: value_object
     hexagram_line:
       class_name: HexagramLine

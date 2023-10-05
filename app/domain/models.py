@@ -3,7 +3,7 @@ from .constants import *
 
 
 class Hexagram(ValueObject):
-	pass
+	name = t.StringType(required=True)
 
 
 class HexagramLine(ValueObject):
