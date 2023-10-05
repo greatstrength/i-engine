@@ -7,6 +7,8 @@ class Hexagram(ValueObject):
 	secondary_names = t.ListType(t.StringType())
 	wilhelm_index = t.IntType(required=True)
 	yarrow_value = t.StringType(required=True)
+	judgement = t.ListType(t.StringType())
+	image = t.ListType(t.StringType())
 
 
 class ResultLine(ValueObject):

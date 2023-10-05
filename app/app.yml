@@ -24,6 +24,16 @@ domain:
         name: yarrow_value
         required: true
         type: str
+      - description: the translated judgement of the hexagram
+        inner_type: str
+        name: judgement
+        required: false
+        type: list
+      - description: the translated image of the hexagram
+        inner_type: str
+        name: image
+        required: false
+        type: list
       type: value_object
     hexagram_line:
       class_name: HexagramLine
