@@ -37,17 +37,17 @@ domain:
 errors: {}
 features:
   groups:
-    readings:
+    reading:
       features:
         new:
           functions:
           - data_mapping: add_new_reading
-            function_path: readings.add_new_reading
+            function_path: reading.add_new_reading
 interfaces:
   types:
     cli:
       commands:
-        readings:
+        reading:
           subcommands:
             new:
               arguments:
