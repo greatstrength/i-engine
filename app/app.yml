@@ -5,6 +5,7 @@ domain:
   models:
     hexagram:
       class_name: Hexagram
+      dependencies: null
       name: Hexagram
       properties:
       - description: "the name of the hexagram\xDF"
@@ -15,6 +16,10 @@ domain:
         name: secondary_names
         required: false
         type: list
+      - description: traditional order numbering of the hexagram
+        name: wilhelm_index
+        required: true
+        type: int
       type: value_object
     hexagram_line:
       class_name: HexagramLine
