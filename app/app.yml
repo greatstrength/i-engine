@@ -5,10 +5,13 @@ domain:
   models:
     hexagram:
       class_name: Hexagram
-      dependencies: []
+      dependencies:
+      - class_name: HexagramLine
+        model_id: hexagram_line
+        module: null
       name: Hexagram
       properties:
-      - description: "the name of the hexagram\xDF"
+      - description: "the name of the hexagram"
         name: name
         required: true
         type: str
@@ -32,6 +35,12 @@ domain:
       - description: the translated image of the hexagram
         inner_type: str
         name: image
+        required: false
+        type: list
+      - description: the changing lines in the hexagram
+        inner_type: value_object
+        inner_type_model_id: hexagram_line
+        name: changing_lines
         required: false
         type: list
       type: value_object
