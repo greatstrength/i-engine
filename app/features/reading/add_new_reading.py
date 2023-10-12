@@ -220,7 +220,7 @@ def handle(context: MessageContext):
 
         readings[name] = dict(
             dimension=dimension,
-            input=input_data,
+            result_lines=input_data,
             previous=previous_hex_data,
             next=next_hex_data
         )
