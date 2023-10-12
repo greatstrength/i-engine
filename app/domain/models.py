@@ -45,3 +45,4 @@ class ReadingResult(Entity):
     date = t.DateType(required=True)
     result_lines = t.ListType(t.ModelType(ResultLine))
     previous_or_current = t.ModelType(HexagramResult)
+    next = t.ModelType(HexagramResult)

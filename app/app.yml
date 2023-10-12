@@ -153,6 +153,10 @@ domain:
         inner_type: hexagram_result
         name: previous_or_current
         type: model
+      - description: the next hexagram result
+        inner_type: hexagram_result
+        name: next
+        type: model
       type: entity
     result_line:
       class_name: ResultLine
