@@ -10,15 +10,6 @@ class HexagramLine(ValueObject):
     line_number = t.IntType(choices=[1, 2, 3, 4, 5, 6])
 
 
-class ReadingResult(Entity):
-
-    name = t.StringType(required=True)
-    dimension = t.StringType(required=True, choices=['2', '6', '8', '49'])
-    frequency = t.StringType(default='daily', choices=['daily', 'weekly', 'morning', 'afternoon', 'evening'])
-    type = t.StringType(default='general', choices=['general', 'elemental', 'cardinal'])
-    date = t.DateType(required=True)
-
-
 class Hexagram(ValueObject):
 
     name = t.StringType(required=True)
@@ -37,3 +28,13 @@ class ResultLine(ValueObject):
     man_line = t.IntType(required=True)
     earth_line = t.IntType(required=True)
     line_value = t.IntType(required=True, choices=[6, 7, 8, 9])
+
+
+class ReadingResult(Entity):
+
+    name = t.StringType(required=True)
+    dimension = t.StringType(required=True, choices=['2', '6', '8', '49'])
+    frequency = t.StringType(default='daily', choices=['daily', 'weekly', 'morning', 'afternoon', 'evening'])
+    type = t.StringType(default='general', choices=['general', 'elemental', 'cardinal'])
+    date = t.DateType(required=True)
+    result_lines = t.ListType(t.ModelType(ResultLine))

@@ -83,7 +83,11 @@ domain:
     reading_result:
       base_type_model_id: null
       class_name: ReadingResult
-      dependencies: []
+      dependencies:
+      - class_name: ResultLine
+        dependency_type: property
+        model_id: result_line
+        module: null
       name: Reading Result
       properties:
       - description: name of the I-Ching reading
@@ -121,6 +125,11 @@ domain:
         name: date
         required: true
         type: date
+      - description: the input lines of reading
+        inner_type: value_object
+        inner_type_model_id: result_line
+        name: result_lines
+        type: list
       type: entity
     result_line:
       class_name: ResultLine
