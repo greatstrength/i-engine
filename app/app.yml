@@ -80,6 +80,13 @@ domain:
         required: false
         type: int
       type: value_object
+    reading_result:
+      base_type_model_id: null
+      class_name: ReadingResult
+      dependencies: []
+      name: Reading Result
+      properties: []
+      type: entity
     result_line:
       class_name: ResultLine
       dependencies: []
