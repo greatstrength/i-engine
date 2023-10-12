@@ -103,6 +103,10 @@ domain:
         dependency_type: property
         model_id: result_line
         module: null
+      - class_name: HexagramResult
+        dependency_type: property
+        model_id: hexagram_result
+        module: null
       name: Reading Result
       properties:
       - description: name of the I-Ching reading
@@ -145,6 +149,10 @@ domain:
         inner_type_model_id: result_line
         name: result_lines
         type: list
+      - description: the previous or current hexagram result
+        inner_type: hexagram_result
+        name: previous_or_current
+        type: model
       type: entity
     result_line:
       class_name: ResultLine
