@@ -141,7 +141,7 @@ domain:
         required: true
         type: date
       - description: the input lines of reading
-        inner_type: value_object
+        inner_type: model
         inner_type_model_id: result_line
         name: result_lines
         type: list
