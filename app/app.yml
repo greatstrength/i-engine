@@ -80,6 +80,21 @@ domain:
         required: false
         type: int
       type: value_object
+    hexagram_result:
+      base_type_model_id: null
+      class_name: HexagramResult
+      dependencies: []
+      name: Hexagram Result
+      properties:
+      - description: name of the resulting hexagram
+        name: name
+        required: true
+        type: str
+      - description: number of the resulting hexagram
+        name: wilhelm_index
+        required: true
+        type: int
+      type: value_object
     reading_result:
       base_type_model_id: null
       class_name: ReadingResult

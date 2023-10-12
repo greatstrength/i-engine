@@ -10,6 +10,15 @@ class HexagramLine(ValueObject):
     line_number = t.IntType(choices=[1, 2, 3, 4, 5, 6])
 
 
+class ResultLine(ValueObject):
+
+    position = t.IntType(required=True)
+    heaven_line = t.IntType(required=True)
+    man_line = t.IntType(required=True)
+    earth_line = t.IntType(required=True)
+    line_value = t.IntType(required=True, choices=[6, 7, 8, 9])
+
+
 class Hexagram(ValueObject):
 
     name = t.StringType(required=True)
@@ -21,13 +30,10 @@ class Hexagram(ValueObject):
     changing_lines = t.ListType(t.ModelType(HexagramLine))
 
 
-class ResultLine(ValueObject):
+class HexagramResult(ValueObject):
 
-    position = t.IntType(required=True)
-    heaven_line = t.IntType(required=True)
-    man_line = t.IntType(required=True)
-    earth_line = t.IntType(required=True)
-    line_value = t.IntType(required=True, choices=[6, 7, 8, 9])
+    name = t.StringType(required=True)
+    wilhelm_index = t.IntType(required=True)
 
 
 class ReadingResult(Entity):
