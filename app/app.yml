@@ -90,6 +90,37 @@ domain:
         name: name
         required: true
         type: str
+      - choices:
+        - '2'
+        - '6'
+        - '8'
+        - '49'
+        description: dimension number for result line calculation
+        name: dimension
+        required: true
+        type: str
+      - choices:
+        - daily
+        - weekly
+        - morning
+        - afternoon
+        - evening
+        default: daily
+        description: the periodic frequency that applies to the reading result
+        name: frequency
+        type: str
+      - choices:
+        - general
+        - elemental
+        - cardinal
+        default: general
+        description: the type of reading
+        name: type
+        type: str
+      - description: the date of reading
+        name: date
+        required: true
+        type: date
       type: entity
     result_line:
       class_name: ResultLine

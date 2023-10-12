@@ -13,6 +13,10 @@ class HexagramLine(ValueObject):
 class ReadingResult(Entity):
 
     name = t.StringType(required=True)
+    dimension = t.StringType(required=True, choices=['2', '6', '8', '49'])
+    frequency = t.StringType(default='daily', choices=['daily', 'weekly', 'morning', 'afternoon', 'evening'])
+    type = t.StringType(default='general', choices=['general', 'elemental', 'cardinal'])
+    date = t.DateType(required=True)
 
 
 class Hexagram(ValueObject):
