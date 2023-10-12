@@ -11,7 +11,8 @@ class HexagramLine(ValueObject):
 
 
 class ReadingResult(Entity):
-    pass
+
+    name = t.StringType(required=True)
 
 
 class Hexagram(ValueObject):

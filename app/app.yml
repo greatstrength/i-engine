@@ -85,7 +85,11 @@ domain:
       class_name: ReadingResult
       dependencies: []
       name: Reading Result
-      properties: []
+      properties:
+      - description: name of the I-Ching reading
+        name: name
+        required: true
+        type: str
       type: entity
     result_line:
       class_name: ResultLine
