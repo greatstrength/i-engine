@@ -7,6 +7,8 @@ def handle(context: MessageContext):
 
     # Unpack request
     name = context.data.name
+    reading_date = context.data.date
+    frequency = context.data.frequency
     dimension = context.data.dimension
     input = context.data.input
 
@@ -170,7 +172,7 @@ def handle(context: MessageContext):
             print(line)
         print('\n')
 
-    def create_reading_result(name, composite, previous, next, date: date = None) -> ReadingResult:
+    def create_reading_result(name, composite, previous, next, reading_date: date = None) -> ReadingResult:
         # Format data
         position = 6
         input_data = []
@@ -200,13 +202,13 @@ def handle(context: MessageContext):
             next_hex_data = None
 
         # Set date to today if not provided
-        if not date:
-            date = datetime.now().date()
+        if not reading_date:
+            reading_date = datetime.now().date()
 
         return ReadingResult(dict(
             id=name,
             name=name,
-            date=datetime.strftime(date, '%Y-%m-%d'),
+            date=datetime.strftime(reading_date, '%Y-%m-%d'),
             dimension=dimension,
             result_lines=input_data,
             current_or_previous=previous_hex_data,
