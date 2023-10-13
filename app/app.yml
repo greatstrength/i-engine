@@ -151,7 +151,7 @@ domain:
         type: list
       - description: the previous or current hexagram result
         inner_type: hexagram_result
-        name: previous_or_current
+        name: current_or_previous
         type: model
       - description: the next hexagram result
         inner_type: hexagram_result

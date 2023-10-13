@@ -27,7 +27,7 @@ class Hexagram(ValueObject):
     yarrow_value = t.StringType(required=True)
     judgement = t.ListType(t.StringType())
     image = t.ListType(t.StringType())
-    changing_lines = t.ListType(t.NoneType())
+    changing_lines = t.ListType(t.ModelType(HexagramLine))
 
 
 class HexagramResult(ValueObject):
@@ -44,5 +44,5 @@ class ReadingResult(Entity):
     type = t.StringType(default='general', choices=['general', 'elemental', 'cardinal'])
     date = t.DateType(required=True)
     result_lines = t.ListType(t.ModelType(ResultLine))
-    previous_or_current = t.ModelType(HexagramResult)
+    current_or_previous = t.ModelType(HexagramResult)
     next = t.ModelType(HexagramResult)
