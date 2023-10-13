@@ -38,7 +38,7 @@ domain:
         required: false
         type: list
       - description: the changing lines in the hexagram
-        inner_type: value_object
+        inner_type: model
         inner_type_model_id: hexagram_line
         name: changing_lines
         required: false
