@@ -2,6 +2,7 @@ from ...core import *
 from ...domain import *
 
 def handle(context: MessageContext):
+    from datetime import datetime, date
     from ...constants import TWO_D_YARROW_TRANSFORM, TRANSFORM, YARROW_SUM_TO_LINES
 
     # Unpack request
@@ -169,7 +170,7 @@ def handle(context: MessageContext):
             print(line)
         print('\n')
 
-    def create_reading_result(composite, previous, next) -> ReadingResult:
+    def create_reading_result(name, composite, previous, next, date: date = None) -> ReadingResult:
         # Format data
         position = 6
         input_data = []
@@ -198,7 +199,14 @@ def handle(context: MessageContext):
         else:
             next_hex_data = None
 
+        # Set date to today if not provided
+        if not date:
+            date = datetime.now().date()
+
         return ReadingResult(dict(
+            id=name,
+            name=name,
+            date=datetime.strftime(date, '%Y-%m-%d'),
             dimension=dimension,
             result_lines=input_data,
             current_or_previous=previous_hex_data,
@@ -213,7 +221,7 @@ def handle(context: MessageContext):
             if readings is None:
                 readings = {}
             reading_data = reading_result.to_primitive()
-            key = reading_data.pop('name')
+            key = reading_data.pop('id')
             readings[key] = reading_data
 
         with open('readings.yml', 'w') as f:
@@ -233,7 +241,7 @@ def handle(context: MessageContext):
     composite = yarrow_to_composite(yarrow)
     is_changing, previous, next = composite_to_composite_2d(composite)
 
-    reading_result = create_reading_result(composite, previous, next)
+    reading_result = create_reading_result(name, composite, previous, next)
 
     save_reading_result(reading_result)
 
