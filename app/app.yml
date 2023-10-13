@@ -38,7 +38,7 @@ domain:
         required: false
         type: list
       - description: the changing lines in the hexagram
-        inner_type: value_object
+        inner_type: model
         inner_type_model_id: hexagram_line
         name: changing_lines
         required: false
@@ -80,6 +80,84 @@ domain:
         required: false
         type: int
       type: value_object
+    hexagram_result:
+      base_type_model_id: null
+      class_name: HexagramResult
+      dependencies: []
+      name: Hexagram Result
+      properties:
+      - description: name of the resulting hexagram
+        name: name
+        required: true
+        type: str
+      - description: number of the resulting hexagram
+        name: wilhelm_index
+        required: true
+        type: int
+      type: value_object
+    reading_result:
+      base_type_model_id: null
+      class_name: ReadingResult
+      dependencies:
+      - class_name: ResultLine
+        dependency_type: property
+        model_id: result_line
+        module: null
+      - class_name: HexagramResult
+        dependency_type: property
+        model_id: hexagram_result
+        module: null
+      name: Reading Result
+      properties:
+      - description: name of the I-Ching reading
+        name: name
+        required: true
+        type: str
+      - choices:
+        - '2'
+        - '6'
+        - '8'
+        - '49'
+        description: dimension number for result line calculation
+        name: dimension
+        required: true
+        type: str
+      - choices:
+        - daily
+        - weekly
+        - morning
+        - afternoon
+        - evening
+        default: daily
+        description: the periodic frequency that applies to the reading result
+        name: frequency
+        type: str
+      - choices:
+        - general
+        - elemental
+        - cardinal
+        default: general
+        description: the type of reading
+        name: type
+        type: str
+      - description: the date of reading
+        name: date
+        required: true
+        type: date
+      - description: the input lines of reading
+        inner_type: model
+        inner_type_model_id: result_line
+        name: result_lines
+        type: list
+      - description: the previous or current hexagram result
+        inner_type: hexagram_result
+        name: current_or_previous
+        type: model
+      - description: the next hexagram result
+        inner_type: hexagram_result
+        name: next
+        type: model
+      type: entity
     result_line:
       class_name: ResultLine
       dependencies: []
@@ -145,6 +223,30 @@ interfaces:
               - help: name of the reading
                 name_or_flags:
                 - name
+              - help: date of reading (defaults to today)
+                name_or_flags:
+                - --date
+                type: str
+              - choices:
+                - daily
+                - weekly
+                - morning
+                - afternoon
+                - evening
+                default: daily
+                help: time period of reading
+                name_or_flags:
+                - --frequency
+                type: str
+              - choices:
+                - general
+                - elemental
+                - cardinal
+                default: general
+                help: type of reading
+                name_or_flags:
+                - --type
+                type: str
               help: add new reading
               name: Add New I-Ching Reading
       parent_arguments: []

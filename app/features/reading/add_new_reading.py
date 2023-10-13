@@ -2,10 +2,13 @@ from ...core import *
 from ...domain import *
 
 def handle(context: MessageContext):
+    from datetime import datetime, date
     from ...constants import TWO_D_YARROW_TRANSFORM, TRANSFORM, YARROW_SUM_TO_LINES
 
     # Unpack request
     name = context.data.name
+    reading_date = context.data.date
+    frequency = context.data.frequency
     dimension = context.data.dimension
     input = context.data.input
 
@@ -75,7 +78,7 @@ def handle(context: MessageContext):
         
     hex_lookup = load_hexagrams()
 
-    def get_hexagram_value(composite: list):
+    def get_hexagram_value(composite: list) -> Hexagram:
         value = ''.join([str(i) for i in composite])
         return hex_lookup[value]
 
@@ -169,27 +172,7 @@ def handle(context: MessageContext):
             print(line)
         print('\n')
 
-    transform = get_yarrow_transform(dimension)
-
-    data = []
-    for i in range(0, 18, 3):
-        row = [input[i], input[i + 1], input[i + 2]]
-        data.append(row)
-
-    if dimension == '49':
-        yarrow = input_to_yarrow_traditional(data, transform)
-    else:
-        yarrow = input_to_yarrow(data, transform)
-    composite = yarrow_to_composite(yarrow)
-    is_changing, previous, next = composite_to_composite_2d(composite)
-
-    def save_reading_result():
-        import yaml
-        with open('readings.yml', 'r') as f:
-            readings = yaml.safe_load(f)
-            if readings is None:
-                readings = {}
-
+    def create_reading_result(name, composite, previous, next, reading_date: date = None) -> ReadingResult:
         # Format data
         position = 6
         input_data = []
@@ -197,10 +180,10 @@ def handle(context: MessageContext):
             print(i)
             input_data.append(dict(
                 position=position,
-                heaven=input[i],
-                man=input[i + 1],
-                earth=input[i + 2],
-                result=composite[0 if i == 0 else int(i/3)]
+                heaven_line=input[i],
+                man_line=input[i + 1],
+                earth_line=input[i + 2],
+                line_value=composite[0 if i == 0 else int(i/3)]
             ))
             position -= 1
             
@@ -218,17 +201,51 @@ def handle(context: MessageContext):
         else:
             next_hex_data = None
 
-        readings[name] = dict(
+        # Set date to today if not provided
+        if not reading_date:
+            reading_date = datetime.now().date()
+
+        return ReadingResult(dict(
+            id=name,
+            name=name,
+            date=datetime.strftime(reading_date, '%Y-%m-%d'),
             dimension=dimension,
-            input=input_data,
-            previous=previous_hex_data,
+            result_lines=input_data,
+            current_or_previous=previous_hex_data,
             next=next_hex_data
-        )
+        ))
+
+    def save_reading_result(reading_result: ReadingResult):
+        import yaml
+
+        with open('readings.yml', 'r') as f:
+            readings = yaml.safe_load(f)
+            if readings is None:
+                readings = {}
+            reading_data = reading_result.to_primitive()
+            key = reading_data.pop('id')
+            readings[key] = reading_data
 
         with open('readings.yml', 'w') as f:
             yaml.dump(readings, f)
+    
+    transform = get_yarrow_transform(dimension)
 
-    save_reading_result()
+    data = []
+    for i in range(0, 18, 3):
+        row = [input[i], input[i + 1], input[i + 2]]
+        data.append(row)
+
+    if dimension == '49':
+        yarrow = input_to_yarrow_traditional(data, transform)
+    else:
+        yarrow = input_to_yarrow(data, transform)
+    composite = yarrow_to_composite(yarrow)
+    is_changing, previous, next = composite_to_composite_2d(composite)
+
+    reading_result = create_reading_result(name, composite, previous, next)
+
+    save_reading_result(reading_result)
 
     print('\n')
     if is_changing:

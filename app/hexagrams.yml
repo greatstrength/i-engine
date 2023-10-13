@@ -69,7 +69,7 @@ abysmal:
   - line_number: 1
     text:
     - Repetition of the Abysmal.
-    - In the abyssone falls into a pit.
+    - In the abyss one falls into a pit.
     - Misfortune.
     type: warning
     yarrow_value: 6
