@@ -223,6 +223,30 @@ interfaces:
               - help: name of the reading
                 name_or_flags:
                 - name
+              - help: date of reading (defaults to today)
+                name_or_flags:
+                - --date
+                type: str
+              - choices:
+                - daily
+                - weekly
+                - morning
+                - afternoon
+                - evening
+                default: daily
+                help: time period of reading
+                name_or_flags:
+                - --frequency
+                type: str
+              - choices:
+                - general
+                - elemental
+                - cardinal
+                default: general
+                help: type of reading
+                name_or_flags:
+                - --type
+                type: str
               help: add new reading
               name: Add New I-Ching Reading
       parent_arguments: []
