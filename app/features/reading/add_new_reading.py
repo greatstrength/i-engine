@@ -177,7 +177,6 @@ def handle(context: MessageContext):
         position = 6
         input_data = []
         for i in range(0, 18, 3):
-            print(i)
             input_data.append(dict(
                 position=position,
                 heaven_line=input[i],
