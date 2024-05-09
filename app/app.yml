@@ -1,14 +1,23 @@
 commands: {}
 domain:
-  entities: {}
+  constants:
+    READING_RESULT_DIMENSIONS:
+      type: list
+      inner_type: str
+      value:
+      - '2'
+      - '6'
+      - '8'
+      - '49'
   factories: {}
-  models:
+  objects:
     hexagram:
       class_name: Hexagram
       dependencies:
       - class_name: HexagramLine
         model_id: hexagram_line
         module: null
+      module: readings
       name: Hexagram
       properties:
       - description: the name of the hexagram
@@ -185,7 +194,11 @@ domain:
         required: true
         type: int
       type: value_object
-  modules: {}
+  modules:
+    readings:
+      name: Readings
+      description: Contains domain model objects for I-Ching readings.
+      direct_import: false
   repos: {}
 errors: {}
 features:

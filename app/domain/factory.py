@@ -1,2 +1,2 @@
-from .models import *
+from .objects import *
 from .modules import *

@@ -1,4 +1,5 @@
-from .models import *
+from ..core.domain import *
+from .constants import *
 
 class Trigram(Model):
     id = t.StringType()

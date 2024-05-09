@@ -1,6 +1,4 @@
-from ..core.domain import *
-from .constants import *
-
+from ...core.domain import *
 
 class HexagramLine(ValueObject):
 
