@@ -1,10 +1,12 @@
-from schematics import types as t, Model
+from .constants import *
 
+from schematics import types as t, Model
 
 # Container configuration
 class ContainerConfiguration(Model):
     
     monday_api_v2_key = t.StringType(required=True, deserialize_from='MONDAY_API_V2_KEY')
+    cache_path = t.StringType(required=True, deserialize_from='CACHE_PATH', default=YAML_CACHE_PATH)
 
 
 # Default container
