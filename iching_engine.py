@@ -18,7 +18,7 @@ os.environ[constants.APP_ENV] = env
 builder = i.CliAppBuilder().create_new_app('kabbalapp')
 
 # Set container configuration to builder
-container_config = ContainerConfiguration()
+container_config = ContainerConfiguration(dict(os.environ), strict=False)
 builder.set_container_config(container_config)
 
 # Build app context.
