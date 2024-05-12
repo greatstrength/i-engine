@@ -21,6 +21,15 @@ class Container():
 
         # Custom init below
         # ...
+
+    def reading_cache(self, flag: str = 'yaml'):
+        
+        def yaml():
+            from app.domain.repositories.reading_cache.yaml import YamlReadingCache
+            return YamlReadingCache(self.config.cache_path)
+        
+        if flag == 'yaml':
+            return yaml()
     
 
 # Default dynamic container
