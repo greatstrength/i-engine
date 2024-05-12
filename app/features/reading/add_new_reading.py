@@ -12,6 +12,9 @@ def handle(context: MessageContext):
     dimension = context.data.dimension
     input = context.data.input
 
+    # Load reading cache repository.
+    reading_cache: ReadingCache = context.services.reading_cache()
+
     def load_hexagrams():
         import yaml
         with open('app/hexagrams.yml') as hex_file:
@@ -213,20 +216,6 @@ def handle(context: MessageContext):
             current_or_previous=previous_hex_data,
             next=next_hex_data
         ))
-
-    def save_reading_result(reading_result: ReadingResult):
-        import yaml
-
-        with open('readings.yml', 'r') as f:
-            readings = yaml.safe_load(f)
-            if readings is None:
-                readings = {}
-            reading_data = reading_result.to_primitive()
-            key = reading_data.pop('id')
-            readings[key] = reading_data
-
-        with open('readings.yml', 'w') as f:
-            yaml.dump(readings, f)
     
     transform = get_yarrow_transform(dimension)
 
@@ -244,7 +233,8 @@ def handle(context: MessageContext):
 
     reading_result = create_reading_result(name, composite, previous, next)
 
-    save_reading_result(reading_result)
+    # Save reading result to cache.
+    reading_cache.save(reading_result)
 
     print('\n')
     if is_changing:
