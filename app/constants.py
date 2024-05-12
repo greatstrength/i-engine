@@ -1,10 +1,3 @@
-# Environment
-APP_ENV = 'APP_ENV'
-DEFAULT_APP_ENV = 'prod'
-
-# Configuration file
-APP_CONFIGURATION_FILE = 'app/app.yml'
-
 # Configuration
 CONFIGS = 'configs' 
 ENDPOINTS = 'endpoints'
