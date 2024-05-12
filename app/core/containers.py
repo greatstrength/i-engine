@@ -3,7 +3,8 @@ from schematics import types as t, Model
 
 # Container configuration
 class ContainerConfiguration(Model):
-    pass
+    
+    monday_api_v2_key = t.StringType(required=True, deserialize_from='MONDAY_API_V2_KEY')
 
 
 # Default container
