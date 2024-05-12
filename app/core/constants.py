@@ -1,0 +1,1 @@
+YAML_CACHE_PATH = 'readings.yml'
