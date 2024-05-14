@@ -144,7 +144,7 @@ def handle(context: MessageContext):
             line = 6 - i
             changing_line: HexagramLine = hex.changing_lines[line - 1]
             
-            print('\t{} in {} is a {}:\n'.format(value, line, changing_line.type))
+            print('\t{} in {} says:\n'.format(value, line))
             
             for line in changing_line.text:
                 print('\t' + line)

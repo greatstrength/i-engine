@@ -4,7 +4,6 @@ from ..constants import *
 class HexagramLine(ValueObject):
 
     text = t.ListType(t.StringType())
-    type = t.StringType(choices=HEXAGRAM_LINE_TYPES)
     yarrow_value = t.IntType(choices=HEXAGRAM_YARROW_VALUES)
     line_number = t.IntType(choices=HEXAGRAM_LINE_NUMBERS)
 
@@ -39,8 +38,8 @@ class ReadingResult(Entity):
 
     name = t.StringType(required=True)
     dimension = t.StringType(required=True, choices=READING_RESULT_DIMENSIONS)
-    frequency = t.StringType(default=READING_RESULT_FREQUENCY_DAILY, choices=READING_RESULT_FREQUENCIES)
-    type = t.StringType(default=READING_RESULT_TYPE_GENERAL, choices=READING_RESULT_TYPES)
+    frequency = t.StringType(default=READING_RESULT_FREQUENCY_DEFAULT, choices=READING_RESULT_FREQUENCIES)
+    type = t.StringType(default=READING_RESULT_TYPE_DEFAULT, choices=READING_RESULT_TYPES)
     date = t.DateType(required=True)
     result_lines = t.ListType(t.ModelType(ResultLine))
     current_or_previous = t.ModelType(HexagramResult)
