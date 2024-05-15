@@ -175,7 +175,7 @@ def handle(context: MessageContext):
             print(line)
         print('\n')
 
-    def create_reading_result(name, composite, previous, next, reading_date: date = None) -> ReadingResult:
+    def create_reading_result(name, composite, previous, next, reading_date: date = None, frequency: str = READING_RESULT_FREQUENCY_DEFAULT) -> ReadingResult:
         # Format data
         position = 6
         input_data = []
@@ -212,6 +212,7 @@ def handle(context: MessageContext):
             name=name,
             date=datetime.strftime(reading_date, '%Y-%m-%d'),
             dimension=dimension,
+            frequency=frequency,
             result_lines=input_data,
             current_or_previous=previous_hex_data,
             next=next_hex_data
@@ -231,7 +232,7 @@ def handle(context: MessageContext):
     composite = yarrow_to_composite(yarrow)
     is_changing, previous, next = composite_to_composite_2d(composite)
 
-    reading_result = create_reading_result(name, composite, previous, next)
+    reading_result = create_reading_result(name, composite, previous, next, reading_date, frequency)
 
     # Save reading result to cache.
     reading_cache.save(reading_result)
