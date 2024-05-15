@@ -19,7 +19,7 @@ def handle(context: MessageContext):
         import yaml
         with open('app/hexagrams.yml') as hex_file:
             hex_data = yaml.safe_load(hex_file)
-            hex_list = [Hexagram(hex) for _, hex in hex_data.items()]
+            hex_list = [Hexagram(hex, strict=False) for _, hex in hex_data.items()]
             return { hex.yarrow_value: hex for hex in hex_list}
 
     def get_yarrow_transform(transform_name: str):
