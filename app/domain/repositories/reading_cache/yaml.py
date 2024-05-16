@@ -2,6 +2,7 @@ from . import *
 
 import yaml
 
+
 class YamlReadingCache(ReadingCache):
 
     def __init__(self, cache_path: str):
@@ -18,3 +19,16 @@ class YamlReadingCache(ReadingCache):
 
         with open(self.cache_path, 'w') as f:
             yaml.dump(readings, f)
+
+    def list(self):
+        with open(self.cache_path, 'r') as f:
+            readings = yaml.safe_load(f)
+            if readings is None:
+                readings = []
+        return [
+            ReadingResult(dict(
+                id=key,
+                **value
+            ), strict=False)
+            for key, value in readings.items()
+        ]

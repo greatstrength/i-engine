@@ -3,5 +3,8 @@ from ...objects import *
 
 class ReadingCache():
 
-    def save(reading: ReadingResult):
+    def save(self, reading: ReadingResult):
+        pass
+
+    def list(self):
         pass
