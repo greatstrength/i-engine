@@ -206,11 +206,13 @@ def handle(context: MessageContext):
         # Set date to today if not provided
         if not reading_date:
             reading_date = datetime.now().date()
+        
+        print(reading_date)
 
         return ReadingResult(dict(
             id=name,
             name=name,
-            date=datetime.strftime(reading_date, '%Y-%m-%d'),
+            date=datetime.strptime(reading_date, '%Y-%m-%d'),
             dimension=dimension,
             frequency=frequency,
             result_lines=input_data,
