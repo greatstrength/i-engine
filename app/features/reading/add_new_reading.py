@@ -142,7 +142,7 @@ def handle(context: MessageContext):
             else:
                 value = 'Nine'
             line = 6 - i
-            changing_line: HexagramLine = hex.changing_lines[line - 1]
+            changing_line: Hexagram.Line = hex.changing_lines[line - 1]
             
             print('\t{} in {} says:\n'.format(value, line))
             
