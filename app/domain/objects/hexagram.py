@@ -11,8 +11,9 @@ class Hexagram(ValueObject):
         line_number = t.IntType(choices=HEXAGRAM_LINE_NUMBERS)
 
     name = t.StringType(required=True)
-    secondary_names = t.ListType(t.StringType())
     number = t.IntType(required=True)
+    external_id = t.StringType()
+    secondary_names = t.ListType(t.StringType())
     judgement = t.ListType(t.StringType())
     image = t.ListType(t.StringType())
     changing_lines = t.ListType(t.ModelType(Line))
