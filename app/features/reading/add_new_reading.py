@@ -1,6 +1,7 @@
 from ...core import *
 from ...domain import *
 
+
 def handle(context: MessageContext):
     from datetime import datetime, date
     from ...constants import TWO_D_YARROW_TRANSFORM, TRANSFORM, YARROW_SUM_TO_LINES
@@ -15,12 +16,8 @@ def handle(context: MessageContext):
     # Load reading cache repository.
     reading_cache: ReadingCache = context.services.reading_cache()
 
-    def load_hexagrams():
-        import yaml
-        with open('app/hexagrams.yml') as hex_file:
-            hex_data = yaml.safe_load(hex_file)
-            hex_list = [Hexagram(hex, strict=False) for _, hex in hex_data.items()]
-            return { hex.yarrow_value: hex for hex in hex_list}
+    # Load the hexagram repository.
+    hexagram_repo: HexagramRepository = context.services.hexagram_repo()
 
     def get_yarrow_transform(transform_name: str):
         return TRANSFORM[transform_name]
@@ -78,17 +75,16 @@ def handle(context: MessageContext):
             return (False, previous, next)
         else:
             return (True, previous, next)
-        
-    hex_lookup = load_hexagrams()
 
     def get_hexagram_value(composite: list) -> Hexagram:
         value = ''.join([str(i) for i in composite])
-        return hex_lookup[value]
+        number = YARROW_TO_HEXAGRAM_NUMBER[value]
+        return hexagram_repo.get(number)
 
     def print_single_hexagram(composite):
         hex = get_hexagram_value(composite)
 
-        print('{}. {}'.format(hex.wilhelm_index, hex.name))
+        print('{}. {}'.format(hex.number, hex.name))
         print('')
         print_lines(composite)
         print_judgement(hex)
@@ -98,7 +94,7 @@ def handle(context: MessageContext):
         previous_hex = get_hexagram_value(previous)
         next_hex = get_hexagram_value(next)
 
-        print('{}. {} -> {}. {}'.format(previous_hex.wilhelm_index, previous_hex.name, next_hex.wilhelm_index, next_hex.name))
+        print('{}. {} -> {}. {}'.format(previous_hex.number, previous_hex.name, next_hex.number, next_hex.name))
         print('')
 
         print_lines(composite, True, next)
@@ -192,13 +188,13 @@ def handle(context: MessageContext):
         previous_hex = get_hexagram_value(previous)
         previous_hex_data = dict(
             name=previous_hex.name,
-            wilhelm_index=previous_hex.wilhelm_index,
+            wilhelm_index=previous_hex.number,
         )
         if next:
             next_hex = get_hexagram_value(next)
             next_hex_data = dict(
                 name=next_hex.name,
-                wilhelm_index=next_hex.wilhelm_index,
+                wilhelm_index=next_hex.number,
             )
         else:
             next_hex_data = None
@@ -206,8 +202,6 @@ def handle(context: MessageContext):
         # Set date to today if not provided
         if not reading_date:
             reading_date = datetime.now().date()
-        
-        print(reading_date)
 
         return ReadingResult(dict(
             id=name,
