@@ -3,4 +3,5 @@ from ...objects import *
 
 class HexagramRepository():
 
-    pass
+    def get(hexagram_number: int) -> Hexagram:
+        pass
