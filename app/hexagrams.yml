@@ -1,188 +1,1021 @@
-abundance:
+1:
   changing_lines:
   - line_number: 1
     text:
-    - When a man meets his destined ruler,
-    - They can be together ten days,
-    - And it is not a mistake.
-    - Going meets with recognition.
-    type: reminder
+    - Hidden dragon. Do not act.
+    type: warning
     yarrow_value: 9
   - line_number: 2
     text:
-    - The curtain is of such fullness
-    - That the polestars can be seen at noon.
-    - Through going one meets with mistrust and hate.
-    - If one rouses hinm through truth,
-    - Good fortune comes.
+    - Dragon appearing in the field.
+    - It furthers one to see the great man.
     type: reminder
-    yarrow_value: 6
+    yarrow_value: 9
   - line_number: 3
     text:
-    - The underbrush is of such abundance
-    - That the small stars can be seen at noon.
-    - He breaks his right arm. No blame.
+    - All day long the superior man is creatively active.
+    - At nightfall is mind is beset with cares.
+    - Danger. No blame.
     type: reminder
     yarrow_value: 9
   - line_number: 4
     text:
-    - The curtain is of such fullness
-    - That the polestars can be seen at noon.
-    - He meets his rler, who is of like kind.
-    - Good fortune.
+    - Wavering flight over depths.
+    - No blame.
     type: reminder
     yarrow_value: 9
   - line_number: 5
     text:
-    - Lines are coming,
-    - Blessing and fame draw near.
-    - Good fortune.
+    - Flying dragon in the heavens.
+    - It furthers one to see the great man.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - Arrogant dragon will have cause to repent.
+    type: warning
+    yarrow_value: 9
+  image:
+  - The movement of heaven is full of power.
+  - Tus the superior man makes himself strong and untiring.
+  judgement:
+  - The Creative works sublime success,
+  - Furthering through perserverence.
+  name: The Creative
+  number: 1
+  secondary_names:
+  - Heaven
+2:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Where there is hoarfrost underfoot,
+    - Solid ice is not far off.
+    type: warning
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - Straight, square, great.
+    - Without purpose,
+    - Yet nothing remains unfurthered.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - Hidden lines.
+    - One is able to remain perservering.
+    - If by chance you are in the sevice of a king,
+    - Seek not works, but bring to completion.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - A tied-up sack. No blame, no praise.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - A yellow lower garment brings supreme good forture.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - Dragons fight in the meadow.
+    - Their blood is black and yellow.
     type: null
     yarrow_value: 6
-  - line_number: 6
-    text:
-    - His house is in a state of abundance.
-    - He screens off his family.
-    - He peers through the gate
-    - And no longer perceives anyone.
-    - For three years he sees nothing.
-    - Misfortune.
-    type: warning
-    yarrow_value: 6
   image:
-  - 'Both thunder and lightning come:'
-  - The image of Abundance.
-  - Thus the superior man decides lawsuits
-  - And carries out punishments.
+  - The earth's condition is receptive devotion.
+  - Thus the superior man who has breadth of character
+  - Carries the outer world.
   judgement:
-  - Abundance has success.
-  - The king attains abundance.
-  - Be not sad.
-  - Be like the sun at midday.
-  name: Abundance
+  - The Receptive brings about sublime success,
+  - Furthering through the perserverance of a mare.
+  - If the superior man undertakes something and tries to lead,
+  - He goes astray;
+  - But if he follows, he finds guidance.
+  - It is favorable to find friends in the west and south,
+  - To forego friends in the east and north.
+  - Quite perserverance brings good fortune.
+  name: The Receptive
+  number: 2
   secondary_names:
-  - Fullness
-  wilhelm_index: 55
-  yarrow_value: '887787'
-abysmal:
+  - Earth
+3:
   changing_lines:
   - line_number: 1
     text:
-    - Repetition of the Abysmal.
-    - In the abyss one falls into a pit.
-    - Misfortune.
-    type: warning
-    yarrow_value: 6
+    - Hesitation and hinderance.
+    - It furthers one to remain perservering.
+    - It furthers one to appoint helpers.
+    type: reminder
+    yarrow_value: 9
   - line_number: 2
     text:
-    - The abyss is dangerous.
-    - One should strive to attain small things only.
+    - Difficulties pile up.
+    - Horse and wagon part.
+    - He isnot a robber;
+    - He wants to woo when the time comes.
+    - Maiden is chaste.
+    - She does not pledge herself.
+    - Ten years - then she pledges herself.
     type: warning
-    yarrow_value: 9
+    yarrow_value: 6
   - line_number: 3
     text:
-    - Forward and backward, abyss on abyss.
-    - In danger like this, pause at first and wait,
-    - Otherwise you will fall into a pit in the abyss.
-    - Do not act in this way.
+    - Whoever hunts deer without the forester
+    - Only loses his way in the forest.
+    - The superior man understands the signs of the time
+    - And prefers to desist.
+    - To go on brings humiliation.
     type: warning
     yarrow_value: 6
   - line_number: 4
     text:
-    - A jug of wine, a bowl of rice with it;
-    - Earthen vessels
-    - Simply handed in through the window.
-    - There is certainly no blame in this.
+    - Horse and wagon part.
+    - Strive for union.
+    - To go brings good fortune.
+    - Everything acts to further.
     type: reminder
     yarrow_value: 6
   - line_number: 5
     text:
-    - The abuyss is not filled to overflowing,
-    - It is filled only to the rim.
-    - No blame.
-    type: reminder
+    - Difficulties in blessing.
+    - A little perserverance brings good fortune.
+    - Great perserverance brings misfortune.
+    type: warning
     yarrow_value: 9
   - line_number: 6
     text:
-    - Bound with cords and ropes,
-    - 'Shut in between thorn-hedged prison walls:'
-    - For three years one does not find the way.
-    - Misfortune.
+    - Horse and wagon part.
+    - Bloody tears flow.
     type: warning
     yarrow_value: 6
   image:
-  - 'Water flows on iuniterruptedly and reaches its goal:'
-  - The image of the Abysmal repeated.
-  - Thus the superior man walks in lasting virtue
-  - And carries on the business of teaching.
-  judgement:
-  - The Abysmal repeated.
-  - If you are sincere, and have success in your heart,
-  - And whatever you do succeeds.
-  name: The Abysmal
-  secondary_names:
-  - Water
-  wilhelm_index: 29
-  yarrow_value: '878878'
-after_copletion:
-  changing_lines:
-  - line_number: 1
-    text:
-    - He brakes his wheels.
-    - He gets his tail in the water.
-    - No blame.
-    type: warning
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - The woman loses the cutain of her carriage.
-    - Do not run after it;
-    - On the seventh day you will get it.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - The Illustrious Ancestor
-    - Disciplines the Devil's Country.
-    - After three years he conquers it.
-    - Inferior people must not be employed.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - The finest clothes turn to rags.
-    - Be careful all day long.
-    type: warning
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - The neghbor in the east who slaughters an ox
-    - Does not attain as much real happiness
-    - As the neighbor in the west
-    - With his mall offering.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - He gets his head in the water. Danger.
-    type: warning
-    yarrow_value: 6
-  image:
-  - 'Water over fire: the mage of the condition'
-  - In After Completion.
+  - 'Clouds and thunder:'
+  - The image of Difficulty at the Beginning.
   - Thus the superior man
-  - Takes thought of misfortune
-  - And arms himself against it in advance.
+  - Brings order out of confusion
   judgement:
-  - After completion. Success in small matters.
-  - Perserverance furthers.
-  - At the beginning good fortune,
-  - At the end disorder.
-  name: After Completion
+  - Difficlty at the Beginning works supreme success,
+  - Furthering through perserverance.
+  - Nothing should be undertaken.
+  - It furthers one to appoint helpers.
+  name: Difficulty at the Beginning
+  number: 3
   secondary_names: null
-  wilhelm_index: 63
-  yarrow_value: '878787'
-approach_of_spring:
+4:
+  changing_lines:
+  - line_number: 1
+    text:
+    - To make a fool develop
+    - It furthers one to apply discipline.
+    - The fetters should be removed.
+    - To go on in this way brings humiliation.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - To bear with fools in kindliness brings good fortune.
+    - To know how to take women
+    - Brings good fortune.
+    - The son is capable of taking charge of the household.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - Take not a maiden who, when she sees a man of bronze,
+    - Loses possession of herself.
+    - Nothing furthers.
+    type: warning
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - Entangled folly bings humiliation.
+    type: warning
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - Childlike folly briings good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - In punishing folly
+    - It does notfurther one
+    - To commit transgressions.
+    - The only thing that furthers
+    - Is to prevent transgressions.
+    type: null
+    yarrow_value: 9
+  image:
+  - 'A spring wells up at the foot of the mountain:'
+  - The image of Youthful Folly.
+  - Thus the superior man fosters his character
+  - By thoroughness in all that he does.
+  judgement:
+  - Youthful Folly has success.
+  - It is not I who seek the young fool;
+  - The young fool seeks me.
+  - At the first oracle I inform him.
+  - If he asks two or three times, it is importunity.
+  - If he importunes, I hive him no information.
+  - Perserverance furthers.
+  name: Youthful Folly
+  number: 4
+  secondary_names: null
+5:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Waiting in the meadow.
+    - It furthers one to abide in what endures.
+    - No blame.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - Waiting on the sand.
+    - There is some gossip.
+    - The end brings good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - Waiting in the mud
+    - Brings about the arrival of the enemy.
+    type: warning
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - Waiting in blood.
+    - Get out of the pit.
+    type: warning
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - Waiting at meat and drink.
+    - Perserverance brings good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - One falls into the pit.
+    - Three uninvited guests arrive.
+    - Honor them, and in the end there will be good forture.
+    type: reminder
+    yarrow_value: 6
+  image:
+  - 'Clouds rise up to heaven:'
+  - The image of Waiting
+  - Thus the superior man eats and drinks,
+  - Is joyous and of good cheer.
+  judgement:
+  - Waiting. If you are sincere,
+  - You have light and sccess.
+  - Perserverance brings good fortune.
+  - It furthers one to cross the great water.
+  name: Waiting
+  number: 5
+  secondary_names:
+  - Nourishment
+6:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Ifone does not perpetuate the affair,
+    - There is a little gossip.
+    - In the end good fortune comes.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - One cannot engage in conflict;
+    - One returns home, gives way.
+    - The people in his town,
+    - Three hundred households,
+    - Remain free of guilt.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - To nourish oneself on ancient virtue induces perserverance.
+    - Danger. In the end, good fortune comes.
+    - If by chance you seek service of a king,
+    - Seek not works.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - One cannot engage in conflict.
+    - One turns back and submits to fate.
+    - Changes one's attitude,
+    - And finds peace in perserverance.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - To contend before him
+    - Brings supreme good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - Even if by chance a leather belt is bestowed on one,
+    - By the end of a morning
+    - It will have been snatched away three times.
+    type: warning
+    yarrow_value: 9
+  image:
+  - 'Heaven and water go their opposite ways:'
+  - The image of Conflict.
+  - Thus in all his transactions the superior man
+  - Carefully considers the beginning.
+  judgement:
+  - Conflict. You are sincere
+  - And are being obstructed.
+  - A cautious halt halfway brings good forture.
+  - Going through to the end brings misfortune.
+  - It furthers one to see the great man.
+  - It furthers one to cross the great water.
+  name: Conflict
+  number: 6
+  secondary_names: null
+7:
+  changing_lines:
+  - line_number: 1
+    text:
+    - The army must set forth in proper order.
+    - If the order is not good, misfortune threatens.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - In the mids of the army.
+    - Good fortune. No blame.
+    - The king bestows a triple decoration.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - Perchance the army carries corpses in the wagon.
+    - Misfortune
+    type: warning
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - The army retreats. No blame.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - There is game in the field.
+    - It furthers one to catch it.
+    - Without blame.
+    - Let the eldest lead the army.
+    - The younger transports corpses;
+    - Then perserverance brings misfortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - The great prince issues commands,
+    - Founds states, vests families with fiefs.
+    - Inferior people should not be employed.
+    type: null
+    yarrow_value: 6
+  image:
+  - 'In the middle of the earth is water:'
+  - Theimage of The Army.
+  - Thus the superior man increases his masses
+  - By generosity towards the people.
+  judgement:
+  - The Army. The army needs perserverance.
+  - And a strong man.
+  - Good fortune without blame.
+  name: The Army
+  number: 7
+  secondary_names: null
+8:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Hold to him in truth and loyalty;
+    - This is without blame.
+    - 'Truth, like a full earthen bowl:'
+    - Thus in the end
+    - Good fortune comes from without.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - Hold to him inwardly.
+    - Perserverance brings good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - You hold together with the wrong people.
+    type: warning
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - Hold to him outwardly also.
+    - Perserverance brings good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - Manifestation of holding together.
+    - In the hund the king uses beaters on three sides only
+    - And foregoes the game that runs off.
+    - The citizens need no warning.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - He finds no head for holding together.
+    - Misfortune.
+    type: warning
+    yarrow_value: 6
+  image:
+  - 'On the earth is water:'
+  - The image of Holding Together.
+  - Thus the kings of antiquity
+  - Bestowed the different states as fiefs
+  - And cultivated friendly relationships
+  - With the feudal lords.
+  judgement:
+  - Holding Together brings good fortune.
+  - Inquire of the oracle once again
+  - Whether you possess sublmity, constancy, and perserverance;
+  - Then there is no blame.
+  - Those who are uncertain gradually join.
+  - Whoever comes too late
+  - Meets with misfortune.
+  name: Holding Together
+  number: 8
+  secondary_names:
+  - Union
+9:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Return to the way.
+    - How could there be blame in this?
+    - Good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - He allows himself to be drawn into returning.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - The spokes burst out of the wagon wheels.
+    - Man and wife roll their eyes.
+    type: warning
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - If you are sincere, blood vanishes and fear gives way.
+    - No blame.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - If you are sincere and loyally attached,
+    - You are rich in your neighbor.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - The rain comes, there is reast.
+    - This is due to the lasting effect of character.
+    - Perserverance brings the woman into danger.
+    - The moon is nearly full.
+    - If the superior man persists,
+    - Misfortune comes.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'The wind drives across heaven:'
+  - The image of The Taming Power of the Small.
+  - Thus the superior man
+  - Refines the outward aspect of his nature.
+  judgement:
+  - The Taming Power of the Small
+  - Has success,
+  - Dense clouds, no rain from our western region.
+  name: Taming Power of the Small
+  number: 9
+  secondary_names: null
+10:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Simple conduct. Progress without blame.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - Treading is smooth, level course.
+    - The perserverance of a dark man
+    - Brings good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - A one-eyed man is able to see,
+    - A lame man is able to tread.
+    - He treads on the tail of the tiger.
+    - The tiger bites the man.
+    - Misfortune.
+    - Thus does a warrior act on behalf of his great prince.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - He treads on the tail of the tiger.
+    - Caution and circumspection
+    - Lead ultimately to good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - Resolute conduct.
+    - Perserverance with awareness of danger.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - Look to your conduct and weigh the favorable signs.
+    - When everything is fulfilled, supreme good fortune comes.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'Heaven above, the lake below:'
+  - The image of Treading.
+  - Thus the superior mand discriminates between high and low,
+  - And thereby fortifies the thinking of the people.
+  judgement:
+  - Treading. Treading upon the tail ofthe tiger.
+  - It does not bite the man.
+  name: Treading
+  number: 10
+  secondary_names:
+  - Conduct
+11:
+  changing_lines:
+  - line_number: 1
+    text:
+    - When ribbbon grass is pulled up, the sod comes with it.
+    - Each according to his kind.
+    - Undertakings bring good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - Bearing with the uncultured in gentleness,
+    - Gording the river with resolution,
+    - Not neglecting what is distant,
+    - 'Not regarding one''s companions:'
+    - Thus one may manage to walk in the middle.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - No plain not followed by a slope.
+    - No going not followed by a return.
+    - He who remains perservering in danger
+    - Is without blame.
+    - Do not complain about this truth;
+    - Enjoy the good fortune you still possess.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - He flutters down, not boasting of his wealth,
+    - Together with his neighbor,
+    - Guileless and sincere.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - The sovereign I
+    - Gives his daughter in marriage.
+    - This brings blessing
+    - And supreme good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - The wal falls back into the moat.
+    - Use no army now.
+    - Make your commandments known within you own town.
+    - Perserverance brings humiliation.
+    type: warning
+    yarrow_value: 6
+  image:
+  - 'Heaven and earth unite: the image of Peace.'
+  - Thus the ruler
+  - Divides and completes the course of heaven and earth;
+  - He furthers and regulates the gifts of heaven and earth,
+  - And so aids the people.
+  judgement:
+  - Peace. The small departs,
+  - The great approaches.
+  - Good fortune. Success.
+  name: Peace
+  number: 11
+  secondary_names: null
+12:
+  changing_lines:
+  - line_number: 1
+    text:
+    - When ribbon grass is pulled up, the sod comes with it.
+    - Each accordingto his kind.
+    - Perserverance brings good fortune and success.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - They bear and endure;
+    - This means good fortune for inferior people.
+    - The standstill serves to help the great man to attain success.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - They bear shame.
+    type: warning
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - He who acts at the command of the highest
+    - Remains without blame.
+    - Those of like mind partake of the blessing.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - Standstill is giving way.
+    - Good fortune for the great man.
+    - What if it should fail, what if it should fail?
+    - In this way he ties it to a cluster of mulberrys hoots.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - The standstill comes to an end.
+    - First standstill, then good fortune.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'Heaven and earth do not unite:'
+  - Thge image of Standstill.
+  - Thus the superior man falls back upon his inner worth
+  - In order to escape the difficulties.
+  - He does not permit himself to be honored with revenue.
+  judgement:
+  - Standstill. Evil people do not further
+  - The perserverance of the superior man.
+  - Thge great departs; the small approaches.
+  name: Standstill
+  number: 12
+  secondary_names:
+  - Stagnation
+13:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Fellowship with men at the gate.
+    - No blame.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - Fellowship with men in the clan.
+    - Humiliation.
+    type: warning
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - He hides weapons in the thicket.
+    - He climbs the high hill in front of it.
+    - For three years he does not rise up.
+    type: warning
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - He climbs up on his wall; he cannot attack.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - Men bound in fellowship first weep and lament,
+    - But afterward they laugh.
+    - After great struggles they succeed in meeting.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - Fellowship with men in the meadow.
+    - No remorse.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'Heaven together with fire:'
+  - The image of Fellowship with Men.
+  - Thus the superior man organizes the clans
+  - And makes distinctions between things.
+  judgement:
+  - Fellowship with Men in the open.
+  - Success.
+  - It furthers one to cross the great water.
+  - The perserverance of the superior man furthers.
+  name: Fellowship with Men
+  number: 13
+  secondary_names: null
+14:
+  changing_lines:
+  - line_number: 1
+    text:
+    - No relationship with what is harmful;
+    - There is no blame in this.
+    - If one remains conscious of difficulty,
+    - One remains without blame.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - A big wagon for loading.
+    - One may undertake something.
+    - No blame.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - A prince offers it to the Son of Heaven.
+    - A petty man cannot do this.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - He makes a difference
+    - Between himself and his neighbor.
+    - No blame.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - He whose truth is accessible, yet dignified,
+    - Has good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - He is blessed by heaven.
+    - Good fortune.
+    - Nothing that does not further.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'Fire in heaven above:'
+  - The image of Possession in Great Measure.
+  - Thus the superior man curbs evil and furthers good.
+  - And thereby obeys the benevolent will of heaven.
+  judgement:
+  - Possession in Great Measure.
+  - Supreme success.
+  name: Possession in Great Measure
+  number: 14
+  secondary_names: null
+15:
+  changing_lines:
+  - line_number: 1
+    text:
+    - A superior man modest about his modesty
+    - May cross the great water.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - Modesty that comes into expression.
+    - Perserverance brings good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - A superior man of modesty and merit
+    - Carries things to conclusion.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - Nothing that would not futher modesty
+    - In movement.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - No boasting of wealth before one's neighbor.
+    - It is favorable to attack with force.
+    - Nothing that would not further.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - Modesty that comes into expression.
+    - It is favorable to set armies marching
+    - To chastise one's own city and one's country.
+    type: reminder
+    yarrow_value: 6
+  image:
+  - 'Within the earth, a mountain:'
+  - The image of Modesty.
+  - Thus the superior man reduces that which is too much,
+  - And augments that which is too little.
+  - He weighs things and makes them equal.
+  judgement:
+  - Modesty creates success.
+  - The superior man carries things through.
+  name: Modesty
+  number: 15
+  secondary_names: null
+16:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Enthusiasm that expresses itself
+    - Brings misfortune.
+    type: warning
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - Firm as a rock. Not a whole day.
+    - Perserverance brings good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - Enthusiasm that looks upward creates remorse.
+    - Hesitation brings remorse.
+    type: warning
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - The source of enthusiasm.
+    - Doubt not.
+    - You gather friends around you
+    - As a gair clasp gathers the hair.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - Persistently ill, and still does not die.
+    type: warning
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - Deluded enthusiasm.
+    - But after completion one changes,
+    - There is no blame.
+    type: reminder
+    yarrow_value: 6
+  image:
+  - 'Thunder comes resounding out of the earth:'
+  - The image of Enthusiasm.
+  - Thus ancient kings made music
+  - In order to honor merit,
+  - And offered it with splendor
+  - To the Supreme Deity,
+  - Inviting their ancestors to be present.
+  judgement:
+  - Enthusiasm. It furthers one to install helpers
+  - And to set armies marching.
+  name: Enthusiasm
+  number: 16
+  secondary_names: null
+17:
+  changing_lines:
+  - line_number: 1
+    text:
+    - The standard is changing.
+    - Perserverance brings good fortune.
+    - To go out of the door in company
+    - Produces deeds.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - If one clings to the little boy,
+    - One loses the strong man.
+    type: warning
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - If one clings to the strong man,
+    - One loses the little boy.
+    - Through following one finds what one seeks.
+    - It furthers one to remain perservering.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - Following creates success.
+    - Perserverance brings misfortune.
+    - To go one's way with sincerity brings clarity.
+    - How could there be blame in this?
+    type: reminder
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - Sincere in the good. Good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - He meets witgh furm allegiance.
+    - And is still further bound.
+    - The king introduces him
+    - To the Western Mountain.
+    type: reminder
+    yarrow_value: 6
+  image:
+  - 'Thunder in the middle of the lake:'
+  - The image of Following.
+  - Thus the superior man at nightfall
+  - Goes indoors for rest and recuperation.
+  judgement:
+  - Following has supreme success.
+  - Perserverence furthers. No blame.
+  name: Following
+  number: 17
+  secondary_names: null
+18:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Setting right what has been spoiled by the father.
+    - If there is a son,
+    - No blame rests upon the departed father.
+    - Danger. In the end good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - Setting right what has been spoiled by the mother.
+    - One must not be too perservering.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - Setting right what has been spoiled by the father.
+    - There will be a little remorse. No great blame.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - Tolerating what has been spoiled by the father.
+    - In continuing one sees humiliation.
+    type: warning
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - Setting right what has been spoiled by the father.
+    - One meets with praise.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - He does not serve kings and rinces,
+    - Sets himself higher goals.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'The wind blows low on the mountain:'
+  - The image of Decay.
+  - Thus the superior man stirs up the people
+  - And strentgthens their spirit.
+  judgement:
+  - Work on What Has Been Spoiled
+  - Has supreme success.
+  - It furthers one to cross the great water.
+  - Before the starting point, three days.
+  - After the starting point, three days.
+  name: Decay
+  number: 18
+  secondary_names:
+  - Work on What Has Been Spoiled
+19:
   changing_lines:
   - line_number: 1
     text:
@@ -237,190 +1070,62 @@ approach_of_spring:
   - When the eighth of the month comes,
   - There will be misfortune.
   name: Approach of Spring
+  number: 19
   secondary_names: null
-  wilhelm_index: 19
-  yarrow_value: '888877'
-army:
+20:
   changing_lines:
   - line_number: 1
     text:
-    - The army must set forth in proper order.
-    - If the order is not good, misfortune threatens.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - In the mids of the army.
-    - Good fortune. No blame.
-    - The king bestows a triple decoration.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - Perchance the army carries corpses in the wagon.
-    - Misfortune
-    type: warning
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - The army retreats. No blame.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - There is game in the field.
-    - It furthers one to catch it.
-    - Without blame.
-    - Let the eldest lead the army.
-    - The younger transports corpses;
-    - Then perserverance brings misfortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - The great prince issues commands,
-    - Founds states, vests families with fiefs.
-    - Inferior people should not be employed.
-    type: null
-    yarrow_value: 6
-  image:
-  - 'In the middle of the earth is water:'
-  - Theimage of The Army.
-  - Thus the superior man increases his masses
-  - By generosity towards the people.
-  judgement:
-  - The Army. The army needs perserverance.
-  - And a strong man.
-  - Good fortune without blame.
-  name: The Army
-  secondary_names: null
-  wilhelm_index: 7
-  yarrow_value: '888878'
-arousing:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Shock comes - oh, oh!
-    - Then follow lauging words - ha, ha!
-    - Good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - Shock comes bringing danger.
-    - A hundred thousand times
-    - You lose yourtreashure
-    - And must climb the nine hills.
-    - Do not go in pursuit of them.
-    - In seven days you will get them back again.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - Shock comes and makes one distraught.
-    - If shock spurs to action
-    - One remains free of misfortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - Shock is mired.
-    type: warning
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - Shock goes hither and thither,
-    - Danger.
-    - However, nothing at all is lost.
-    - Yet there are things to be done.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - Shock brings ruin and terrified gazing around.
-    - Going ahead brings misfortune.
-    - If it has not yet touched one's own body
-    - But has reached one's neighbor first,
-    - There is no blame.
-    - One's comrades have something to talk about.
-    type: null
-    yarrow_value: 6
-  image:
-  - 'Thunder repeated: the image of Shock.'
-  - Thus in fear and trembling
-  - The superior man sets his life in order
-  - And examines himself.
-  judgement:
-  - Shock brings success.
-  - Shock comes - oh, oh!
-  - Lauging words - ha, ha!
-  - The shock terrifies for a hundred miles,
-  - And he does not let fall the sacrificial spoon and chalice.
-  name: The Arousing
-  secondary_names:
-  - Thunder
-  wilhelm_index: 51
-  yarrow_value: '887887'
-before_completion:
-  changing_lines:
-  - line_number: 1
-    text:
-    - He gets his tail in the water.
-    - Humiliating.
+    - Boylike conteplation.
+    - For an inferior man, no blame.
+    - For a superior man, humiliation.
     type: warning
     yarrow_value: 6
   - line_number: 2
     text:
-    - He brakes his wheels.
-    - Perserverance brings good fortune.
-    type: reminder
-    yarrow_value: 9
+    - Contemplation through the crack of the door.
+    - Furthering for the preserverance of a woman.
+    type: warning
+    yarrow_value: 6
   - line_number: 3
     text:
-    - Before completion, attack brings misfortune.
-    - It furthers one to cross the great water.
-    type: warning
+    - Contemplation of my lie
+    - Decides the choice
+    - Between advance and retreat.
+    type: reminder
     yarrow_value: 6
   - line_number: 4
     text:
-    - Perserverance brings good fortune.
-    - Remorse disappears.
-    - Shock, thus to discipline the Devil's Country.
-    - For three years, great realms are awarded.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - Perserverance brings good fortune.
-    - No remorse.
-    - The light of the superior man is true.
-    - Good fortune.
+    - Contemplation of the light of the kingdom.
+    - It furthers one to exert influence as tghe guest of a king.
     type: reminder
     yarrow_value: 6
+  - line_number: 5
+    text:
+    - Contemplation of my life.
+    - The superior man is without blame.
+    type: reminder
+    yarrow_value: 9
   - line_number: 6
     text:
-    - There is drinking of wine
-    - In genuine confidence. No blame.
-    - But if one wets his head,
-    - He loses it, in truth.
-    type: warning
+    - Contemplation of his life.
+    - The superior man is without blame.
+    type: reminder
     yarrow_value: 9
   image:
-  - 'Fire over water:'
-  - The image of the condition before transition.
-  - Thus the superior man is careful
-  - In the differentiation of things,
-  - so that each finds its place.
+  - 'The wind blows over the earth:'
+  - The image of Contemplation.
+  - Thus the kings of old visitied the regions of the world,
+  - Conteplated the people,
+  - And gave them instruction.
   judgement:
-  - Before Completion. Success.
-  - But if the little fox, after nearly completing the crossing,
-  - Gets his tail in the water,
-  - There is nothing that would further.
-  name: Before Completion
+  - Contemplation. The abulation has been made,
+  - But not yet the offering.
+  - Full of trust they look up to him.
+  name: Contemplation
+  number: 20
   secondary_names: null
-  wilhelm_index: 64
-  yarrow_value: '787878'
-biting_through:
+21:
   changing_lines:
   - line_number: 1
     text:
@@ -476,10 +1181,1181 @@ biting_through:
   - Biting Through has success.
   - It is favorable to let justice be administered.
   name: Biting Through
+  number: 21
   secondary_names: null
-  wilhelm_index: 21
-  yarrow_value: '787887'
-breakthrough:
+22:
+  changing_lines:
+  - line_number: 1
+    text:
+    - He lends grace to his toes, leaves the carriage, and walks.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - Lends grace to the beard on his chin.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - Graceful and moist.
+    - Constant perserverance brings good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - Grace or simplicity?
+    - A white horse comes as if on wings.
+    - He is not a robber,
+    - He will woo at the right time.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - Grace in hills and gardens.
+    - The roll of silk is meager and small.
+    - Humiliation, but in the end good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - Simple grace. No blame.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'Fire at the foot of the mountain:'
+  - The image of Grace.
+  - Thus does the superior man proceed
+  - When clearing up current affairs.
+  - But he dare not decide controversial issues in this way.
+  judgement:
+  - Grace has success
+  - In small matters.
+  - It is favorable to undertake something.
+  name: Grace
+  number: 22
+  secondary_names: null
+23:
+  changing_lines:
+  - line_number: 1
+    text:
+    - The leg of the bed is split.
+    - Those who perservere are destroyed.
+    - Misfortune.
+    type: warning
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - The bed is split at the edge.
+    - Those who perservere are destroyed.
+    - Misfortune.
+    type: warning
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - He splits with them. No blame.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - The bed is split up to the skin.
+    - Misfortune.
+    type: warning
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - A shoal of fishes. Favor comes through the court ladies.
+    - Everything acts to further.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - There is a large fruit still uneaten.
+    - The superior man receives a carriage.
+    - The house of the inferior man is split apart.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'The mountain rests on the earth:'
+  - The image of Splitting Apart.
+  - Thus those above can ensure their position
+  - Only by giving generously to those below.
+  judgement:
+  - Splitting Apart. It does not further
+  - To go anywhere.
+  name: Splitting Apart
+  number: 23
+  secondary_names: null
+24:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Return from a short distance.
+    - No need for remorse.
+    - Great good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - Quiet return. Good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - Repeated return. Danger. No blame.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - Walking in the midst of others,
+    - One returns alone.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - Noblehearted return. No remorse.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - Missing the return. Misfortune.
+    - Misfortune from within and without.
+    - If armies are set marching in this way,
+    - One will in the end suffer a great defeat,
+    - Disastrous for the ruler of the country.
+    - For ten years
+    - It will not be possible to attack again.
+    type: warning
+    yarrow_value: 6
+  image:
+  - 'Thunder within the earth:'
+  - The image of the Turning Point.
+  - Thus the kings of antiquity close the passes
+  - At the time of solsice.
+  - Merchants and strangers did not go about,
+  - And the ruler
+  - Did not travel through the provinces.
+  judgement:
+  - Return. Success.
+  - Going out and coming in without error.
+  - Friends come without blame.
+  - To and fro goes the way.
+  - On the seventh day comes return.
+  - It furthers to have somewhere to go.
+  name: Return
+  number: 24
+  secondary_names:
+  - The Turning Point
+25:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Innocent behavior brings good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - If one does not count the harvest while plowing,
+    - Nor on the use of the ground while clearing it,
+    - It furthers one to undertake something.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - Undeserved misfortune.
+    - The cow that was tethered by someone
+    - Is the wanderer's gain, the citizen's loss.
+    type: warning
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - He who can be perservering
+    - Remains without blame.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - Use no medicine in an illness
+    - Incurred through no fault of your own.
+    - It will pass of itself.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - Innocent action brings misforture.
+    - Nothing furthers.
+    type: warning
+    yarrow_value: 9
+  image:
+  - 'Under heaven tunder rolls:'
+  - All things attain the natural state of innocence.
+  - Thus the kings of old,
+  - Rich in virtue, and in harmony with the time,
+  - Fostered and nourished all beings.
+  judgement:
+  - Innocence, supreme success.
+  - Perserverance futhers.
+  - If someone is not as they should be,
+  - He has misforture,
+  - And it does not further him
+  - To undertake anything.
+  name: Innocence
+  number: 25
+  secondary_names: null
+26:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Danger is at hand. It furthers one to desist.
+    type: warning
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - The aceltrees are taken from the wagon.
+    type: warning
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - A goofd horse that follows others.
+    - Awareness of danger,
+    - With perserverance, furhers.
+    - Practice chariot driving and armed defense daily.
+    - Ot fuerthers one to have somewhere to go.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - The headboard of a young bull.
+    - Great good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - The tusk of a gelded boar.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - One attains the way of heaven.
+    - Success.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'Heaven within the mountain:'
+  - The image of the Taming Power of the Great.
+  - Thus the superior man acquaints himself with many sayings of antiquity
+  - And many deeds of the past,
+  - In order to strengthen his character thereby.
+  judgement:
+  - The Taming Power of the Great.
+  - Perserverance furthers.
+  - Not eating at home brings good fortune.
+  - It furthers one to cross the great water.
+  name: Taming Power of the Great
+  number: 26
+  secondary_names: null
+27:
+  changing_lines:
+  - line_number: 1
+    text:
+    - You let your magic tortoise go,
+    - And look at me with the corners of your mouth drooping.
+    - Misfortune
+    type: warning
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - Turning to the summit for nourishment,
+    - Deviating from the path
+    - To seek nourishment from the hill.
+    - Continuing to do this brings misfortune.
+    type: warning
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - Turning away from nourishment.
+    - Perserverance brings misfortune.
+    - Do not act thus for ten years.
+    - Nothing serves to further.
+    type: warning
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - Turning to the summit
+    - For proision of nourishment
+    - Brings good fortune.
+    - Spying about with sharp eyes
+    - Like a tiger with insatiable craving.
+    - No blame.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - Turning away from the path.
+    - To remain perservering brings good fortune.
+    - One should not cross the great water.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - The source of nourishment.
+    - Awareness of danger brings good fortune.
+    - It furthers one to cross the great water.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'At the foot of the mountain, thunder:'
+  - The image of Providing Nourishment.
+  - Thus the superior man is careful of his words
+  - And temperate in eating and drinking.
+  judgement:
+  - The Corners of the Mouth.
+  - Perserverance brings good fortune.
+  - Pay heed to the providing of nourishment
+  - And to what a man seeks
+  - To fill his own mouth with.
+  name: Providing Nourishment
+  number: 27
+  secondary_names:
+  - Corners of the Mouth
+28:
+  changing_lines:
+  - line_number: 1
+    text:
+    - To spread with rushes underneath.
+    - No blame.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - A dry poplar sprouts at the root.
+    - An olderman takes a young wife.
+    - Everything furthers.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - The ridgepole sags to the breaking point.
+    - Misfortune.
+    type: warning
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - The ridgepole is braced. Good fortune.
+    - If there are ulterior motives, it is humiliating.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - A withered poplar puts forth flowers.
+    - An olderwoman takes a husband.
+    - No blame. No praise.
+    type: warning
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - One must go through the water.
+    - It goes over one's head.
+    - Misfortune. No blame.
+    type: warning
+    yarrow_value: 6
+  image:
+  - 'The lake rises above the trees:'
+  - The image of Preponderance of the Great.
+  - Thus the superior man, when he stands alone,
+  - Is unconcerned,
+  - And if he has to renouce the world,
+  - He is undaunted.
+  judgement:
+  - The ridgepole sags to the breaking point.
+  - It furthers to have somewhere to go.
+  - Success.
+  name: Preponderance of the Great
+  number: 28
+  secondary_names: null
+29:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Repetition of the Abysmal.
+    - In the abyss one falls into a pit.
+    - Misfortune.
+    type: warning
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - The abyss is dangerous.
+    - One should strive to attain small things only.
+    type: warning
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - Forward and backward, abyss on abyss.
+    - In danger like this, pause at first and wait,
+    - Otherwise you will fall into a pit in the abyss.
+    - Do not act in this way.
+    type: warning
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - A jug of wine, a bowl of rice with it;
+    - Earthen vessels
+    - Simply handed in through the window.
+    - There is certainly no blame in this.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - The abuyss is not filled to overflowing,
+    - It is filled only to the rim.
+    - No blame.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - Bound with cords and ropes,
+    - 'Shut in between thorn-hedged prison walls:'
+    - For three years one does not find the way.
+    - Misfortune.
+    type: warning
+    yarrow_value: 6
+  image:
+  - 'Water flows on iuniterruptedly and reaches its goal:'
+  - The image of the Abysmal repeated.
+  - Thus the superior man walks in lasting virtue
+  - And carries on the business of teaching.
+  judgement:
+  - The Abysmal repeated.
+  - If you are sincere, and have success in your heart,
+  - And whatever you do succeeds.
+  name: The Abysmal
+  number: 29
+  secondary_names:
+  - Water
+30:
+  changing_lines:
+  - line_number: 1
+    text:
+    - The footprints run crisscros.
+    - If one is seriously intent, no blame.
+    type: warning
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - Yellow light. Supreme good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - In the light of the settings un,
+    - Men either beat the pot and sing
+    - Or loudly bewail the approach of old age.
+    - Misfortune.
+    type: warning
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - Its coming is sudden;
+    - It flames up, dies down, is thrown away.
+    type: warning
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - Tears in floods, sighing and lamenting.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - The king uses hit to march forth and chastise.
+    - Then its best to kill the leaders
+    - And take captive the followers. No blame.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'That which is bright rises twice:'
+  - The image of Fire.
+  - Thus the great man, by perpetuating this brightness,
+  - Illiuminates the four quarters of the world.
+  judgement:
+  - The Clinging. Perserverance furthers.
+  - It brings success.
+  - Care of the cow brings good fortune.
+  name: The Clinging
+  number: 30
+  secondary_names:
+  - Fire
+31:
+  changing_lines:
+  - line_number: 1
+    text:
+    - The influence shows itself in the big toe.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - The influence shows itself in the calves of the legs.
+    - Misfortune.
+    - Tarrying brings good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - The influence shows itself in the thights.
+    - Holds to that which follows it.
+    - To continue is humiliating.
+    type: warning
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - Perserverance brings good fortune.
+    - Remorse disappears.
+    - If a man is agitated in mind,
+    - And his thoughts go hither and thither,
+    - Only those friends
+    - On whome he fixes his concious thoughts
+    - Will follow.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - The influence shows itself in the back of the neck.
+    - No remorse.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - The influence shows itself in the jaws, cheek, and tongue.
+    type: warning
+    yarrow_value: 6
+  image:
+  - 'A lake on the mountain:'
+  - The image of Influence.
+  - Thus the superior man encourages people to approach him
+  - By his readiness to receive them.
+  judgement:
+  - Influence. Success.
+  - Perserverance furthers.
+  - To take a maiden to wife brings good fortune.
+  name: Influence
+  number: 31
+  secondary_names:
+  - Wooing
+32:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Seeking duration to hastily brings misfortune persistently.
+    - Nothing that would further.
+    type: warning
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - Remorse disappears.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - He who does not give duration to his character
+    - Meets with disgrace.
+    - Persistent humiliation.
+    type: warning
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - No game in the field.
+    type: warning
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - Giving duration to one's character through perserverance.
+    - This is good fortune for a woman, misfortunate for a man.
+    type: warning
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - Restlessness as an eduring condition brings misfortune.
+    type: warning
+    yarrow_value: 6
+  image:
+  - 'Thunder and wind: the image of Duration'
+  - Thus the superior man stands firm
+  - And does not change his direction.
+  judgement:
+  - Duration. Success. No blame.
+  - Perserverance futhers.
+  - It furthers one to have somewhere to go.
+  name: Duration
+  number: 32
+  secondary_names: null
+33:
+  changing_lines:
+  - line_number: 1
+    text:
+    - At the tail in retreat. This is dangerous.
+    - One must not wish to undertake anything.
+    type: warning
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - He holds him fast with yellow oxhide.
+    - No one can tear him loose.
+    type: warning
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - A halted retreat
+    - Is nerve-wracking and dangerous.
+    - To retain people as men- and maidservants
+    - Brings good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - Voluntary retreat brings good fortune to the superior man
+    - And downfall to the inferior man.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - Friendly retreat. Perserverance brings good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - Cheerful retreat. Everything servers to further.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'Mountain under heaven: the image of Retreat.'
+  - Thus the superior man keeps the inferior man at a distance,
+  - Not angrily but with reserve.
+  judgement:
+  - Retreat. Success.
+  - In what is small, perserverance furthers.
+  name: Retreat
+  number: 33
+  secondary_names: null
+34:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Power in the toes.
+    - Continuing brings misfortune.
+    - This is certainly true.
+    type: warning
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - Perserverance brings good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - The inferior man works through power.
+    - The superior man does not act thus.
+    - To continue is dangerous.
+    - A goat butts against a hedge
+    - And gets its horns entangled.
+    type: warning
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - Perserverance brings good fortune.
+    - Remorse disappears.
+    - The hedge opens; there is no entanglement.
+    - Power depends upon the axel of a big cart.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - Loses the goat with ease.
+    - No remorse.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - A goat butts against a hedge.
+    - It cannot go backward, it cannot go forward.
+    - Nothing serves to further.
+    - If one notes the difficulty, this brings good fortune.
+    type: reminder
+    yarrow_value: 6
+  image:
+  - 'Thunder in heaven above:'
+  - The image of The Power of the Great.
+  - Thus the superior man does not tread upon paths
+  - That do not accord with established order.
+  judgement:
+  - The Power of the Great. Perserverance furthers.
+  name: The Power of the Great
+  number: 34
+  secondary_names: null
+35:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Progressing, but turned back.
+    - Perserverance brings good fortune.
+    - If one meets with no confidence, one should remain calm.
+    - No mistake.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - Progressing, but in sorrow.
+    - Perserverance brings good fortune.
+    - Then one obtains great hapiness from one's ancestress.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - All are in accord. Remorse disappears.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - Progress like a hamster.
+    - Perserverance brings danger.
+    type: warning
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - Remorse disappears.
+    - Take not gain and loss to heart.
+    - Undertakings bring good fortune.
+    - Everything serves to further.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - Making progress with the horns is permissible
+    - Only for the purpose of punishing one's own city.
+    - To be concious of fanger brings good fortune.
+    - No blame.
+    - Perserverance brings humiliation.
+    type: warning
+    yarrow_value: 9
+  image:
+  - 'The sun rises over the earth:'
+  - The image of Progress.
+  - Thus the superior man himself
+  - Brigthens his bright virtue.
+  judgement:
+  - Progress. The powerful prince
+  - Is honored with horses in large numbers.
+  - In a single day he is granted an audience three times.
+  name: Progress
+  number: 35
+  secondary_names: null
+36:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Darkening of the light during flight.
+    - He lowers his wings.
+    - The superior man does not eat for three days
+    - On his wanderings.
+    - But he has somewhere to go.
+    - The host has occasion to gossip about him.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - Darkening of the light injures him in the left thigh.
+    - He gives aid with the strength of a horse.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - Darkening of the light during the hunt in the south.
+    - Their great leader is captured.
+    - One must not expect perserverance too soon.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - He penetrates the left side of the belly.
+    - One gets at the very heart of the darkening of the light,
+    - And leaves the gate and courtyard.
+    type: warning
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - Darkening of the light as with Prince Chi.
+    - Perserverance furthers.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - Not light but darkness.
+    - First he climbed up to heaven,
+    - Then he plunged into the depths of the earth.
+    type: warning
+    yarrow_value: 6
+  image:
+  - 'The light has sunk into the earth:'
+  - The image of Darkening of the Light.
+  - 'The does the superior man live with a great mass:'
+  - He veils his light, yet still shines.
+  judgement:
+  - Darkening of the Light. In adversity
+  - It furthers one to be perservering.
+  name: Darkening of the Light
+  number: 36
+  secondary_names: null
+37:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Firm seclusion within the family.
+    - Remorse disappears.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - She should not follow her whims.
+    - She must attend within to the food.
+    - Perserverance brings good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - When tempers flare up in the family,
+    - Too great severity brings remorse.
+    - Good fortune nonetheless.
+    - When woman and child dally andlaugh,
+    - It leads in the end to humiliation.
+    type: warning
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - She is the treasure of the house.
+    - Great good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - As a king he approaches his family.
+    - Fear not.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - His work commands respect.
+    - In the end good fortune comes.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'Wind comes forth from fire:'
+  - The image of The Family.
+  - Thus the superior man has substance in his words
+  - And duration in his way of life.
+  judgement:
+  - The Family. The perserverance of the woman furthers.
+  name: The Family
+  number: 37
+  secondary_names:
+  - The Clan
+38:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Remorse disapears.
+    - If you lose your horse, do not run after it;
+    - It will come back of its own accord.
+    - When you see evil people,
+    - Guard yourself against mistakes.
+    type: warning
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - One meets his lord in a narrow street.
+    - No blame.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - One sees the wagon dragged back,
+    - The oxen halted,
+    - A man's hair andnose cut off.
+    - Not a good beginning, but a good end.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - Isolated through opposition,
+    - One meets a like-minded man
+    - With whom he can associate in good faith.
+    - Despite the danger, no blame.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - Remorse disappears.
+    - The companion bites his way through the wrappings.
+    - If one goes to him,
+    - How could it be a mistake?
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - Isolated through opposition,
+    - One sees one's companion as a pig covered with dirt,
+    - As a wagon full of devils.
+    - First one draws a bow against him,
+    - Then one lays the bow aside.
+    - He is not a robber; he will woo at the right time.
+    - As one goes, rain falls; then good fortune comes.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'Above, fire; below, the lake:'
+  - The image of Opposition.
+  - Thus amid all fellowship
+  - The superior man retains his individuality.
+  judgement:
+  - Opposition. In small matters, good fortune.
+  name: Opposition
+  number: 38
+  secondary_names: null
+39:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Going leads to obstructions,
+    - Coming meets with praise.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - The king's servant is beset by obstruction upon obstruction,
+    - But it is not his own fault.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - Going leads to obstructions;
+    - Hence he comes back.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - Going leads to obstructions,
+    - Coming leads to union.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - In the midst of the greatest obstructions,
+    - Friends come.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - Going leads to obstructions,
+    - Coming leads to great good fortune.
+    - It furthers one to see the great man.
+    type: reminder
+    yarrow_value: 6
+  image:
+  - 'Water on the mountain:'
+  - The image of Obstruction.
+  - Thus the superior man turns his attention to himself
+  - And molds his character.
+  judgement:
+  - Obstruction. The southwest furthers.
+  - The northeast does not further.
+  - It furthers one to see the great man.
+  - Perserverance brings good fortune.
+  name: Obstruction
+  number: 39
+  secondary_names: null
+40:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Without blame.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - One kills three foxes in the field
+    - And receives a yellow arrow.
+    - Perserverance brings good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - If a man carries a burden on his back
+    - And nonetheless rides in a carriage,
+    - He thereby encourages robbers to draw near.
+    - Perserverance leads to humiliation.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - Deliver yourself from your great toe.
+    - Then the companion comes,
+    - And him you can trust.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - If only the superior man can deliver himself,
+    - It brings good fortune.
+    - Thus he proves to inferior men that he is in earnest.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - The prince shoots at a hawk on a high wall.
+    - He kills it. Everything serves to further.
+    type: reminder
+    yarrow_value: 6
+  image:
+  - 'Thunder and rain set in:'
+  - The image of Deliverance.
+  - Thus the superior man pardons mistakes
+  - And forgives misdeeds.
+  judgement:
+  - Deliverance. The southwest furthers.
+  - If there is no longer anything where one has to go,
+  - Return brings good fortune.
+  - If there s still something where someone has to go,
+  - Hastening brings good fortune.
+  name: Deliverance
+  number: 40
+  secondary_names: null
+41:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Going quickly when one's tasks are finished
+    - Is without blame.
+    - But one must reflect on how much one may decrease others.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - Perserverance furthers.
+    - To undertake something brings misfortune.
+    - Without decreasing oneself,
+    - One is able to bring increase to others.
+    type: warning
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - When three people journey together,m
+    - Their number decreases by one.
+    - When one man journeys alone,
+    - He finds a companion.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - If a man decreases his faults,
+    - It makes the other hasten to come and rejoice.
+    - No blame.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - Someone doesindeed increase him.
+    - Tem pairs of tortoise cannot oppose it.
+    - Supreme good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - If one is increased without depriving others,
+    - There is no blame.
+    - Perserverance brings good fortune.
+    - It furthers one to undertake something
+    - One obtains servants
+    - But no longer has a separate home.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'At the foot of the mountain, the lake:'
+  - The image of Decrease.
+  - Thus the superior man controls his anger
+  - And restrains his instincts.
+  judgement:
+  - Decrease combined with sincerity
+  - Brings about supreme good fortune
+  - Without blame.
+  - One may be perservering in this.
+  - It furthers one to undertake something.
+  - How is this to be carried out?
+  - One may use two small bowls for the sacrifice.
+  name: Decrease
+  number: 41
+  secondary_names: null
+42:
+  changing_lines:
+  - line_number: 1
+    text:
+    - It furthers one to accomplish great deeds.
+    - Supreme good fortune. No blame.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - Someone does indeed increase him;
+    - Ten pairs of tortoise cannot oppose it.
+    - Constant perserverance brings good fortune.
+    - The king presents him before God.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - One is enriched through unfortunate events.
+    - No blame, if youare sincere
+    - And walk in themiddle,
+    - And report with a seal to the prince.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - If youwalk in the middle
+    - And report to the prince,
+    - He will follow.
+    - It furthers one to be used
+    - In the removal of the capital.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - If in truth you have a kind heart, ask not.
+    - Supreme good fortune.
+    - Truly, kindess will be recognized as your virtue.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - He brings increase to no one.
+    - Indeed, someone even strikes him.
+    - He does not keep his heart constantly steady.
+    - Misfortune.
+    type: warning
+    yarrow_value: 9
+  image:
+  - 'Wind and thunder: the image of Increase'
+  - 'Thus the superior man:'
+  - If he sees good, he imitates it;
+  - If he has faults, he rids himself of them.
+  judgement:
+  - Increase. It furthers one
+  - To undertake something.
+  - It furthers one to cross the great water.
+  name: Increase
+  number: 42
+  secondary_names: null
+43:
   changing_lines:
   - line_number: 1
     text:
@@ -543,125 +2419,10 @@ breakthrough:
   - It does not further to resort to arms.
   - It furthers to undertake something.
   name: Break-through
+  number: 43
   secondary_names:
   - Resoluteness
-  wilhelm_index: 43
-  yarrow_value: '877777'
-cauldron:
-  changing_lines:
-  - line_number: 1
-    text:
-    - A cauldron with legs upturned.
-    - Furthers removal of stagnating stuff.
-    - One takes a concubine for the sake of her son.
-    - No blame.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - There is food in the cauldron.
-    - My comrades are envious,
-    - But they cannot harm me.
-    - Good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - The handle of the cauldron is altered.
-    - One is impeded in his way of life.
-    - The fat of the pheasant is not eaten.
-    - One rain falls, remorse is spent.
-    - Good fortune comes in the end.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - The legs of the cauldron are broken.
-    - The prince's meal is spilled.
-    - And his person is soiled.
-    - Misfortune.
-    type: warning
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - The cauldron has yellow handles, golden carrying rings.
-    - Perserverance furthers.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - The cauldron has rings of jade.
-    - Great good fortune.
-    - Nothing that would not act to further.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'Fire over wood:'
-  - The image of The Cauldron.
-  - Thus the superior man consolidates his fate
-  - By making his position correct.
-  judgement:
-  - The Cauldron. Supreme good fortune.
-  - Success
-  name: The Cauldron
-  secondary_names: null
-  wilhelm_index: 50
-  yarrow_value: '787778'
-clinging:
-  changing_lines:
-  - line_number: 1
-    text:
-    - The footprints run crisscros.
-    - If one is seriously intent, no blame.
-    type: warning
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - Yellow light. Supreme good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - In the light of the settings un,
-    - Men either beat the pot and sing
-    - Or loudly bewail the approach of old age.
-    - Misfortune.
-    type: warning
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - Its coming is sudden;
-    - It flames up, dies down, is thrown away.
-    type: warning
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - Tears in floods, sighing and lamenting.
-    - Good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - The king uses hit to march forth and chastise.
-    - Then its best to kill the leaders
-    - And take captive the followers. No blame.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'That which is bright rises twice:'
-  - The image of Fire.
-  - Thus the great man, by perpetuating this brightness,
-  - Illiuminates the four quarters of the world.
-  judgement:
-  - The Clinging. Perserverance furthers.
-  - It brings success.
-  - Care of the cow brings good fortune.
-  name: The Clinging
-  secondary_names:
-  - Fire
-  wilhelm_index: 30
-  yarrow_value: '787787'
-coming_to_meet:
+44:
   changing_lines:
   - line_number: 1
     text:
@@ -713,802 +2474,9 @@ coming_to_meet:
   - Coming to Meet. The maiden is powerful.
   - One should not marry such a maiden.
   name: Coming to Meet
+  number: 44
   secondary_names: null
-  wilhelm_index: 44
-  yarrow_value: '777778'
-conflict:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Ifone does not perpetuate the affair,
-    - There is a little gossip.
-    - In the end good fortune comes.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - One cannot engage in conflict;
-    - One returns home, gives way.
-    - The people in his town,
-    - Three hundred households,
-    - Remain free of guilt.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - To nourish oneself on ancient virtue induces perserverance.
-    - Danger. In the end, good fortune comes.
-    - If by chance you seek service of a king,
-    - Seek not works.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - One cannot engage in conflict.
-    - One turns back and submits to fate.
-    - Changes one's attitude,
-    - And finds peace in perserverance.
-    - Good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - To contend before him
-    - Brings supreme good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - Even if by chance a leather belt is bestowed on one,
-    - By the end of a morning
-    - It will have been snatched away three times.
-    type: warning
-    yarrow_value: 9
-  image:
-  - 'Heaven and water go their opposite ways:'
-  - The image of Conflict.
-  - Thus in all his transactions the superior man
-  - Carefully considers the beginning.
-  judgement:
-  - Conflict. You are sincere
-  - And are being obstructed.
-  - A cautious halt halfway brings good forture.
-  - Going through to the end brings misfortune.
-  - It furthers one to see the great man.
-  - It furthers one to cross the great water.
-  name: Conflict
-  secondary_names: null
-  wilhelm_index: 6
-  yarrow_value: '777878'
-contemplation:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Boylike conteplation.
-    - For an inferior man, no blame.
-    - For a superior man, humiliation.
-    type: warning
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - Contemplation through the crack of the door.
-    - Furthering for the preserverance of a woman.
-    type: warning
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - Contemplation of my lie
-    - Decides the choice
-    - Between advance and retreat.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - Contemplation of the light of the kingdom.
-    - It furthers one to exert influence as tghe guest of a king.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - Contemplation of my life.
-    - The superior man is without blame.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - Contemplation of his life.
-    - The superior man is without blame.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'The wind blows over the earth:'
-  - The image of Contemplation.
-  - Thus the kings of old visitied the regions of the world,
-  - Conteplated the people,
-  - And gave them instruction.
-  judgement:
-  - Contemplation. The abulation has been made,
-  - But not yet the offering.
-  - Full of trust they look up to him.
-  name: Contemplation
-  secondary_names: null
-  wilhelm_index: 20
-  yarrow_value: '778888'
-creative:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Hidden dragon. Do not act.
-    type: warning
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - Dragon appearing in the field.
-    - It furthers one to see the great man.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - All day long the superior man is creatively active.
-    - At nightfall is mind is beset with cares.
-    - Danger. No blame.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - Wavering flight over depths.
-    - No blame.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - Flying dragon in the heavens.
-    - It furthers one to see the great man.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - Arrogant dragon will have cause to repent.
-    type: warning
-    yarrow_value: 9
-  image:
-  - The movement of heaven is full of power.
-  - Tus the superior man makes himself strong and untiring.
-  judgement:
-  - The Creative works sublime success,
-  - Furthering through perserverence.
-  name: The Creative
-  secondary_names:
-  - Heaven
-  wilhelm_index: 1
-  yarrow_value: '777777'
-darkening_of_light:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Darkening of the light during flight.
-    - He lowers his wings.
-    - The superior man does not eat for three days
-    - On his wanderings.
-    - But he has somewhere to go.
-    - The host has occasion to gossip about him.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - Darkening of the light injures him in the left thigh.
-    - He gives aid with the strength of a horse.
-    - Good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - Darkening of the light during the hunt in the south.
-    - Their great leader is captured.
-    - One must not expect perserverance too soon.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - He penetrates the left side of the belly.
-    - One gets at the very heart of the darkening of the light,
-    - And leaves the gate and courtyard.
-    type: warning
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - Darkening of the light as with Prince Chi.
-    - Perserverance furthers.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - Not light but darkness.
-    - First he climbed up to heaven,
-    - Then he plunged into the depths of the earth.
-    type: warning
-    yarrow_value: 6
-  image:
-  - 'The light has sunk into the earth:'
-  - The image of Darkening of the Light.
-  - 'The does the superior man live with a great mass:'
-  - He veils his light, yet still shines.
-  judgement:
-  - Darkening of the Light. In adversity
-  - It furthers one to be perservering.
-  name: Darkening of the Light
-  secondary_names: null
-  wilhelm_index: 36
-  yarrow_value: '888787'
-decay:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Setting right what has been spoiled by the father.
-    - If there is a son,
-    - No blame rests upon the departed father.
-    - Danger. In the end good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - Setting right what has been spoiled by the mother.
-    - One must not be too perservering.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - Setting right what has been spoiled by the father.
-    - There will be a little remorse. No great blame.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - Tolerating what has been spoiled by the father.
-    - In continuing one sees humiliation.
-    type: warning
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - Setting right what has been spoiled by the father.
-    - One meets with praise.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - He does not serve kings and rinces,
-    - Sets himself higher goals.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'The wind blows low on the mountain:'
-  - The image of Decay.
-  - Thus the superior man stirs up the people
-  - And strentgthens their spirit.
-  judgement:
-  - Work on What Has Been Spoiled
-  - Has supreme success.
-  - It furthers one to cross the great water.
-  - Before the starting point, three days.
-  - After the starting point, three days.
-  name: Decay
-  secondary_names:
-  - Work on What Has Been Spoiled
-  wilhelm_index: 18
-  yarrow_value: '788778'
-decrease:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Going quickly when one's tasks are finished
-    - Is without blame.
-    - But one must reflect on how much one may decrease others.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - Perserverance furthers.
-    - To undertake something brings misfortune.
-    - Without decreasing oneself,
-    - One is able to bring increase to others.
-    type: warning
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - When three people journey together,m
-    - Their number decreases by one.
-    - When one man journeys alone,
-    - He finds a companion.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - If a man decreases his faults,
-    - It makes the other hasten to come and rejoice.
-    - No blame.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - Someone doesindeed increase him.
-    - Tem pairs of tortoise cannot oppose it.
-    - Supreme good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - If one is increased without depriving others,
-    - There is no blame.
-    - Perserverance brings good fortune.
-    - It furthers one to undertake something
-    - One obtains servants
-    - But no longer has a separate home.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'At the foot of the mountain, the lake:'
-  - The image of Decrease.
-  - Thus the superior man controls his anger
-  - And restrains his instincts.
-  judgement:
-  - Decrease combined with sincerity
-  - Brings about supreme good fortune
-  - Without blame.
-  - One may be perservering in this.
-  - It furthers one to undertake something.
-  - How is this to be carried out?
-  - One may use two small bowls for the sacrifice.
-  name: Decrease
-  secondary_names: null
-  wilhelm_index: 41
-  yarrow_value: '788877'
-deliverance:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Without blame.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - One kills three foxes in the field
-    - And receives a yellow arrow.
-    - Perserverance brings good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - If a man carries a burden on his back
-    - And nonetheless rides in a carriage,
-    - He thereby encourages robbers to draw near.
-    - Perserverance leads to humiliation.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - Deliver yourself from your great toe.
-    - Then the companion comes,
-    - And him you can trust.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - If only the superior man can deliver himself,
-    - It brings good fortune.
-    - Thus he proves to inferior men that he is in earnest.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - The prince shoots at a hawk on a high wall.
-    - He kills it. Everything serves to further.
-    type: reminder
-    yarrow_value: 6
-  image:
-  - 'Thunder and rain set in:'
-  - The image of Deliverance.
-  - Thus the superior man pardons mistakes
-  - And forgives misdeeds.
-  judgement:
-  - Deliverance. The southwest furthers.
-  - If there is no longer anything where one has to go,
-  - Return brings good fortune.
-  - If there s still something where someone has to go,
-  - Hastening brings good fortune.
-  name: Deliverance
-  secondary_names: null
-  wilhelm_index: 40
-  yarrow_value: '887878'
-diffculty_at_the_beginning:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Hesitation and hinderance.
-    - It furthers one to remain perservering.
-    - It furthers one to appoint helpers.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - Difficulties pile up.
-    - Horse and wagon part.
-    - He isnot a robber;
-    - He wants to woo when the time comes.
-    - Maiden is chaste.
-    - She does not pledge herself.
-    - Ten years - then she pledges herself.
-    type: warning
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - Whoever hunts deer without the forester
-    - Only loses his way in the forest.
-    - The superior man understands the signs of the time
-    - And prefers to desist.
-    - To go on brings humiliation.
-    type: warning
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - Horse and wagon part.
-    - Strive for union.
-    - To go brings good fortune.
-    - Everything acts to further.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - Difficulties in blessing.
-    - A little perserverance brings good fortune.
-    - Great perserverance brings misfortune.
-    type: warning
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - Horse and wagon part.
-    - Bloody tears flow.
-    type: warning
-    yarrow_value: 6
-  image:
-  - 'Clouds and thunder:'
-  - The image of Difficulty at the Beginning.
-  - Thus the superior man
-  - Brings order out of confusion
-  judgement:
-  - Difficlty at the Beginning works supreme success,
-  - Furthering through perserverance.
-  - Nothing should be undertaken.
-  - It furthers one to appoint helpers.
-  name: Difficulty at the Beginning
-  secondary_names: null
-  wilhelm_index: 3
-  yarrow_value: '878887'
-dispersion:
-  changing_lines:
-  - line_number: 1
-    text:
-    - He brings help with the strength of a horse.
-    - Good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - At the dissolution
-    - He hurries to that which supports him.
-    - Remorse disappears.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - He dissolves his self. No remorse.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - He dissoves his bond with his group.
-    - Supreme good fortune.
-    - Dispersion leads in turn to accumulation.
-    - This is something that ordinary men do not think of.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - His loud cries are dissolving as sweat.
-    - Dissolution! A king abides without blame.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - He dissolves his blood.
-    - Departing, keeping at a distance, going out,
-    - Is without blame.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'The wind drives over the water:'
-  - The image of Dispersion.
-  - Thus the kings of old sacrificed to the Lord
-  - And built temples.
-  judgement:
-  - Dispersion. Success.
-  - The king approaches his temple.
-  - It furthers one to cross the great water.
-  - Perserverance furthers.
-  name: Dispersion
-  secondary_names:
-  - Dissolution
-  wilhelm_index: 59
-  yarrow_value: '778878'
-duration:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Seeking duration to hastily brings misfortune persistently.
-    - Nothing that would further.
-    type: warning
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - Remorse disappears.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - He who does not give duration to his character
-    - Meets with disgrace.
-    - Persistent humiliation.
-    type: warning
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - No game in the field.
-    type: warning
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - Giving duration to one's character through perserverance.
-    - This is good fortune for a woman, misfortunate for a man.
-    type: warning
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - Restlessness as an eduring condition brings misfortune.
-    type: warning
-    yarrow_value: 6
-  image:
-  - 'Thunder and wind: the image of Duration'
-  - Thus the superior man stands firm
-  - And does not change his direction.
-  judgement:
-  - Duration. Success. No blame.
-  - Perserverance futhers.
-  - It furthers one to have somewhere to go.
-  name: Duration
-  secondary_names: null
-  wilhelm_index: 32
-  yarrow_value: '887778'
-enthusiasm:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Enthusiasm that expresses itself
-    - Brings misfortune.
-    type: warning
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - Firm as a rock. Not a whole day.
-    - Perserverance brings good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - Enthusiasm that looks upward creates remorse.
-    - Hesitation brings remorse.
-    type: warning
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - The source of enthusiasm.
-    - Doubt not.
-    - You gather friends around you
-    - As a gair clasp gathers the hair.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - Persistently ill, and still does not die.
-    type: warning
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - Deluded enthusiasm.
-    - But after completion one changes,
-    - There is no blame.
-    type: reminder
-    yarrow_value: 6
-  image:
-  - 'Thunder comes resounding out of the earth:'
-  - The image of Enthusiasm.
-  - Thus ancient kings made music
-  - In order to honor merit,
-  - And offered it with splendor
-  - To the Supreme Deity,
-  - Inviting their ancestors to be present.
-  judgement:
-  - Enthusiasm. It furthers one to install helpers
-  - And to set armies marching.
-  name: Enthusiasm
-  secondary_names: null
-  wilhelm_index: 16
-  yarrow_value: '887888'
-family:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Firm seclusion within the family.
-    - Remorse disappears.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - She should not follow her whims.
-    - She must attend within to the food.
-    - Perserverance brings good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - When tempers flare up in the family,
-    - Too great severity brings remorse.
-    - Good fortune nonetheless.
-    - When woman and child dally andlaugh,
-    - It leads in the end to humiliation.
-    type: warning
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - She is the treasure of the house.
-    - Great good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - As a king he approaches his family.
-    - Fear not.
-    - Good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - His work commands respect.
-    - In the end good fortune comes.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'Wind comes forth from fire:'
-  - The image of The Family.
-  - Thus the superior man has substance in his words
-  - And duration in his way of life.
-  judgement:
-  - The Family. The perserverance of the woman furthers.
-  name: The Family
-  secondary_names:
-  - The Clan
-  wilhelm_index: 37
-  yarrow_value: '778787'
-fellowship_with_men:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Fellowship with men at the gate.
-    - No blame.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - Fellowship with men in the clan.
-    - Humiliation.
-    type: warning
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - He hides weapons in the thicket.
-    - He climbs the high hill in front of it.
-    - For three years he does not rise up.
-    type: warning
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - He climbs up on his wall; he cannot attack.
-    - Good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - Men bound in fellowship first weep and lament,
-    - But afterward they laugh.
-    - After great struggles they succeed in meeting.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - Fellowship with men in the meadow.
-    - No remorse.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'Heaven together with fire:'
-  - The image of Fellowship with Men.
-  - Thus the superior man organizes the clans
-  - And makes distinctions between things.
-  judgement:
-  - Fellowship with Men in the open.
-  - Success.
-  - It furthers one to cross the great water.
-  - The perserverance of the superior man furthers.
-  name: Fellowship with Men
-  secondary_names: null
-  wilhelm_index: 13
-  yarrow_value: '777787'
-following:
-  changing_lines:
-  - line_number: 1
-    text:
-    - The standard is changing.
-    - Perserverance brings good fortune.
-    - To go out of the door in company
-    - Produces deeds.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - If one clings to the little boy,
-    - One loses the strong man.
-    type: warning
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - If one clings to the strong man,
-    - One loses the little boy.
-    - Through following one finds what one seeks.
-    - It furthers one to remain perservering.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - Following creates success.
-    - Perserverance brings misfortune.
-    - To go one's way with sincerity brings clarity.
-    - How could there be blame in this?
-    type: reminder
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - Sincere in the good. Good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - He meets witgh furm allegiance.
-    - And is still further bound.
-    - The king introduces him
-    - To the Western Mountain.
-    type: reminder
-    yarrow_value: 6
-  image:
-  - 'Thunder in the middle of the lake:'
-  - The image of Following.
-  - Thus the superior man at nightfall
-  - Goes indoors for rest and recuperation.
-  judgement:
-  - Following has supreme success.
-  - Perserverence furthers. No blame.
-  name: Following
-  secondary_names: null
-  wilhelm_index: 17
-  yarrow_value: '877887'
-gathering_together:
+45:
   changing_lines:
   - line_number: 1
     text:
@@ -1568,865 +2536,64 @@ gathering_together:
   - To bring great offerings creates good fortune.
   - It furthers one to undertake something.
   name: Gathering Together
+  number: 45
   secondary_names:
   - Massing
-  wilhelm_index: 45
-  yarrow_value: '877888'
-gentle:
+46:
   changing_lines:
   - line_number: 1
     text:
-    - In advancing and in retreating,
-    - The perserverance of the warrior furthers.
+    - Pushing upward the meets with confidence
+    - Brings great good fortune.
     type: reminder
     yarrow_value: 6
   - line_number: 2
     text:
-    - Penetration under the bed.
-    - Priests and magicians are used in great number.
+    - If one is sincere,
+    - It furthers one to bring even a small offering.
+    - No blame.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - One pushes upward into an empty city.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - The king offers him Mount Ch'i.
     - Good fortune. No blame.
     type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - Repeated penetration. Humiliation.
-    type: warning
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - Remorse vanishes.
-    - Diring the hunt.
-    - Three kinds of game are caught.
-    type: reminder
     yarrow_value: 6
   - line_number: 5
     text:
     - Perserverance brings good fortune.
-    - Remorse vanishes.
-    - Nothing that does not further.
-    - No beginning, but an end.
-    - Before change, three days.
-    - After change, three days.
-    - Good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - Penetration under the bed.
-    - He loses his property and his ax.
-    - Perserverance brings misfortune.
-    type: warning
-    yarrow_value: 9
-  image:
-  - 'Winds following one upon the other:'
-  - The image of The Gentle Penetrating.
-  - Thus the superior man
-  - Spreads his commands abroad
-  - And carries out his undertakings.
-  judgement:
-  - The Gentle. Success through what is small.
-  - It furthers one to have somewhere to go.
-  - It furthers one to see the great man.
-  name: The Gentle
-  secondary_names:
-  - The Penetrating
-  - Wind
-  wilhelm_index: 57
-  yarrow_value: '778778'
-grace:
-  changing_lines:
-  - line_number: 1
-    text:
-    - He lends grace to his toes, leaves the carriage, and walks.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - Lends grace to the beard on his chin.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - Graceful and moist.
-    - Constant perserverance brings good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - Grace or simplicity?
-    - A white horse comes as if on wings.
-    - He is not a robber,
-    - He will woo at the right time.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - Grace in hills and gardens.
-    - The roll of silk is meager and small.
-    - Humiliation, but in the end good fortune.
+    - One pushes upward by steps.
     type: reminder
     yarrow_value: 6
   - line_number: 6
     text:
-    - Simple grace. No blame.
+    - Pushing upward in darkness.
+    - It furthers one
+    - To be unremittingly perservering.
     type: reminder
-    yarrow_value: 9
+    yarrow_value: 6
   image:
-  - 'Fire at the foot of the mountain:'
-  - The image of Grace.
-  - Thus does the superior man proceed
-  - When clearing up current affairs.
-  - But he dare not decide controversial issues in this way.
+  - 'Within the earth, wood grows:'
+  - The image of Pushing Upward.
+  - Thus the superior man of devoted character
+  - HEaps up small things
+  - In order to achieve something high and great.
   judgement:
-  - Grace has success
-  - In small matters.
-  - It is favorable to undertake something.
-  name: Grace
+  - Pushing Upward has supreme success.
+  - One must see the great man.
+  - Fear not.
+  - Departure towards the south
+  - Brings good fortune.
+  name: Pushing Upward
+  number: 46
   secondary_names: null
-  wilhelm_index: 22
-  yarrow_value: '788787'
-gradual_progress:
-  changing_lines:
-  - line_number: 1
-    text:
-    - The wild goose gradually draws to the shore.
-    - The young son is in danger.
-    - There is talk. No blame.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - The wild goose gradually draws near the cliff.
-    - Eating and drinking in peace and concord.
-    - Good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - The wild goose gradually draws near the plateau.
-    - The man goes forth and does not return.
-    - The womman carries a child but does not bring it forth.
-    - Misfortune.
-    - It furthers one to fight robbers.
-    type: warning
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - The wild goose gradually draws near the tree.
-    - Perhaps it will find a flat branch. No blame.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - The wild goose gradually draws near the summit.
-    - For three years the woman has no child.
-    - In the end nothing can hinder her.
-    - Good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - The wild goose gradually draws near the cloud heights.
-    - Its feathers can be used for the sacred dance.
-    - Good fortune.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'On the mountain, a tree:'
-  - The image of Development.
-  - Thus the superior man abides in dignity and virtue,
-  - In order to improve the mores.
-  judgement:
-  - Development. The maiden
-  - Is given in marriage.
-  - Good fortune.
-  - Perserverance furthers.
-  name: Gradual Progress
-  secondary_names:
-  - Development
-  wilhelm_index: 53
-  yarrow_value: '778788'
-holding_together:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Hold to him in truth and loyalty;
-    - This is without blame.
-    - 'Truth, like a full earthen bowl:'
-    - Thus in the end
-    - Good fortune comes from without.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - Hold to him inwardly.
-    - Perserverance brings good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - You hold together with the wrong people.
-    type: warning
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - Hold to him outwardly also.
-    - Perserverance brings good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - Manifestation of holding together.
-    - In the hund the king uses beaters on three sides only
-    - And foregoes the game that runs off.
-    - The citizens need no warning.
-    - Good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - He finds no head for holding together.
-    - Misfortune.
-    type: warning
-    yarrow_value: 6
-  image:
-  - 'On the earth is water:'
-  - The image of Holding Together.
-  - Thus the kings of antiquity
-  - Bestowed the different states as fiefs
-  - And cultivated friendly relationships
-  - With the feudal lords.
-  judgement:
-  - Holding Together brings good fortune.
-  - Inquire of the oracle once again
-  - Whether you possess sublmity, constancy, and perserverance;
-  - Then there is no blame.
-  - Those who are uncertain gradually join.
-  - Whoever comes too late
-  - Meets with misfortune.
-  name: Holding Together
-  secondary_names:
-  - Union
-  wilhelm_index: 8
-  yarrow_value: '878888'
-increase:
-  changing_lines:
-  - line_number: 1
-    text:
-    - It furthers one to accomplish great deeds.
-    - Supreme good fortune. No blame.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - Someone does indeed increase him;
-    - Ten pairs of tortoise cannot oppose it.
-    - Constant perserverance brings good fortune.
-    - The king presents him before God.
-    - Good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - One is enriched through unfortunate events.
-    - No blame, if youare sincere
-    - And walk in themiddle,
-    - And report with a seal to the prince.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - If youwalk in the middle
-    - And report to the prince,
-    - He will follow.
-    - It furthers one to be used
-    - In the removal of the capital.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - If in truth you have a kind heart, ask not.
-    - Supreme good fortune.
-    - Truly, kindess will be recognized as your virtue.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - He brings increase to no one.
-    - Indeed, someone even strikes him.
-    - He does not keep his heart constantly steady.
-    - Misfortune.
-    type: warning
-    yarrow_value: 9
-  image:
-  - 'Wind and thunder: the image of Increase'
-  - 'Thus the superior man:'
-  - If he sees good, he imitates it;
-  - If he has faults, he rids himself of them.
-  judgement:
-  - Increase. It furthers one
-  - To undertake something.
-  - It furthers one to cross the great water.
-  name: Increase
-  secondary_names: null
-  wilhelm_index: 42
-  yarrow_value: '778887'
-influence:
-  changing_lines:
-  - line_number: 1
-    text:
-    - The influence shows itself in the big toe.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - The influence shows itself in the calves of the legs.
-    - Misfortune.
-    - Tarrying brings good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - The influence shows itself in the thights.
-    - Holds to that which follows it.
-    - To continue is humiliating.
-    type: warning
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - Perserverance brings good fortune.
-    - Remorse disappears.
-    - If a man is agitated in mind,
-    - And his thoughts go hither and thither,
-    - Only those friends
-    - On whome he fixes his concious thoughts
-    - Will follow.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - The influence shows itself in the back of the neck.
-    - No remorse.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - The influence shows itself in the jaws, cheek, and tongue.
-    type: warning
-    yarrow_value: 6
-  image:
-  - 'A lake on the mountain:'
-  - The image of Influence.
-  - Thus the superior man encourages people to approach him
-  - By his readiness to receive them.
-  judgement:
-  - Influence. Success.
-  - Perserverance furthers.
-  - To take a maiden to wife brings good fortune.
-  name: Influence
-  secondary_names:
-  - Wooing
-  wilhelm_index: 31
-  yarrow_value: '877788'
-inner_truth:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Being prepared brings good fortune.
-    - If there are secret designs, it is disquieting.
-    type: warning
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - A crane calling in the shade.
-    - Its young answers it.
-    - I have a good goblet.
-    - I will share it with you.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - He finds a comrade.
-    - Now he beats the drum, now he stops.
-    - Now he sobs, now he sings.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - The moon nearly at the full.
-    - The team horse goes astray.
-    - No blame.
-    type: warning
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - He possesses truth, which links together.
-    - No blame.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - Cockcrow penetrating to heaven.
-    - Perserverance brings misfortune.
-    type: warning
-    yarrow_value: 9
-  image:
-  - 'Wind over the lake: the image of Inner Truth'
-  - Thus the superior man discusses criminal cases
-  - In order to delay executions.
-  judgement:
-  - Inner Truth. Pigs and fishes.
-  - Good fortune.
-  - It furthers one to cross the great water.
-  - Perserverance futhers.
-  name: Inner Truth
-  secondary_names: null
-  wilhelm_index: 61
-  yarrow_value: '778877'
-innocence:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Innocent behavior brings good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - If one does not count the harvest while plowing,
-    - Nor on the use of the ground while clearing it,
-    - It furthers one to undertake something.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - Undeserved misfortune.
-    - The cow that was tethered by someone
-    - Is the wanderer's gain, the citizen's loss.
-    type: warning
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - He who can be perservering
-    - Remains without blame.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - Use no medicine in an illness
-    - Incurred through no fault of your own.
-    - It will pass of itself.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - Innocent action brings misforture.
-    - Nothing furthers.
-    type: warning
-    yarrow_value: 9
-  image:
-  - 'Under heaven tunder rolls:'
-  - All things attain the natural state of innocence.
-  - Thus the kings of old,
-  - Rich in virtue, and in harmony with the time,
-  - Fostered and nourished all beings.
-  judgement:
-  - Innocence, supreme success.
-  - Perserverance futhers.
-  - If someone is not as they should be,
-  - He has misforture,
-  - And it does not further him
-  - To undertake anything.
-  name: Innocence
-  secondary_names: null
-  wilhelm_index: 25
-  yarrow_value: '777887'
-joyous:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Contended joyousness. Good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - Sincere joyousness. Good fortune.
-    - Remorse disappears.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - Coming joyousness. Misfortune.
-    type: warning
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - Joyousness that is weight is not at peace.
-    - After ridding himself of mistakes a man has joy.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - Sincerity toward disintegrating influences is dangerous.
-    type: warning
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - Seductive joyousness.
-    type: warning
-    yarrow_value: 6
-  image:
-  - 'Lakes resting on the other:'
-  - The image of The Joyous.
-  - Thus the superior man joins with his friends
-  - For discussion and practice.
-  judgement:
-  - The Joyous. Success.
-  - Perserverance is favorable.
-  name: The Joyous
-  secondary_names:
-  - Lake
-  wilhelm_index: 58
-  yarrow_value: '877877'
-keeping_still:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Keeping his toes still.
-    - No blame.
-    - Continued perserverance furthers.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - Keeping his calves still.
-    - He cannot rescue him who he follows.
-    - His heart is not glad.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - Keeping his hips still.
-    - Making his sacrum stiff.
-    - Dangerous. The heart suffocates.
-    type: warning
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - Keeping his trunk still.
-    - No blame.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - Keeping his jaws still.
-    - The words have order.
-    - Remorse disappears.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - Noblehearted keeping still.
-    - Good fortune.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'Mountains standing close together:'
-  - The image of Keeping Still.
-  - Thus the superior man
-  - Does not permit his thoughts
-  - To go beyond his situation.
-  judgement:
-  - Keeping Still. Keeping his backstill
-  - So that he no longer feels his body.
-  - He goes into his courtyard
-  - And does not see his people.
-  - No blame.
-  name: Keeping Still
-  secondary_names:
-  - Mountain
-  wilhelm_index: 52
-  yarrow_value: '788788'
-limitation:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Not going out of the door and the courtyard\
-    - Is without blame.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - Not going out of the gate and the courtryard
-    - Brings misfortune.
-    type: warning
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - He who knows no limitation
-    - Will have cause to lament.
-    - No blame.
-    type: warning
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - Contended limitation. Success.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - Sweet limitation brings good fortune.
-    - Going brings success.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - Galling limitation.
-    - Perserverance brings misfortune.
-    - Remorse disappears.
-    type: warning
-    yarrow_value: 6
-  image:
-  - 'Water over the lake: the image of Limitation'
-  - Thus the superiorman
-  - Creates numbers and measures,
-  - And examines the nature of virtue and correct conduct.
-  judgement:
-  - Limitation. Success.
-  - Galling limitation must not be perserved in.
-  name: Limitation
-  secondary_names: null
-  wilhelm_index: 60
-  yarrow_value: '878877'
-marrying_maiden:
-  changing_lines:
-  - line_number: 1
-    text:
-    - The marrying maiden as a concubine.
-    - A lame man who is able to tread.
-    - Undertakings bring good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - A one-eyed man who is able to see.
-    - The perserverance of a solitary man furthers.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - The marrying maiden as a slave.
-    - She marries as a concubine.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - The marying maiden draws out the allotted time.
-    - A late marriage comes in due course.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - The sovereign I gave his daughter in marriage.
-    - The embroidered garments of the princess
-    - Were not as gorgeous
-    - As those of the servingmaid.
-    - The moon that is nearly full
-    - Brings good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - The woman holds the basket, but there are no fruits in it.
-    - The man stabs the sheep, but no blood flows.
-    - Nothing that acts to further.
-    type: warning
-    yarrow_value: 6
-  image:
-  - 'Thunder over the lake:'
-  - The image of the Marrying Maiden.
-  - Thus the superior man
-  - Understands the transitory
-  - In the light of the eternity of the end.
-  judgement:
-  - The Marrying Maiden.
-  - Undertakings bring misfortune.
-  - Nothing that would further.
-  name: The Marrying Maiden
-  secondary_names: null
-  wilhelm_index: 54
-  yarrow_value: '887877'
-modesty:
-  changing_lines:
-  - line_number: 1
-    text:
-    - A superior man modest about his modesty
-    - May cross the great water.
-    - Good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - Modesty that comes into expression.
-    - Perserverance brings good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - A superior man of modesty and merit
-    - Carries things to conclusion.
-    - Good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - Nothing that would not futher modesty
-    - In movement.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - No boasting of wealth before one's neighbor.
-    - It is favorable to attack with force.
-    - Nothing that would not further.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - Modesty that comes into expression.
-    - It is favorable to set armies marching
-    - To chastise one's own city and one's country.
-    type: reminder
-    yarrow_value: 6
-  image:
-  - 'Within the earth, a mountain:'
-  - The image of Modesty.
-  - Thus the superior man reduces that which is too much,
-  - And augments that which is too little.
-  - He weighs things and makes them equal.
-  judgement:
-  - Modesty creates success.
-  - The superior man carries things through.
-  name: Modesty
-  secondary_names: null
-  wilhelm_index: 15
-  yarrow_value: '888788'
-obstruction:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Going leads to obstructions,
-    - Coming meets with praise.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - The king's servant is beset by obstruction upon obstruction,
-    - But it is not his own fault.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - Going leads to obstructions;
-    - Hence he comes back.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - Going leads to obstructions,
-    - Coming leads to union.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - In the midst of the greatest obstructions,
-    - Friends come.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - Going leads to obstructions,
-    - Coming leads to great good fortune.
-    - It furthers one to see the great man.
-    type: reminder
-    yarrow_value: 6
-  image:
-  - 'Water on the mountain:'
-  - The image of Obstruction.
-  - Thus the superior man turns his attention to himself
-  - And molds his character.
-  judgement:
-  - Obstruction. The southwest furthers.
-  - The northeast does not further.
-  - It furthers one to see the great man.
-  - Perserverance brings good fortune.
-  name: Obstruction
-  secondary_names: null
-  wilhelm_index: 39
-  yarrow_value: '878788'
-opposition:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Remorse disapears.
-    - If you lose your horse, do not run after it;
-    - It will come back of its own accord.
-    - When you see evil people,
-    - Guard yourself against mistakes.
-    type: warning
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - One meets his lord in a narrow street.
-    - No blame.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - One sees the wagon dragged back,
-    - The oxen halted,
-    - A man's hair andnose cut off.
-    - Not a good beginning, but a good end.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - Isolated through opposition,
-    - One meets a like-minded man
-    - With whom he can associate in good faith.
-    - Despite the danger, no blame.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - Remorse disappears.
-    - The companion bites his way through the wrappings.
-    - If one goes to him,
-    - How could it be a mistake?
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - Isolated through opposition,
-    - One sees one's companion as a pig covered with dirt,
-    - As a wagon full of devils.
-    - First one draws a bow against him,
-    - Then one lays the bow aside.
-    - He is not a robber; he will woo at the right time.
-    - As one goes, rain falls; then good fortune comes.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'Above, fire; below, the lake:'
-  - The image of Opposition.
-  - Thus amid all fellowship
-  - The superior man retains his individuality.
-  judgement:
-  - Opposition. In small matters, good fortune.
-  name: Opposition
-  secondary_names: null
-  wilhelm_index: 38
-  yarrow_value: '787877'
-oppression:
+47:
   changing_lines:
   - line_number: 1
     text:
@@ -2486,243 +2653,812 @@ oppression:
   - When one has something to say,
   - It is not believed.
   name: Oppression
+  number: 47
   secondary_names:
   - Exhaustion
-  wilhelm_index: 47
-  yarrow_value: '877878'
-peace:
+48:
   changing_lines:
   - line_number: 1
     text:
-    - When ribbbon grass is pulled up, the sod comes with it.
-    - Each according to his kind.
+    - One does not drink the mud of the well.
+    - No animals come to an old well.
+    type: warning
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - At the wellhole one shoots fishes.
+    - The jug is broken and leaks.
+    type: warning
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - The well is cleaned, but no one drinks from it.
+    - This is my heart's sorrow,
+    - For one might draw from it.
+    - If the king were clear-minded,
+    - Good fortune might be enjoyed in common.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - The well is being lined. No blame.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - In the well there is a clear, cold spring.
+    - From which one can drink.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - One draws from the well
+    - Without hindrance.
+    - It is dependable.
+    - Supreme good fortune.
+    type: reminder
+    yarrow_value: 6
+  image:
+  - 'Water over wood: the image of The Well.'
+  - Thus the superior man ecourages the people at their work,
+  - And exhorts them to help one another.
+  judgement:
+  - The Well. The town may have changed,
+  - But the well cannot be changed.
+  - It neither decreases nor increases.
+  - They come and go and draw from the well.
+  - If one gets down almost to the water
+  - And the rope does not go all the way,
+  - Or the jug breaks, it brings misfortune.
+  name: The Well
+  number: 48
+  secondary_names: null
+49:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Wrapped in the hide of a yellow cow.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - When one's own day comes, one may create revolution.
+    - Starting brings good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - Starting brings misfortune.
+    - Perserverance brings danger.
+    - When talk of revolution has gone rounds three times,
+    - One may commit himself,
+    - And men will believe him.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - Remorse disappears. Men believe him.
+    - Changingthe form of government brings good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - The great man changes like a tiger.
+    - Even before he questions the oracle
+    - He is believed.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - The superior man changes like a panther.
+    - The inferior man molts in the face.
+    - Starting brings misfortune.
+    - To remain perservering brings good fortune.
+    type: reminder
+    yarrow_value: 6
+  image:
+  - 'Fire in the lake: the image of Revolution'
+  - Thus the superior man
+  - Sets the calendar in order
+  - And makes the seasons clear.
+  judgement:
+  - Revolution. On your own day
+  - You are believed.
+  - Supreme success,
+  - Furthering through perserverance,
+  - Remorse disappears.
+  name: Revolution
+  number: 49
+  secondary_names:
+  - Molting
+50:
+  changing_lines:
+  - line_number: 1
+    text:
+    - A cauldron with legs upturned.
+    - Furthers removal of stagnating stuff.
+    - One takes a concubine for the sake of her son.
+    - No blame.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - There is food in the cauldron.
+    - My comrades are envious,
+    - But they cannot harm me.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - The handle of the cauldron is altered.
+    - One is impeded in his way of life.
+    - The fat of the pheasant is not eaten.
+    - One rain falls, remorse is spent.
+    - Good fortune comes in the end.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - The legs of the cauldron are broken.
+    - The prince's meal is spilled.
+    - And his person is soiled.
+    - Misfortune.
+    type: warning
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - The cauldron has yellow handles, golden carrying rings.
+    - Perserverance furthers.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - The cauldron has rings of jade.
+    - Great good fortune.
+    - Nothing that would not act to further.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'Fire over wood:'
+  - The image of The Cauldron.
+  - Thus the superior man consolidates his fate
+  - By making his position correct.
+  judgement:
+  - The Cauldron. Supreme good fortune.
+  - Success
+  name: The Cauldron
+  number: 50
+  secondary_names: null
+51:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Shock comes - oh, oh!
+    - Then follow lauging words - ha, ha!
+    - Good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - Shock comes bringing danger.
+    - A hundred thousand times
+    - You lose yourtreashure
+    - And must climb the nine hills.
+    - Do not go in pursuit of them.
+    - In seven days you will get them back again.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - Shock comes and makes one distraught.
+    - If shock spurs to action
+    - One remains free of misfortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - Shock is mired.
+    type: warning
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - Shock goes hither and thither,
+    - Danger.
+    - However, nothing at all is lost.
+    - Yet there are things to be done.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - Shock brings ruin and terrified gazing around.
+    - Going ahead brings misfortune.
+    - If it has not yet touched one's own body
+    - But has reached one's neighbor first,
+    - There is no blame.
+    - One's comrades have something to talk about.
+    type: null
+    yarrow_value: 6
+  image:
+  - 'Thunder repeated: the image of Shock.'
+  - Thus in fear and trembling
+  - The superior man sets his life in order
+  - And examines himself.
+  judgement:
+  - Shock brings success.
+  - Shock comes - oh, oh!
+  - Lauging words - ha, ha!
+  - The shock terrifies for a hundred miles,
+  - And he does not let fall the sacrificial spoon and chalice.
+  name: The Arousing
+  number: 51
+  secondary_names:
+  - Thunder
+52:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Keeping his toes still.
+    - No blame.
+    - Continued perserverance furthers.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - Keeping his calves still.
+    - He cannot rescue him who he follows.
+    - His heart is not glad.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - Keeping his hips still.
+    - Making his sacrum stiff.
+    - Dangerous. The heart suffocates.
+    type: warning
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - Keeping his trunk still.
+    - No blame.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - Keeping his jaws still.
+    - The words have order.
+    - Remorse disappears.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - Noblehearted keeping still.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'Mountains standing close together:'
+  - The image of Keeping Still.
+  - Thus the superior man
+  - Does not permit his thoughts
+  - To go beyond his situation.
+  judgement:
+  - Keeping Still. Keeping his backstill
+  - So that he no longer feels his body.
+  - He goes into his courtyard
+  - And does not see his people.
+  - No blame.
+  name: Keeping Still
+  number: 52
+  secondary_names:
+  - Mountain
+53:
+  changing_lines:
+  - line_number: 1
+    text:
+    - The wild goose gradually draws to the shore.
+    - The young son is in danger.
+    - There is talk. No blame.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - The wild goose gradually draws near the cliff.
+    - Eating and drinking in peace and concord.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - The wild goose gradually draws near the plateau.
+    - The man goes forth and does not return.
+    - The womman carries a child but does not bring it forth.
+    - Misfortune.
+    - It furthers one to fight robbers.
+    type: warning
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - The wild goose gradually draws near the tree.
+    - Perhaps it will find a flat branch. No blame.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - The wild goose gradually draws near the summit.
+    - For three years the woman has no child.
+    - In the end nothing can hinder her.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - The wild goose gradually draws near the cloud heights.
+    - Its feathers can be used for the sacred dance.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'On the mountain, a tree:'
+  - The image of Development.
+  - Thus the superior man abides in dignity and virtue,
+  - In order to improve the mores.
+  judgement:
+  - Development. The maiden
+  - Is given in marriage.
+  - Good fortune.
+  - Perserverance furthers.
+  name: Gradual Progress
+  number: 53
+  secondary_names:
+  - Development
+54:
+  changing_lines:
+  - line_number: 1
+    text:
+    - The marrying maiden as a concubine.
+    - A lame man who is able to tread.
     - Undertakings bring good fortune.
     type: reminder
     yarrow_value: 9
   - line_number: 2
     text:
-    - Bearing with the uncultured in gentleness,
-    - Gording the river with resolution,
-    - Not neglecting what is distant,
-    - 'Not regarding one''s companions:'
-    - Thus one may manage to walk in the middle.
+    - A one-eyed man who is able to see.
+    - The perserverance of a solitary man furthers.
     type: reminder
     yarrow_value: 9
   - line_number: 3
     text:
-    - No plain not followed by a slope.
-    - No going not followed by a return.
-    - He who remains perservering in danger
-    - Is without blame.
-    - Do not complain about this truth;
-    - Enjoy the good fortune you still possess.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - He flutters down, not boasting of his wealth,
-    - Together with his neighbor,
-    - Guileless and sincere.
+    - The marrying maiden as a slave.
+    - She marries as a concubine.
     type: reminder
     yarrow_value: 6
+  - line_number: 4
+    text:
+    - The marying maiden draws out the allotted time.
+    - A late marriage comes in due course.
+    type: reminder
+    yarrow_value: 9
   - line_number: 5
     text:
-    - The sovereign I
-    - Gives his daughter in marriage.
-    - This brings blessing
-    - And supreme good fortune.
+    - The sovereign I gave his daughter in marriage.
+    - The embroidered garments of the princess
+    - Were not as gorgeous
+    - As those of the servingmaid.
+    - The moon that is nearly full
+    - Brings good fortune.
     type: reminder
     yarrow_value: 6
   - line_number: 6
     text:
-    - The wal falls back into the moat.
-    - Use no army now.
-    - Make your commandments known within you own town.
-    - Perserverance brings humiliation.
+    - The woman holds the basket, but there are no fruits in it.
+    - The man stabs the sheep, but no blood flows.
+    - Nothing that acts to further.
     type: warning
     yarrow_value: 6
   image:
-  - 'Heaven and earth unite: the image of Peace.'
-  - Thus the ruler
-  - Divides and completes the course of heaven and earth;
-  - He furthers and regulates the gifts of heaven and earth,
-  - And so aids the people.
+  - 'Thunder over the lake:'
+  - The image of the Marrying Maiden.
+  - Thus the superior man
+  - Understands the transitory
+  - In the light of the eternity of the end.
   judgement:
-  - Peace. The small departs,
-  - The great approaches.
-  - Good fortune. Success.
-  name: Peace
+  - The Marrying Maiden.
+  - Undertakings bring misfortune.
+  - Nothing that would further.
+  name: The Marrying Maiden
+  number: 54
   secondary_names: null
-  wilhelm_index: 11
-  yarrow_value: '888777'
-possession_in_great_measure:
+55:
   changing_lines:
   - line_number: 1
     text:
-    - No relationship with what is harmful;
-    - There is no blame in this.
-    - If one remains conscious of difficulty,
-    - One remains without blame.
+    - When a man meets his destined ruler,
+    - They can be together ten days,
+    - And it is not a mistake.
+    - Going meets with recognition.
     type: reminder
     yarrow_value: 9
   - line_number: 2
     text:
-    - A big wagon for loading.
-    - One may undertake something.
-    - No blame.
+    - The curtain is of such fullness
+    - That the polestars can be seen at noon.
+    - Through going one meets with mistrust and hate.
+    - If one rouses hinm through truth,
+    - Good fortune comes.
     type: reminder
-    yarrow_value: 9
+    yarrow_value: 6
   - line_number: 3
     text:
-    - A prince offers it to the Son of Heaven.
-    - A petty man cannot do this.
+    - The underbrush is of such abundance
+    - That the small stars can be seen at noon.
+    - He breaks his right arm. No blame.
     type: reminder
     yarrow_value: 9
   - line_number: 4
     text:
-    - He makes a difference
-    - Between himself and his neighbor.
-    - No blame.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - He whose truth is accessible, yet dignified,
-    - Has good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - He is blessed by heaven.
+    - The curtain is of such fullness
+    - That the polestars can be seen at noon.
+    - He meets his rler, who is of like kind.
     - Good fortune.
-    - Nothing that does not further.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'Fire in heaven above:'
-  - The image of Possession in Great Measure.
-  - Thus the superior man curbs evil and furthers good.
-  - And thereby obeys the benevolent will of heaven.
-  judgement:
-  - Possession in Great Measure.
-  - Supreme success.
-  name: Possession in Great Measure
-  secondary_names: null
-  wilhelm_index: 14
-  yarrow_value: '787777'
-power_of_great:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Power in the toes.
-    - Continuing brings misfortune.
-    - This is certainly true.
-    type: warning
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - Perserverance brings good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - The inferior man works through power.
-    - The superior man does not act thus.
-    - To continue is dangerous.
-    - A goat butts against a hedge
-    - And gets its horns entangled.
-    type: warning
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - Perserverance brings good fortune.
-    - Remorse disappears.
-    - The hedge opens; there is no entanglement.
-    - Power depends upon the axel of a big cart.
     type: reminder
     yarrow_value: 9
   - line_number: 5
     text:
-    - Loses the goat with ease.
-    - No remorse.
+    - Lines are coming,
+    - Blessing and fame draw near.
+    - Good fortune.
+    type: null
+    yarrow_value: 6
+  - line_number: 6
+    text:
+    - His house is in a state of abundance.
+    - He screens off his family.
+    - He peers through the gate
+    - And no longer perceives anyone.
+    - For three years he sees nothing.
+    - Misfortune.
+    type: warning
+    yarrow_value: 6
+  image:
+  - 'Both thunder and lightning come:'
+  - The image of Abundance.
+  - Thus the superior man decides lawsuits
+  - And carries out punishments.
+  judgement:
+  - Abundance has success.
+  - The king attains abundance.
+  - Be not sad.
+  - Be like the sun at midday.
+  name: Abundance
+  number: 55
+  secondary_names:
+  - Fullness
+56:
+  changing_lines:
+  - line_number: 1
+    text:
+    - If the wanderer busies himself with trivial things,
+    - He draws down misfortune upon himself.
+    type: warning
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - The wanderer comes to an inn.
+    - He has his property with him.
+    - He wins the steadfastness of a young servant.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 3
+    text:
+    - The wanderer's inn burns down.
+    - He loses the steadfastness of his young servant.
+    - Danger.
+    type: warning
+    yarrow_value: 9
+  - line_number: 4
+    text:
+    - The wanderer rests in a shelter.
+    - He obtains his property and an ax.
+    - My heart is not glad.
+    type: warning
+    yarrow_value: 9
+  - line_number: 5
+    text:
+    - He shoots a pheasant.
+    - It drops with the first arrow.
+    - In the end this brings both praise and office.
     type: reminder
     yarrow_value: 6
   - line_number: 6
     text:
-    - A goat butts against a hedge.
-    - It cannot go backward, it cannot go forward.
-    - Nothing serves to further.
-    - If one notes the difficulty, this brings good fortune.
-    type: reminder
-    yarrow_value: 6
-  image:
-  - 'Thunder in heaven above:'
-  - The image of The Power of the Great.
-  - Thus the superior man does not tread upon paths
-  - That do not accord with established order.
-  judgement:
-  - The Power of the Great. Perserverance furthers.
-  name: The Power of the Great
-  secondary_names: null
-  wilhelm_index: 34
-  yarrow_value: '887777'
-preponderance_of_great:
-  changing_lines:
-  - line_number: 1
-    text:
-    - To spread with rushes underneath.
-    - No blame.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - A dry poplar sprouts at the root.
-    - An olderman takes a young wife.
-    - Everything furthers.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - The ridgepole sags to the breaking point.
+    - The bird's nest burns up.
+    - The wanderer laughs at first,
+    - Then must needs lament and weep.
+    - Through carelessness he loses his cow.
     - Misfortune.
     type: warning
     yarrow_value: 9
+  image:
+  - 'Fire on the mountain:'
+  - The image of The Wanderer.
+  - Thus the superior man
+  - Is clear-minded and cautions
+  - In imposing penalties,
+  - And protracts no lawsuits.
+  judgement:
+  - The Wanderer. Success through smallness.
+  - Perserverance brings good fortune
+  - To the wanderer.
+  name: The Wanderer
+  number: 56
+  secondary_names: null
+57:
+  changing_lines:
+  - line_number: 1
+    text:
+    - In advancing and in retreating,
+    - The perserverance of the warrior furthers.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - Penetration under the bed.
+    - Priests and magicians are used in great number.
+    - Good fortune. No blame.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - Repeated penetration. Humiliation.
+    type: warning
+    yarrow_value: 9
   - line_number: 4
     text:
-    - The ridgepole is braced. Good fortune.
-    - If there are ulterior motives, it is humiliating.
+    - Remorse vanishes.
+    - Diring the hunt.
+    - Three kinds of game are caught.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - Perserverance brings good fortune.
+    - Remorse vanishes.
+    - Nothing that does not further.
+    - No beginning, but an end.
+    - Before change, three days.
+    - After change, three days.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - Penetration under the bed.
+    - He loses his property and his ax.
+    - Perserverance brings misfortune.
+    type: warning
+    yarrow_value: 9
+  image:
+  - 'Winds following one upon the other:'
+  - The image of The Gentle Penetrating.
+  - Thus the superior man
+  - Spreads his commands abroad
+  - And carries out his undertakings.
+  judgement:
+  - The Gentle. Success through what is small.
+  - It furthers one to have somewhere to go.
+  - It furthers one to see the great man.
+  name: The Gentle
+  number: 57
+  secondary_names:
+  - The Penetrating
+  - Wind
+58:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Contended joyousness. Good fortune.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - Sincere joyousness. Good fortune.
+    - Remorse disappears.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - Coming joyousness. Misfortune.
+    type: warning
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - Joyousness that is weight is not at peace.
+    - After ridding himself of mistakes a man has joy.
     type: reminder
     yarrow_value: 9
   - line_number: 5
     text:
-    - A withered poplar puts forth flowers.
-    - An olderwoman takes a husband.
-    - No blame. No praise.
+    - Sincerity toward disintegrating influences is dangerous.
     type: warning
     yarrow_value: 9
   - line_number: 6
     text:
-    - One must go through the water.
-    - It goes over one's head.
-    - Misfortune. No blame.
+    - Seductive joyousness.
     type: warning
     yarrow_value: 6
   image:
-  - 'The lake rises above the trees:'
-  - The image of Preponderance of the Great.
-  - Thus the superior man, when he stands alone,
-  - Is unconcerned,
-  - And if he has to renouce the world,
-  - He is undaunted.
+  - 'Lakes resting on the other:'
+  - The image of The Joyous.
+  - Thus the superior man joins with his friends
+  - For discussion and practice.
   judgement:
-  - The ridgepole sags to the breaking point.
-  - It furthers to have somewhere to go.
-  - Success.
-  name: Preponderance of the Great
+  - The Joyous. Success.
+  - Perserverance is favorable.
+  name: The Joyous
+  number: 58
+  secondary_names:
+  - Lake
+59:
+  changing_lines:
+  - line_number: 1
+    text:
+    - He brings help with the strength of a horse.
+    - Good fortune.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 2
+    text:
+    - At the dissolution
+    - He hurries to that which supports him.
+    - Remorse disappears.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - He dissolves his self. No remorse.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - He dissoves his bond with his group.
+    - Supreme good fortune.
+    - Dispersion leads in turn to accumulation.
+    - This is something that ordinary men do not think of.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - His loud cries are dissolving as sweat.
+    - Dissolution! A king abides without blame.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - He dissolves his blood.
+    - Departing, keeping at a distance, going out,
+    - Is without blame.
+    type: reminder
+    yarrow_value: 9
+  image:
+  - 'The wind drives over the water:'
+  - The image of Dispersion.
+  - Thus the kings of old sacrificed to the Lord
+  - And built temples.
+  judgement:
+  - Dispersion. Success.
+  - The king approaches his temple.
+  - It furthers one to cross the great water.
+  - Perserverance furthers.
+  name: Dispersion
+  number: 59
+  secondary_names:
+  - Dissolution
+60:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Not going out of the door and the courtyard\
+    - Is without blame.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - Not going out of the gate and the courtryard
+    - Brings misfortune.
+    type: warning
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - He who knows no limitation
+    - Will have cause to lament.
+    - No blame.
+    type: warning
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - Contended limitation. Success.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - Sweet limitation brings good fortune.
+    - Going brings success.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - Galling limitation.
+    - Perserverance brings misfortune.
+    - Remorse disappears.
+    type: warning
+    yarrow_value: 6
+  image:
+  - 'Water over the lake: the image of Limitation'
+  - Thus the superiorman
+  - Creates numbers and measures,
+  - And examines the nature of virtue and correct conduct.
+  judgement:
+  - Limitation. Success.
+  - Galling limitation must not be perserved in.
+  name: Limitation
+  number: 60
   secondary_names: null
-  wilhelm_index: 28
-  yarrow_value: '877778'
-preponderance_of_the_small:
+61:
+  changing_lines:
+  - line_number: 1
+    text:
+    - Being prepared brings good fortune.
+    - If there are secret designs, it is disquieting.
+    type: warning
+    yarrow_value: 9
+  - line_number: 2
+    text:
+    - A crane calling in the shade.
+    - Its young answers it.
+    - I have a good goblet.
+    - I will share it with you.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 3
+    text:
+    - He finds a comrade.
+    - Now he beats the drum, now he stops.
+    - Now he sobs, now he sings.
+    type: reminder
+    yarrow_value: 6
+  - line_number: 4
+    text:
+    - The moon nearly at the full.
+    - The team horse goes astray.
+    - No blame.
+    type: warning
+    yarrow_value: 6
+  - line_number: 5
+    text:
+    - He possesses truth, which links together.
+    - No blame.
+    type: reminder
+    yarrow_value: 9
+  - line_number: 6
+    text:
+    - Cockcrow penetrating to heaven.
+    - Perserverance brings misfortune.
+    type: warning
+    yarrow_value: 9
+  image:
+  - 'Wind over the lake: the image of Inner Truth'
+  - Thus the superior man discusses criminal cases
+  - In order to delay executions.
+  judgement:
+  - Inner Truth. Pigs and fishes.
+  - Good fortune.
+  - It furthers one to cross the great water.
+  - Perserverance futhers.
+  name: Inner Truth
+  number: 61
+  secondary_names: null
+62:
   changing_lines:
   - line_number: 1
     text:
@@ -2781,920 +3517,120 @@ preponderance_of_the_small:
   - It is well to remain below.
   - Great good fortune.
   name: Preponderance of the Small
+  number: 62
   secondary_names: null
-  wilhelm_index: 62
-  yarrow_value: '887788'
-progress:
+63:
   changing_lines:
   - line_number: 1
     text:
-    - Progressing, but turned back.
-    - Perserverance brings good fortune.
-    - If one meets with no confidence, one should remain calm.
-    - No mistake.
-    type: reminder
-    yarrow_value: 6
+    - He brakes his wheels.
+    - He gets his tail in the water.
+    - No blame.
+    type: warning
+    yarrow_value: 9
   - line_number: 2
     text:
-    - Progressing, but in sorrow.
-    - Perserverance brings good fortune.
-    - Then one obtains great hapiness from one's ancestress.
+    - The woman loses the cutain of her carriage.
+    - Do not run after it;
+    - On the seventh day you will get it.
     type: reminder
     yarrow_value: 6
   - line_number: 3
     text:
-    - All are in accord. Remorse disappears.
+    - The Illustrious Ancestor
+    - Disciplines the Devil's Country.
+    - After three years he conquers it.
+    - Inferior people must not be employed.
     type: reminder
-    yarrow_value: 6
+    yarrow_value: 9
   - line_number: 4
     text:
-    - Progress like a hamster.
-    - Perserverance brings danger.
+    - The finest clothes turn to rags.
+    - Be careful all day long.
     type: warning
-    yarrow_value: 9
+    yarrow_value: 6
   - line_number: 5
     text:
-    - Remorse disappears.
-    - Take not gain and loss to heart.
-    - Undertakings bring good fortune.
-    - Everything serves to further.
+    - The neghbor in the east who slaughters an ox
+    - Does not attain as much real happiness
+    - As the neighbor in the west
+    - With his mall offering.
     type: reminder
-    yarrow_value: 6
+    yarrow_value: 9
   - line_number: 6
     text:
-    - Making progress with the horns is permissible
-    - Only for the purpose of punishing one's own city.
-    - To be concious of fanger brings good fortune.
-    - No blame.
-    - Perserverance brings humiliation.
+    - He gets his head in the water. Danger.
     type: warning
-    yarrow_value: 9
+    yarrow_value: 6
   image:
-  - 'The sun rises over the earth:'
-  - The image of Progress.
-  - Thus the superior man himself
-  - Brigthens his bright virtue.
+  - 'Water over fire: the mage of the condition'
+  - In After Completion.
+  - Thus the superior man
+  - Takes thought of misfortune
+  - And arms himself against it in advance.
   judgement:
-  - Progress. The powerful prince
-  - Is honored with horses in large numbers.
-  - In a single day he is granted an audience three times.
-  name: Progress
+  - After completion. Success in small matters.
+  - Perserverance furthers.
+  - At the beginning good fortune,
+  - At the end disorder.
+  name: After Completion
+  number: 63
   secondary_names: null
-  wilhelm_index: 35
-  yarrow_value: '787888'
-providing_nourishment:
+64:
   changing_lines:
   - line_number: 1
     text:
-    - You let your magic tortoise go,
-    - And look at me with the corners of your mouth drooping.
-    - Misfortune
+    - He gets his tail in the water.
+    - Humiliating.
     type: warning
-    yarrow_value: 9
+    yarrow_value: 6
   - line_number: 2
     text:
-    - Turning to the summit for nourishment,
-    - Deviating from the path
-    - To seek nourishment from the hill.
-    - Continuing to do this brings misfortune.
-    type: warning
-    yarrow_value: 6
+    - He brakes his wheels.
+    - Perserverance brings good fortune.
+    type: reminder
+    yarrow_value: 9
   - line_number: 3
     text:
-    - Turning away from nourishment.
-    - Perserverance brings misfortune.
-    - Do not act thus for ten years.
-    - Nothing serves to further.
-    type: warning
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - Turning to the summit
-    - For proision of nourishment
-    - Brings good fortune.
-    - Spying about with sharp eyes
-    - Like a tiger with insatiable craving.
-    - No blame.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - Turning away from the path.
-    - To remain perservering brings good fortune.
-    - One should not cross the great water.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - The source of nourishment.
-    - Awareness of danger brings good fortune.
+    - Before completion, attack brings misfortune.
     - It furthers one to cross the great water.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'At the foot of the mountain, thunder:'
-  - The image of Providing Nourishment.
-  - Thus the superior man is careful of his words
-  - And temperate in eating and drinking.
-  judgement:
-  - The Corners of the Mouth.
-  - Perserverance brings good fortune.
-  - Pay heed to the providing of nourishment
-  - And to what a man seeks
-  - To fill his own mouth with.
-  name: Providing Nourishment
-  secondary_names:
-  - Corners of the Mouth
-  wilhelm_index: 27
-  yarrow_value: '788887'
-pushing_upward:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Pushing upward the meets with confidence
-    - Brings great good fortune.
-    type: reminder
+    type: warning
     yarrow_value: 6
-  - line_number: 2
-    text:
-    - If one is sincere,
-    - It furthers one to bring even a small offering.
-    - No blame.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - One pushes upward into an empty city.
-    type: reminder
-    yarrow_value: 9
   - line_number: 4
     text:
-    - The king offers him Mount Ch'i.
-    - Good fortune. No blame.
+    - Perserverance brings good fortune.
+    - Remorse disappears.
+    - Shock, thus to discipline the Devil's Country.
+    - For three years, great realms are awarded.
     type: reminder
-    yarrow_value: 6
+    yarrow_value: 9
   - line_number: 5
     text:
     - Perserverance brings good fortune.
-    - One pushes upward by steps.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - Pushing upward in darkness.
-    - It furthers one
-    - To be unremittingly perservering.
-    type: reminder
-    yarrow_value: 6
-  image:
-  - 'Within the earth, wood grows:'
-  - The image of Pushing Upward.
-  - Thus the superior man of devoted character
-  - HEaps up small things
-  - In order to achieve something high and great.
-  judgement:
-  - Pushing Upward has supreme success.
-  - One must see the great man.
-  - Fear not.
-  - Departure towards the south
-  - Brings good fortune.
-  name: Pushing Upward
-  secondary_names: null
-  wilhelm_index: 46
-  yarrow_value: '888778'
-receptive:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Where there is hoarfrost underfoot,
-    - Solid ice is not far off.
-    type: warning
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - Straight, square, great.
-    - Without purpose,
-    - Yet nothing remains unfurthered.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - Hidden lines.
-    - One is able to remain perservering.
-    - If by chance you are in the sevice of a king,
-    - Seek not works, but bring to completion.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - A tied-up sack. No blame, no praise.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - A yellow lower garment brings supreme good forture.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - Dragons fight in the meadow.
-    - Their blood is black and yellow.
-    type: null
-    yarrow_value: 6
-  image:
-  - The earth's condition is receptive devotion.
-  - Thus the superior man who has breadth of character
-  - Carries the outer world.
-  judgement:
-  - The Receptive brings about sublime success,
-  - Furthering through the perserverance of a mare.
-  - If the superior man undertakes something and tries to lead,
-  - He goes astray;
-  - But if he follows, he finds guidance.
-  - It is favorable to find friends in the west and south,
-  - To forego friends in the east and north.
-  - Quite perserverance brings good fortune.
-  name: The Receptive
-  secondary_names:
-  - Earth
-  wilhelm_index: 2
-  yarrow_value: '888888'
-retreat:
-  changing_lines:
-  - line_number: 1
-    text:
-    - At the tail in retreat. This is dangerous.
-    - One must not wish to undertake anything.
-    type: warning
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - He holds him fast with yellow oxhide.
-    - No one can tear him loose.
-    type: warning
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - A halted retreat
-    - Is nerve-wracking and dangerous.
-    - To retain people as men- and maidservants
-    - Brings good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - Voluntary retreat brings good fortune to the superior man
-    - And downfall to the inferior man.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - Friendly retreat. Perserverance brings good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - Cheerful retreat. Everything servers to further.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'Mountain under heaven: the image of Retreat.'
-  - Thus the superior man keeps the inferior man at a distance,
-  - Not angrily but with reserve.
-  judgement:
-  - Retreat. Success.
-  - In what is small, perserverance furthers.
-  name: Retreat
-  secondary_names: null
-  wilhelm_index: 33
-  yarrow_value: '777788'
-return:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Return from a short distance.
-    - No need for remorse.
-    - Great good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - Quiet return. Good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - Repeated return. Danger. No blame.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - Walking in the midst of others,
-    - One returns alone.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - Noblehearted return. No remorse.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - Missing the return. Misfortune.
-    - Misfortune from within and without.
-    - If armies are set marching in this way,
-    - One will in the end suffer a great defeat,
-    - Disastrous for the ruler of the country.
-    - For ten years
-    - It will not be possible to attack again.
-    type: warning
-    yarrow_value: 6
-  image:
-  - 'Thunder within the earth:'
-  - The image of the Turning Point.
-  - Thus the kings of antiquity close the passes
-  - At the time of solsice.
-  - Merchants and strangers did not go about,
-  - And the ruler
-  - Did not travel through the provinces.
-  judgement:
-  - Return. Success.
-  - Going out and coming in without error.
-  - Friends come without blame.
-  - To and fro goes the way.
-  - On the seventh day comes return.
-  - It furthers to have somewhere to go.
-  name: Return
-  secondary_names:
-  - The Turning Point
-  wilhelm_index: 24
-  yarrow_value: '888887'
-revolution:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Wrapped in the hide of a yellow cow.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - When one's own day comes, one may create revolution.
-    - Starting brings good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - Starting brings misfortune.
-    - Perserverance brings danger.
-    - When talk of revolution has gone rounds three times,
-    - One may commit himself,
-    - And men will believe him.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - Remorse disappears. Men believe him.
-    - Changingthe form of government brings good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - The great man changes like a tiger.
-    - Even before he questions the oracle
-    - He is believed.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - The superior man changes like a panther.
-    - The inferior man molts in the face.
-    - Starting brings misfortune.
-    - To remain perservering brings good fortune.
-    type: reminder
-    yarrow_value: 6
-  image:
-  - 'Fire in the lake: the image of Revolution'
-  - Thus the superior man
-  - Sets the calendar in order
-  - And makes the seasons clear.
-  judgement:
-  - Revolution. On your own day
-  - You are believed.
-  - Supreme success,
-  - Furthering through perserverance,
-  - Remorse disappears.
-  name: Revolution
-  secondary_names:
-  - Molting
-  wilhelm_index: 49
-  yarrow_value: '877787'
-splitting_apart:
-  changing_lines:
-  - line_number: 1
-    text:
-    - The leg of the bed is split.
-    - Those who perservere are destroyed.
-    - Misfortune.
-    type: warning
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - The bed is split at the edge.
-    - Those who perservere are destroyed.
-    - Misfortune.
-    type: warning
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - He splits with them. No blame.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - The bed is split up to the skin.
-    - Misfortune.
-    type: warning
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - A shoal of fishes. Favor comes through the court ladies.
-    - Everything acts to further.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - There is a large fruit still uneaten.
-    - The superior man receives a carriage.
-    - The house of the inferior man is split apart.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'The mountain rests on the earth:'
-  - The image of Splitting Apart.
-  - Thus those above can ensure their position
-  - Only by giving generously to those below.
-  judgement:
-  - Splitting Apart. It does not further
-  - To go anywhere.
-  name: Splitting Apart
-  secondary_names: null
-  wilhelm_index: 23
-  yarrow_value: '788888'
-standstill:
-  changing_lines:
-  - line_number: 1
-    text:
-    - When ribbon grass is pulled up, the sod comes with it.
-    - Each accordingto his kind.
-    - Perserverance brings good fortune and success.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - They bear and endure;
-    - This means good fortune for inferior people.
-    - The standstill serves to help the great man to attain success.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - They bear shame.
-    type: warning
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - He who acts at the command of the highest
-    - Remains without blame.
-    - Those of like mind partake of the blessing.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - Standstill is giving way.
-    - Good fortune for the great man.
-    - What if it should fail, what if it should fail?
-    - In this way he ties it to a cluster of mulberrys hoots.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - The standstill comes to an end.
-    - First standstill, then good fortune.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'Heaven and earth do not unite:'
-  - Thge image of Standstill.
-  - Thus the superior man falls back upon his inner worth
-  - In order to escape the difficulties.
-  - He does not permit himself to be honored with revenue.
-  judgement:
-  - Standstill. Evil people do not further
-  - The perserverance of the superior man.
-  - Thge great departs; the small approaches.
-  name: Standstill
-  secondary_names:
-  - Stagnation
-  wilhelm_index: 12
-  yarrow_value: '777888'
-taming_power_of_great:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Danger is at hand. It furthers one to desist.
-    type: warning
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - The aceltrees are taken from the wagon.
-    type: warning
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - A goofd horse that follows others.
-    - Awareness of danger,
-    - With perserverance, furhers.
-    - Practice chariot driving and armed defense daily.
-    - Ot fuerthers one to have somewhere to go.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - The headboard of a young bull.
-    - Great good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - The tusk of a gelded boar.
+    - No remorse.
+    - The light of the superior man is true.
     - Good fortune.
     type: reminder
     yarrow_value: 6
   - line_number: 6
     text:
-    - One attains the way of heaven.
-    - Success.
-    type: reminder
+    - There is drinking of wine
+    - In genuine confidence. No blame.
+    - But if one wets his head,
+    - He loses it, in truth.
+    type: warning
     yarrow_value: 9
   image:
-  - 'Heaven within the mountain:'
-  - The image of the Taming Power of the Great.
-  - Thus the superior man acquaints himself with many sayings of antiquity
-  - And many deeds of the past,
-  - In order to strengthen his character thereby.
+  - 'Fire over water:'
+  - The image of the condition before transition.
+  - Thus the superior man is careful
+  - In the differentiation of things,
+  - so that each finds its place.
   judgement:
-  - The Taming Power of the Great.
-  - Perserverance furthers.
-  - Not eating at home brings good fortune.
-  - It furthers one to cross the great water.
-  name: Taming Power of the Great
+  - Before Completion. Success.
+  - But if the little fox, after nearly completing the crossing,
+  - Gets his tail in the water,
+  - There is nothing that would further.
+  name: Before Completion
+  number: 64
   secondary_names: null
-  wilhelm_index: 26
-  yarrow_value: '788777'
-taming_power_of_small:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Return to the way.
-    - How could there be blame in this?
-    - Good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - He allows himself to be drawn into returning.
-    - Good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - The spokes burst out of the wagon wheels.
-    - Man and wife roll their eyes.
-    type: warning
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - If you are sincere, blood vanishes and fear gives way.
-    - No blame.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - If you are sincere and loyally attached,
-    - You are rich in your neighbor.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - The rain comes, there is reast.
-    - This is due to the lasting effect of character.
-    - Perserverance brings the woman into danger.
-    - The moon is nearly full.
-    - If the superior man persists,
-    - Misfortune comes.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'The wind drives across heaven:'
-  - The image of The Taming Power of the Small.
-  - Thus the superior man
-  - Refines the outward aspect of his nature.
-  judgement:
-  - The Taming Power of the Small
-  - Has success,
-  - Dense clouds, no rain from our western region.
-  name: Taming Power of the Small
-  secondary_names: null
-  wilhelm_index: 9
-  yarrow_value: '778777'
-treading:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Simple conduct. Progress without blame.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - Treading is smooth, level course.
-    - The perserverance of a dark man
-    - Brings good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - A one-eyed man is able to see,
-    - A lame man is able to tread.
-    - He treads on the tail of the tiger.
-    - The tiger bites the man.
-    - Misfortune.
-    - Thus does a warrior act on behalf of his great prince.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - He treads on the tail of the tiger.
-    - Caution and circumspection
-    - Lead ultimately to good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - Resolute conduct.
-    - Perserverance with awareness of danger.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - Look to your conduct and weigh the favorable signs.
-    - When everything is fulfilled, supreme good fortune comes.
-    type: reminder
-    yarrow_value: 9
-  image:
-  - 'Heaven above, the lake below:'
-  - The image of Treading.
-  - Thus the superior mand discriminates between high and low,
-  - And thereby fortifies the thinking of the people.
-  judgement:
-  - Treading. Treading upon the tail ofthe tiger.
-  - It does not bite the man.
-  name: Treading
-  secondary_names:
-  - Conduct
-  wilhelm_index: 10
-  yarrow_value: '777877'
-waiting:
-  changing_lines:
-  - line_number: 1
-    text:
-    - Waiting in the meadow.
-    - It furthers one to abide in what endures.
-    - No blame.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 2
-    text:
-    - Waiting on the sand.
-    - There is some gossip.
-    - The end brings good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - Waiting in the mud
-    - Brings about the arrival of the enemy.
-    type: warning
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - Waiting in blood.
-    - Get out of the pit.
-    type: warning
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - Waiting at meat and drink.
-    - Perserverance brings good fortune.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - One falls into the pit.
-    - Three uninvited guests arrive.
-    - Honor them, and in the end there will be good forture.
-    type: reminder
-    yarrow_value: 6
-  image:
-  - 'Clouds rise up to heaven:'
-  - The image of Waiting
-  - Thus the superior man eats and drinks,
-  - Is joyous and of good cheer.
-  judgement:
-  - Waiting. If you are sincere,
-  - You have light and sccess.
-  - Perserverance brings good fortune.
-  - It furthers one to cross the great water.
-  name: Waiting
-  secondary_names:
-  - Nourishment
-  wilhelm_index: 5
-  yarrow_value: '878777'
-wanderer:
-  changing_lines:
-  - line_number: 1
-    text:
-    - If the wanderer busies himself with trivial things,
-    - He draws down misfortune upon himself.
-    type: warning
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - The wanderer comes to an inn.
-    - He has his property with him.
-    - He wins the steadfastness of a young servant.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 3
-    text:
-    - The wanderer's inn burns down.
-    - He loses the steadfastness of his young servant.
-    - Danger.
-    type: warning
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - The wanderer rests in a shelter.
-    - He obtains his property and an ax.
-    - My heart is not glad.
-    type: warning
-    yarrow_value: 9
-  - line_number: 5
-    text:
-    - He shoots a pheasant.
-    - It drops with the first arrow.
-    - In the end this brings both praise and office.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - The bird's nest burns up.
-    - The wanderer laughs at first,
-    - Then must needs lament and weep.
-    - Through carelessness he loses his cow.
-    - Misfortune.
-    type: warning
-    yarrow_value: 9
-  image:
-  - 'Fire on the mountain:'
-  - The image of The Wanderer.
-  - Thus the superior man
-  - Is clear-minded and cautions
-  - In imposing penalties,
-  - And protracts no lawsuits.
-  judgement:
-  - The Wanderer. Success through smallness.
-  - Perserverance brings good fortune
-  - To the wanderer.
-  name: The Wanderer
-  secondary_names: null
-  wilhelm_index: 56
-  yarrow_value: '787788'
-well:
-  changing_lines:
-  - line_number: 1
-    text:
-    - One does not drink the mud of the well.
-    - No animals come to an old well.
-    type: warning
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - At the wellhole one shoots fishes.
-    - The jug is broken and leaks.
-    type: warning
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - The well is cleaned, but no one drinks from it.
-    - This is my heart's sorrow,
-    - For one might draw from it.
-    - If the king were clear-minded,
-    - Good fortune might be enjoyed in common.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 4
-    text:
-    - The well is being lined. No blame.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - In the well there is a clear, cold spring.
-    - From which one can drink.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 6
-    text:
-    - One draws from the well
-    - Without hindrance.
-    - It is dependable.
-    - Supreme good fortune.
-    type: reminder
-    yarrow_value: 6
-  image:
-  - 'Water over wood: the image of The Well.'
-  - Thus the superior man ecourages the people at their work,
-  - And exhorts them to help one another.
-  judgement:
-  - The Well. The town may have changed,
-  - But the well cannot be changed.
-  - It neither decreases nor increases.
-  - They come and go and draw from the well.
-  - If one gets down almost to the water
-  - And the rope does not go all the way,
-  - Or the jug breaks, it brings misfortune.
-  name: The Well
-  secondary_names: null
-  wilhelm_index: 48
-  yarrow_value: '878778'
-youthful_folly:
-  changing_lines:
-  - line_number: 1
-    text:
-    - To make a fool develop
-    - It furthers one to apply discipline.
-    - The fetters should be removed.
-    - To go on in this way brings humiliation.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 2
-    text:
-    - To bear with fools in kindliness brings good fortune.
-    - To know how to take women
-    - Brings good fortune.
-    - The son is capable of taking charge of the household.
-    type: reminder
-    yarrow_value: 9
-  - line_number: 3
-    text:
-    - Take not a maiden who, when she sees a man of bronze,
-    - Loses possession of herself.
-    - Nothing furthers.
-    type: warning
-    yarrow_value: 6
-  - line_number: 4
-    text:
-    - Entangled folly bings humiliation.
-    type: warning
-    yarrow_value: 6
-  - line_number: 5
-    text:
-    - Childlike folly briings good fortune.
-    type: reminder
-    yarrow_value: 6
-  - line_number: 6
-    text:
-    - In punishing folly
-    - It does notfurther one
-    - To commit transgressions.
-    - The only thing that furthers
-    - Is to prevent transgressions.
-    type: null
-    yarrow_value: 9
-  image:
-  - 'A spring wells up at the foot of the mountain:'
-  - The image of Youthful Folly.
-  - Thus the superior man fosters his character
-  - By thoroughness in all that he does.
-  judgement:
-  - Youthful Folly has success.
-  - It is not I who seek the young fool;
-  - The young fool seeks me.
-  - At the first oracle I inform him.
-  - If he asks two or three times, it is importunity.
-  - If he importunes, I hive him no information.
-  - Perserverance furthers.
-  name: Youthful Folly
-  secondary_names: null
-  wilhelm_index: 4
-  yarrow_value: '788878'
