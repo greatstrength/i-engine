@@ -231,7 +231,7 @@ def handle(context: MessageContext):
     reading_result = create_reading_result(name, composite, previous, next, reading_date, frequency)
 
     # Save reading result to cache.
-    # reading_cache.save(reading_result)
+    reading_cache.save(reading_result)
 
     print('\n')
     if is_changing:
