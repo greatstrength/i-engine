@@ -142,7 +142,7 @@ def handle(context: MessageContext):
             
             print('\t{} in {} says:\n'.format(value, line))
             
-            for line in changing_line.text:
+            for line in changing_line.text.split('\n'):
                 print('\t' + line)
             print('')
         print('')
@@ -153,7 +153,7 @@ def handle(context: MessageContext):
             title = '\t' + title
         print(title)
         print('')
-        for line in hex.judgement:
+        for line in hex.judgement.split('\n'):
             if is_changing:
                 line = '\t' + line
             print(line)   
@@ -165,7 +165,7 @@ def handle(context: MessageContext):
             title = '\t' + title
         print(title)
         print('')
-        for line in hex.image:
+        for line in hex.image.split('\n'):
             if is_changing:
                 line = '\t' + line
             print(line)
@@ -231,7 +231,7 @@ def handle(context: MessageContext):
     reading_result = create_reading_result(name, composite, previous, next, reading_date, frequency)
 
     # Save reading result to cache.
-    reading_cache.save(reading_result)
+    # reading_cache.save(reading_result)
 
     print('\n')
     if is_changing:
