@@ -29,7 +29,6 @@ def handle(context: MessageContext):
         return y_transform
 
     def input_to_yarrow_traditional(input_data: list, transform: dict):
-        import math
 
         def get_value(pile: int):
             value = pile % 4
@@ -171,7 +170,7 @@ def handle(context: MessageContext):
             print(line)
         print('\n')
 
-    def create_reading_result(name, composite, previous, next, reading_date: date = None, frequency: str = READING_RESULT_FREQUENCY_DEFAULT) -> ReadingResult:
+    def create_reading_result(name, composite, reading_date: date = None, frequency: str = READING_RESULT_FREQUENCY_DEFAULT) -> ReadingResult:
         # Format data
         position = 6
         input_data = []
@@ -184,20 +183,6 @@ def handle(context: MessageContext):
                 line_value=composite[0 if i == 0 else int(i/3)]
             ))
             position -= 1
-            
-        previous_hex = get_hexagram_value(previous)
-        previous_hex_data = dict(
-            name=previous_hex.name,
-            wilhelm_index=previous_hex.number,
-        )
-        if next:
-            next_hex = get_hexagram_value(next)
-            next_hex_data = dict(
-                name=next_hex.name,
-                wilhelm_index=next_hex.number,
-            )
-        else:
-            next_hex_data = None
 
         # Set date to today if not provided
         if not reading_date:
@@ -210,8 +195,6 @@ def handle(context: MessageContext):
             dimension=dimension,
             frequency=frequency,
             result_lines=input_data,
-            current_or_previous=previous_hex_data,
-            next=next_hex_data
         ))
     
     transform = get_yarrow_transform(dimension)
@@ -226,12 +209,14 @@ def handle(context: MessageContext):
     else:
         yarrow = input_to_yarrow(data, transform)
     composite = yarrow_to_composite(yarrow)
-    is_changing, previous, next = composite_to_composite_2d(composite)
 
-    reading_result = create_reading_result(name, composite, previous, next, reading_date, frequency)
+    reading_result = create_reading_result(name, composite, reading_date, frequency)
 
     # Save reading result to cache.
     reading_cache.save(reading_result)
+
+    # Get previous and next hexagram values for printing.
+    is_changing, previous, next = composite_to_composite_2d(composite)
 
     print('\n')
     if is_changing:
