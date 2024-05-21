@@ -41,10 +41,3 @@ YARROW_SUM_TO_LINES = {
     8: '---   ---',
     9: '---( )---'
 }
-
-TRANSFORM = {
-    '2': TWO_D_YARROW_TRANSFORM,
-    '6': SIX_D_YARROW_TRANSFORM,
-    '8': EIGHT_D_YARROW_TRANSFORM,
-    '49': FORTY_NINE_D_YARROW_TRANSFORM
-}
