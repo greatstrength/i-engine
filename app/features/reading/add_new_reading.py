@@ -4,7 +4,7 @@ from ...domain import *
 
 def handle(context: MessageContext):
     from datetime import datetime, date
-    from ...constants import TWO_D_YARROW_TRANSFORM, TRANSFORM, YARROW_SUM_TO_LINES
+    from ...constants import TWO_D_YARROW_TRANSFORM, YARROW_SUM_TO_LINES
 
     # Unpack request
     name = context.data.name
@@ -18,9 +18,6 @@ def handle(context: MessageContext):
 
     # Load the hexagram repository.
     hexagram_repo: HexagramRepository = context.services.hexagram_repo()
-
-    def get_yarrow_transform(transform_name: str):
-        return TRANSFORM[transform_name]
 
     def input_to_yarrow(input_data: list, transform: dict = TWO_D_YARROW_TRANSFORM):
         y_transform = []
@@ -197,7 +194,7 @@ def handle(context: MessageContext):
             result_lines=input_data,
         ))
     
-    transform = get_yarrow_transform(dimension)
+    transform = reading_service.create_transform(dimension)
 
     data = []
     for i in range(0, 18, 3):
