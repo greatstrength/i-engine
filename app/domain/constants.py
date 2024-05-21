@@ -1,6 +1,6 @@
 # Reading Result Dimensions
 READING_RESULT_DIMENSIONS = [
-    '2', '6', '8', '49'
+    '2', '2.1', '6', '8', '49'
 ]
 
 # Reading Result Frequencies
@@ -44,32 +44,32 @@ TWO_D_EXT_1_TRANSFORM = {
 
 # Six Dimensional Transform
 SIX_D_TRANSFORM = {
-    '1': 3,
-    '2': 2,
-    '3': 3,
-    '4': 2,
-    '5': 3,
-    '6': 2
+    1: 3,
+    2: 2,
+    3: 3,
+    4: 2,
+    5: 3,
+    6: 2
 }
 
 # Eight Dimensional Transform
 EIGHT_D_TRANSFORM = {
-    '1': 3,
-    '2': 2,
-    '3': 3,
-    '4': 2,
-    '5': 3,
-    '6': 2,
-    '7': 3,
-    '8': 2
+    1: 3,
+    2: 2,
+    3: 3,
+    4: 2,
+    5: 3,
+    6: 2,
+    7: 3,
+    8: 2
 }
 
 # Forty Nine Dimensional Transform
 FORTY_NINE_D_TRANSFORM = {
-    '4': 2,
-    '5': 2,
-    '8': 3,
-    '9': 3
+    4: 2,
+    5: 2,
+    8: 3,
+    9: 3
 }
 
 # Yarrow Sum to Printed Lines

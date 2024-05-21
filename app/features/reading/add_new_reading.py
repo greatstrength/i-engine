@@ -171,13 +171,13 @@ def handle(context: MessageContext):
         # Format data
         position = 6
         input_data = []
-        for i in range(0, 18, 3):
+        for i in range(0, 6):
             input_data.append(dict(
                 position=position,
-                heaven_line=input[i],
-                man_line=input[i + 1],
-                earth_line=input[i + 2],
-                line_value=composite[0 if i == 0 else int(i/3)]
+                heaven_line=input[i][0],
+                man_line=input[i][1],
+                earth_line=input[i][2],
+                line_value=composite[i]
             ))
             position -= 1
 
@@ -196,15 +196,10 @@ def handle(context: MessageContext):
     
     transform = reading_service.create_transform(dimension)
 
-    data = []
-    for i in range(0, 18, 3):
-        row = [input[i], input[i + 1], input[i + 2]]
-        data.append(row)
-
     if dimension == '49':
-        yarrow = input_to_yarrow_traditional(data, transform)
+        yarrow = input_to_yarrow_traditional(input, transform)
     else:
-        yarrow = input_to_yarrow(data, transform)
+        yarrow = input_to_yarrow(input, transform)
     composite = yarrow_to_composite(yarrow)
 
     reading_result = create_reading_result(name, composite, reading_date, frequency)
