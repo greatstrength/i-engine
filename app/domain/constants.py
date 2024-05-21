@@ -26,7 +26,51 @@ RESULT_LINE_VALUES = [
     6, 7, 8, 9
 ]
 
-# Yarrow value to hexagram number map
+# Two Dimensional Transform
+TWO_D_TRANSFORM = {
+    False: 2,
+    True: 3
+}
+
+# Six Dimensional Transform
+SIX_D_TRANSFORM = {
+    '1': 3,
+    '2': 2,
+    '3': 3,
+    '4': 2,
+    '5': 3,
+    '6': 2
+}
+
+# Eight Dimensional Transform
+EIGHT_D_TRANSFORM = {
+    '1': 3,
+    '2': 2,
+    '3': 3,
+    '4': 2,
+    '5': 3,
+    '6': 2,
+    '7': 3,
+    '8': 2
+}
+
+# Forty Nine Dimensional Transform
+FORTY_NINE_D_TRANSFORM = {
+    '4': 2,
+    '5': 2,
+    '8': 3,
+    '9': 3
+}
+
+# Yarrow Sum to Printed Lines
+TRANSFORM_SUM_TO_LINES = {
+    6: '--- X ---',
+    7: '---------',
+    8: '---   ---',
+    9: '---( )---'
+}
+
+# Transform Sum to Hexagram Number
 YARROW_TO_HEXAGRAM_NUMBER = {
     '887787': 55,
     '878878': 29,
