@@ -32,6 +32,16 @@ TWO_D_TRANSFORM = {
     True: 3
 }
 
+# Two Dimentional (Extended 1) Transform
+TWO_D_EXT_1_TRANSFORM = {
+    1: 2,
+    2: 2,
+    3: 2,
+    4: 3,
+    5: 3,
+    6: 3,
+}
+
 # Six Dimensional Transform
 SIX_D_TRANSFORM = {
     '1': 3,
