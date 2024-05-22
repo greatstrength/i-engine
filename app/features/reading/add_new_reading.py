@@ -47,7 +47,7 @@ def handle(context: MessageContext):
                 new_row[i] += get_value(left) + get_value(right)
                 counter -= new_row[i]
             H, M, E = new_row
-            y_transform.append((transform[str(H)], transform[str(M)], transform[str(E)]))
+            y_transform.append((transform[H], transform[M], transform[E]))
         return y_transform
 
     def yarrow_to_composite(y_transform: list):
