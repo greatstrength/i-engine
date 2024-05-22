@@ -1,6 +1,8 @@
 from ..constants import *
 from ..objects import *
 
+from datetime import date, datetime
+
 
 def create_transform(dimension: str):
     if dimension == '2':
@@ -19,14 +21,20 @@ def create_transform(dimension: str):
 def calculate_sum_transform(dimension: str, input_data: list):
 
     # Default transform strategy.
-    def default_transform_strategy(input_data: list, transform: dict = TWO_D_TRANSFORM):
+    def default_transform_strategy(
+            input_data: list,
+            transform: dict = TWO_D_TRANSFORM
+    ):
         y_transform = []
         for H, M, E in input_data:
             y_transform.append((transform[H], transform[M], transform[E]))
         return y_transform
 
     # Traditional transform strategy based on the 50-yarrow-rod method.
-    def traditional_transform_strategy(input_data: list, transform: dict = FORTY_NINE_D_TRANSFORM):
+    def traditional_transform_strategy(
+        input_data: list,
+        transform: dict = FORTY_NINE_D_TRANSFORM
+    ):
 
         def get_value(pile: int):
             value = pile % 4
@@ -66,3 +74,38 @@ def calculate_sum_transform(dimension: str, input_data: list):
 
     # Return the sum of the transform.
     return [sum(row) for row in transform]
+
+
+def create_reading_result(
+    name,
+    input: List[List[int]],
+    dimension: str,
+    transform: List[int],
+    reading_date: date = None,
+    frequency: str = READING_RESULT_FREQUENCY_DEFAULT
+) -> ReadingResult:
+    # Format data
+    position = 6
+    input_data = []
+    for i in range(0, 6):
+        input_data.append(dict(
+            position=position,
+            heaven_line=input[i][0],
+            man_line=input[i][1],
+            earth_line=input[i][2],
+            line_value=transform[i]
+        ))
+        position -= 1
+
+    # Set date to today if not provided
+    if not reading_date:
+        reading_date = datetime.now().date()
+
+    return ReadingResult(dict(
+        id=name,
+        name=name,
+        date=datetime.strptime(reading_date, '%Y-%m-%d'),
+        dimension=dimension,
+        frequency=frequency,
+        result_lines=input_data,
+    ))
