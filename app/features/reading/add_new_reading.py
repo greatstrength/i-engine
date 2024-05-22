@@ -3,8 +3,7 @@ from ...domain import *
 
 
 def handle(context: MessageContext):
-    from datetime import datetime, date
-    from ...constants import TWO_D_YARROW_TRANSFORM, YARROW_SUM_TO_LINES
+    from ...constants import YARROW_SUM_TO_LINES
 
     # Unpack request
     name = context.data.name
@@ -18,41 +17,6 @@ def handle(context: MessageContext):
 
     # Load the hexagram repository.
     hexagram_repo: HexagramRepository = context.services.hexagram_repo()
-
-    def input_to_yarrow(input_data: list, transform: dict = TWO_D_YARROW_TRANSFORM):
-        y_transform = []
-        for H, M, E in input_data:
-            y_transform.append((transform[H], transform[M], transform[E]))
-        return y_transform
-
-    def input_to_yarrow_traditional(input_data: list, transform: dict):
-
-        def get_value(pile: int):
-            value = pile % 4
-            if value == 0:
-                value = 4
-            return value
-
-        y_transform = []
-        for row in input_data:
-            counter = 49
-            new_row = [1, 1, 1]
-            for i in range(len(row)):
-                split = int(row[i])
-                left = abs(counter - split)
-                if counter > split:
-                    right = split - 1
-                else:
-                    right = counter - left - 1
-                new_row[i] += get_value(left) + get_value(right)
-                counter -= new_row[i]
-            H, M, E = new_row
-            y_transform.append((transform[H], transform[M], transform[E]))
-        return y_transform
-
-    def yarrow_to_composite(y_transform: list):
-        composite = [sum(row) for row in y_transform]
-        return composite
 
     def composite_to_composite_2d(composite):
         previous = []
@@ -166,52 +130,21 @@ def handle(context: MessageContext):
                 line = '\t' + line
             print(line)
         print('\n')
-
-    def create_reading_result(name, composite, reading_date: date = None, frequency: str = READING_RESULT_FREQUENCY_DEFAULT) -> ReadingResult:
-        # Format data
-        position = 6
-        input_data = []
-        for i in range(0, 6):
-            input_data.append(dict(
-                position=position,
-                heaven_line=input[i][0],
-                man_line=input[i][1],
-                earth_line=input[i][2],
-                line_value=composite[i]
-            ))
-            position -= 1
-
-        # Set date to today if not provided
-        if not reading_date:
-            reading_date = datetime.now().date()
-
-        return ReadingResult(dict(
-            id=name,
-            name=name,
-            date=datetime.strptime(reading_date, '%Y-%m-%d'),
-            dimension=dimension,
-            frequency=frequency,
-            result_lines=input_data,
-        ))
     
-    transform = reading_service.create_transform(dimension)
+    # Calculate summed transform.
+    transform = reading_service.calculate_sum_transform(dimension, input)
 
-    if dimension == '49':
-        yarrow = input_to_yarrow_traditional(input, transform)
-    else:
-        yarrow = input_to_yarrow(input, transform)
-    composite = yarrow_to_composite(yarrow)
-
-    reading_result = create_reading_result(name, composite, reading_date, frequency)
+    # Create reading result.
+    reading_result = reading_service.create_reading_result(name, input, transform, reading_date, frequency)
 
     # Save reading result to cache.
     reading_cache.save(reading_result)
 
     # Get previous and next hexagram values for printing.
-    is_changing, previous, next = composite_to_composite_2d(composite)
+    is_changing, previous, next = composite_to_composite_2d(transform)
 
     print('\n')
     if is_changing:
-        print_changing_hexagran(composite, previous, next)
+        print_changing_hexagran(transform, previous, next)
     else:
         print_single_hexagram(previous)
