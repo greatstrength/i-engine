@@ -98,7 +98,7 @@ def handle(context: MessageContext):
             else:
                 value = 'Nine'
             line = 6 - i
-            changing_line: Hexagram.Line = hex.changing_lines[line - 1]
+            changing_line: ChangingLine = hex.changing_lines[line - 1]
             
             print('\t{} in {} says:\n'.format(value, line))
             
@@ -138,7 +138,7 @@ def handle(context: MessageContext):
     reading_result = reading_service.create_reading_result(name, input, dimension, transform, reading_date, frequency)
 
     # Save reading result to cache.
-    reading_cache.save(reading_result)
+    # reading_cache.save(reading_result)
 
     # Get previous and next hexagram values for printing.
     is_changing, previous, next = composite_to_composite_2d(transform)
