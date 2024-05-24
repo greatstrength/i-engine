@@ -135,7 +135,7 @@ def handle(context: MessageContext):
     transform = reading_service.calculate_sum_transform(dimension, input)
 
     # Create reading result.
-    reading_result = reading_service.create_reading_result(name, input, transform, reading_date, frequency)
+    reading_result = reading_service.create_reading_result(name, input, dimension, transform, reading_date, frequency)
 
     # Save reading result to cache.
     reading_cache.save(reading_result)

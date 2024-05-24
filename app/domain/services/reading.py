@@ -67,7 +67,7 @@ def calculate_sum_transform(dimension: str, input_data: list):
         return None
 
     # Calculate transform based on dimension.
-    if dimension == FORTY_NINE_D_TRANSFORM:
+    if dimension == '49':
         transform = traditional_transform_strategy(input_data)
     else:
         transform = default_transform_strategy(input_data, transform)
