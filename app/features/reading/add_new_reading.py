@@ -1,5 +1,6 @@
 from ...core import *
 from ...domain import *
+from ...interfaces import *
 
 
 def handle(context: MessageContext):
@@ -7,11 +8,7 @@ def handle(context: MessageContext):
     import os
 
     # Unpack request
-    name = context.data.name
-    reading_date = context.data.date
-    frequency = context.data.frequency
-    dimension = context.data.dimension
-    input = context.data.input
+    request: AddNewReading = context.data
 
     # Load reading cache repository.
     reading_cache: ReadingCache = context.services.reading_cache()
@@ -136,18 +133,13 @@ def handle(context: MessageContext):
         print('\n')
     
     # Calculate summed transform.
-    transform = reading_service.calculate_sum_transform(dimension, input)
+    transform = reading_service.calculate_sum_transform(request.dimension, request.input)
 
     # Create reading result.
-    reading_result = reading_service.create_reading_result(name, input, dimension, transform, reading_date, frequency)
-
-    # # Save reading result to cache.
-    try:
-        reading_repo.save(reading_result)
-    except Exception as e:
-        reading_cache.save(reading_result)
-        raise e
-
+    reading_result = reading_service.create_reading_result(
+        transform=transform,
+        **request.to_primitive())
+    
     # Get reading hexagram.
     hex_number = hexagram_service.get_hexagram_number(reading_result)
     hexagram = hexagram_repo.get(hex_number)
@@ -159,15 +151,21 @@ def handle(context: MessageContext):
     else:
         changing_hexagram = None
 
-    # Set hexagrams to reading result.
-    reading_repo.set_hexagrams(
-        reading_result.id, 
-        hexagram.id, 
-        changing_hexagram.id if changing_hexagram else None
-    )
+    # # Save reading result to cache.
+    if request.cache_only:
+        reading_cache.save(reading_result)
+    else:
+        reading_repo.save(reading_result)
+
+        # Set hexagrams to reading result.
+        reading_repo.set_hexagrams(
+            reading_result.id, 
+            hexagram.id, 
+            changing_hexagram.id if changing_hexagram else None
+        )
 
     # Upload entry file if provided.
-    if context.data.upload_file:
+    if request.upload_file:
         reading_repo.upload_entry(reading_result.id, context.data.upload_file)
         if context.data.remove_file:
             os.remove(context.data.upload_file)

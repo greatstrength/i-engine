@@ -13,4 +13,5 @@ class AddNewReading(Model):
     type = t.StringType(default=READING_RESULT_TYPE_DEFAULT, choices=READING_RESULT_TYPES)
     frequency = t.StringType(default=READING_RESULT_FREQUENCY_DEFAULT, choices=READING_RESULT_FREQUENCIES)
     upload_file = t.StringType()
-    remove_file = t.BooleanType(default=True)
+    remove_file = t.BooleanType(default=False)
+    cache_only = t.BooleanType(default=False)

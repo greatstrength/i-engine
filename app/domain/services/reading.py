@@ -82,7 +82,8 @@ def create_reading_result(
     dimension: str,
     transform: List[int],
     reading_date: date = None,
-    frequency: str = READING_RESULT_FREQUENCY_DEFAULT
+    frequency: str = READING_RESULT_FREQUENCY_DEFAULT,
+    **kwargs
 ) -> ReadingResult:
     # Format data
     position = 6
@@ -104,7 +105,7 @@ def create_reading_result(
     return ReadingResult(dict(
         id=name,
         name=name,
-        date=datetime.strptime(reading_date, '%Y-%m-%d'),
+        date=datetime.strptime(reading_date, '%Y-%m-%d') if isinstance(reading_date, str) else reading_date,
         dimension=dimension,
         frequency=frequency,
         result_lines=input_data,

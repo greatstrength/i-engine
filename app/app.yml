@@ -269,6 +269,16 @@ interfaces:
                 name_or_flags:
                 - --upload-file
                 type: str
+              - help: removes the uploaded reading file
+                name_or_flags:
+                - --remove-file
+                type: bool
+                action: store_true
+              - help: save only to cache
+                name_or_flags:
+                - --cache-only
+                type: bool
+                action: store_true
               help: add new reading
               name: Add New I-Ching Reading
       parent_arguments: []
