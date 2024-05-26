@@ -90,9 +90,9 @@ def create_reading_result(
     for i in range(0, 6):
         input_data.append(dict(
             position=position,
-            heaven_line=input[i][0],
-            man_line=input[i][1],
-            earth_line=input[i][2],
+            heaven_value=input[i][0],
+            man_value=input[i][1],
+            earth_value=input[i][2],
             line_value=transform[i]
         ))
         position -= 1

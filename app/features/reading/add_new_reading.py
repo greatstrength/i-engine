@@ -15,6 +15,9 @@ def handle(context: MessageContext):
     # Load reading cache repository.
     reading_cache: ReadingCache = context.services.reading_cache()
 
+    # Load reading repository.
+    reading_repo: ReadingRepository = context.services.reading_repo()
+
     # Load the hexagram repository.
     hexagram_repo: HexagramRepository = context.services.hexagram_repo()
 
@@ -138,11 +141,32 @@ def handle(context: MessageContext):
     reading_result = reading_service.create_reading_result(name, input, dimension, transform, reading_date, frequency)
 
     # Save reading result to cache.
-    # reading_cache.save(reading_result)
+    try:
+        reading_repo.save(reading_result)
+    except Exception as e:
+        reading_cache.save(reading_result)
+        raise e
 
-    # Get previous and next hexagram values for printing.
+    # Get reading hexagram.
+    hex_number = hexagram_service.get_hexagram_number(reading_result)
+    hexagram = hexagram_repo.get(hex_number)
+
+    # Get changing hexagram.
+    changing_hex_number = hexagram_service.get_changing_hexagram_number(reading_result)
+    if changing_hex_number:
+        changing_hexagram = hexagram_repo.get(changing_hex_number)
+    else:
+        changing_hexagram = None
+
+    # Set hexagrams to reading result.
+    reading_repo.set_hexagrams(
+        reading_result.id, 
+        hexagram.id, 
+        changing_hexagram.id if changing_hexagram else None
+    )
+
+    # Old Printing Method
     is_changing, previous, next = composite_to_composite_2d(transform)
-
     print('\n')
     if is_changing:
         print_changing_hexagran(transform, previous, next)

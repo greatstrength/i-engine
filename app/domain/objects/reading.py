@@ -5,9 +5,9 @@ from ..constants import *
 class ResultLine(ValueObject):
 
     position = t.IntType(required=True)
-    heaven_line = t.IntType(required=True)
-    man_line = t.IntType(required=True)
-    earth_line = t.IntType(required=True)
+    heaven_value = t.IntType(required=True)
+    man_value = t.IntType(required=True)
+    earth_value = t.IntType(required=True)
     line_value = t.IntType(required=True, choices=RESULT_LINE_VALUES)
 
 
