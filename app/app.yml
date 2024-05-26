@@ -265,6 +265,10 @@ interfaces:
                 name_or_flags:
                 - --type
                 type: str
+              - help: upload file path for reading entry
+                name_or_flags:
+                - --upload-file
+                type: str
               help: add new reading
               name: Add New I-Ching Reading
       parent_arguments: []

@@ -97,4 +97,10 @@ class MondataReadingRepository(ReadingRepository):
             reading_data.changing_hexagram = changing_hexagram_id
         reading_data.status = 'Entered'
         reading_data.save()
+
+    def upload_entry(self, reading_id: str, upload_file: str):
+
+        reading_data: ReadingResultData = self.monday_client.get_items(ids=[reading_id], as_model=ReadingResultData)[0]
+        file_value = reading_data.item.column_values['Original Entry']
+        reading_data.item.add_file(file_value, upload_file)
         

@@ -12,3 +12,5 @@ class AddNewReading(Model):
     input = t.ListType(t.ListType(t.IntType(), min_size=3, max_size=3), min_size=6, max_size=6, default=[])
     type = t.StringType(default=READING_RESULT_TYPE_DEFAULT, choices=READING_RESULT_TYPES)
     frequency = t.StringType(default=READING_RESULT_FREQUENCY_DEFAULT, choices=READING_RESULT_FREQUENCIES)
+    upload_file = t.StringType()
+    remove_file = t.BooleanType(default=True)

@@ -4,6 +4,7 @@ from ...domain import *
 
 def handle(context: MessageContext):
     from ...constants import YARROW_SUM_TO_LINES
+    import os
 
     # Unpack request
     name = context.data.name
@@ -140,7 +141,7 @@ def handle(context: MessageContext):
     # Create reading result.
     reading_result = reading_service.create_reading_result(name, input, dimension, transform, reading_date, frequency)
 
-    # Save reading result to cache.
+    # # Save reading result to cache.
     try:
         reading_repo.save(reading_result)
     except Exception as e:
@@ -164,6 +165,12 @@ def handle(context: MessageContext):
         hexagram.id, 
         changing_hexagram.id if changing_hexagram else None
     )
+
+    # Upload entry file if provided.
+    if context.data.upload_file:
+        reading_repo.upload_entry(reading_result.id, context.data.upload_file)
+        if context.data.remove_file:
+            os.remove(context.data.upload_file)
 
     # Old Printing Method
     is_changing, previous, next = composite_to_composite_2d(transform)
