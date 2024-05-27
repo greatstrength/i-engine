@@ -212,7 +212,11 @@ features:
         new:
           functions:
           - data_mapping: add_new_reading
-            function_path: reading.add_new_reading
+            function_path: reading.new
+        sync:
+          functions:
+          - data_mapping: sync_reading_data
+            function_path: reading.sync
 interfaces:
   types:
     cli:
@@ -272,6 +276,7 @@ interfaces:
               - help: removes the uploaded reading file
                 name_or_flags:
                 - --remove-file
+                - -r
                 type: bool
                 action: store_true
               - help: save only to cache
@@ -281,4 +286,22 @@ interfaces:
                 action: store_true
               help: add new reading
               name: Add New I-Ching Reading
+            sync:
+              arguments:
+              - help: sync reading data
+                name_or_flags:
+                - reading_id
+                type: str
+              - help: upload file path for reading entry
+                name_or_flags:
+                - --upload-file
+                type: str
+              - help: removes the cached reading data
+                name_or_flags:
+                - --remove-from-cache
+                - -r
+                type: bool
+                action: store_true
+              help: sync reading data
+              name: Sync Reading Data
       parent_arguments: []

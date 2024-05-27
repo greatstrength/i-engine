@@ -1,10 +1,10 @@
-from ...core import *
-from ...domain import *
-from ...interfaces import *
+from ....core import *
+from ....domain import *
+from ....interfaces import *
 
 
 def handle(context: MessageContext):
-    from ...constants import YARROW_SUM_TO_LINES
+    from ....constants import YARROW_SUM_TO_LINES
     import os
 
     # Unpack request
