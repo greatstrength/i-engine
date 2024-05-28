@@ -75,7 +75,7 @@ class MondataReadingRepository(ReadingRepository):
         reading_data.type = [reading.type.capitalize()]
         reading_data.frequency = [reading.frequency.capitalize()]
         reading_data.dimension = reading.dimension
-        reading_data.status = 'Calculating'
+        reading_data.status = 'Entry Uploaded'
         reading_data.save(group=group)
         reading.id = reading_data.id
 

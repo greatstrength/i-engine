@@ -235,7 +235,6 @@ interfaces:
                 name_or_flags:
                 - --dimension
                 - -d
-                required: true
               - help: reading input
                 name_or_flags:
                 - --input
