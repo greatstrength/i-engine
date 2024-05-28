@@ -15,3 +15,9 @@ class AddNewReading(Model):
     upload_file = t.StringType()
     remove_file = t.BooleanType(default=False)
     cache_only = t.BooleanType(default=False)
+
+
+class SyncReading(Model):
+    reading_id = t.StringType(required=True)
+    upload_file = t.StringType()
+    remove_from_cache = t.BooleanType(default=False)
