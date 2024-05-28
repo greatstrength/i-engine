@@ -85,28 +85,38 @@ def create_reading_result(
     frequency: str = READING_RESULT_FREQUENCY_DEFAULT,
     **kwargs
 ) -> ReadingResult:
+ 
+    # Set date to today if not provided
+    if not reading_date:
+        reading_date = datetime.now().date()
+
+    result = ReadingResult(dict(
+        id=name,
+        name=name,
+        date=datetime.strptime(reading_date, '%Y-%m-%d') if isinstance(reading_date, str) else reading_date,
+        dimension=dimension,
+        frequency=frequency,
+    ))
+
+    if not input:
+        return result
+    
     # Format data
     position = 6
     input_data = []
     for i in range(0, 6):
-        input_data.append(dict(
+        result_line = ResultLine(dict(
             position=position,
             heaven_value=input[i][0],
             man_value=input[i][1],
             earth_value=input[i][2],
             line_value=transform[i]
         ))
+        input_data.append(result_line)
         position -= 1
 
-    # Set date to today if not provided
-    if not reading_date:
-        reading_date = datetime.now().date()
+    result.result_lines = input_data
 
-    return ReadingResult(dict(
-        id=name,
-        name=name,
-        date=datetime.strptime(reading_date, '%Y-%m-%d') if isinstance(reading_date, str) else reading_date,
-        dimension=dimension,
-        frequency=frequency,
-        result_lines=input_data,
-    ))
+    return result
+    
+

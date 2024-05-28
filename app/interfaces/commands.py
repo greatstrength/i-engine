@@ -7,9 +7,10 @@ from ..domain import *
 class AddNewReading(Model):
 
     name = t.StringType(required=True)
-    date = t.StringType()
+    date = t.StringType(serialized_name='reading_date')
     dimension = t.StringType(required=True, choices=READING_RESULT_DIMENSIONS)
     input = t.ListType(t.ListType(t.IntType(), min_size=3, max_size=3), min_size=6, max_size=6, default=[])
+    no_input = t.BooleanType(default=False)
     type = t.StringType(default=READING_RESULT_TYPE_DEFAULT, choices=READING_RESULT_TYPES)
     frequency = t.StringType(default=READING_RESULT_FREQUENCY_DEFAULT, choices=READING_RESULT_FREQUENCIES)
     upload_file = t.StringType()

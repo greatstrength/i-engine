@@ -62,7 +62,7 @@ class MondataReadingRepository(ReadingRepository):
         self.monday_client = monday_client
         self.board_id = board_id
 
-    def save(self, reading: ReadingResult, group_type: str = 'Historical'):
+    def save(self, reading: ReadingResult, group_type: str = 'Historical', no_input: bool = False):
 
         board = self.monday_client.get_board(self.board_id)
         if group_type == 'Historical':
@@ -79,7 +79,11 @@ class MondataReadingRepository(ReadingRepository):
         reading_data.save(group=group)
         reading.id = reading_data.id
 
-        for line in reading.result_lines:
+    def save_result_data(self, reading_id: str, result_data: List[ResultLine]):
+        
+        reading_data: ReadingResultData = self.monday_client.get_items(ids=[reading_id], as_model=ReadingResultData)[0]
+        
+        for line in result_data:
             item_name = f'{line.position}th Line'
             line_data: ResultLineData = reading_data.item.create_subitem(item_name, as_model=ResultLineData)
             line_data.position = line.position

@@ -55,7 +55,8 @@ def handle(context: MessageContext):
         previous_hex = get_hexagram_value(previous)
         next_hex = get_hexagram_value(next)
 
-        print('{}. {} -> {}. {}'.format(previous_hex.number, previous_hex.name, next_hex.number, next_hex.name))
+        print('{}. {} -> {}. {}'.format(previous_hex.number,
+              previous_hex.name, next_hex.number, next_hex.name))
         print('')
 
         print_lines(composite, True, next)
@@ -100,9 +101,9 @@ def handle(context: MessageContext):
                 value = 'Nine'
             line = 6 - i
             changing_line: ChangingLine = hex.changing_lines[line - 1]
-            
+
             print('\t{} in {} says:\n'.format(value, line))
-            
+
             for line in changing_line.text.split('\n'):
                 print('\t' + line)
             print('')
@@ -117,7 +118,7 @@ def handle(context: MessageContext):
         for line in hex.judgement.split('\n'):
             if is_changing:
                 line = '\t' + line
-            print(line)   
+            print(line)
         print('\n')
 
     def print_image(hex: Hexagram, is_changing: bool = False):
@@ -131,25 +132,15 @@ def handle(context: MessageContext):
                 line = '\t' + line
             print(line)
         print('\n')
-    
+
     # Calculate summed transform.
-    transform = reading_service.calculate_sum_transform(request.dimension, request.input)
+    transform = reading_service.calculate_sum_transform(
+        request.dimension, request.input) if not request.no_input else None
 
     # Create reading result.
     reading_result = reading_service.create_reading_result(
         transform=transform,
         **request.to_primitive())
-    
-    # Get reading hexagram.
-    hex_number = hexagram_service.get_hexagram_number(reading_result)
-    hexagram = hexagram_repo.get(hex_number)
-
-    # Get changing hexagram.
-    changing_hex_number = hexagram_service.get_changing_hexagram_number(reading_result)
-    if changing_hex_number:
-        changing_hexagram = hexagram_repo.get(changing_hex_number)
-    else:
-        changing_hexagram = None
 
     # # Save reading result to cache.
     if request.cache_only:
@@ -157,23 +148,42 @@ def handle(context: MessageContext):
     else:
         reading_repo.save(reading_result)
 
-        # Set hexagrams to reading result.
-        reading_repo.set_hexagrams(
-            reading_result.id, 
-            hexagram.id, 
-            changing_hexagram.id if changing_hexagram else None
-        )
+        # If input data is to be saved,
+        if not request.no_input:
+
+            # Save result data.
+            reading_repo.save_result_data(
+                reading_result.id, reading_result.result_lines)
+
+            # Get reading hexagram.
+            hex_number = hexagram_service.get_hexagram_number(reading_result)
+            hexagram = hexagram_repo.get(hex_number)
+
+            # Get changing hexagram.
+            changing_hex_number = hexagram_service.get_changing_hexagram_number(
+                reading_result)
+            if changing_hex_number:
+                changing_hexagram = hexagram_repo.get(changing_hex_number)
+            else:
+                changing_hexagram = None
+
+            # Set hexagrams to reading result.
+            reading_repo.set_hexagrams(
+                reading_result.id,
+                hexagram.id,
+                changing_hexagram.id if changing_hexagram else None
+            )
+
+            # Old Printing Method
+            is_changing, previous, next = composite_to_composite_2d(transform)
+            print('\n')
+            if is_changing:
+                print_changing_hexagran(transform, previous, next)
+            else:
+                print_single_hexagram(previous)
 
     # Upload entry file if provided.
     if request.upload_file:
-        reading_repo.upload_entry(reading_result.id, context.data.upload_file)
-        if context.data.remove_file:
-            os.remove(context.data.upload_file)
-
-    # Old Printing Method
-    is_changing, previous, next = composite_to_composite_2d(transform)
-    print('\n')
-    if is_changing:
-        print_changing_hexagran(transform, previous, next)
-    else:
-        print_single_hexagram(previous)
+        reading_repo.upload_entry(reading_result.id, request.upload_file)
+        if request.remove_file:
+            os.remove(request.upload_file)
