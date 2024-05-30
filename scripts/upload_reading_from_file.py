@@ -31,4 +31,4 @@ print('Uploading reading: ', name)
 subprocess.run(['python', 'iching_engine.py', 'reading', 'new', name, '--no-input', '--date', date, '--frequency', FREQUENCY_MAP[frequency], '--upload-file', os.path.join(file_path, args.file)])
 
 print('Removing file: ', args.file)
-os.remove(os.path.join(file_path, args.file))
+# os.remove(os.path.join(file_path, args.file))
