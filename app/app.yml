@@ -213,6 +213,8 @@ features:
           functions:
           - data_mapping: add_new_reading
             function_path: reading.new
+          - data_mapping: print_new_reading_result
+            function_path: printing.reading
         sync:
           functions:
           - data_mapping: sync_reading_data
@@ -289,6 +291,19 @@ interfaces:
                 action: store_true
               help: add new reading
               name: Add New I-Ching Reading
+            get:
+              arguments:
+              - help: reading id
+                name_or_flags:
+                - reading_id
+                type: str
+              - help: print the output as json
+                name_or_flags:
+                - --to-json
+                type: bool
+                action: store_true
+              help: get reading data
+              name: Get Reading Data
             sync:
               arguments:
               - help: sync reading data

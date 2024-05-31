@@ -18,7 +18,7 @@ def composite_to_composite_2d(result_lines: List[ResultLine]):
         else:
             current.append(value)
             changing.append(value)
-        return (is_changing, composite, current, changing)
+    return (is_changing, composite, current, changing)
 
 
 def get_hexagram_number(composite: list) -> Hexagram:

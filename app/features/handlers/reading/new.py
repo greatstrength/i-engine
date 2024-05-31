@@ -19,17 +19,18 @@ def handle(context: MessageContext):
 
     # Calculate summed transform.
     transform = reading_service.calculate_sum_transform(
-        request.dimension, request.input) if not request.no_input else None
+        request.dimension, request.input) if request.input else None
 
     # Create reading result.
     reading_result = reading_service.create_reading_result(
         transform=transform,
         **request.to_primitive())
 
-    # # Save only reading to cloud should it not be cache only.
+    # Save only reading to cloud should it not be cache only.
     if not request.cache_only:
         reading_repo.save(reading_result)
 
+    # Save the reading to cache.
     reading_cache.save(reading_result)
 
     # Upload entry file if provided.
@@ -39,7 +40,7 @@ def handle(context: MessageContext):
             os.remove(request.upload_file)
 
     # Return the result if the input data is not to be saved.
-    if request.no_input:
+    if not request.no_input:
         return reading_result
 
     # Save result data.
@@ -64,3 +65,6 @@ def handle(context: MessageContext):
         hexagram.id,
         changing_hexagram.id if changing_hexagram else None
     )
+
+    # Return the reading result.
+    return reading_result

@@ -32,7 +32,7 @@ class YamlReadingCache(ReadingCache):
             ), strict=False)
             for key, value in readings.items()
         ]
-    
+
     def get(self, reading_id: str) -> ReadingResult:
         with open(self.cache_path, 'r') as f:
             readings: Dict = yaml.safe_load(f)
@@ -41,4 +41,4 @@ class YamlReadingCache(ReadingCache):
             reading_data = readings.get(reading_id, None)
             if reading_data is None:
                 return None
-            return ReadingResult(reading_data, strict=False)
+            return ReadingResult(dict(**reading_data, id=reading_id), strict=False)

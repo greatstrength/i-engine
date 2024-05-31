@@ -13,9 +13,8 @@ def add_new_reading(context, request, app_context, **kwargs):
         **request
     ), strict=False)
 
-def print_reading(context, request, app_context, **kwargs):
+def print_new_reading_result(context, request, app_context, **kwargs):
     return PrintReading(dict(
-        **context.result.to_primitive() if context.result else {},
-        **request,
+        reading_id=context.result.id,
         **kwargs
     ), strict=False)
