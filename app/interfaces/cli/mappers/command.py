@@ -1,4 +1,4 @@
-from ...commands import *
+from .. import *
 
 def add_new_reading(context, request, app_context, **kwargs):
     request_input = request.get('input', None)

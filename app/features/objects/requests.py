@@ -1,8 +1,8 @@
 from schematics import types as t, Model
 from schematics.transforms import blacklist, whitelist
 
-from ..constants import *
-from ..domain import *
+from ...constants import *
+from ...domain import *
 
 class AddNewReading(Model):
 

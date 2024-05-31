@@ -1,3 +1,3 @@
-from .commands import *
+from ..features import *
 
 from .cli import CliAppBuilder, CliAppContext, arguments as args
