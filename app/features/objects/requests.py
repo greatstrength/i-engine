@@ -1,8 +1,7 @@
 from schematics import types as t, Model
 from schematics.transforms import blacklist, whitelist
 
-from ...constants import *
-from ...domain import *
+from .. import *
 
 class AddNewReading(Model):
 
@@ -22,3 +21,7 @@ class SyncReading(Model):
     reading_id = t.StringType(required=True)
     upload_file = t.StringType()
     remove_from_cache = t.BooleanType(default=False)
+
+
+class PrintReading(Model):
+    reading_id = t.StringType(required=True)

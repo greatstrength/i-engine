@@ -1,4 +1,4 @@
-from .. import *
+from ....features.objects import *
 
 def add_new_reading(context, request, app_context, **kwargs):
     request_input = request.get('input', None)
@@ -11,4 +11,11 @@ def add_new_reading(context, request, app_context, **kwargs):
     
     return AddNewReading(dict(
         **request
+    ), strict=False)
+
+def print_reading(context, request, app_context, **kwargs):
+    return PrintReading(dict(
+        **context.result.to_primitive() if context.result else {},
+        **request,
+        **kwargs
     ), strict=False)

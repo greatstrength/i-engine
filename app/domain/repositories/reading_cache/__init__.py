@@ -4,7 +4,10 @@ from ...objects import *
 class ReadingCache():
 
     def save(self, reading: ReadingResult):
-        pass
+        raise NotImplementedError()
 
     def list(self):
-        pass
+        raise NotImplementedError()
+
+    def get(self, reading_id: str) -> ReadingResult:
+        raise NotImplementedError()
