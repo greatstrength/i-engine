@@ -18,7 +18,7 @@ def composite_to_composite_2d(result_lines: List[ResultLine]):
         else:
             current.append(value)
             changing.append(value)
-    return (is_changing, composite, current, changing)
+    return (is_changing, current, changing)
 
 
 def get_hexagram_number(composite: list) -> Hexagram:
@@ -27,17 +27,17 @@ def get_hexagram_number(composite: list) -> Hexagram:
     return number
 
 
-def print_single_hexagram(composite: List[int], hexagram: Hexagram):
+def print_single_hexagram(result_lines: List[ResultLine], hexagram: Hexagram):
 
     print('{}. {}'.format(hexagram.number, hexagram.name))
     print('')
-    print_lines(composite)
+    print_lines(result_lines)
     print_judgement(hexagram)
     print_image(hexagram)
 
 
 def print_changing_hexagran(
-    composite: List[int],
+    result_lines: List[ResultLine],
     hexagram: Hexagram,
     changing_hexagram: Hexagram
 ):
@@ -50,19 +50,29 @@ def print_changing_hexagran(
     ))
     print('')
 
-    print_lines(composite, True, next)
+    print_lines(result_lines)
 
     print('Previous:\n')
     print_judgement(hexagram, True)
     print_image(hexagram, True)
-    print_changing_lines(composite, hexagram)
+
+    print_changing_lines(result_lines, hexagram)
 
     print('Next:\n')
     print_judgement(changing_hexagram, True)
     print_image(changing_hexagram, True)
 
 
-def print_lines(composite: list, is_changing: bool = False, next: list = None):
+def print_lines(result_lines: List[ResultLine]):
+    # Create composite from results.
+    composite = [line.line_value for line in result_lines]
+
+    # Determine if the hexagram is changing.
+    is_changing = False
+    if any([value in [6, 9] for value in composite]):
+        is_changing = True
+
+    # Print the lines if not changing.
     if not is_changing:
         for sum in composite:
             print(TRANSFORM_SUM_TO_LINES[sum])
@@ -70,8 +80,15 @@ def print_lines(composite: list, is_changing: bool = False, next: list = None):
         return
     line_format = '{}{}{}'
     for i in range(6):
+        next_line_value = None
+        if composite[i] == 6:
+            next_line_value = 7
+        elif composite[i] == 9:
+            next_line_value = 8
+        else:
+            next_line_value = composite[i] 
         previous_line = TRANSFORM_SUM_TO_LINES[composite[i]]
-        next_line = TRANSFORM_SUM_TO_LINES[next[i]]
+        next_line = TRANSFORM_SUM_TO_LINES[next_line_value]
         if i == 2:
             middle = '     ---------\\     '
         elif i == 3:
@@ -82,7 +99,8 @@ def print_lines(composite: list, is_changing: bool = False, next: list = None):
     print('')
 
 
-def print_changing_lines(composite: list, hex: Hexagram):
+def print_changing_lines(result_lines: List[ResultLine], hex: Hexagram):
+    composite = [line.line_value for line in result_lines]
     print('Changing Lines:\n')
     for i in reversed(range(6)):
         value = composite[i]

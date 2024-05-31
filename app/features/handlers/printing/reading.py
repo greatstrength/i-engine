@@ -16,7 +16,7 @@ def handle(context: MessageContext):
     result = reading_cache.get(request.reading_id)
 
     # Old Printing Method
-    is_changing, transform, current, changing = printing_service.composite_to_composite_2d(
+    is_changing, current, changing = printing_service.composite_to_composite_2d(
         result.result_lines)
 
     # Get current hexagram.
@@ -31,9 +31,9 @@ def handle(context: MessageContext):
     print('\n')
     if is_changing:
         printing_service.print_changing_hexagran(
-            transform, current_hexagram, changing_hexagram)
+            result.result_lines, current_hexagram, changing_hexagram)
     else:
-        printing_service.print_single_hexagram(current, current_hexagram)
+        printing_service.print_single_hexagram(result.result_lines, current_hexagram)
 
     # Null the result.
     context.result = None
