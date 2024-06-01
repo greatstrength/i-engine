@@ -6,6 +6,8 @@ domain:
       inner_type: str
       value:
       - '2'
+      - '2.1'
+      - '2.2'
       - '6'
       - '8'
       - '49'
@@ -234,6 +236,7 @@ interfaces:
               - choices:
                 - '2'
                 - '2.1'
+                - '2.2'
                 - '6'
                 - '8'
                 - '49'
@@ -313,17 +316,6 @@ interfaces:
               - help: reading id
                 name_or_flags:
                 - reading_id
-                type: str
-              - help: reading result dimension
-                name_or_flags:
-                - --dimension
-                - -d
-                choices:
-                - '2'
-                - '2.1'
-                - '6'
-                - '8'
-                - '49'
                 type: str
               - help: result input
                 name_or_flags:

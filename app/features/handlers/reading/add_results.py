@@ -35,7 +35,7 @@ def handle(context: MessageContext):
     # Get changing hexagram.
     changing_hex_number = hexagram_service.get_changing_hexagram_number(
         result_lines)
-    if changing_hex_number:
+    if changing_hex_number and changing_hex_number != hex_number:
         changing_hexagram = hexagram_repo.get(changing_hex_number)
     else:
         changing_hexagram = None

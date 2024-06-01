@@ -1,6 +1,6 @@
 # Reading Result Dimensions
 READING_RESULT_DIMENSIONS = [
-    '2', '2.1', '6', '8', '49'
+    '2', '2.1', '2.2', '6', '8', '49'
 ]
 
 # Reading Result Frequencies
@@ -40,6 +40,18 @@ TWO_D_EXT_1_TRANSFORM = {
     4: 3,
     5: 3,
     6: 3,
+}
+
+# Two Dimentional (Extended 2) Transform
+TWO_D_EXT_2_TRANSFORM = {
+    1: 2,
+    2: 2,
+    3: 2,
+    4: 2,
+    5: 3,
+    6: 3,
+    7: 3,
+    8: 3
 }
 
 # Six Dimensional Transform
