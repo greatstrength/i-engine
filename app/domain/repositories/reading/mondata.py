@@ -52,8 +52,13 @@ class ReadingResultData(MondayModel):
     def map(self, role: str = 'read', **kwargs):
         return ReadingResult(dict(
             **kwargs,
-            **self.to_primitive(role=role)
-        ))
+            date=self.date,
+            id=self.id,
+            name=self.name,
+            type=self.type[0].lower(),
+            frequency=self.frequency[0].lower(),
+            dimension=self.dimension,
+        ), strict=False)
     
 
 class MondataReadingRepository(ReadingRepository):
@@ -108,3 +113,7 @@ class MondataReadingRepository(ReadingRepository):
         file_value = reading_data.item.column_values['Original Entry']
         reading_data.item.add_file(file_value, upload_file)
         
+    def get(self, reading_id: str) -> ReadingResult:
+
+        reading_data: ReadingResultData = self.monday_client.get_items(ids=[reading_id], as_model=ReadingResultData)[0]
+        return reading_data.map()

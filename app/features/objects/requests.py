@@ -17,6 +17,12 @@ class AddNewReading(Model):
     cache_only = t.BooleanType(default=False)
 
 
+class AddReadingResults(Model):
+    reading_id = t.StringType(required=True)
+    dimension = t.StringType(required=True, choices=READING_RESULT_DIMENSIONS)
+    input = t.ListType(t.ListType(t.IntType(), min_size=3, max_size=3), required=True, min_size=6, max_size=6, default=[])
+
+
 class SyncReading(Model):
     reading_id = t.StringType(required=True)
     upload_file = t.StringType()

@@ -15,3 +15,6 @@ class ReadingRepository():
     
     def upload_entry(self, reading_id: str, upload_file: str):
         raise NotImplementedError()
+    
+    def get(self, reading_id: str) -> ReadingResult:
+        raise NotImplementedError()

@@ -48,12 +48,12 @@ def handle(context: MessageContext):
         reading_result.id, reading_result.result_lines)
 
     # Get reading hexagram.
-    hex_number = hexagram_service.get_hexagram_number(reading_result)
+    hex_number = hexagram_service.get_hexagram_number(reading_result.result_lines)
     hexagram = hexagram_repo.get(hex_number)
 
     # Get changing hexagram.
     changing_hex_number = hexagram_service.get_changing_hexagram_number(
-        reading_result)
+        reading_result.result_lines)
     if changing_hex_number:
         changing_hexagram = hexagram_repo.get(changing_hex_number)
     else:
