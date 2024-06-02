@@ -9,7 +9,7 @@ class ReadingCache():
     def list(self):
         raise NotImplementedError()
 
-    def get(self, reading_id: str) -> ReadingResult:
+    def get(self, reading_id: str, synced: bool = False) -> ReadingResult:
         raise NotImplementedError()
 
     def remove(self, reading_id: str):

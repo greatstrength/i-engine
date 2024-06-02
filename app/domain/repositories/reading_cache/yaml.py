@@ -34,13 +34,13 @@ class YamlReadingCache(ReadingCache):
             for key, value in readings.items()
         ]
 
-    def get(self, reading_id: str) -> ReadingResult:
+    def get(self, reading_id: str, synced: bool = False) -> ReadingResult:
         with open(self.cache_path, 'r') as f:
             readings: Dict = yaml.safe_load(f)
             if readings is None:
                 return None
             reading_data = readings.get(reading_id, None)
-            if reading_data is None:
+            if reading_data is None or reading_data.get('synced', False) != synced:
                 return None
             return ReadingResult(dict(**reading_data, id=reading_id), strict=False)
 

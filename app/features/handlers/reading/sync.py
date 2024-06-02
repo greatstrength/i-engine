@@ -48,6 +48,7 @@ def handle(context: MessageContext):
     if request.remove_from_cache:
         reading_cache.remove(request.reading_id)
     else:
+        reading_cache.remove(request.reading_id)
         reading_cache.save(reading, synced=True)
 
     # Return the reading.
