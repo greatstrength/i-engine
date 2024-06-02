@@ -249,6 +249,13 @@ interfaces:
                 - --input
                 - -i
                 nargs: +
+              - choices:
+                - standard
+                - json
+                help: the type of input
+                name_or_flags:
+                - --input-type
+                type: str
               - help: name of the reading
                 name_or_flags:
                 - name
@@ -322,6 +329,13 @@ interfaces:
                 - --input
                 - -i
                 nargs: +
+              - choices:
+                - standard
+                - json
+                help: the type of input
+                name_or_flags:
+                - --input-type
+                type: str
             sync:
               arguments:
               - help: sync reading data
