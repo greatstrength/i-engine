@@ -8,13 +8,14 @@ class YamlReadingCache(ReadingCache):
     def __init__(self, cache_path: str):
         self.cache_path = cache_path
 
-    def save(self, reading: ReadingResult):
+    def save(self, reading: ReadingResult, synced: bool = False):
         with open(self.cache_path, 'r') as f:
             readings = yaml.safe_load(f)
             if readings is None:
                 readings = {}
             reading_data = reading.to_primitive()
             key = reading_data.pop('id')
+            reading_data['synced'] = synced
             readings[key] = reading_data
 
         with open(self.cache_path, 'w') as f:
@@ -42,3 +43,14 @@ class YamlReadingCache(ReadingCache):
             if reading_data is None:
                 return None
             return ReadingResult(dict(**reading_data, id=reading_id), strict=False)
+
+    def remove(self, reading_id: str):
+        with open(self.cache_path, 'r') as f:
+            readings = yaml.safe_load(f)
+            if readings is None:
+                readings = {}
+            if reading_id in readings:
+                del readings[reading_id]
+
+        with open(self.cache_path, 'w') as f:
+            yaml.dump(readings, f)

@@ -223,8 +223,10 @@ features:
             function_path: reading.add_results
         sync:
           functions:
-          - data_mapping: sync_reading_data
+          - data_mapping: default
             function_path: reading.sync
+            params:
+              request_type: SyncReading
 interfaces:
   types:
     cli:
