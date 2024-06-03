@@ -5,6 +5,27 @@ from .. import *
 def handle(context: MessageContext):
     import os
 
+    def save_result_hexagrams(reading_result: ReadingResult):
+        # Get reading hexagram.
+        hex_number = hexagram_service.get_hexagram_number(
+            reading_result.result_lines)
+        hexagram = hexagram_repo.get(hex_number)
+
+        # Get changing hexagram.
+        changing_hex_number = hexagram_service.get_changing_hexagram_number(
+            reading_result.result_lines)
+        if changing_hex_number and changing_hex_number != hex_number:
+            changing_hexagram = hexagram_repo.get(changing_hex_number)
+        else:
+            changing_hexagram = None
+
+        # Set hexagrams to reading result.
+        reading_repo.set_hexagrams(
+            reading_result.id,
+            hexagram.id,
+            changing_hexagram.id if changing_hexagram else None
+        )
+
     # Unpack request
     request: AddNewReading = context.data
 
@@ -29,6 +50,7 @@ def handle(context: MessageContext):
     # Save only reading to cloud should it not be cache only.
     if not request.cache_only:
         reading_repo.save(reading_result)
+        save_result_hexagrams(reading_result)
 
     # Save the reading to cache.
     reading_cache.save(reading_result)
@@ -40,31 +62,12 @@ def handle(context: MessageContext):
             os.remove(request.upload_file)
 
     # Return the result if the input data is not to be saved.
-    if not request.no_input:
+    if request.no_input:
         return reading_result
 
     # Save result data.
     reading_repo.save_result_data(
         reading_result.id, reading_result.result_lines)
-
-    # Get reading hexagram.
-    hex_number = hexagram_service.get_hexagram_number(reading_result.result_lines)
-    hexagram = hexagram_repo.get(hex_number)
-
-    # Get changing hexagram.
-    changing_hex_number = hexagram_service.get_changing_hexagram_number(
-        reading_result.result_lines)
-    if changing_hex_number:
-        changing_hexagram = hexagram_repo.get(changing_hex_number)
-    else:
-        changing_hexagram = None
-
-    # Set hexagrams to reading result.
-    reading_repo.set_hexagrams(
-        reading_result.id,
-        hexagram.id,
-        changing_hexagram.id if changing_hexagram else None
-    )
 
     # Return the reading result.
     return reading_result
