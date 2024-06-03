@@ -117,3 +117,30 @@ class MondataReadingRepository(ReadingRepository):
 
         reading_data: ReadingResultData = self.monday_client.get_items(ids=[reading_id], as_model=ReadingResultData)[0]
         return reading_data.map()
+    
+    def get_by_category(self, date: str, type: str, frequency: str) -> List[ReadingResult]:
+
+        board = self.monday_client.get_board(self.board_id)
+        date_column = board.get_column_value(title='Date')
+        type_column = board.get_column_value(title='Type')
+        frequency_column = board.get_column_value(title='Time of Day')
+        column_values = []
+        column_values.append({
+            'column_id': date_column.id,
+            'column_values': [date]
+        })
+        column_values.append({
+            'column_id': type_column.id,
+            'column_values': [type.capitalize()]
+        })
+        column_values.append({
+            'column_id': frequency_column.id,
+            'column_values': [frequency.capitalize()]
+        })
+        readings = board.get_items_page_by_column_values(
+            column_values,
+            get_column_values=True,
+            as_model=ReadingResultData
+        )
+
+        return [reading.map() for reading in readings]

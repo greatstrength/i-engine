@@ -18,3 +18,6 @@ class ReadingRepository():
     
     def get(self, reading_id: str) -> ReadingResult:
         raise NotImplementedError()
+    
+    def get_by_category(self, date: str, type: str, frequency: str) -> List[ReadingResult]:
+        raise NotImplementedError()

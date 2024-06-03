@@ -221,6 +221,12 @@ features:
           functions:
           - data_mapping: add_reading_results
             function_path: reading.add_results
+        get_by_category:
+          functions:
+          - data_mapping: default
+            function_path: reading.get_by_category
+            params:
+              request_type: GetReadingByCategory
         sync:
           functions:
           - data_mapping: default
@@ -307,11 +313,19 @@ interfaces:
                 action: store_true
               help: add new reading
               name: Add New I-Ching Reading
-            get:
+            get_by_category:
               arguments:
-              - help: reading id
+              - help: type of reading
                 name_or_flags:
-                - reading_id
+                - --type
+                type: str
+              - help: date of reading
+                name_or_flags:
+                - --date
+                type: str
+              - help: frequency of reading
+                name_or_flags:
+                - --frequency
                 type: str
               - help: print the output as json
                 name_or_flags:
@@ -320,6 +334,7 @@ interfaces:
                 action: store_true
               help: get reading data
               name: Get Reading Data
+
             add_results:
               arguments:
               - help: reading id

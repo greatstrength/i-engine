@@ -31,5 +31,12 @@ class SyncReading(Model):
     remove_from_cache = t.BooleanType(default=False)
 
 
+class GetReadingByCategory(Model):
+    date = t.StringType()
+    type = t.StringType(choices=READING_RESULT_TYPES)
+    frequency = t.StringType(choices=READING_RESULT_FREQUENCIES)
+    to_json = t.BooleanType(default=False)
+
+
 class PrintReading(Model):
     reading_id = t.StringType(required=True)
