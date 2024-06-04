@@ -6,6 +6,7 @@ INTERFACE = 'cli'
 class CliAppContext(AppContext):
 
     def run(self, **kwargs):
+        from importlib import import_module
 
         # Remove necessary arguments
         command = kwargs.pop('command')
@@ -14,17 +15,15 @@ class CliAppContext(AppContext):
 
         
         # Load endpoint configuration.
-        try:
-            endpoint_config = self.feature_groups[command].features[function]
-        except (TypeError, KeyError):
-            raise AppError(self.errors.ENDPOINT_NOT_FOUND.format_message(command, function))
+        
         
         # Create endpoint handler.
-        handler = FeatureHandler(endpoint_config)
+        handler = import_module(
+            DEFAULT_EXECUTE_FEATURE_HANDLER_PATH)
         
         # Handle message context.
         try:
-            result = handler.handle(args, self, **kwargs)
+            result = handler.handle(request=args, app_context=self, feature_id='{}.{}'.format(command, function), **kwargs)
         except AppError as e:
             exit(str(e.to_dict()))
 
@@ -36,10 +35,11 @@ class CliAppContext(AppContext):
 
 class CliAppBuilder(AppBuilder):
     
-    def build(self):
+    def build(self, container: type = Container):
         return CliAppContext(
             self._current_session.name,
             INTERFACE,
             self._current_session.app_config,
-            self._current_session.container_config
+            self._current_session.container_config,
+            container
         )

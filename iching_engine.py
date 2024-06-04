@@ -1,6 +1,6 @@
 import os
-from app import interfaces as i
-from app import constants, ContainerConfiguration, __kabbalapp_version__
+from app import *
+from app.core import *
 
 # Get args
 args = i.args
@@ -18,11 +18,11 @@ os.environ[constants.APP_ENV] = env
 builder = i.CliAppBuilder().create_new_app('kabbalapp')
 
 # Set container configuration to builder
-container_config = ContainerConfiguration(dict(os.environ), strict=False)
+container_config = IChingContainerConfiguration(dict(os.environ), strict=False)
 builder.set_container_config(container_config)
 
 # Build app context.
-app_context: i.CliAppContext = builder.build()
+app_context: i.CliAppContext = builder.build(container=IChingContainer)
 
 # Run app context.
 app_context.run(
@@ -30,5 +30,4 @@ app_context.run(
     function = args.subcommand,
     args=args.args, 
     env=env,
-    debug=debug,
-    version=__kabbalapp_version__)
+    debug=debug)

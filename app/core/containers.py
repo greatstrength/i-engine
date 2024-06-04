@@ -1,12 +1,10 @@
-from typing import Any
 from .constants import *
 
-from schematics import types as t, Model
+from aikicore.containers import *
+
 
 # Container configuration
-
-
-class ContainerConfiguration(Model):
+class IChingContainerConfiguration(ContainerConfiguration):
 
     monday_api_v2_key = t.StringType(deserialize_from='MONDAY_API_V2_KEY')
     hexagram_board_id = t.StringType(deserialize_from='HEXAGRAM_BOARD_ID')
@@ -18,7 +16,7 @@ class ContainerConfiguration(Model):
 
 
 # Default container
-class Container():
+class IChingContainer(Container):
 
     # Custom fields below
     # ...
