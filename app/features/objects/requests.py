@@ -31,6 +31,12 @@ class SyncReading(Model):
     remove_from_cache = t.BooleanType(default=False)
 
 
+class UploadReadingFile(Model):
+    reading_id = t.StringType(required=True)
+    upload_file = t.StringType(required=True)
+    remove_file = t.BooleanType(default=False)
+
+
 class GetReadingByCategory(Model):
     date = t.StringType()
     type = t.StringType(choices=READING_RESULT_TYPES)

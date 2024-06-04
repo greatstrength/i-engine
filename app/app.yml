@@ -233,6 +233,12 @@ features:
             function_path: reading.sync
             params:
               request_type: SyncReading
+        upload_file:
+          functions:
+          - data_mapping: default
+            function_path: reading.upload_file
+            params:
+              request_type: UploadReadingFile
 interfaces:
   types:
     cli:
@@ -334,7 +340,6 @@ interfaces:
                 action: store_true
               help: get reading data
               name: Get Reading Data
-
             add_results:
               arguments:
               - help: reading id
@@ -353,6 +358,26 @@ interfaces:
                 name_or_flags:
                 - --input-type
                 type: str
+            upload_file:
+              arguments:
+              - help: reading id
+                name_or_flags:
+                - reading_id
+                type: str
+              - help: upload file path for reading entry
+                name_or_flags:
+                - --upload-file
+                - -f
+                type: str
+                required: true
+              - help: removes the uploaded reading file
+                name_or_flags:
+                - --remove-file
+                - -r
+                type: bool
+                action: store_true
+              help: upload reading file
+              name: Upload Reading File
             sync:
               arguments:
               - help: sync reading data
