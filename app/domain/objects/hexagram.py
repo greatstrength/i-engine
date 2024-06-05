@@ -1,4 +1,4 @@
-from ...core.domain import *
+from ...core import *
 from ..constants import *
 
 

@@ -12,18 +12,10 @@ class CliAppContext(AppContext):
         command = kwargs.pop('command')
         function = kwargs.pop('function')
         args = kwargs.pop('args')
-
-        
-        # Load endpoint configuration.
-        
-        
-        # Create endpoint handler.
-        handler = import_module(
-            DEFAULT_EXECUTE_FEATURE_HANDLER_PATH)
         
         # Handle message context.
         try:
-            result = handler.handle(request=args, app_context=self, feature_id='{}.{}'.format(command, function), **kwargs)
+            result = self.get_feature_handler().handle(request=args, app_context=self, feature_id='{}.{}'.format(command, function), **kwargs)
         except AppError as e:
             exit(str(e.to_dict()))
 
