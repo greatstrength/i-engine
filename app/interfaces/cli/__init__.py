@@ -1,32 +1,67 @@
 from ...core import *
 from ...features import *
+from .objects import *
 
 INTERFACE = 'cli'
 
+
 class CliAppContext(AppContext):
 
-    def run(self, **kwargs):
-        from importlib import import_module
+    def map_feature_request(self, request):
+        import json
 
-        # Remove necessary arguments
-        command = kwargs.pop('command')
-        function = kwargs.pop('function')
-        args = kwargs.pop('args')
-        
-        # Handle message context.
-        try:
-            result = self.get_feature_handler().handle(request=args, app_context=self, feature_id='{}.{}'.format(command, function), **kwargs)
-        except AppError as e:
-            exit(str(e.to_dict()))
+        command = request.get('command')
+        function = request.get('function')
+        data = request.pop('args', None)
+        data = json.dumps(data) if data else None
+        feature_id = '{}.{}'.format(command, function)
 
-        # Print result if not empty.
+        return ExecuteFeature(dict(
+            feature_id=feature_id,
+            data=data,
+            **request,
+        ), strict=False)
+
+    def map_headers(self, request) -> Header:
+        return IChingCliHeader(
+            request,
+            strict=False
+        )
+
+    def map_response(self, result):
+
+        # Perform base mapping.
+        result = super().map_response(result)
+
+        # Decoration.
         if result:
             import json
             print(json.dumps(result, indent=4, sort_keys=True))
 
+    def run(self, **kwargs):
+
+        # Map request.
+        request = self.map_feature_request(kwargs)
+
+        # Map headers.
+        headers = self.map_headers(kwargs)
+
+        # Handle message context.
+        try:
+            response = self.get_feature_handler().handle(
+                request=request,
+                app_context=self,
+                headers=headers,
+                **kwargs)
+        except AppError as e:
+            exit(str(e.to_dict()))
+
+        # Get result.
+        self.map_response(response.result)
+
 
 class CliAppBuilder(AppBuilder):
-    
+
     def build(self, container: type = Container):
         return CliAppContext(
             self._current_session.name,
