@@ -1,6 +1,6 @@
+from aikicore.containers import *
 from .constants import *
 
-from aikicore.containers import *
 
 
 # Container configuration
