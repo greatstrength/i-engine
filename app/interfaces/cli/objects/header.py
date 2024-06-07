@@ -1,4 +1,4 @@
-from ....core import *
+from aikicore.objects.header import *
 
 class IChingCliHeader(Header):
 
