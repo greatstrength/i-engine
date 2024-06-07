@@ -80,9 +80,7 @@ def calculate_sum_transform(dimension: str, input_data: list):
 
 def create_reading_result(
     name,
-    input: List[List[int]],
     dimension: str,
-    transform: List[int],
     reading_date: date = None,
     frequency: str = READING_RESULT_FREQUENCY_DEFAULT,
     **kwargs
@@ -100,12 +98,6 @@ def create_reading_result(
         dimension=dimension,
         frequency=frequency,
     ))
-
-    if not input:
-        return result
-
-    # Create result lines
-    result.result_lines = create_result_lines(input, transform)
 
     return result
 

@@ -38,14 +38,21 @@ def handle(context: MessageContext):
     # Load the hexagram repository.
     hexagram_repo: HexagramRepository = context.services.hexagram_repo()
 
+    # Get reading input.
+    input: list = create_reading_input(request.input, request.dimension)
+
     # Calculate summed transform.
     transform = reading_service.calculate_sum_transform(
-        request.dimension, request.input) if request.input else None
+        request.dimension, input) if request.input else None
 
     # Create reading result.
     reading_result = reading_service.create_reading_result(
         transform=transform,
         **request.to_primitive())
+    
+    # Add reading result lines.
+    reading_result.result_lines = reading_service.create_result_lines(
+        input, transform)
 
     # Save only reading to cloud should it not be cache only.
     if not request.cache_only:
