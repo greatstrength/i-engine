@@ -2,7 +2,7 @@ import subprocess
 
 batch = [
     {
-        'name_prefix': '',
+        'name_prefix': 'Andrew Shatz',
         'date': '',
         'frequency': '',
         'dimension': '',
