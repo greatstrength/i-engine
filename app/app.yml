@@ -213,30 +213,29 @@ features:
       features:
         new:
           functions:
-          - data_mapping: add_new_reading
-            function_path: reading.new
+          - function_path: reading.new
+            params:
+              request_type: AddNewReading
           - data_mapping: print_new_reading_result
             function_path: printing.reading
         add_results:
           functions:
-          - data_mapping: add_reading_results
-            function_path: reading.add_results
+          - function_path: reading.add_results
+            params:
+              request_type: AddReadingResults
         get_by_category:
           functions:
-          - data_mapping: default
-            function_path: reading.get_by_category
+          - function_path: reading.get_by_category
             params:
               request_type: GetReadingByCategory
         sync:
           functions:
-          - data_mapping: default
-            function_path: reading.sync
+          - function_path: reading.sync
             params:
               request_type: SyncReading
         upload_file:
           functions:
-          - data_mapping: default
-            function_path: reading.upload_file
+          - function_path: reading.upload_file
             params:
               request_type: UploadReadingFile
 interfaces:
@@ -262,7 +261,7 @@ interfaces:
                 name_or_flags:
                 - --input
                 - -i
-                nargs: +
+                type: str
               - choices:
                 - standard
                 - json
@@ -346,11 +345,11 @@ interfaces:
                 name_or_flags:
                 - reading_id
                 type: str
-              - help: result input
+              - help: reading input
                 name_or_flags:
                 - --input
                 - -i
-                nargs: +
+                type: str
               - choices:
                 - standard
                 - json
