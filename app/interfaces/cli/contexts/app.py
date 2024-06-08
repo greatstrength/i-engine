@@ -1,5 +1,7 @@
 from aikicore.contexts.app import *
 from aikicore.errors import *
+from aikicore.errors import AppError
+from aikicore.objects import Error
 from ..objects import *
 
 
@@ -31,6 +33,14 @@ class CliAppContext(AppContext):
             import json
             print(json.dumps(result, indent=4, sort_keys=True))
 
+    def handle_error(self, error: AppError, lang: str = 'en_US', error_type: type = Error, **kwargs):
+        error = super().handle_error(error, lang, error_type, **kwargs)
+        exit(str(dict(
+            error_name=error.error_name,
+            error_code=error.error_code,
+            message=error.message,
+        )))
+
     def run(self, command: CliCommandExecution, **kwargs):
 
         # Map request.
@@ -48,12 +58,7 @@ class CliAppContext(AppContext):
                 **kwargs)
         except Exception as e:
             if isinstance(e, AppError):
-                error = self.handle_error(e, **kwargs)
-                exit(str(dict(
-                    error_name = error.error_name,
-                    error_code = error.error_code,
-                    message = error.message,
-                )))
+                self.handle_error(e, **kwargs)
 
         # Get result.
         self.map_response(response.result)
