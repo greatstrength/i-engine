@@ -1,10 +1,10 @@
 from aikicore.contexts.app import *
 from ..objects import *
 
-INTERFACE = 'cli'
-
 
 class CliAppContext(AppContext):
+
+    parser = None
 
     def map_feature_request(self, command: CliCommandExecution) -> ExecuteFeature:
         return ExecuteFeature(dict(
