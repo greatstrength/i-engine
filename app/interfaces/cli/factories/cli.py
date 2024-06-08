@@ -1,33 +1,11 @@
 from ... import *
 from ..objects import *
+from ..config import *
 
-def create_cli_command_execution():
-    import sys, argparse
-    import yaml
-    import json
-
-    from ..config import CliInterfaceConfiguration
+import argparse
 
 
-    with open('app/app.yml', 'r') as f:
-        app_config = yaml.safe_load(f.read())
-
-    # Get app interface types
-    interfaces = app_config.get('interfaces', None)
-    types = interfaces.get('types', None)
-
-    # Print a message if no interface types are configured
-    if types is None:
-        print('No interfaces configured.')
-        sys.exit(0)
-    # Get cli interface
-    cli_interface = types.get('cli', None)
-    # Print a message if not cli interface is configured
-    if cli_interface is None:
-        print('No cli interface configured.')
-        sys.exit(0)
-
-    cli_interface = CliInterfaceConfiguration(cli_interface)
+def create_cli_parser(cli_interface: CliInterfaceConfiguration):
 
     # Create parser.
     parser = argparse.ArgumentParser()
@@ -45,6 +23,14 @@ def create_cli_command_execution():
                 subcommand_subparser.add_argument(*argument.name_or_flags, **argument.to_primitive('add_argument'))
             for argument in cli_interface.parent_arguments:
                 subcommand_subparser.add_argument(*argument.name_or_flags, **argument.to_primitive('add_argument'))
+
+    return parser
+
+
+
+    
+def create_cli_command_execution(parser: argparse.ArgumentParser):
+    import json
 
     # Parse arguments.
     args = parser.parse_args()
