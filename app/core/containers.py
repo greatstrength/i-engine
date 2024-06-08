@@ -13,6 +13,7 @@ class IChingContainerConfiguration(ContainerConfiguration):
         required=True, deserialize_from='CACHE_PATH', default=YAML_CACHE_PATH)
     hexagram_cahce_path = t.StringType(
         required=True, deserialize_from='HEXAGRAM_CACHE_PATH', default=YAML_HEXAGRAM_CACHE_PATH)
+    cli_args_cache_path = t.StringType(required=True, deserialize_from='CLI_ARGS_CACHE_PATH', default=YAML_CLI_ARGS_CACHE_PATH)
 
 
 # Default container
@@ -27,6 +28,11 @@ class IChingContainer(Container):
 
         # Custom init below
         # ...
+
+    def args_cache(self):
+        from app.interfaces.cli.repositories.args_cache import yaml
+        yaml.load_cache(self.config.cli_args_cache_path)
+        return yaml
 
     def monday_client(self):
         from mondata import client
