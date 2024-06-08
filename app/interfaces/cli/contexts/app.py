@@ -1,4 +1,5 @@
 from aikicore.contexts.app import *
+from aikicore.errors import *
 from ..objects import *
 
 
@@ -45,8 +46,14 @@ class CliAppContext(AppContext):
                 app_context=self,
                 headers=headers,
                 **kwargs)
-        except AppError as e:
-            exit(self.handle_error(e, **kwargs))
+        except Exception as e:
+            if isinstance(e, AppError):
+                error = self.handle_error(e, **kwargs)
+                exit(str(dict(
+                    error_name = error.error_name,
+                    error_code = error.error_code,
+                    message = error.message,
+                )))
 
         # Get result.
         self.map_response(response.result)
