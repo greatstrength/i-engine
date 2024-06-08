@@ -6,26 +6,19 @@ INTERFACE = 'cli'
 
 class CliAppContext(AppContext):
 
-    def map_feature_request(self, request):
-        import json
-
-        command = request.get('command')
-        function = request.get('function')
-        data = request.pop('args', None)
-        data = json.dumps(data) if data else None
-        feature_id = '{}.{}'.format(command, function)
-
+    def map_feature_request(self, command: CliCommandExecution) -> ExecuteFeature:
         return ExecuteFeature(dict(
-            feature_id=feature_id,
-            data=data,
-            **request,
+            feature_id='{}.{}'.format(command.command, command.function),
+            data=command.args,
+            **command.to_primitive()
         ), strict=False)
 
-    def map_headers(self, request) -> Header:
-        return IChingCliHeader(
-            request,
-            strict=False
-        )
+    def map_headers(self, command: CliCommandExecution) -> Header:
+        return IChingCliHeader(dict(
+            command=command.command,
+            function=command.function,
+            env=command.env,
+        ))
 
     def map_response(self, result):
 
@@ -37,13 +30,13 @@ class CliAppContext(AppContext):
             import json
             print(json.dumps(result, indent=4, sort_keys=True))
 
-    def run(self, **kwargs):
+    def run(self, command: CliCommandExecution, **kwargs):
 
         # Map request.
-        request = self.map_feature_request(kwargs)
+        request = self.map_feature_request(command)
 
         # Map headers.
-        headers = self.map_headers(kwargs)
+        headers = self.map_headers(command)
 
         # Handle message context.
         try:
