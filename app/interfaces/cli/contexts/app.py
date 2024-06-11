@@ -59,6 +59,8 @@ class CliAppContext(AppContext):
         except Exception as e:
             if isinstance(e, AppError):
                 self.handle_error(e, **kwargs)
+            else:
+                raise e
 
         # Get result.
         self.map_response(response.result)
