@@ -1,6 +1,6 @@
-# Hexagram 1
+# Hexagram 1 - The Creative (Ch'ien)
 
-## The Creative (Ch'ien)
+## Overview
 
 ### Summary
 The trigram of Heaven doubled symbolizes the eternal strength and vitality of the life-giving Light and the inexorable flow of Time. The Image of Heaven serves as a reminder of the cosmic order present in our lives, highlighting the immense strength needed to uphold it. To embody this strength, one must look to the community, the world, and the cosmos itself for inspiration.
