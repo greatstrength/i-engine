@@ -1,0 +1,25 @@
+cli:
+  cmds:
+    hexagram:
+      get:
+        group_key: hexagram
+        key: get
+        name: Get Hexagram
+        description: Retrieve a hexagram by its Wilhelm number.
+        args:
+          - name_or_flags:
+              - number
+            description: The hexagram number (1 to 64).
+      list:
+        group_key: hexagram
+        key: list
+        name: List Hexagrams
+        description: List all 64 hexagrams.
+        args: []
+    kb:
+      ingest:
+        group_key: kb
+        key: ingest
+        name: Ingest Hexagram Data
+        description: Seed hexagram data from YAML into the knowledge base.
+        args: []

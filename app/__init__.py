@@ -1,2 +1,1 @@
-from .core import *
-from .interfaces import *
+"""I Ching Engine Application"""
