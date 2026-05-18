@@ -141,60 +141,60 @@ errors:
     error_code: HEXAGRAM_NOT_FOUND
     message:
       - lang: en_US
-        text: 'Hexagram {} not found.'
+        text: 'Hexagram {number} not found.'
   HEXAGRAM_ALREADY_EXISTS:
     name: Hexagram Already Exists
     error_code: HEXAGRAM_ALREADY_EXISTS
     message:
       - lang: en_US
-        text: 'Hexagram {} already exists.'
+        text: 'Hexagram {number} already exists.'
   READING_NOT_FOUND:
     name: Reading Not Found
     error_code: READING_NOT_FOUND
     message:
       - lang: en_US
-        text: 'Reading {} not found.'
+        text: 'Reading {id} not found.'
   READING_ALREADY_EXISTS:
     name: Reading Already Exists
     error_code: READING_ALREADY_EXISTS
     message:
       - lang: en_US
-        text: 'Reading {} already exists.'
+        text: 'Reading {id} already exists.'
   INVALID_READING_INPUT:
     name: Invalid Reading Input
     error_code: INVALID_READING_INPUT
     message:
       - lang: en_US
-        text: 'Invalid reading input: {}'
+        text: 'Invalid reading input: {value}'
   INVALID_READING_DIMENSION:
     name: Invalid Reading Dimension
     error_code: INVALID_READING_DIMENSION
     message:
       - lang: en_US
-        text: 'Invalid dimension: {}. Must be one of 2, 2.1, 2.2, 6, 8, 49.'
+        text: 'Invalid dimension: {dimension}. Must be one of 2, 2.1, 2.2, 6, 8, 49.'
   INVALID_YARROW_VALUE:
     name: Invalid Yarrow Value
     error_code: INVALID_YARROW_VALUE
     message:
       - lang: en_US
-        text: 'Invalid yarrow value: {}. Must be 6 or 9.'
+        text: 'Invalid yarrow value: {value}. Must be 6 or 9.'
   KB_INGEST_FAILED:
     name: KB Ingest Failed
     error_code: KB_INGEST_FAILED
     message:
       - lang: en_US
-        text: 'Failed to ingest data from seed file: {}'
+        text: 'Failed to ingest data from seed file: {seed_file}'
   INVALID_HEXAGRAM_ATTRIBUTE:
     name: Invalid Hexagram Attribute
     error_code: INVALID_HEXAGRAM_ATTRIBUTE
     message:
       - lang: en_US
-        text: 'Invalid hexagram attribute: {}'
+        text: 'Invalid hexagram attribute: {attribute}'
   INVALID_READING_ATTRIBUTE:
     name: Invalid Reading Attribute
     error_code: INVALID_READING_ATTRIBUTE
     message:
       - lang: en_US
-        text: 'Invalid reading attribute: {}'
+        text: 'Invalid reading attribute: {attribute}'
 
 logging: {}
