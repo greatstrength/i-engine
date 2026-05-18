@@ -1,1 +1,0 @@
-tiferet_flask>=0.1.0

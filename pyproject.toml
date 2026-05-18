@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "i-engine"
+version = "1.0.0a1"
+description = "An I Ching reading engine powered by the Tiferet framework with knowledge base storage"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "BSD-3-Clause" }
+dependencies = [
+    "tiferet>=2.0.0b3",
+    "tiferet-kb>=0.2.0a1",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0",
+    "pytest-cov",
+]
+embed = [
+    "sentence-transformers>=2.2.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["app", "tests"]

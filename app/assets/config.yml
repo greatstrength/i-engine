@@ -1,0 +1,200 @@
+interfaces:
+  i_engine:
+    name: I Ching Engine
+    description: An I Ching reading engine with knowledge base storage
+    constants:
+      feature_yaml_file: app/assets/config.yml
+      error_yaml_file: app/assets/config.yml
+      di_yaml_file: app/assets/config.yml
+      logging_yaml_file: app/assets/config.yml
+      cli_yaml_file: app/assets/cli.yml
+
+services:
+  # KB infrastructure (tiferet-kb repositories)
+  category_service:
+    module_path: tiferet_kb.repos.category
+    class_name: CategoryH5Repository
+    params:
+      h5_file: data/iching.h5
+  document_service:
+    module_path: tiferet_kb.repos.document
+    class_name: DocumentH5Repository
+    params:
+      h5_file: data/iching.h5
+
+  # Application service (hexagram repository backed by KB)
+  hexagram_service:
+    module_path: app.repos.hexagram
+    class_name: HexagramKBRepository
+
+  # Application service (reading repository backed by KB)
+  reading_service:
+    module_path: app.repos.reading
+    class_name: ReadingKBRepository
+
+  # Hexagram events
+  get_hexagram_event:
+    module_path: app.events.hexagram
+    class_name: GetHexagram
+  list_hexagrams_event:
+    module_path: app.events.hexagram
+    class_name: ListHexagrams
+
+  # KB management events
+  ingest_hexagram_data_event:
+    module_path: app.events.kb
+    class_name: IngestHexagramData
+
+  # Embedding infrastructure
+  embedding_service:
+    module_path: app.utils.embedding
+    class_name: SentenceTransformerEmbedder
+    params:
+      model_name: all-MiniLM-L6-v2
+
+  # Reading events
+  save_reading_event:
+    module_path: app.events.reading
+    class_name: SaveReading
+  get_reading_event:
+    module_path: app.events.reading
+    class_name: GetReading
+  list_readings_event:
+    module_path: app.events.reading
+    class_name: ListReadings
+  delete_reading_event:
+    module_path: app.events.reading
+    class_name: DeleteReading
+
+  # Embedding events
+  embed_hexagrams_event:
+    module_path: app.events.embedding
+    class_name: EmbedHexagrams
+  search_hexagrams_event:
+    module_path: app.events.embedding
+    class_name: SearchHexagrams
+
+features:
+  hexagram:
+    get:
+      name: Get Hexagram
+      description: Retrieve a hexagram by its Wilhelm number
+      commands:
+        - service_id: get_hexagram_event
+          name: Retrieve hexagram by number
+    list:
+      name: List Hexagrams
+      description: List all 64 hexagrams
+      commands:
+        - service_id: list_hexagrams_event
+          name: List all hexagrams
+    search:
+      name: Search Hexagrams
+      description: Semantic search over hexagram content
+      commands:
+        - service_id: search_hexagrams_event
+          name: Search hexagram sections by query
+  kb:
+    ingest:
+      name: Ingest Hexagram Data
+      description: Seed hexagram data from YAML into the knowledge base
+      commands:
+        - service_id: ingest_hexagram_data_event
+          name: Ingest hexagrams from seed file
+          params:
+            seed_file: data/seed/hexagrams.yml
+    embed:
+      name: Embed Hexagrams
+      description: Generate and store embedding vectors for all hexagram sections
+      commands:
+        - service_id: embed_hexagrams_event
+          name: Embed all hexagram sections
+  reading:
+    save:
+      name: Save Reading
+      description: Build and persist a new reading
+      commands:
+        - service_id: save_reading_event
+          name: Save a new reading
+    get:
+      name: Get Reading
+      description: Retrieve a reading by its identifier
+      commands:
+        - service_id: get_reading_event
+          name: Retrieve reading by ID
+    list:
+      name: List Readings
+      description: List readings with optional filters
+      commands:
+        - service_id: list_readings_event
+          name: List readings
+    delete:
+      name: Delete Reading
+      description: Delete a reading by its identifier
+      commands:
+        - service_id: delete_reading_event
+          name: Delete reading by ID
+
+errors:
+  HEXAGRAM_NOT_FOUND:
+    name: Hexagram Not Found
+    error_code: HEXAGRAM_NOT_FOUND
+    message:
+      - lang: en_US
+        text: 'Hexagram {} not found.'
+  HEXAGRAM_ALREADY_EXISTS:
+    name: Hexagram Already Exists
+    error_code: HEXAGRAM_ALREADY_EXISTS
+    message:
+      - lang: en_US
+        text: 'Hexagram {} already exists.'
+  READING_NOT_FOUND:
+    name: Reading Not Found
+    error_code: READING_NOT_FOUND
+    message:
+      - lang: en_US
+        text: 'Reading {} not found.'
+  READING_ALREADY_EXISTS:
+    name: Reading Already Exists
+    error_code: READING_ALREADY_EXISTS
+    message:
+      - lang: en_US
+        text: 'Reading {} already exists.'
+  INVALID_READING_INPUT:
+    name: Invalid Reading Input
+    error_code: INVALID_READING_INPUT
+    message:
+      - lang: en_US
+        text: 'Invalid reading input: {}'
+  INVALID_READING_DIMENSION:
+    name: Invalid Reading Dimension
+    error_code: INVALID_READING_DIMENSION
+    message:
+      - lang: en_US
+        text: 'Invalid dimension: {}. Must be one of 2, 2.1, 2.2, 6, 8, 49.'
+  INVALID_YARROW_VALUE:
+    name: Invalid Yarrow Value
+    error_code: INVALID_YARROW_VALUE
+    message:
+      - lang: en_US
+        text: 'Invalid yarrow value: {}. Must be 6 or 9.'
+  KB_INGEST_FAILED:
+    name: KB Ingest Failed
+    error_code: KB_INGEST_FAILED
+    message:
+      - lang: en_US
+        text: 'Failed to ingest data from seed file: {}'
+  INVALID_HEXAGRAM_ATTRIBUTE:
+    name: Invalid Hexagram Attribute
+    error_code: INVALID_HEXAGRAM_ATTRIBUTE
+    message:
+      - lang: en_US
+        text: 'Invalid hexagram attribute: {}'
+  INVALID_READING_ATTRIBUTE:
+    name: Invalid Reading Attribute
+    error_code: INVALID_READING_ATTRIBUTE
+    message:
+      - lang: en_US
+        text: 'Invalid reading attribute: {}'
+
+logging: {}

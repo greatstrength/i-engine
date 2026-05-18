@@ -1,0 +1,65 @@
+cli:
+  cmds:
+    hexagram:
+      get:
+        group_key: hexagram
+        key: get
+        name: Get Hexagram
+        description: Retrieve a hexagram by its Wilhelm number.
+        args:
+          - name_or_flags:
+              - number
+            description: The hexagram number (1 to 64).
+      list:
+        group_key: hexagram
+        key: list
+        name: List Hexagrams
+        description: List all 64 hexagrams.
+        args: []
+      search:
+        group_key: hexagram
+        key: search
+        name: Search Hexagrams
+        description: Semantic search over hexagram content.
+        args:
+          - name_or_flags:
+              - query
+            description: The natural language search query.
+    kb:
+      ingest:
+        group_key: kb
+        key: ingest
+        name: Ingest Hexagram Data
+        description: Seed hexagram data from YAML into the knowledge base.
+        args: []
+      embed:
+        group_key: kb
+        key: embed
+        name: Embed Hexagrams
+        description: Generate embedding vectors for all hexagram sections.
+        args: []
+    reading:
+      get:
+        group_key: reading
+        key: get
+        name: Get Reading
+        description: Retrieve a reading by its identifier.
+        args:
+          - name_or_flags:
+              - id
+            description: The reading identifier (UUID).
+      list:
+        group_key: reading
+        key: list
+        name: List Readings
+        description: List all readings.
+        args: []
+      delete:
+        group_key: reading
+        key: delete
+        name: Delete Reading
+        description: Delete a reading by its identifier.
+        args:
+          - name_or_flags:
+              - id
+            description: The reading identifier (UUID).
